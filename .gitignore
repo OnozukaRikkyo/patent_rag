@@ -18,3 +18,8 @@ data_store/
 # 大容量データ
 eval/dataset02/knowledge/result_1_10000.jsonl
 .env
+
+# ビルド成果物
+*.egg-info/
+dist/
+build/
