@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="../../../../../XSL/JPUnexaminedPatentPublication.xsl"?> -->
+<jppat:UnexaminedPatentPublication xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                                   xmlns:jppat="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPPatent"
+                                   xmlns:pat="http://www.wipo.int/standards/XMLSchema/ST96/Patent"
+                                   xmlns:com="http://www.wipo.int/standards/XMLSchema/ST96/Common"
+                                   xmlns:jpcom="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPCommon"
+                                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                   xsi:schemaLocation="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPPatent ../../../../../XSD/JPUnexaminedPatentPublication_V1_0.xsd"
+                                   com:languageCode="ja"
+                                   com:st96Version="V3_1"
+                                   com:ipoVersion="JP_V1_0">
+   <com:IPOfficeCode>JP</com:IPOfficeCode>
+   <jppat:UnexaminedPatentPublicationBibliographicData com:languageCode="ja">
+      <com:IPOfficeCode>JP</com:IPOfficeCode>
+      <jppat:PatentPublicationIdentification>
+         <com:IPOfficeCode>JP</com:IPOfficeCode>
+         <pat:PublicationNumber>2022043358</pat:PublicationNumber>
+         <com:PublicationDate>2022-03-16</com:PublicationDate>
+      </jppat:PatentPublicationIdentification>
+      <pat:PlainLanguageDesignationText>公開特許公報(A)</pat:PlainLanguageDesignationText>
+      <jppat:ApplicationIdentification>
+         <com:ApplicationNumber>
+            <com:ApplicationNumberText>2018129884</com:ApplicationNumberText>
+         </com:ApplicationNumber>
+         <pat:FilingDate>2018-07-09</pat:FilingDate>
+      </jppat:ApplicationIdentification>
+      <pat:InventionTitle>ブロックチェーン及び鑑定結果によって価値を定義したラボグロウンダイヤモンドの流通、交換取引市場及び決済システム</pat:InventionTitle>
+      <jppat:UnexaminedPatentPublicationPartyBag>
+         <jppat:ApplicantsRegisteredPractitionersBag>
+            <jppat:ApplicantRegisteredPractitionerBag com:sequenceNumber="1">
+               <jppat:Applicant com:sequenceNumber="1">
+                  <com:PartyIdentifier>518244323</com:PartyIdentifier>
+                  <jpcom:Contact>
+                     <com:Name>
+                        <com:EntityName>日本ラボグロウンダイヤモンド株式会社</com:EntityName>
+                     </com:Name>
+                     <com:PostalAddressBag>
+                        <com:PostalAddress>
+                           <com:PostalAddressText>東京都荒川区西尾久３丁目２４番１７号</com:PostalAddressText>
+                        </com:PostalAddress>
+                     </com:PostalAddressBag>
+                  </jpcom:Contact>
+               </jppat:Applicant>
+               <jppat:Applicant com:sequenceNumber="2">
+                  <com:PartyIdentifier>518244655</com:PartyIdentifier>
+                  <jpcom:Contact>
+                     <com:Name>
+                        <com:EntityName>安部  秀之</com:EntityName>
+                     </com:Name>
+                     <com:PostalAddressBag>
+                        <com:PostalAddress>
+                           <com:PostalAddressText>東京都荒川区西尾久３丁目２４番１７号</com:PostalAddressText>
+                        </com:PostalAddress>
+                     </com:PostalAddressBag>
+                  </jpcom:Contact>
+               </jppat:Applicant>
+               <jppat:RegisteredPractitioner com:sequenceNumber="1">
+                  <jppat:AgentCategory>Representative</jppat:AgentCategory>
+                  <pat:RegisteredPractitionerRegistrationNumber>100190621</pat:RegisteredPractitionerRegistrationNumber>
+                  <jppat:RegisteredPractitionerCategory>Attorney</jppat:RegisteredPractitionerCategory>
+                  <jpcom:Contact>
+                     <com:Name>
+                        <com:EntityName>崎間  伸洋</com:EntityName>
+                     </com:Name>
+                  </jpcom:Contact>
+               </jppat:RegisteredPractitioner>
+               <jppat:RegisteredPractitioner com:sequenceNumber="2">
+                  <jppat:AgentCategory>Representative</jppat:AgentCategory>
+                  <pat:RegisteredPractitionerRegistrationNumber>100207619</pat:RegisteredPractitionerRegistrationNumber>
+                  <jppat:RegisteredPractitionerCategory>Attorney</jppat:RegisteredPractitionerCategory>
+                  <jpcom:Contact>
+                     <com:Name>
+                        <com:EntityName>渡辺  知晴</com:EntityName>
+                     </com:Name>
+                  </jpcom:Contact>
+               </jppat:RegisteredPractitioner>
+            </jppat:ApplicantRegisteredPractitionerBag>
+         </jppat:ApplicantsRegisteredPractitionersBag>
+         <jppat:InventorBag>
+            <jppat:Inventor com:sequenceNumber="1">
+               <jpcom:Contact>
+                  <com:Name>
+                     <com:EntityName>安部  秀之</com:EntityName>
+                  </com:Name>
+                  <com:PostalAddressBag>
+                     <com:PostalAddress>
+                        <com:PostalAddressText>東京都新宿区西新宿２丁目６番１号  新宿住友ビル２６階  ピュアダイヤモンドラボ株式会社内</com:PostalAddressText>
+                     </com:PostalAddress>
+                  </com:PostalAddressBag>
+               </jpcom:Contact>
+            </jppat:Inventor>
+         </jppat:InventorBag>
+      </jppat:UnexaminedPatentPublicationPartyBag>
+      <jppat:IPCClassification>
+         <com:Edition/>
+         <pat:MainClassification>G06Q  20/06        20120101AFI20220309BHJP        </pat:MainClassification>
+      </jppat:IPCClassification>
+      <jppat:NationalClassification>
+         <com:IPOfficeCode>JP</com:IPOfficeCode>
+         <jppat:MainNationalClassification>
+            <pat:PatentClassificationText>G06Q20/06</pat:PatentClassificationText>
+         </jppat:MainNationalClassification>
+      </jppat:NationalClassification>
+      <jppat:ClaimTotalQuantitySet>
+         <pat:ClaimTotalQuantity>1</pat:ClaimTotalQuantity>
+         <jppat:AdoptedLawCategory>Claim</jppat:AdoptedLawCategory>
+      </jppat:ClaimTotalQuantitySet>
+      <jppat:PublishFigure>
+         <pat:FigureNumber>9</pat:FigureNumber>
+      </jppat:PublishFigure>
+      <jppat:RequestExaminationIndicator>false</jppat:RequestExaminationIndicator>
+      <jppat:FilingForm>ＯＬ</jppat:FilingForm>
+      <jppat:ThemeCodeInformationBag>
+         <jppat:ThemeCodeInformation>5L055</jppat:ThemeCodeInformation>
+      </jppat:ThemeCodeInformationBag>
+      <jppat:FtermInformationBag>
+         <jppat:FtermInformation>5L055AA12</jppat:FtermInformation>
+         <jppat:FtermInformation>5L055AA13</jppat:FtermInformation>
+      </jppat:FtermInformationBag>
+   </jppat:UnexaminedPatentPublicationBibliographicData>
+   <jppat:ChosenDrawingImage>
+      <com:Image com:imageContentCategory="Drawing">
+         <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+         <com:FileName>2022043358000001.jpg</com:FileName>
+         <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+         <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+      </com:Image>
+   </jppat:ChosenDrawingImage>
+   <jppat:Description>
+      <pat:TechnicalField>
+         <com:P com:pNumber="0001">
+  本発明は、ブロックチェーン及び鑑定結果によって価値を定義したラボグロウンダイヤモンドの流通、交換取引市場及び決済システムに関する。
+</com:P>
+      </pat:TechnicalField>
+      <pat:BackgroundArt>
+         <com:P com:pNumber="0002">
+  従来より、仮想通貨には、ブロックチェーンの技術が利用されている。そして、既存のブロックチェーン技術を使って作られたトークンと呼ばれる仮想通貨が存在する（例えば特許文献１参照）。なお、トークンを利用する目的は、トークンの特性（例えば、株式やポイントカードとしての役割）を活かして資金調達をすることである。
+</com:P>
+      </pat:BackgroundArt>
+      <com:CitationBag>
+         <com:PatentCitationBag>
+            <com:P com:pNumber="0003">
+               <com:PatentCitation com:sequenceNumber="1">
+                  <com:PatentCitationText>特開２０１８－０９７７２５号公報</com:PatentCitationText>
+               </com:PatentCitation>
+            </com:P>
+         </com:PatentCitationBag>
+      </com:CitationBag>
+      <pat:InventionSummary>
+         <pat:TechnicalProblem>
+            <com:P com:pNumber="0004">
+  しかしながら、先行文献１に記載の技術を含む従来技術のみでは、資金調達を目的としてもトークン自体の価値は、簡単に上がらない、という問題がある。<com:Br/>
+  そこで、実物のダイヤモンドをブロックチェーン技術でトークンと結びつけて、その流通を仮想通貨として取り扱う。実物が存在することによりトークンの信憑性の保持にも直接つながるため、ユーザにとっては、従来のダイヤモンド及びトークンより、より良いものとなる。
+</com:P>
+            <com:P com:pNumber="0005">
+  本発明は、このような状況を鑑みてなされたものであり、トークン自体が実物（ダイヤモンド）として存在する事になり、紙幣のような役割をダイヤモンドが担うことで、信頼度をより向上させたラボグロウンダイヤモンドの流通、交換取引市場及び決済システムを提供することを目的とする。
+</com:P>
+         </pat:TechnicalProblem>
+         <pat:TechnicalSolution>
+            <com:P com:pNumber="0006">
+  上記目的を達成するため、本発明の一態様の情報処理システムは、<com:Br/>
+  図１乃至図３５に記載の機能を有する。
+</com:P>
+         </pat:TechnicalSolution>
+         <pat:AdvantageousEffects>
+            <com:P com:pNumber="0007">
+  本発明によれば、トークン自体が実物（ダイヤモンド）として存在する事になり、紙幣のような役割をダイヤモンドが担うことで、信頼度をより向上させたラボグロウンダイヤモンドの流通、交換取引市場及び決済システムを提供することができる。
+</com:P>
+         </pat:AdvantageousEffects>
+      </pat:InventionSummary>
+      <pat:DrawingDescription>
+         <com:P com:pNumber="0008">
+            <com:FigureReference com:referencedFigureNumber="1">本発明の一実施形態に係る決済システムのマイニングに関する図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="2">事業目的に関する図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="3">ラボグロウンダイヤモンドに関する図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="4">ラボグロウンダイヤモンドに関する図であって、図３とは異なる図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="5">ラボグロウンダイヤモンドに関する図であって、図３及び図４とは異なる図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="6">鑑定書に関する図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="7">ラボグロウンダイヤモンドがクリアする課題に関する図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="8">当プロジェクトの強みに関する図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="9">事業モデル（相関図）に関する図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="10">ビジネスモデルの強化策を示す図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="11">天然ダイヤモンドメーカの高い利益率を示す図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="12">宝飾ダイヤモンドの市場規模と成長性に関する図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="13">宝飾ダイヤモンドの市場規模と成長性に関するであって、図１２とは異なる図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="14">事業相関図に関する図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="15">ダイヤモンドとピュアダイヤモンドとの円との交換に関する図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="16">ピュアダイヤモンド  デジタルアセットのイメージに関する図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="17">ピュアダイヤモンドチェーン決済事業に関する図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="18">ダイヤモンドとピュアダイヤモンドコインのマーケットバランスに関する図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="19">スケジュールに関する図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="20">コインの価値のシュミレーションに関する図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="21">価値向上に関する図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="22">事業参照イメージに関する図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="23">マイニングの新しい価値ラボグロウンダイヤモンドの新しい価値に関する図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="24">ピュアダイヤモンドのＳｔｅｐ  ｂｙ  Ｓｔｅｐに関する図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="25">コンテンツに関する図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="26">コンテンツに関する図であって、図２５とは異なる図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="27">本発明の一実施形態に係る決済システムの概要に関する図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="28">本発明の一実施形態に係る決済システムの概要に関する図であって、図２７とは異なる図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="29">ダイヤモンド市場の変遷と将来に関する図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="30">ピュアダイヤモンドコインがもたらす未来に関する図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="31">ピュアダイヤモンド  ネットワークに関する図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="32">ピュアダイヤモンド  ネットワークに関する図であって、図３１とは異なる図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="33">ＩＣＯピュアダイヤモンドコイン  セールに関する図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="34">ＩＣＯピュアダイヤモンドコイン  セールに関する図であって、図３３とは異なる図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="35">ＩＣＯピュアダイヤモンドコイン  セールに関する図であって、図３３及び図３４とは異なる図である。</com:FigureReference>
+         </com:P>
+      </pat:DrawingDescription>
+      <pat:EmbodimentDescription>
+         <com:P com:pNumber="0009">
+  以下、本発明の実施形態について、図面を用いて説明する。
+</com:P>
+         <com:P com:pNumber="0010">
+  図１は、本発明の一実施形態に係る決済システムのマイニングに関する図である。<com:Br/>
+  本発明の一実施形態に係る決済システムのマイニングは、図１に示す通りである。
+</com:P>
+         <com:P com:pNumber="0011">
+  図２は、事業目的に関する図である。<com:Br/>
+  事業目的は、図２に示す通りである。
+</com:P>
+         <com:P com:pNumber="0012">
+  図３は、ラボグロウンダイヤモンドに関する図である。<com:Br/>
+  ラボグロウンダイヤモンドは、図３に示す通りである。
+</com:P>
+         <com:P com:pNumber="0013">
+  図４は、ラボグロウンダイヤモンドに関する図であって、図３とは異なる図である。<com:Br/>
+  ラボグロウンダイヤモンドは、図４に示す通りである。
+</com:P>
+         <com:P com:pNumber="0014">
+  図５は、ラボグロウンダイヤモンドに関する図であって、図３及び図４とは異なる図である。<com:Br/>
+  ラボグロウンダイヤモンドは、図５に示す通りである。
+</com:P>
+         <com:P com:pNumber="0015">
+  図６は、鑑定書に関する図である。<com:Br/>
+  鑑定書は、図６に示す通りである。
+</com:P>
+         <com:P com:pNumber="0016">
+  図７は、ラボグロウンダイヤモンドがクリアする課題に関する図である。<com:Br/>
+  ラボグロウンダイヤモンドがクリアする課題は、図７に示す通りである。
+</com:P>
+         <com:P com:pNumber="0017">
+  図８は、当プロジェクトの強みに関する図である。<com:Br/>
+  当プロジェクトの強みは、図８に示す通りである。
+</com:P>
+         <com:P com:pNumber="0018">
+  図９は、事業モデル（相関図）に関する図である。<com:Br/>
+  事業モデル（相関図）は、図９に示す通りである。
+</com:P>
+         <com:P com:pNumber="0019">
+  図１０は、ビジネスモデルの強化策を示す図である。<com:Br/>
+  ビジネスモデルの強化策は、図１０に示す通りである。
+</com:P>
+         <com:P com:pNumber="0020">
+  図１１は、天然ダイヤモンドメーカの高い利益率を示す図である。<com:Br/>
+  天然ダイヤモンドメーカの高い利益率は、図１１に示す通りである。
+</com:P>
+         <com:P com:pNumber="0021">
+  図１２は、宝飾ダイヤモンドの市場規模と成長性に関する図である。<com:Br/>
+  宝飾ダイヤモンドの市場規模と成長性は、図１２に示す通りである。
+</com:P>
+         <com:P com:pNumber="0022">
+  図１３は、宝飾ダイヤモンドの市場規模と成長性に関するであって、図１２とは異なる図である。<com:Br/>
+  宝飾ダイヤモンドの市場規模と成長性は、図１３に示す通りである。
+</com:P>
+         <com:P com:pNumber="0023">
+  図１４は、事業相関図に関する図である。<com:Br/>
+  事業相関図は、図１４に示す通りである。
+</com:P>
+         <com:P com:pNumber="0024">
+  図１５は、ダイヤモンドとピュアダイヤモンドとの円との交換に関する図である。<com:Br/>
+  ダイヤモンドとピュアダイヤモンドとの円との交換は、図１５に示す通りである。
+</com:P>
+         <com:P com:pNumber="0025">
+  図１６は、ピュアダイヤモンド  デジタルアセットのイメージに関する図である。<com:Br/>
+  ピュアダイヤモンド  デジタルアセットのイメージは、図１６に示す通りである。
+</com:P>
+         <com:P com:pNumber="0026">
+  図１７は、ピュアダイヤモンドチェーン決済事業に関する図である。<com:Br/>
+  ピュアダイヤモンドチェーン決済事業は、図１７に示す通りである。
+</com:P>
+         <com:P com:pNumber="0027">
+  図１８は、ダイヤモンドとピュアダイヤモンドコインのマーケットバランスに関する図である。<com:Br/>
+  ダイヤモンドとピュアダイヤモンドコインのマーケットバランスは、図１８に示す通りである。
+</com:P>
+         <com:P com:pNumber="0028">
+  図１９は、スケジュールに関する図である。<com:Br/>
+  スケジュールは、図１９に示す通りである。
+</com:P>
+         <com:P com:pNumber="0029">
+  図２０は、コインの価値のシュミレーションに関する図である。<com:Br/>
+  コインの価値のシュミレーションは、図２０に示す通りである。
+</com:P>
+         <com:P com:pNumber="0030">
+  図２１は、価値向上に関する図である。<com:Br/>
+  価値向上は、図２１に示す通りである。
+</com:P>
+         <com:P com:pNumber="0031">
+  図２２は、事業参照イメージに関する図である。<com:Br/>
+  事業参照イメージは、図２２に示す通りである。
+</com:P>
+         <com:P com:pNumber="0032">
+  図２３は、マイニングの新しい価値ラボグロウンダイヤモンドの新しい価値に関する図である。<com:Br/>
+  マイニングの新しい価値ラボグロウンダイヤモンドの新しい価値は、図２３に示す通りである。
+</com:P>
+         <com:P com:pNumber="0033">
+  図２４は、ピュアダイヤモンドのＳｔｅｐ  ｂｙ  Ｓｔｅｐに関する図である。<com:Br/>
+  ピュアダイヤモンドのＳｔｅｐ  ｂｙ  Ｓｔｅｐは、図２４に示す通りである。
+</com:P>
+         <com:P com:pNumber="0034">
+  図２５は、コンテンツに関する図である。<com:Br/>
+  コンテンツは、図２５に示す通りである。
+</com:P>
+         <com:P com:pNumber="0035">
+  図２６は、コンテンツに関する図であって、図２５とは異なる図である。<com:Br/>
+  コンテンツは、図２６に示す通りである。
+</com:P>
+         <com:P com:pNumber="0036">
+  図２７は、本発明の一実施形態に係る決済システムの概要に関する図である。<com:Br/>
+  本発明の一実施形態に係る決済システムの概要は、図２７に示す通りである。
+</com:P>
+         <com:P com:pNumber="0037">
+  図２８は、本発明の一実施形態に係る決済システムの概要に関する図であって、図２７とは異なる図である。<com:Br/>
+  本発明の一実施形態に係る決済システムの概要は、図２８に示す通りである。
+</com:P>
+         <com:P com:pNumber="0038">
+  図２９は、ダイヤモンド市場の変遷と将来に関する図である。<com:Br/>
+  ダイヤモンド市場の変遷と将来は、図２９に示す通りである。
+</com:P>
+         <com:P com:pNumber="0039">
+  図３０は、ピュアダイヤモンドコインがもたらす未来に関する図である。<com:Br/>
+  ピュアダイヤモンドコインがもたらす未来は、図３０に示す通りである。
+</com:P>
+         <com:P com:pNumber="0040">
+  図３１は、ピュアダイヤモンド  ネットワークに関する図である。<com:Br/>
+  ピュアダイヤモンド  ネットワークは、図３１に示す通りである。
+</com:P>
+         <com:P com:pNumber="0041">
+  図３２は、ピュアダイヤモンド  ネットワークに関する図であって、図３１とは異なる図である。<com:Br/>
+  ピュアダイヤモンド  ネットワークは、図３２に示す通りである。
+</com:P>
+         <com:P com:pNumber="0042">
+  図３３は、ＩＣＯピュアダイヤモンドコイン  セールに関する図である。<com:Br/>
+  ＩＣＯピュアダイヤモンドコイン  セールは、図３３に示す通りである。
+</com:P>
+         <com:P com:pNumber="0043">
+  図３４はＩＣＯピュアダイヤモンドコイン  セールに関する図であって、図３３とは異なる図である。<com:Br/>
+  ＩＣＯピュアダイヤモンドコイン  セールは、図３４に示す通りである。
+</com:P>
+         <com:P com:pNumber="0044">
+  図３５は、ＩＣＯピュアダイヤモンドコイン  セールに関する図であって、図３３及び図３４とは異なる図である。<com:Br/>
+  ＩＣＯピュアダイヤモンドコイン  セールは、図３５に示す通りである。
+</com:P>
+         <com:P com:pNumber="0045">
+  以上本発明の一実施形態について説明したが、本発明は、上述の実施形態に限定されるものではなく、本発明の目的を達成できる範囲での変形、改良等は本発明に含まれるものである。
+</com:P>
+         <com:P com:pNumber="0046">
+  また例えば、上述した一連の処理は、ハードウェアにより実行させることもできるし、ソフトウェアにより実行させることもできる。<com:Br/>
+  換言すると、図２４の機能的構成は例示に過ぎず、特に限定されない。<com:Br/>
+  即ち、上述した一連の処理を全体として実行できる機能が情報処理システムに備えられていれば足り、この機能を実現するためにどのような機能ブロックを用いるのかは特に図２の例に限定されない。また、機能ブロックの存在場所も、図２４に特に限定されず、任意でよい。例えば、デバイスの機能ブロックをコンピュータ等に移譲させてもよい。逆にコンピュータの機能ブロックをデバイス等に移譲させてもよい。<com:Br/>
+  また、１つの機能ブロックは、ハードウェア単体で構成してもよいし、ソフトウェア単体で構成してもよいし、それらの組み合わせで構成してもよい。
+</com:P>
+         <com:P com:pNumber="0047">
+  また例えば、一連の処理をソフトウェアにより実行させる場合には、そのソフトウェアを構成するプログラムが、コンピュータ等にネットワークや記録媒体からインストールされる。<com:Br/>
+  コンピュータは、専用のハードウェアに組み込まれているコンピュータであってもよい。<com:Br/>
+  また、コンピュータは、各種のプログラムをインストールすることで、各種の機能を実行することが可能なコンピュータ、例えばサーバの他汎用のスマートフォンやパーソナルコンピュータであってもよい。
+</com:P>
+         <com:P com:pNumber="0048">
+  また例えば、このようなプログラムを含む記録媒体は、ユーザにプログラムを提供するために装置本体とは別に配布される図示せぬリムーバブルメディアにより構成されるだけでなく、装置本体に予め組み込まれた状態でユーザに提供される記録媒体等で構成される。
+</com:P>
+         <com:P com:pNumber="0049">
+  なお、本明細書において、記録媒体に記録されるプログラムを記述するステップは、その順序に沿って時系列的に行われる処理はもちろん、必ずしも時系列的に処理されなくとも、並列的或いは個別に実行される処理をも含むものである。<com:Br/>
+  また、本明細書において、システムの用語は、複数の装置や複数の手段等より構成される全体的な装置を意味するものとする。
+</com:P>
+         <com:P com:pNumber="0050">
+  以上を換言すると、本発明が適用される情報処理システムは、次のような構成を有していれば足り、各種各様な実施の形態を取ることができる。<com:Br/>
+  即ち、本発明が適用されるデバイスは、<com:Br/>
+  図１乃至図３５に記載の機能を有する。
+</com:P>
+         <com:P com:pNumber="0051">
+  これにより、トークン自体が実物（ダイヤモンド）として存在する事になり、紙幣のような役割をダイヤモンドが担うことで、信頼度をより向上させたラボグロウンダイヤモンドの流通、交換取引市場及び決済システムを提供することができる。
+</com:P>
+      </pat:EmbodimentDescription>
+      <pat:ReferenceSignBag>
+         <com:P com:pNumber="0052">
+  １・・・サーバ
+</com:P>
+      </pat:ReferenceSignBag>
+   </jppat:Description>
+   <pat:Claims>
+      <pat:Claim>
+         <pat:ClaimNumber>1</pat:ClaimNumber>
+         <pat:ClaimText>
+  図１乃至図３５に記載の機能を有する、<com:Br/>
+  ラボグロウンダイヤモンドの流通、交換取引市場及び決済システム。
+</pat:ClaimText>
+      </pat:Claim>
+   </pat:Claims>
+   <pat:Abstract>
+      <com:P com:pNumber="">
+【課題】トークン自体が実物（ダイヤモンド）として存在する事になり、紙幣のような役割をダイヤモンドが担うことで、信頼度をより向上させたラボグロウンダイヤモンドの流通、交換取引市場及び決済システムを提供すること。<com:Br/>
+【解決手段】ＰＵＲＥ  ＤＩＡＭＯＮＤ  Ｎｅｔｗｏｒｋ上に形成させる暗号トークン、ＰＵＲＥ  ＤＩＡＭＯＮＤ  ＣＯＩＮによって、ＰＵＲＥ  ＤＩＡＭＯＮＤ  Ｔｏｋｅｎ  Ｅｃｏｎｏｍｙが構築される。ＰＵＲＥ  ＤＩＡＭＯＮＤ  Ｔｏｋｅｎ  Ｅｃｏｎｏｍｙでは、ＰＵＲＥ  ＤＩＡＭＯＮＤ≒ＰＵＲＥ  ＤＩＡＭＯＮＤ  ＣＯＩＮ≒法定通貨の図式が成立し、ＰＵＲＥ  ＤＩＡＭＯＮＤという現物が紐づいたリアルとデジタルが融合する現実的な経済として展開される。<com:Br/>
+【選択図】図９
+</com:P>
+   </pat:Abstract>
+   <pat:Drawings>
+      <pat:Figure>
+         <pat:FigureNumber>1</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000002.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">223</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>2</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000003.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>3</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000004.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>4</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000005.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>5</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000006.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>6</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000007.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>7</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000008.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>8</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000009.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>9</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000010.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>10</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000011.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>11</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000012.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>12</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000013.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>13</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000014.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>14</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000015.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>15</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000016.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>16</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000017.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>17</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000018.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>18</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000019.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>19</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000020.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>20</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000021.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>21</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000022.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>22</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000023.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>23</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000024.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>24</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000025.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>25</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000026.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>26</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000027.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>27</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000028.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>28</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000029.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>29</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000030.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>30</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000031.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>31</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000032.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>32</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000033.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>33</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000034.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>34</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000035.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>35</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022043358000036.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">243</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+   </pat:Drawings>
+</jppat:UnexaminedPatentPublication>

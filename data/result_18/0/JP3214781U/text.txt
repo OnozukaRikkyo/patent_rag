@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding='utf-8'?>
+<!-- <?xml-stylesheet type="text/xsl" href="../../../../../XSL/gat-u9.xsl"?> -->
+<!DOCTYPE jp-official-gazette PUBLIC "-//JPO//DTD REGISTERED UTILITY MODEL 1.0//EN" "../../../../../DTD/gat-u9.dtd">
+<jp-official-gazette kind-of-jp="U9" kind-of-st16="U" lang="ja" dtd-version="1.0" country="JP" xmlns:jp="http://www.jpo.go.jp"><bibliographic-data lang="ja" country="JP">
+    <publication-reference>
+      <document-id>
+        <country>JP</country>
+        <doc-number>3214781</doc-number>
+        <kind>登録実用新案公報(U)</kind>
+        <date>20180117</date>
+      </document-id>
+    </publication-reference>
+    <application-reference>
+      <document-id>
+        <doc-number>2017003203</doc-number>
+        <date>20170627</date>
+      </document-id>
+    </application-reference>
+    <invention-title>使い捨てエプロン</invention-title>
+    <parties>
+      <jp:applicants-agents-article>
+        <jp:applicants-agents sequence="1">
+          <applicant sequence="1">
+            <addressbook lang="ja">
+              <name>株式会社森田エンタープライズ</name>
+              <registered-number>000146870</registered-number>
+              <address>
+                <text>埼玉県さいたま市見沼区大字大谷７５０番地</text>
+              </address>
+            </addressbook>
+          </applicant>
+        </jp:applicants-agents>
+      </jp:applicants-agents-article>
+      <inventors>
+        <inventor sequence="1">
+          <addressbook>
+            <name>大木  則勝</name>
+            <address>
+              <text>埼玉県さいたま市見沼区大字大谷７５０番地  株式会社  森田エンタープライズ内</text>
+            </address>
+          </addressbook>
+        </inventor>
+      </inventors>
+    </parties>
+    <dates-of-public-availability>
+      <printed-with-grant>
+        <document-id>
+          <date>20180208</date>
+        </document-id>
+      </printed-with-grant>
+    </dates-of-public-availability>
+    <classification-ipc><edition/><main-clsf>A41D  13/04        20060101AFI20180125BHJP        </main-clsf></classification-ipc>
+    <classification-national><country>JP</country><main-clsf>A41D13/04</main-clsf></classification-national>
+    <number-of-claims jp:adopted-law="claim">1</number-of-claims>
+    <figure-to-publish>
+      <fig-number>1</fig-number>
+    </figure-to-publish>
+    <jp:request-for-registrability-report true-or-false="false"/>
+    <jp:filing-form>書面</jp:filing-form>
+    <jp:total-pages>4</jp:total-pages>
+  </bibliographic-data><jp:image-of-bibliographic-data><img id="000001" he="140" wi="160" file="0003214781.tif" img-format="tif" img-content="drawing"/></jp:image-of-bibliographic-data><jp:image-of-chosen-drawing>
+    <img id="000002" he="53" wi="59" file="0003214781.tif" img-format="tif" img-content="drawing"/>
+  </jp:image-of-chosen-drawing><jp:abstract-correction/><description>
+        
+        <technical-field>
+            <p num="0001">本考案はポリエチレンフィルムを使用し一枚のシートの状態から、本体部、首紐部、ポケット部を設け一体化することにより、従来無かった使い捨てエプロンを提供する。</p>
+        </technical-field>
+        <background-art>
+            <p num="0002">従来、エプロンとして製造、販売されている商品は、布、金具を使用した物が主流である。その際上記の素材を使用した商品は持ち運びの不便さがあり、また洗濯等の理由から維持にも費用がかかるため、使用する度に汚れてしまうような場合、使い捨てのできる他の素材を用いての商品の開発が望まれていた。<br/>
+<nplcit num="1"><text>ｈｔｔｐ／／：ｗｗｗ．ｕｃｈｉｗａ．ｉｎｆｏ／</text></nplcit></p>
+            <p num="0003">また布製の場合、性質上、汚れを吸収してしまうため、シミになりやすいことから、汚れを弾く素材を用いての商品開発や食べかす等が床に落ちてしまうのを防ぐための、手段を用いた商品の開発が望まれていた。</p>
+        </background-art>
+        <summary-of-invention>
+            <tech-problem>
+                <p num="0004">解決しようとする課題は、ポリエチレンフィルムを使用した一体型のエプロンを提供し、持ち運びの手軽さと、使用中の汚れを気にせず使用出来、使用後は使い捨てに出来るエプロンを提供する。</p>
+            </tech-problem>
+            <tech-solution>
+                <p num="0005">使い捨てエプロン（１）において、シート部（２）に首紐部（３）、溶断シール部（４）、ポケット部（５）を設けた使い捨てエプロンを提供する。</p>
+            </tech-solution>
+            <advantageous-effects>
+                <p num="0006">本考案によれば、シート部（２）に首紐部（３）、溶断シール部（４）、ポケット部（５）を設ける事により、１枚のシートからエプロンの形状を形成し、シート部（２）がポリエチレンフィルムを使用している為、汚れを吸い込まず使用出来、首紐部（３）を紐の変わりに使用出来、シート部（２）の左右に溶断シール部（４）を設けたことにより、ポケット部（５）を形成する事が可能である。</p>
+            </advantageous-effects>
+        </summary-of-invention>
+        <best-mode>
+            <p num="0007">使い捨てエプロン（１）において、シート部（２）に首紐部（３）、溶断シール部（４）、ポケット部（５）を設けた使い捨てエプロンを提供する。</p>
+            <p num="0008">図１は本考案の表面図を表した物である。本考案は１枚のポリエチレンフィルムに切り込みを入れ、シート部（２）に首紐部（３）、溶断シール部（４）、ポケット部（５）を設け、シート部（２）の左右に溶断シール部（４）を設けた事により、ポケット部（５）を形成する事が可能になり、ポケット部（５）の隙間にポケットとしての機能を持たせる事が可能になる。</p>
+        </best-mode>
+        <description-of-drawings>
+            <p num="0009"><figref num="1">本考案の表面図である。</figref><figref num="2">本考案の使用図である。</figref></p>
+        </description-of-drawings>
+        <reference-signs-list>
+            <p num="0010">１  使い捨てエプロン<br/>
+２  シート部<br/>
+３  首紐部<br/>
+４  溶断シール部<br/>
+５  ポケット部</p>
+        </reference-signs-list>
+    </description><claims>
+        <claim num="">
+            <claim-text/>
+        </claim>
+    </claims><abstract>
+  <p num="">【課題】持ち運びの手軽さと、使用中の汚れを気にせず使用出来、使用後は使い捨てに出来るエプロンを提供する。<br/>【解決手段】ポリエチレンフィルムを使用した一体型の使い捨てエプロンであって、シート部２に首紐部３、溶断シール部４、ポケット部５を設けた。<br/>【選択図】図１</p>
+</abstract><drawings>
+        <figure num="1">
+            <img id="000003" file="0003214781.tif" he="53" img-format="tif" wi="59" img-content="drawing"/>
+        </figure>
+        <figure num="2">
+            <img id="000004" file="0003214781.tif" he="61" img-format="tif" wi="48" img-content="drawing"/>
+        </figure>
+    </drawings><jp:written-amendment-group><jp:written-amendment kind="amendment"><date>20171003</date><jp:amendment-article><jp:amendment-group jp:serial-number="1"><jp:document-code>A26333</jp:document-code><jp:item-of-amendment>全文</jp:item-of-amendment><jp:way-of-amendment>3</jp:way-of-amendment><jp:contents-of-amendment jp:kind-of-document="claims" jp:kind-of-law="utility">
+                    <claims>
+                        <claim num="1">
+                            <claim-text>使い捨てエプロン（１）において、シート部（２）に首紐部（３）、溶断シール部（４）、ポケット部（５）を設けた使い捨てエプロンを提供する。</claim-text>
+                        </claim>
+                    </claims>
+                </jp:contents-of-amendment></jp:amendment-group></jp:amendment-article></jp:written-amendment></jp:written-amendment-group></jp-official-gazette>

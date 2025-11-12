@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="../../../../../XSL/JPUnexaminedPatentPublication.xsl"?> -->
+<jppat:UnexaminedPatentPublication xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                                   xmlns:jppat="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPPatent"
+                                   xmlns:pat="http://www.wipo.int/standards/XMLSchema/ST96/Patent"
+                                   xmlns:com="http://www.wipo.int/standards/XMLSchema/ST96/Common"
+                                   xmlns:jpcom="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPCommon"
+                                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                   xsi:schemaLocation="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPPatent ../../../../../XSD/JPUnexaminedPatentPublication_V1_0.xsd"
+                                   com:languageCode="ja"
+                                   com:st96Version="V3_1"
+                                   com:ipoVersion="JP_V1_0">
+   <com:IPOfficeCode>JP</com:IPOfficeCode>
+   <jppat:UnexaminedPatentPublicationBibliographicData com:languageCode="ja">
+      <com:IPOfficeCode>JP</com:IPOfficeCode>
+      <jppat:PatentPublicationIdentification>
+         <com:IPOfficeCode>JP</com:IPOfficeCode>
+         <pat:PublicationNumber>2024125136</pat:PublicationNumber>
+         <com:PublicationDate>2024-09-13</com:PublicationDate>
+      </jppat:PatentPublicationIdentification>
+      <pat:PlainLanguageDesignationText>公開特許公報(A)</pat:PlainLanguageDesignationText>
+      <jppat:ApplicationIdentification>
+         <com:ApplicationNumber>
+            <com:ApplicationNumberText>2023048925</com:ApplicationNumberText>
+         </com:ApplicationNumber>
+         <pat:FilingDate>2023-03-03</pat:FilingDate>
+      </jppat:ApplicationIdentification>
+      <pat:InventionTitle>ファラデー発電改良型</pat:InventionTitle>
+      <jppat:UnexaminedPatentPublicationPartyBag>
+         <jppat:ApplicantsRegisteredPractitionersBag>
+            <jppat:ApplicantRegisteredPractitionerBag com:sequenceNumber="1">
+               <jppat:Applicant com:sequenceNumber="1">
+                  <com:PartyIdentifier>520234165</com:PartyIdentifier>
+                  <jpcom:Contact>
+                     <com:Name>
+                        <com:EntityName>村上  一成</com:EntityName>
+                     </com:Name>
+                     <com:PostalAddressBag>
+                        <com:PostalAddress>
+                           <com:PostalAddressText>岩手県盛岡市肴町３－３０－５０１</com:PostalAddressText>
+                        </com:PostalAddress>
+                     </com:PostalAddressBag>
+                  </jpcom:Contact>
+               </jppat:Applicant>
+            </jppat:ApplicantRegisteredPractitionerBag>
+         </jppat:ApplicantsRegisteredPractitionersBag>
+         <jppat:InventorBag>
+            <jppat:Inventor com:sequenceNumber="1">
+               <jpcom:Contact>
+                  <com:Name>
+                     <com:EntityName>村上  一成</com:EntityName>
+                  </com:Name>
+                  <com:PostalAddressBag>
+                     <com:PostalAddress>
+                        <com:PostalAddressText>岩手県盛岡市肴町３の３０の５０１</com:PostalAddressText>
+                     </com:PostalAddress>
+                  </com:PostalAddressBag>
+               </jpcom:Contact>
+            </jppat:Inventor>
+         </jppat:InventorBag>
+      </jppat:UnexaminedPatentPublicationPartyBag>
+      <jppat:IPCClassification>
+         <com:Edition/>
+         <pat:MainClassification>H02K  35/02        20060101AFI20240906BHJP        </pat:MainClassification>
+      </jppat:IPCClassification>
+      <jppat:NationalClassification>
+         <com:IPOfficeCode>JP</com:IPOfficeCode>
+         <jppat:MainNationalClassification>
+            <pat:PatentClassificationText>H02K35/02</pat:PatentClassificationText>
+         </jppat:MainNationalClassification>
+      </jppat:NationalClassification>
+      <jppat:ClaimTotalQuantitySet>
+         <pat:ClaimTotalQuantity>1</pat:ClaimTotalQuantity>
+         <jppat:AdoptedLawCategory>Claim</jppat:AdoptedLawCategory>
+      </jppat:ClaimTotalQuantitySet>
+      <jppat:RequestExaminationIndicator>true</jppat:RequestExaminationIndicator>
+      <jppat:FilingForm>書面</jppat:FilingForm>
+   </jppat:UnexaminedPatentPublicationBibliographicData>
+   <jppat:ChosenDrawingImage>
+      <com:Image>
+         <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+         <com:FileName>2024125136000001.tif</com:FileName>
+         <com:HeightMeasure com:measureUnitCode="Mm">40</com:HeightMeasure>
+         <com:WidthMeasure com:measureUnitCode="Mm">50</com:WidthMeasure>
+      </com:Image>
+   </jppat:ChosenDrawingImage>
+   <jppat:AbstractCorrectionIndicator>true</jppat:AbstractCorrectionIndicator>
+   <jppat:Description>
+      <com:Heading>論文</com:Heading>
+      <com:P com:pNumber="">コイルに磁石を近づけたり遠ざけたりするとそれを妨げる方向に、つまり逆向きの磁力が発生するようにコイルに誘導電流が流れる。<com:Br/>
+コイルがあって磁力線を内部に走らせたらどうなるか。つまり磁力を帯びる導体棒を、先にコイルに電流を流さずに電流の流れていないコイル内部に押し込んだらどうなるか。<com:Br/>
+これまで電流の流れていなかったコイルにその磁力を打ち消すように電流が流れる。<com:Br/>
+レンツの法則は、誘導電流は、コイルを貫ぬく磁力線の本数の変化を妨げる向きに発生する、というものである。<com:Br/>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>2024125136000002.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">24</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+いたものがソレノイドである。ソレノイドの中に磁力を帯びた導体棒をスピードを持って出入させると交流電流が起こる。<com:Br/>
+エンジンのコネクティングロッドは磁力を帯びたものを使い、ソレノイドで囲み、ロッドを上下運動させると誘導電流が起こる。その際ソレノイドをロッドの通り道に合わせ、長楕円にすると効率よく電流を発生させる事ができるのではないか。</com:P>
+   </jppat:Description>
+   <pat:Claims>
+      <pat:Claim>
+         <pat:ClaimNumber>  </pat:ClaimNumber>
+         <pat:ClaimText>  </pat:ClaimText>
+      </pat:Claim>
+   </pat:Claims>
+   <pat:Abstract>
+      <com:P>【課題】効率の良い発電装置を提供する。<com:Br/>【解決手段】エンジン発電装置は、ピストンに接続される磁力を帯びたコネクティングロッドを有し、コネクティングロッドが移動する周囲にコイルを配置する。<com:Br/>【選択図】図１</com:P>
+   </pat:Abstract>
+   <pat:Drawings>
+      <pat:Figure>
+         <pat:FigureNumber>1</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>2024125136000003.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">76</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">77</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+   </pat:Drawings>
+   <jppat:WrittenAmendmentBag>
+      <jppat:WrittenAmendment>
+         <jppat:WrittenAmendmentCategory>Amendment</jppat:WrittenAmendmentCategory>
+         <pat:FilingDate>2023-07-02</pat:FilingDate>
+         <jppat:AmendmentsBag>
+            <jppat:AmendmentBag jppat:amendmentNumber="1">
+               <com:DocumentName>A16333</com:DocumentName>
+               <jppat:AmendmentItem>全文</jppat:AmendmentItem>
+               <jppat:AmendmentWay>3</jppat:AmendmentWay>
+               <jppat:AmendmentContentsBag>
+                  <jppat:AmendmentDocumentNameCategory>Claims</jppat:AmendmentDocumentNameCategory>
+                  <pat:Claims>
+                     <pat:Claim>
+                        <pat:ClaimNumber>1</pat:ClaimNumber>
+                        <pat:ClaimText>エンジンやエレベーターの上下運動で発電させる。</pat:ClaimText>
+                     </pat:Claim>
+                  </pat:Claims>
+               </jppat:AmendmentContentsBag>
+            </jppat:AmendmentBag>
+            <jppat:AmendmentBag jppat:amendmentNumber="2">
+               <com:DocumentName>A16330</com:DocumentName>
+               <jppat:AmendmentItem>全文</jppat:AmendmentItem>
+               <jppat:AmendmentWay>3</jppat:AmendmentWay>
+               <jppat:AmendmentContentsBag>
+                  <jppat:AmendmentDocumentNameCategory>Description</jppat:AmendmentDocumentNameCategory>
+                  <jppat:Description>
+                     <com:Heading>発明が解決しようとする課題</com:Heading>
+                     <com:P com:pNumber="">電力を生み出すこと。<com:Br/>
+コイルに磁石棒を出し入れさせたりするとコイルの両端に電圧を生じ、電流が流れる。<com:Br/>
+  この現象を電磁誘導という。コイルの内部を貫く磁力線の数が変化すると誘導起電力が発生する。<com:Br/>
+  磁力を帯びた導体棒を電流の流れていないコイル内部に押し込むとこれまで電流の流れていなかったコイルに、その磁力を打ち消すように電流が流れる。誘導電流は、コイルを貫く磁力線の本数の変化を妨げる向きに<com:Br/>
+                        <com:Image com:imageContentCategory="Drawing">
+                           <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+                           <com:FileName>2024125136000004.tif</com:FileName>
+                           <com:HeightMeasure com:measureUnitCode="Mm">28</com:HeightMeasure>
+                           <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+                        </com:Image>
+ドをスピードをもって上下させると交流電流が起こる。<com:Br/>
+  又、高層ビルのエレベーターも同じ原理である。エレベーターのゴンドラを、上下に長い角柱のソレノイドのエレベーターホールの中を上下させると電気を生じる。ゴンドラの四面の壁の外側には、磁石棒を貼り巡らす。<com:Br/>
+                        <com:Image com:imageContentCategory="Drawing">
+                           <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+                           <com:FileName>2024125136000005.tif</com:FileName>
+                           <com:HeightMeasure com:measureUnitCode="Mm">55</com:HeightMeasure>
+                           <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+                        </com:Image>
+                     </com:P>
+                  </jppat:Description>
+               </jppat:AmendmentContentsBag>
+            </jppat:AmendmentBag>
+            <jppat:AmendmentBag jppat:amendmentNumber="3">
+               <com:DocumentName>A16331</com:DocumentName>
+               <jppat:AmendmentItem>全図</jppat:AmendmentItem>
+               <jppat:AmendmentWay>3</jppat:AmendmentWay>
+               <jppat:AmendmentContentsBag>
+                  <jppat:AmendmentDocumentNameCategory>Drawings</jppat:AmendmentDocumentNameCategory>
+                  <pat:Drawings>
+                     <pat:Figure>
+                        <pat:FigureNumber>1</pat:FigureNumber>
+                        <com:Image com:imageContentCategory="Drawing">
+                           <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+                           <com:FileName>2024125136000006.tif</com:FileName>
+                           <com:HeightMeasure com:measureUnitCode="Mm">175</com:HeightMeasure>
+                           <com:WidthMeasure com:measureUnitCode="Mm">96</com:WidthMeasure>
+                        </com:Image>
+                     </pat:Figure>
+                     <pat:Figure>
+                        <pat:FigureNumber>2</pat:FigureNumber>
+                        <com:Image com:imageContentCategory="Drawing">
+                           <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+                           <com:FileName>2024125136000007.tif</com:FileName>
+                           <com:HeightMeasure com:measureUnitCode="Mm">154</com:HeightMeasure>
+                           <com:WidthMeasure com:measureUnitCode="Mm">93</com:WidthMeasure>
+                        </com:Image>
+                     </pat:Figure>
+                  </pat:Drawings>
+               </jppat:AmendmentContentsBag>
+            </jppat:AmendmentBag>
+         </jppat:AmendmentsBag>
+      </jppat:WrittenAmendment>
+      <jppat:WrittenAmendment>
+         <jppat:WrittenAmendmentCategory>Amendment</jppat:WrittenAmendmentCategory>
+         <pat:FilingDate>2023-09-05</pat:FilingDate>
+         <jppat:AmendmentsBag>
+            <jppat:AmendmentBag jppat:amendmentNumber="1">
+               <com:DocumentName>A16333</com:DocumentName>
+               <jppat:AmendmentItem>全文</jppat:AmendmentItem>
+               <jppat:AmendmentWay>1</jppat:AmendmentWay>
+               <jppat:AmendmentContentsBag>
+                  <jppat:AmendmentDocumentNameCategory>Claims</jppat:AmendmentDocumentNameCategory>
+                  <pat:Claims>
+                     <pat:Claim>
+                        <pat:ClaimNumber>  </pat:ClaimNumber>
+                        <pat:ClaimText>エンジンやエレベーターの上下運動で発電させる。</pat:ClaimText>
+                     </pat:Claim>
+                  </pat:Claims>
+               </jppat:AmendmentContentsBag>
+            </jppat:AmendmentBag>
+            <jppat:AmendmentBag jppat:amendmentNumber="2">
+               <com:DocumentName>A16330</com:DocumentName>
+               <jppat:AmendmentItem>全文</jppat:AmendmentItem>
+               <jppat:AmendmentWay>3</jppat:AmendmentWay>
+               <jppat:AmendmentContentsBag>
+                  <jppat:AmendmentDocumentNameCategory>Description</jppat:AmendmentDocumentNameCategory>
+                  <jppat:Description>
+                     <com:Heading>発明が解決しようとする課題</com:Heading>
+                     <com:P com:pNumber="">電力を生み出すこと。<com:Br/>
+コイルに磁石棒を出し入れさせるとコイルの両端に電圧を生じ電流が流れる。磁力を帯びた導体棒を電流の流れていないコイル内部に押し込むとこれまで電流の流れていなかったコイルに、その磁力を打ち消すように電流が流れる。図１の車のエンジンの発電においては、コイルを円筒型ではなくクリップ型の角柱にする。その中を磁力を帯びた導体棒であるロッドをスピードを持って上下運動させると交流電流が起こる。<com:Br/>
+図２の高層ビルのエレベーター発電においてもエンジン発電と同じ原理である。ゴンドラの四面の壁の外側には磁石棒を貼り巡らす。そして上下に長い角柱のソレノイドのエレベーターホールの中を、ゴンドラを上下させると電気を生じる。ゴンドラとソレノイドの隙間をスレスレにする為にソレノイドは円柱型ではなく角柱型にする。四つの角は丸味を帯びたものがいい。</com:P>
+                     <pat:DrawingDescription>
+                        <com:P com:pNumber="">
+                           <com:FigureReference com:referencedFigureNumber="1">エンジン発電</com:FigureReference>
+                           <com:FigureReference com:referencedFigureNumber="2">エレベーター発電</com:FigureReference>
+                        </com:P>
+                     </pat:DrawingDescription>
+                  </jppat:Description>
+               </jppat:AmendmentContentsBag>
+            </jppat:AmendmentBag>
+            <jppat:AmendmentBag jppat:amendmentNumber="3">
+               <com:DocumentName>A16331</com:DocumentName>
+               <jppat:AmendmentItem>全図</jppat:AmendmentItem>
+               <jppat:AmendmentWay>1</jppat:AmendmentWay>
+               <jppat:AmendmentContentsBag>
+                  <jppat:AmendmentDocumentNameCategory>Drawings</jppat:AmendmentDocumentNameCategory>
+                  <pat:Drawings>
+                     <pat:Figure>
+                        <pat:FigureNumber>1</pat:FigureNumber>
+                        <com:Image com:imageContentCategory="Drawing">
+                           <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+                           <com:FileName>2024125136000008.tif</com:FileName>
+                           <com:HeightMeasure com:measureUnitCode="Mm">106</com:HeightMeasure>
+                           <com:WidthMeasure com:measureUnitCode="Mm">52</com:WidthMeasure>
+                        </com:Image>
+                     </pat:Figure>
+                     <pat:Figure>
+                        <pat:FigureNumber>2</pat:FigureNumber>
+                        <com:Image com:imageContentCategory="Drawing">
+                           <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+                           <com:FileName>2024125136000009.tif</com:FileName>
+                           <com:HeightMeasure com:measureUnitCode="Mm">114</com:HeightMeasure>
+                           <com:WidthMeasure com:measureUnitCode="Mm">78</com:WidthMeasure>
+                        </com:Image>
+                     </pat:Figure>
+                  </pat:Drawings>
+               </jppat:AmendmentContentsBag>
+            </jppat:AmendmentBag>
+         </jppat:AmendmentsBag>
+      </jppat:WrittenAmendment>
+      <jppat:WrittenAmendment>
+         <jppat:WrittenAmendmentCategory>Amendment</jppat:WrittenAmendmentCategory>
+         <pat:FilingDate>2024-06-11</pat:FilingDate>
+         <jppat:AmendmentsBag>
+            <jppat:AmendmentBag jppat:amendmentNumber="1">
+               <com:DocumentName>A16333</com:DocumentName>
+               <jppat:AmendmentItem>全文</jppat:AmendmentItem>
+               <jppat:AmendmentWay>3</jppat:AmendmentWay>
+               <jppat:AmendmentContentsBag>
+                  <jppat:AmendmentDocumentNameCategory>Claims</jppat:AmendmentDocumentNameCategory>
+                  <pat:Claims>
+                     <pat:Claim>
+                        <pat:ClaimNumber>1</pat:ClaimNumber>
+                        <pat:ClaimText>発電機能拡大</pat:ClaimText>
+                     </pat:Claim>
+                  </pat:Claims>
+               </jppat:AmendmentContentsBag>
+            </jppat:AmendmentBag>
+            <jppat:AmendmentBag jppat:amendmentNumber="2">
+               <com:DocumentName>A16330</com:DocumentName>
+               <jppat:AmendmentItem>全文</jppat:AmendmentItem>
+               <jppat:AmendmentWay>3</jppat:AmendmentWay>
+               <jppat:AmendmentContentsBag>
+                  <jppat:AmendmentDocumentNameCategory>Description</jppat:AmendmentDocumentNameCategory>
+                  <jppat:Description>
+                     <com:Heading>発明が解決しようとする課題</com:Heading>
+                     <com:P com:pNumber="">電力強化。<com:Br/>
+これまでのファラデー発電はコネクティングロッドを磁石棒にすり替え、そのまわりにコイルをはり巡らしただけであった。改良型はシリンダーの内壁・全体にコイルを埋める。ピストンの外側にも磁石を埋める。</com:P>
+                     <pat:DrawingDescription>
+                        <com:P com:pNumber="">
+                           <com:FigureReference com:referencedFigureNumber="1">シリンダー内壁にコイルを埋める。ピストン外側に磁石を埋める。</com:FigureReference>
+                        </com:P>
+                     </pat:DrawingDescription>
+                  </jppat:Description>
+               </jppat:AmendmentContentsBag>
+            </jppat:AmendmentBag>
+            <jppat:AmendmentBag jppat:amendmentNumber="3">
+               <com:DocumentName>A16331</com:DocumentName>
+               <jppat:AmendmentItem>全図</jppat:AmendmentItem>
+               <jppat:AmendmentWay>3</jppat:AmendmentWay>
+               <jppat:AmendmentContentsBag>
+                  <jppat:AmendmentDocumentNameCategory>Drawings</jppat:AmendmentDocumentNameCategory>
+                  <pat:Drawings>
+                     <pat:Figure>
+                        <pat:FigureNumber>1</pat:FigureNumber>
+                        <com:Image com:imageContentCategory="Drawing">
+                           <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+                           <com:FileName>2024125136000010.tif</com:FileName>
+                           <com:HeightMeasure com:measureUnitCode="Mm">40</com:HeightMeasure>
+                           <com:WidthMeasure com:measureUnitCode="Mm">50</com:WidthMeasure>
+                        </com:Image>
+                     </pat:Figure>
+                  </pat:Drawings>
+               </jppat:AmendmentContentsBag>
+            </jppat:AmendmentBag>
+         </jppat:AmendmentsBag>
+      </jppat:WrittenAmendment>
+   </jppat:WrittenAmendmentBag>
+</jppat:UnexaminedPatentPublication>

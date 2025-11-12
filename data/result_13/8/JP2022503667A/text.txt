@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="../../../../../XSL/JPInternationalPatentPublication.xsl"?> -->
+<jppat:InternationalPatentPublication xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                                      xmlns:jppat="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPPatent"
+                                      xmlns:pat="http://www.wipo.int/standards/XMLSchema/ST96/Patent"
+                                      xmlns:com="http://www.wipo.int/standards/XMLSchema/ST96/Common"
+                                      xmlns:jpcom="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPCommon"
+                                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                      xsi:schemaLocation="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPPatent ../../../../../XSD/JPInternationalPatentPublication_V1_0.xsd"
+                                      com:languageCode="ja"
+                                      com:st96Version="V3_1"
+                                      com:ipoVersion="JP_V1_0">
+   <com:IPOfficeCode>JP</com:IPOfficeCode>
+   <jppat:InternationalPatentPublicationBibliographicData com:languageCode="ja">
+      <com:IPOfficeCode>JP</com:IPOfficeCode>
+      <jppat:PatentPublicationIdentification>
+         <com:IPOfficeCode>JP</com:IPOfficeCode>
+         <pat:PublicationNumber>2022503667</pat:PublicationNumber>
+         <com:PublicationDate>2022-01-12</com:PublicationDate>
+      </jppat:PatentPublicationIdentification>
+      <pat:PlainLanguageDesignationText>公表特許公報(A)</pat:PlainLanguageDesignationText>
+      <jppat:ApplicationIdentification>
+         <com:ApplicationNumber>
+            <com:ApplicationNumberText>2021513184</com:ApplicationNumberText>
+         </com:ApplicationNumber>
+         <pat:FilingDate>2019-08-23</pat:FilingDate>
+      </jppat:ApplicationIdentification>
+      <pat:InventionTitle>ロータブレード付属品用のエッジシールを提供する方法</pat:InventionTitle>
+      <jppat:InternationalPatentPublicationPartyBag>
+         <jppat:ApplicantsRegisteredPractitionersBag>
+            <jppat:ApplicantRegisteredPractitionerBag com:sequenceNumber="1">
+               <jppat:Applicant com:sequenceNumber="1">
+                  <com:PartyIdentifier>519081710</com:PartyIdentifier>
+                  <jpcom:Contact>
+                     <com:Name>
+                        <com:EntityName>シーメンス  ガメサ  リニューアブル  エナジー  エー／エス</com:EntityName>
+                     </com:Name>
+                     <com:PostalAddressBag>
+                        <com:PostalAddress>
+                           <com:PostalAddressText>デンマーク国  ７３３０  ブランデ  ボーロプヴェイ  １６</com:PostalAddressText>
+                        </com:PostalAddress>
+                     </com:PostalAddressBag>
+                  </jpcom:Contact>
+                  <jpcom:Contact>
+                     <jpcom:OriginalLanguageIndicator>true</jpcom:OriginalLanguageIndicator>
+                     <com:Name>
+                        <com:EntityName>Ｓｉｅｍｅｎｓ  Ｇａｍｅｓａ  Ｒｅｎｅｗａｂｌｅ  Ｅｎｅｒｇｙ  Ａ／Ｓ</com:EntityName>
+                     </com:Name>
+                     <com:PostalAddressBag>
+                        <com:PostalAddress>
+                           <com:PostalAddressText>Ｂｏｒｕｐｖｅｊ  １６，  ７３３０  Ｂｒａｎｄｅ，  Ｄｅｎｍａｒｋ</com:PostalAddressText>
+                        </com:PostalAddress>
+                     </com:PostalAddressBag>
+                  </jpcom:Contact>
+               </jppat:Applicant>
+               <jppat:RegisteredPractitioner com:sequenceNumber="1">
+                  <jppat:AgentCategory>Representative</jppat:AgentCategory>
+                  <pat:RegisteredPractitionerRegistrationNumber>100114890</pat:RegisteredPractitionerRegistrationNumber>
+                  <jppat:RegisteredPractitionerCategory>Attorney</jppat:RegisteredPractitionerCategory>
+                  <jpcom:Contact>
+                     <com:Name>
+                        <com:EntityName>アインゼル・フェリックス＝ラインハルト</com:EntityName>
+                     </com:Name>
+                  </jpcom:Contact>
+               </jppat:RegisteredPractitioner>
+               <jppat:RegisteredPractitioner com:sequenceNumber="2">
+                  <jppat:AgentCategory>Representative</jppat:AgentCategory>
+                  <pat:RegisteredPractitionerRegistrationNumber>100098501</pat:RegisteredPractitionerRegistrationNumber>
+                  <jppat:RegisteredPractitionerCategory>Attorney</jppat:RegisteredPractitionerCategory>
+                  <jpcom:Contact>
+                     <com:Name>
+                        <com:EntityName>森田  拓</com:EntityName>
+                     </com:Name>
+                  </jpcom:Contact>
+               </jppat:RegisteredPractitioner>
+               <jppat:RegisteredPractitioner com:sequenceNumber="3">
+                  <jppat:AgentCategory>Representative</jppat:AgentCategory>
+                  <pat:RegisteredPractitionerRegistrationNumber>100116403</pat:RegisteredPractitionerRegistrationNumber>
+                  <jppat:RegisteredPractitionerCategory>Attorney</jppat:RegisteredPractitionerCategory>
+                  <jpcom:Contact>
+                     <com:Name>
+                        <com:EntityName>前川  純一</com:EntityName>
+                     </com:Name>
+                  </jpcom:Contact>
+               </jppat:RegisteredPractitioner>
+               <jppat:RegisteredPractitioner com:sequenceNumber="4">
+                  <jppat:AgentCategory>Representative</jppat:AgentCategory>
+                  <pat:RegisteredPractitionerRegistrationNumber>100134315</pat:RegisteredPractitionerRegistrationNumber>
+                  <jppat:RegisteredPractitionerCategory>Attorney</jppat:RegisteredPractitionerCategory>
+                  <jpcom:Contact>
+                     <com:Name>
+                        <com:EntityName>永島  秀郎</com:EntityName>
+                     </com:Name>
+                  </jpcom:Contact>
+               </jppat:RegisteredPractitioner>
+               <jppat:RegisteredPractitioner com:sequenceNumber="5">
+                  <jppat:AgentCategory>Representative</jppat:AgentCategory>
+                  <pat:RegisteredPractitionerRegistrationNumber>100135633</pat:RegisteredPractitionerRegistrationNumber>
+                  <jppat:RegisteredPractitionerCategory>Attorney</jppat:RegisteredPractitionerCategory>
+                  <jpcom:Contact>
+                     <com:Name>
+                        <com:EntityName>二宮  浩康</com:EntityName>
+                     </com:Name>
+                  </jpcom:Contact>
+               </jppat:RegisteredPractitioner>
+               <jppat:RegisteredPractitioner com:sequenceNumber="6">
+                  <jppat:AgentCategory>Representative</jppat:AgentCategory>
+                  <pat:RegisteredPractitionerRegistrationNumber>100162880</pat:RegisteredPractitionerRegistrationNumber>
+                  <jppat:RegisteredPractitionerCategory>Attorney</jppat:RegisteredPractitionerCategory>
+                  <jpcom:Contact>
+                     <com:Name>
+                        <com:EntityName>上島  類</com:EntityName>
+                     </com:Name>
+                  </jpcom:Contact>
+               </jppat:RegisteredPractitioner>
+            </jppat:ApplicantRegisteredPractitionerBag>
+         </jppat:ApplicantsRegisteredPractitionersBag>
+         <jppat:InventorBag>
+            <jppat:Inventor com:sequenceNumber="1">
+               <jpcom:Contact>
+                  <com:Name>
+                     <com:EntityName>アレックス  レーヴェン</com:EntityName>
+                  </com:Name>
+                  <com:PostalAddressBag>
+                     <com:PostalAddress>
+                        <com:PostalAddressText>デンマーク国  ヘアニング  グレンテヴァイ  ４４</com:PostalAddressText>
+                     </com:PostalAddress>
+                  </com:PostalAddressBag>
+               </jpcom:Contact>
+            </jppat:Inventor>
+            <jppat:Inventor com:sequenceNumber="2">
+               <jpcom:Contact>
+                  <com:Name>
+                     <com:EntityName>ギリダル  ラマヌイアム</com:EntityName>
+                  </com:Name>
+                  <com:PostalAddressBag>
+                     <com:PostalAddress>
+                        <com:PostalAddressText>デンマーク国  ブランデ  ブリヒェルスヴァイ  ２５  ストリート</com:PostalAddressText>
+                     </com:PostalAddress>
+                  </com:PostalAddressBag>
+               </jpcom:Contact>
+            </jppat:Inventor>
+         </jppat:InventorBag>
+      </jppat:InternationalPatentPublicationPartyBag>
+      <jppat:PriorityClaimBag>
+         <jppat:PriorityClaim com:sequenceNumber="1">
+            <com:IPOfficeCode>EP</com:IPOfficeCode>
+            <com:ApplicationNumber>
+               <com:ApplicationNumberText>18193531.3</com:ApplicationNumberText>
+            </com:ApplicationNumber>
+            <pat:FilingDate>2018-09-10</pat:FilingDate>
+            <jppat:ApplicationFilingCategory>International</jppat:ApplicationFilingCategory>
+         </jppat:PriorityClaim>
+         <jppat:PriorityClaim com:sequenceNumber="2">
+            <com:IPOfficeCode>EP</com:IPOfficeCode>
+            <com:ApplicationNumber>
+               <com:ApplicationNumberText>19189605.9</com:ApplicationNumberText>
+            </com:ApplicationNumber>
+            <pat:FilingDate>2019-08-01</pat:FilingDate>
+            <jppat:ApplicationFilingCategory>International</jppat:ApplicationFilingCategory>
+         </jppat:PriorityClaim>
+      </jppat:PriorityClaimBag>
+      <jppat:IPCClassification>
+         <com:Edition/>
+         <pat:MainClassification>F03D  80/50        20160101AFI20220104BHJP        </pat:MainClassification>
+         <pat:FurtherClassification>F03D   1/06        20060101ALI20220104BHJP        </pat:FurtherClassification>
+         <pat:FurtherClassification>B29C  65/54        20060101ALI20220104BHJP        </pat:FurtherClassification>
+         <pat:FurtherClassification>C09K   3/12        20060101ALI20220104BHJP        </pat:FurtherClassification>
+      </jppat:IPCClassification>
+      <jppat:NationalClassification>
+         <com:IPOfficeCode>JP</com:IPOfficeCode>
+         <jppat:MainNationalClassification>
+            <pat:PatentClassificationText>F03D80/50</pat:PatentClassificationText>
+         </jppat:MainNationalClassification>
+         <jppat:FurtherNationalClassification>
+            <pat:PatentClassificationText>F03D1/06 A</pat:PatentClassificationText>
+         </jppat:FurtherNationalClassification>
+         <jppat:FurtherNationalClassification>
+            <pat:PatentClassificationText>B29C65/54</pat:PatentClassificationText>
+         </jppat:FurtherNationalClassification>
+         <jppat:FurtherNationalClassification>
+            <pat:PatentClassificationText>C09K3/12</pat:PatentClassificationText>
+         </jppat:FurtherNationalClassification>
+      </jppat:NationalClassification>
+      <pat:StateDesignation>
+         <pat:NationalDesignation>
+            <com:DesignatedCountryCode>AP</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>BW</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>GH</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>GM</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>KE</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>LR</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>LS</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>MW</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>MZ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>NA</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>RW</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SD</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SL</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>ST</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SZ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>TZ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>UG</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>ZM</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>ZW</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>EA</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>AM</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>AZ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>BY</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>KG</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>KZ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>RU</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>TJ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>TM</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>EP</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>AL</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>AT</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>BE</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>BG</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>CH</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>CY</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>CZ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>DE</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>DK</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>EE</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>ES</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>FI</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>FR</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>GB</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>GR</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>HR</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>HU</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>IE</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>IS</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>IT</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>LT</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>LU</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>LV</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>MC</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>MK</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>MT</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>NL</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>NO</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>PL</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>PT</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>RO</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>RS</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SE</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SI</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SK</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SM</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>TR</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>OA</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>BF</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>BJ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>CF</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>CG</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>CI</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>CM</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>GA</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>GN</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>GQ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>GW</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>KM</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>ML</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>MR</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>NE</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SN</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>TD</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>TG</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>AE</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>AG</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>AL</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>AM</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>AO</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>AT</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>AU</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>AZ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>BA</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>BB</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>BG</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>BH</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>BN</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>BR</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>BW</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>BY</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>BZ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>CA</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>CH</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>CL</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>CN</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>CO</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>CR</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>CU</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>CZ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>DE</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>DJ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>DK</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>DM</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>DO</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>DZ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>EC</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>EE</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>EG</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>ES</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>FI</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>GB</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>GD</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>GE</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>GH</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>GM</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>GT</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>HN</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>HR</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>HU</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>ID</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>IL</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>IN</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>IR</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>IS</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>JO</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>JP</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>KE</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>KG</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>KH</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>KN</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>KP</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>KR</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>KW</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>KZ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>LA</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>LC</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>LK</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>LR</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>LS</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>LU</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>LY</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>MA</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>MD</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>ME</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>MG</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>MK</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>MN</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>MW</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>MX</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>MY</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>MZ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>NA</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>NG</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>NI</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>NO</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>NZ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>OM</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>PA</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>PE</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>PG</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>PH</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>PL</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>PT</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>QA</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>RO</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>RS</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>RU</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>RW</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SA</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SC</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SD</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SE</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SG</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SK</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SL</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SM</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>ST</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SV</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SY</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>TH</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>TJ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>TM</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>TN</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>TR</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>TT</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>TZ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>UA</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>UG</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>US</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>UZ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>VC</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>VN</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>ZA</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>ZM</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>ZW</com:DesignatedCountryCode>
+         </pat:NationalDesignation>
+      </pat:StateDesignation>
+      <jppat:InternationalFilingData>
+         <jppat:ApplicationIdentification>
+            <com:ApplicationNumber>
+               <com:ApplicationNumberText>EP2019072551</com:ApplicationNumberText>
+            </com:ApplicationNumber>
+            <pat:FilingDate>2019-08-23</pat:FilingDate>
+         </jppat:ApplicationIdentification>
+      </jppat:InternationalFilingData>
+      <jppat:InternationalPublishingData>
+         <jppat:PatentDocumentIdentification>
+            <jppat:PatentPublicationIdentification>
+               <pat:PublicationNumber>WO2020052939</pat:PublicationNumber>
+               <com:PublicationDate>2020-03-19</com:PublicationDate>
+            </jppat:PatentPublicationIdentification>
+         </jppat:PatentDocumentIdentification>
+      </jppat:InternationalPublishingData>
+      <jppat:RequestExaminationIndicator>true</jppat:RequestExaminationIndicator>
+      <jppat:RequestPreliminaryExaminationIndicator>false</jppat:RequestPreliminaryExaminationIndicator>
+      <pat:NationalStageFilingDate>2021-03-09</pat:NationalStageFilingDate>
+      <jppat:ThemeCodeInformationBag>
+         <jppat:ThemeCodeInformation>3H178</jppat:ThemeCodeInformation>
+         <jppat:ThemeCodeInformation>4F211</jppat:ThemeCodeInformation>
+      </jppat:ThemeCodeInformationBag>
+      <jppat:FtermInformationBag>
+         <jppat:FtermInformation>3H178AA03</jppat:FtermInformation>
+         <jppat:FtermInformation>3H178AA40</jppat:FtermInformation>
+         <jppat:FtermInformation>3H178AA43</jppat:FtermInformation>
+         <jppat:FtermInformation>3H178BB31</jppat:FtermInformation>
+         <jppat:FtermInformation>3H178BB79</jppat:FtermInformation>
+         <jppat:FtermInformation>3H178CC02</jppat:FtermInformation>
+         <jppat:FtermInformation>4F211AG03</jppat:FtermInformation>
+         <jppat:FtermInformation>4F211AH31</jppat:FtermInformation>
+         <jppat:FtermInformation>4F211TA03</jppat:FtermInformation>
+         <jppat:FtermInformation>4F211TC03</jppat:FtermInformation>
+         <jppat:FtermInformation>4F211TD11</jppat:FtermInformation>
+         <jppat:FtermInformation>4F211TN60</jppat:FtermInformation>
+      </jppat:FtermInformationBag>
+   </jppat:InternationalPatentPublicationBibliographicData>
+   <jppat:ChosenDrawingImage>
+      <com:Image com:imageContentCategory="Drawing">
+         <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+         <com:FileName>2022503667000001.tif</com:FileName>
+         <com:HeightMeasure com:measureUnitCode="Mm">33</com:HeightMeasure>
+         <com:WidthMeasure com:measureUnitCode="Mm">99</com:WidthMeasure>
+      </com:Image>
+   </jppat:ChosenDrawingImage>
+   <jppat:Description>
+      <pat:TechnicalField>
+         <com:P com:pNumber="0001">
+  本発明は、ロータブレード付属品用のエッジシールを提供する方法について説明する。
+</com:P>
+         <com:P com:pNumber="0002">
+  風力タービンロータブレードの空気力学的な性能は、表面欠陥、特にロータブレードの前縁に近接して位置する表面欠陥に大きく左右される。このことは、例えば、前縁保護（leading edge protection；ＬＥＰ）カバーおよび／または渦発生（vortex generator；ＶＧ）パネル、後縁（trailing edge；ＴＥ）パネルなどを適用した後など、ロータブレード表面に段差または障害物が存在するときに問題となる。ＬＥＰカバーは、腐食保護カバーまたはＬＥＰシェルとも呼ばれる。
+</com:P>
+         <com:P com:pNumber="0003">
+  ロータブレードに取り付けられたパネルまたはカバーのエッジに急な段差が存在する場合がある。そのような顕著な高低差により、空気流が層流から乱流に移行し、このことは、風力タービンの年間発電量（annual energy production；ＡＥＰ）に悪影響を及ぼし、風力タービンの騒音にも寄与してしまう。
+</com:P>
+         <com:P com:pNumber="0004">
+  ＡＥＰへの影響を抑制するために、装着済みの付属品のエッジを研削して斜面またはスロープにすることが従来技術から公知である。しかし、そのような研削処置は、時間およびコストを要する。加えて、付属品のエッジ全体に沿って一様なエッジを得るのは困難であり、ロータブレード自体を研削してしまうリスクがある。付属品の材料が可撓性であり、それゆえに研削が困難であるため、研削処置を行うことも困難となってしまう。
+</com:P>
+         <com:P com:pNumber="0005">
+  付属品のエッジに沿った段差により生じる乱流を抑制する別の方法は、肉薄のエッジを有する付属品を製造することである。しかし、長くて肉薄のエッジを有するＬＥＰカバーなどの付属品を装着することにより、結果として、エッジに沿ってしわが生じてしまう。このしわは不都合なコストを招き、空気力学的な性能を低下させてしまう。
+</com:P>
+         <com:P com:pNumber="0006">
+  別の手法では、ＬＥＰシェルなどの付属品が、ブレード表面に形成された凹部に収まるように製造されてよい。しかし、この手法は、製造公差および品質に関する厳しい要件に関連しており、製造コストを著しく増加させ、また欠陥を招きがちである。
+</com:P>
+         <com:P com:pNumber="0007">
+  したがって、本発明の目的は、ロータブレードの空気力学的な性能に対する付属品のマイナスの影響を克服する方法を提供することである。
+</com:P>
+         <com:P com:pNumber="0008">
+  この目的は、ロータブレードの外表面に装着された付属品パーツの長手方向エッジに沿ってエッジシールを形成する請求項１の方法と、請求項１２の風力タービンロータブレードとによって達成される。
+</com:P>
+         <com:P com:pNumber="0009">
+  本発明は、ロータブレードの外表面に装着された付属品パーツの長手方向エッジに沿ってエッジシールを提供する方法を説明する。本発明の方法は、付属品パーツの長手方向エッジにおける高さを特定するステップと、ロータブレードの表面に適用されるエッジシールのための幅を選択するステップであって、エッジシールの幅は、付属品パーツの長手方向エッジにおける高さを少なくとも２０倍だけ超える（すなわち、ロータブレードのエッジシール幅と付属品高さとの比が少なくとも２０：１である）ように選択される、ステップと、少なくとも付属品パーツの長手方向エッジにおける高さおよび特定されたブレード表面エッジシール幅によって規定される体積でシーラント材を適用もしくは塗布することにより、エッジシールを形成するステップとを含む。用語「エッジシール幅」は、ロータブレード表面に形成され、付属品パーツの長手方向エッジに沿って始まり、付属品パーツの長手方向エッジとほぼ平行であるシール外縁まで延びる、エッジシールに対する幅を意味するものと理解されたい。
+</com:P>
+         <com:P com:pNumber="0010">
+  本発明の文脈では、付属品パーツの長手方向エッジは、顕著な段差の外観を有するものと想定されてよい。本発明の方法を使用してロータブレードに付属品を装着するときには、長手方向エッジが徐々に薄くなるように付属品を製造する必要がないので、そのような付属品の製造は、経済的に有利となり得る。付属品パーツは、一般に何らかの形で、例えば接着接合層により、ロータブレードに取り付けられるかまたは接合されるので、付属品パーツの長手方向エッジにおける高さは、付属品の長手方向エッジにおける高さおよび付属品をロータブレードに接合するための任意の接着層の高さからなるものと想定されてよい。
+</com:P>
+         <com:P com:pNumber="0011">
+  エッジシール幅は、付属品の長手方向エッジから外側に延びるものと理解されてよい。エッジシール幅が付属品の高さよりも著しく大きいので、改良されたエッジシールは、有利なことに、付属品に関連するＡＥＰ損失を抑制し、排除しさえする。本発明の方法によって得られるエッジシールは、ＬＥＰカバーなどのパーツに沿ってそのようなエッジシーリングが提供されていないロータブレードと比べて、旋回時にロータブレードによって発生する騒音を著しく抑制もする。これは主に、本発明の方法を使用して得られるシール幅が、既知のいずれのタイプのエッジシールよりも著しく広いためである。例えば、付属品パーツのエッジに沿ってまたは前縁保護テープに数ミリメートルの幅でシーラントを適用することが知られているが、そのような狭いエッジシールの上の層状空気流は、分離し、乱流を発達させることが観察されている。
+</com:P>
+         <com:P com:pNumber="0012">
+  本発明の方法は、風力タービンロータブレードの製造時に、また設置済みのロータブレードの修理時または更新時にも使用されてよい。本発明の方法は、本発明のエッジシーリングが提供された場合にＡＥＰへの寄与が改善する既存のブレード付属品にも同様に適用可能である。
+</com:P>
+         <com:P com:pNumber="0013">
+  本発明によれば、風力タービンロータブレードは、ロータブレードの外表面に装着された少なくとも１つの付属品パーツと、付属品パーツの少なくとも１つの長手方向エッジに沿って形成された、上述したような「拡張」エッジシールとを備える。
+</com:P>
+         <com:P com:pNumber="0014">
+  本発明の特に有利な実施形態および特徴は、以下の説明で明らかになるように、従属請求項によって与えられる。異なる請求項カテゴリの特徴は、本明細書で説明していない更なる実施形態を与えるために適宜に組み合わされてもよい。
+</com:P>
+         <com:P com:pNumber="0015">
+  以下では、いかなる方法でも本発明を限定することなく、用語「付属品」は、特にブレードの長手方向延在長さに沿って、ブレードの表面に取り付けられる保護カバー、プレートまたはパネルのうちのいずれかを意味するものと理解されてよい。用語「エッジシーリング」と「エッジシール」とは、同じ意味で使用されてよい。
+</com:P>
+         <com:P com:pNumber="0016">
+  シーリング剤または接着剤は、以下で説明するような重なりの有無のいずれかにかかわらず、付属品の１つ以上のエッジに沿ってエッジシールを形成するために使用する。用語「シーラント材」、「エッジシーラ」および「シーリング剤」は、そのような接着剤を指すために使用されてよい。好ましくは、シールは、適用後しばらくして固化し、液状時には所望の耐タレ性と所望の流動性とを組み合わせた特定のレオロジーを有する、液状シーラントを使用して形成される。好ましくは、固化したシーラントは、可撓性かつ耐摩耗性であり、適用される表面に良好に付着する。シーラントは、例えば冷却されると固くなるホットメルト接着剤であってよい。代わりに、化学的な硬化プロセスによって固くなるシーラントが好ましい場合もある。例示的な材料は、上述したような耐タレ性および流動性の所望の特性をふまえて選択される、エポキシ、ポリウレタン、ポリ尿素、シリコーン、シラン変性ポリマー（silane modified polymer；ＳＭＰ）、メチルメタクリレート（methylmethacrylate；ＭＭＡ）などであってよい。例えば、シーラント材は、耐タレ性と流動性との良好なバランスと、硬化状態での有利な高い可撓性とをもたらす、特定の接着粘度を有するように選択されてよい。そのような材料を使用してＬＥＰの長手方向エッジに沿って形成されたエッジシールの完全性は、ロータブレードの反復的なねじり曲げによって損なわれない。
+</com:P>
+         <com:P com:pNumber="0017">
+  付属品のエッジを空気力学的に最適化する本発明の方法は、ＬＥＰカバーなどの空気力学的なデバイスに限定されない。付属品は、センサを備えるプレート、例えば、ロータブレードの湾曲面に適合する可撓性プレートであってもよい。そのようなセンサプレートをロータブレード表面に固定することにより、ＡＥＰに関する改善を実現する、本発明のシーリング構想の恩恵を受けることができる。そのようなプレートは、ロータブレードの前縁と後縁との間の任意の位置でロータブレード表面に取り付けられてもよく、ロータブレードの負圧面または正圧面に装着されてもよい。好ましくは、本発明の方法を使用して、そのようなプレートの任意の長手方向エッジに沿ってエッジシールが形成される。このようにして、そのようなプレートの風上または風上側エッジ（すなわち、ロータブレードの前縁に近い方のエッジ）も、風下側エッジ（ロータブレードの後縁に近い方のエッジ）も、ロータブレード表面の上の層状空気流に悪影響を及ぼさない。
+</com:P>
+         <com:P com:pNumber="0018">
+  例えば、付属品のエッジ段差の高さは、０．７ｍｍであってよい。付属品のエッジ段差の高さは、付属品の外側エッジの厚さと、ロータブレードに付属品を取り付けるために使用する任意の接着剤または接合層の厚さとの合計となる。この場合、この付属品のエッジシーリングの最小幅は１４ｍｍとなる。エッジ段差の高さが１．０ｍｍの場合、エッジシーリングの最小幅は２０ｍｍとなる。
+</com:P>
+         <com:P com:pNumber="0019">
+  エッジシール幅と段差高さとの比は、２０：１～１００：１の間で変化することができる。例示的なエッジ段差の高さ範囲が０．５ｍｍ～１．５ｍｍの場合、エッジシールに対する幅は、少なくとも１０ｍｍ、最大で１５０ｍｍとなる。ロータブレードの付属品パーツのそのような比較的広幅のエッジシールは、空気力学的な挙動の改善をもたらすことが（風洞実験で）観察されている。
+</com:P>
+         <com:P com:pNumber="0020">
+  本発明の更なる好ましい実施形態は、ロータブレード表面の上の空気流の層流性を、付属品の長手方向エッジの上にエッジシールを形成することにより、すなわち、付属品とロータブレードとの両方の外表面にエッジシールを「重ねる」ことにより、保持できるという洞察に基づく。したがって、本発明の更なる好ましい実施形態では、方法は、長手方向エッジに隣接する付属品表面の領域における、エッジシールの重なり幅を特定するステップを含む。用語「重なり幅」は、付属品の表面に延びるエッジシール部分の幅を意味するものと理解されたい。重なり幅は、付属品高さに基づいて特定される。
+</com:P>
+         <com:P com:pNumber="0021">
+  エッジシールを形成するステップは、好ましくは、付属品パーツの重なり領域にもシーラント材を適用することを含む。エッジシールの重なりは、有利には、付属品のエッジの上に平滑な層を形成することができる。
+</com:P>
+         <com:P com:pNumber="0022">
+  本発明の方法では、エッジシール幅およびエッジシールの重なり幅は、好ましくは、付属品のエッジの後方、すなわち付属品の風下にあるブレードの表面での層流から乱流への流れの移行の開始を防止するかまたは少なくとも著しく遅延させるために、特定の付属品に対して「調整」される。好ましくは、エッジシーリングの範囲（すなわち幅）および任意の重なりの範囲は、付属品の長手方向エッジでのエッジ段差の高さによって支配される。
+</com:P>
+         <com:P com:pNumber="0023">
+  重なり幅と段差高さとの比は、１０：１から５０：１まで変化することができる。例示的なエッジ段差の高さが０．５ｍｍの場合、重なり幅は５ｍｍ～２５ｍｍの幅となる。エッジ段差の高さが１．５ｍｍの場合、エッジシール幅は１５～７５ｍｍの幅となる。上述した推奨する比は、当該技術分野において公知の解決策によって典型的に使用するものよりも著しく大きい。エッジシーリングの最大可能な幅または範囲は、ロータブレードの曲率によっても特定または制限されてよい。
+</com:P>
+         <com:P com:pNumber="0024">
+  本明細書で提案するエッジシーリングは、付属品の適用時に形成された任意の隙間および表面の割れ目に流れ込むとともに、平滑な仕上がりを確保するのに十分なほどに流動的となるように、粘度が十分に低いシーリング剤または接着剤を使用することによって実現されてよい。しかし、接着剤の粘度は、エッジシールの外側境界に沿った最小高さを特定するので、シーラント材は、好ましくは、ブレード表面へのスムーズな移行が保証されるようにも選択される。
+</com:P>
+         <com:P com:pNumber="0025">
+  シーラント材が付属品エッジまたは段差に重なるように形成されるか否かにかかわらず、シーラント材は、特性が異なるいくつかのヘラを含む工具セットを使用して適用されてよい。本発明の好ましい実施形態では、エッジシールを形成するステップは、少なくとも、付属品パーツの長手方向エッジに並んでロータブレードの表面にシーラント材を堆積させるステップを含む。次に、準備ヘラを使用して、付属品パーツの長手方向エッジおよび選択されたエッジシール幅によって囲まれた領域にシーラント材を広げる。下準備工具は、好ましくは、シーラントの初期の広がりを容易にする可撓性および形状を有する。後続のステップでは、洗練ヘラを使用して、下準備工具によって広げられたシーラントの形状を洗練する（refine）。好ましくは、洗練工具は下準備工具よりも硬さが低い。
+</com:P>
+         <com:P com:pNumber="0026">
+  本発明の方法は、好ましくは、平滑な薄いマスキングテープを使用して、意図されるエッジシールの領域を画定するステップを含むことができる。１つのテープは、エッジ段差から外側に距離を置いて、意図されるエッジシールの外縁に沿って延びていてよい。この距離は、エッジ段差の高さよりも少なくとも２０倍大きい。テープの厚さは、可能な限り小さく、好ましくは最大で０．２ｍｍである。エッジシールの他の境界は、エッジ段差によって規定されてよい。代わりに、エッジ段差の上に重なりが形成される場合、付属品の長手方向エッジと平行に、付属品の表面に第２のテープを適用してもよい。シーラントは、次いで、これらの範囲内に適用される。シーラントは、最初に、例えば、ディスペンサノズルからビードの形でまたはスプレーによって、ロータブレード（および付属品）に大まかに堆積させることができる。大まかに適用されたシーラントは、次いで、準備整形工具、例えば、可撓性の歯付きヘラを使用して広げられる。このことは、エッジシール範囲の間で歯付きヘラをロータブレード表面の長手方向に案内することによって行うことができる。この準備ステップが完了すると、テープが除去される。まだ液状のシーラントは、次いで、広げられたシーラントの上でより軟質の可撓性のヘラを引いて動かすことによって最終形状に平滑化される。第２の工具による段差のこの洗練または平滑化は、エッジ段差とエッジシールの外側境界との間のエッジシールの「ウェッジ」の高さをさらに減少させる役割を果たす。第２の可撓性ヘラは、好ましくは、比較的低いショア硬さ、例えば５０±１０を確保するためにシリコーンなどの材料で作られる。
+</com:P>
+         <com:P com:pNumber="0027">
+  大きなエッジ段差の場合、フィラー材を使用してエッジシールを補強してもよい。そのような本発明の好ましい実施形態では、フィラー材は、エッジ段差を最初に抑制するために、すなわち、付属品エッジから外側に延びる小さなウェッジまたはスロープを形成するために、付属品のエッジに沿って適用される。シーラント材は、次いで、フィラーの上に適用される。フィラー材は、フィラー層または下層の容易な形成を促すために、シーラント材よりも高い粘度を有していてよい。フィラーの範囲または幅は、シーラント材の一様な層をフィラーの上に適用してロータブレード表面へのスムーズな移行を実現できるように、ブレード表面のエッジシール幅よりも小さくなる。フィラー材が占める体積は、エッジシールの意図される体積の半分未満であってよい。
+</com:P>
+         <com:P com:pNumber="0028">
+  有利には、本発明のエッジシールは、ロータブレードの空気力学的な性能に対する段差または他の障害物のマイナスの影響を抑制する。ロータブレードの空気力学的な性能に対する付属品の顕著なエッジのマイナスの影響を著しく抑制し、排除しさえすることにより、本発明のエッジシールは、付属品が「ＡＥＰニュートラル」であることを確実にすることができる。
+</com:P>
+         <com:P com:pNumber="0029">
+  本発明の方法は、エッジがより厚い、ＬＥＰシェル、ＬＥＰカバーなどの付属品を実装することも可能にする。このことは、コスト削減に関連する。これは、ＬＥＰカバーやシェルなどの付属品の製造では、薄いエッジの形成がコスト増加要因となるためである。上述したエッジシーリング法は、ＬＥＰ解決策の空気力学的な性能の向上に寄与する。本発明のエッジシーリングは、エッジがより厚いシェルの使用を間接的に可能にすることにより、製造コストの削減に寄与し、不適合コストなどの不利益を避けるために役立てることができる。
+</com:P>
+         <com:P com:pNumber="0030">
+  本発明の他の目的および特徴は、添付図面と併せて考慮される以下の詳細な説明から明らかになるであろう。しかし、図面は、例示を目的とするものにすぎず、本発明の限定事項を規定するものでないことを理解されたい。
+</com:P>
+      </pat:TechnicalField>
+      <pat:DrawingDescription>
+         <com:P com:pNumber="0031">
+            <com:FigureReference com:referencedFigureNumber="1">ロータブレード付属品の長手方向エッジに適用される、本発明のエッジシールの実施形態を示す図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="2">本発明のエッジシールの更なる実施形態を示す図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="3">本発明のエッジシールの更なる実施形態を示す図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="4">従来技術から公知であるような、ロータブレード表面に取り付けられた付属品を示す図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="5">従来技術から公知であるような、ロータブレード表面に取り付けられた別の付属品を示す図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="6">本発明の方法に使用するテンプレートを示す図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="7">本発明の方法に使用するテンプレートを示す図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="8">本発明の方法を使用して形成されたエッジシールの上の層状空気流を示す図である。</com:FigureReference>
+         </com:P>
+         <com:P com:pNumber="0032">
+  図中、同一の符号は、全体を通して同一の対象を指している。図中の対象は、必ずしも縮尺に従って示されていない。
+</com:P>
+         <com:P com:pNumber="0033">
+  図１は、ＬＥＰカバー、シェル、ＴＥカバー、ＶＧパネル、ＴＥパネル、センサパネルなどのうちのいずれかであってよい付属品３に適用される本発明のエッジシールＳ１の実施形態を示す。付属品３は、接着接合層３３によってロータブレード２の外表面２０に取り付けられる。議論の目的のために、接着層３３は、付属品３の要素とみなされてよい。付属品３のエッジ３Ｅの高さｔ１は、付属品３の厚さと接着層３３の厚さとの合計となる。付属品エッジ３Ｅは、ロータブレード２の長手方向に延びていると想定されてよい。図は、付属品３のエッジ３Ｅの「段差」形状を明確に示している。本発明の方法を使用することで、エッジシールＳ１が、付属品エッジ３Ｅに沿って形成される。エッジシールＳ１は、付属品エッジ３Ｅの第１の箇所Ｊ１に始まり、第２の箇所Ｊ２まで延びており、これによって、シールＳ１の高さは、箇所Ｊ１の最大値から箇所Ｊ２の最小値まで漸減する。比δ１：ｔ１は、好ましくは少なくとも２０：１である。この場合のエッジシールＳ１の体積は、エッジシールＳ１の断面積、すなわち、（ｔ１×δ１）／２にシールＳ１の長さ、例えば、付属品３の長手方向エッジ３Ｅの長さを乗じた値となる。
+</com:P>
+         <com:P com:pNumber="0034">
+  図２は、本発明のエッジシールの更なる実施形態を示す。ここで、エッジシールＳ０１は、付属品３（この場合は、ロータブレード２の前縁の付近に装着されたＬＥＰカバー）の長手方向エッジ３Ｅに適用される。この例示的な実施形態では、エッジシールＳ０１は、付属品３の長手方向エッジ３Ｅに重なり、すなわち、エッジシールＳ０１は、箇所Ｊ０に始まり、箇所Ｊ２まで延びる。したがって、エッジシールＳ０１の全幅δ０１は、箇所Ｊ０から箇所Ｊ１まで延びる重なりＳ<com:Sub>ｏｖ</com:Sub>の幅δ０と、箇所Ｊ１から箇所Ｊ２まで延びる残りのエッジシール幅δ１との合計となる。この実施形態では、シールＳ０１の高さは、箇所Ｊ０の最小値から箇所Ｊ０の最大値まで漸増し、箇所Ｊ１の最大値から箇所Ｊ２の最小値まで漸減する。シールＳ０１の最大高さは、重なり幅δ０および／または箇所Ｊ１と箇所Ｊ２との間のエッジシール幅δ１に応じて、付属品エッジ３Ｅの高さを最大で２．０ｍｍ超えてよい。この高さは、ヘラなどの工具を使用して適用されるシーラントまたは接着剤の層厚さの制御に基づく。
+</com:P>
+         <com:P com:pNumber="0035">
+  図３は、本発明のエッジシールの更なる実施形態を示す。図２のエッジシールＳ０１に類似して、この場合のエッジシールＳ０１Ｆは、長手方向の付属品エッジ３Ｅに沿って最初に適用されたフィラーＦの上に延びる。フィラーＦは、速硬性接着剤および／または高粘度接着剤であってよい。フィラーＦは、付属品３の高さよりも短い真っ直ぐな面を有するウェッジを形成するように適用することができる。後続のステップでは、硬化または固化したフィラーＦの上にシーラント材が適用され、それにより、得られたエッジシールＳ０１Ｆは、付属品３の長手方向エッジ３Ｅに重なり、箇所Ｊ０に始まり、箇所Ｊ２まで延びる。この場合も、エッジシールＳ０１Ｆの全幅δ０１は、箇所Ｊ０から箇所Ｊ２までで測定される。上記の図２に記載したように、シールＳ０１Ｆの高さは、箇所Ｊ０の最小値から箇所Ｊ０の最大値まで漸増し、箇所Ｊ１の最大値から箇所Ｊ２の最小値まで漸減する。ここで示すフィラーＦは、図１の実施形態でも使用することができる。
+</com:P>
+         <com:P com:pNumber="0036">
+  図４は、従来技術から公知である方法でロータブレード表面２０に取り付けられた付属品３を示す。上で説明したように、付属品３は、接着剤３３を使用して取り付けられてよい。付属品３の長手方向エッジ３Ｅは、顕著なまたは明確な段差を形成し、段差は、層状空気流Ａ<com:Sub>ｌａｍ</com:Sub>を分離させ、結果、段差３Ｅの風下に乱流Ａ<com:Sub>ｔｕｒｂ</com:Sub>を発生させてしまう。そのような乱流Ａ<com:Sub>ｔｕｒｂ</com:Sub>は、ロータブレード２の空気力学的な性能を低下させ、それゆえに風力タービンのＡＥＰを低減させる。
+</com:P>
+         <com:P com:pNumber="0037">
+  図５は、ロータブレード表面２０に付属品３を固定するための従来技術の別の手法を示す。ここで、付属品３の長手方向エッジ３Ｅによって形成された段差３Ｅは、エッジ３Ｅに沿って適用されたシール５０によってそれほど顕著ではなくなる。そのような従来技術のエッジシール５０の幅は一般に２～５ｍｍしかない。ロータブレード２の上に流入してくる層状空気流Ａ<com:Sub>ｌａｍ</com:Sub>は、上記の図４に示すほど深刻な影響を与えないが、シール５０によって提供されるそれほど顕著ではない段差であっても、空気流の層流性を維持するには不十分であり、結果、シール５０の風下に乱流Ａ<com:Sub>ｔｕｒｂ</com:Sub>を発生させてしまうので、この手法も、ロータブレード２の空気力学的な性能に対するマイナスの影響と、風力タービンのＡＥＰの相応の低減とを示す。
+</com:P>
+         <com:P com:pNumber="0038">
+  図６および図７は、本発明の方法を使用してエッジシールＳ０１を形成する段階を示す。シーラント材Ｓは、付属品３（この場合は前縁保護具）のエッジ３Ｅに沿って大まかに分配される。下準備工具Ｔ０を用いることで、大まかに適用されたシーラントＳは、付属品３の長いエッジ３Ｅとマスクテープ６０との間の容積を満たすように広げられる。マスクテープは、好ましくは、平滑であり、厚さが最大で０．２ｍｍである。ここで、下準備工具Ｔ０は、可撓性の歯付きヘラである。下準備工具の可撓性は、シーラントＳを広げることを容易にするために、下準備工具を両軸線方向に曲げられるようなものである。次いで、洗練工具Ｔ１を使用して、まだ軟性のシーラントＳが、（この場合は、付属品３の長いエッジ３Ｅに並んで重なりＳ<com:Sub>ｏｖ</com:Sub>を形成するように）所望に成形される。マスクテープ６０は、このステップの後に除去することができる。最後のステップでは、洗練工具Ｔ１を再び使用して、エッジシールＳ０１の形状をさらに最適化する。この洗練工具Ｔ１は、下準備工具Ｔ０よりも軟質であり、例えば、ショア硬さが４０～６０であり、それにより、エッジシールの所望の輪郭形状を実現するために、シーラントを広げる際に所望に曲げることができる。
+</com:P>
+         <com:P com:pNumber="0039">
+  図８は、本発明の方法を使用してエッジシールＳ１を付与した付属品の上の空気流を示す。図は、空気流Ａ<com:Sub>ｌａｍ</com:Sub>の層流性が、平滑な拡張エッジシールＳ１により維持されることを示す。
+</com:P>
+         <com:P com:pNumber="0040">
+  本発明は、好ましい実施形態およびその変化の形態で開示されているが、それらに対して、本発明の範囲から逸脱することなく、多くの付加的な変更および変形が行われてもよいことが理解されるであろう。
+</com:P>
+         <com:P com:pNumber="0041">
+  明確にするために、本願の全体を通して、「１つの（a）」または「１つの（an）」の使用は、複数を排除しておらず、また「備える（comprising）」の使用は、他のステップまたは要素を排除していないことを理解されたい。
+</com:P>
+      </pat:DrawingDescription>
+   </jppat:Description>
+   <pat:Claims>
+      <pat:Claim>
+         <pat:ClaimNumber>1</pat:ClaimNumber>
+         <pat:ClaimText>
+  ロータブレード（２）の外表面（２０）に装着された付属品パーツ（３）の長手方向エッジ（３Ｅ）に沿ってエッジシール（Ｓ１，Ｓ０１，Ｓ０１Ｆ）を提供する方法であって、<com:Br/>
+  前記付属品パーツ（３）の前記長手方向エッジ（３Ｅ）における高さ（ｔ１）を特定するステップと、<com:Br/>
+  前記ロータブレード表面（２０）に適用される前記エッジシール（Ｓ１，Ｓ０１，Ｓ０１Ｆ）のための幅（δ１）を選択するステップであって、前記エッジシール（Ｓ１，Ｓ０１，Ｓ０１Ｆ）の前記幅（δ１）は、前記付属品パーツ（３）の前記長手方向エッジ（３Ｅ）における前記高さ（ｔ１）を少なくとも２０倍だけ超えるように選択される、ステップと、<com:Br/>
+  少なくとも前記付属品パーツ（３）の前記長手方向エッジ（３Ｅ）における前記高さ（ｔ１）および選択された前記エッジシール幅（δ１）によって規定される体積で前記ロータブレード表面（２０）にシーラント材（Ｓ）を適用することにより、前記エッジシール（Ｓ１，Ｓ０１，Ｓ０１Ｆ）を形成するステップと、<com:Br/>
+を含む方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>2</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記エッジシール幅（δ１）は、好ましくは少なくとも１２ｍｍである、請求項１記載の方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>3</pat:ClaimNumber>
+         <pat:ClaimText>
+  エッジシール幅（δ１）と前記付属品パーツ（３）の前記長手方向エッジ（３Ｅ）における高さ（ｔ１）との比は、最大で１００：１である、請求項１または２記載の方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>4</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記付属品パーツ（３）の前記長手方向エッジ（３Ｅ）に隣接する重なり領域におけるエッジシール重なり（Ｓ<com:Sub>ｏｖ</com:Sub>）の幅（δ０）を特定するステップを含み、前記重なり幅（δ０）は、前記付属品パーツ（３）の前記長手方向エッジ（３Ｅ）における前記高さ（ｔ１）に基づいて特定される、請求項１から３までのいずれか１項記載の方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>5</pat:ClaimNumber>
+         <pat:ClaimText>
+  重なり幅（δ０）と前記長手方向エッジ（３Ｅ）における高さ（ｔ１）との比は、１０：１～５０：１の範囲内にある、請求項４記載の方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>6</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記エッジシール（Ｓ１，Ｓ０１，Ｓ０１Ｆ）を形成する前記ステップは、前記付属品パーツ（３）の前記重なり領域にも前記シーラント材を適用することをさらに含む、請求項４または５記載の方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>7</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記エッジシール（Ｓ０１，Ｓ０１Ｆ）の前記高さ（ｔ０１）が、前記付属品パーツ（３）の前記長手方向エッジ（３Ｅ）における前記高さ（ｔ１）を超えるように、前記シーラント材は、前記重なり幅（δ０）および前記エッジシール幅（δ１）にわたって適用される、請求項１から６までのいずれか１項記載の方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>8</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記エッジシール（Ｓ０１Ｆ）を形成する前記ステップに先行して、前記付属品パーツ（３）の前記長手方向エッジ（３Ｅ）に沿ってフィラー材（Ｆ）を適用するステップが行われ、前記フィラー材（Ｆ）が占める体積は、前記エッジシール（Ｓ０１Ｆ）の意図される前記体積よりも小さい、請求項１から７までのいずれか１項記載の方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>9</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記シーラント材は、前記付属品パーツ（３）の前記エッジ（３Ｅ）から前記ロータブレード表面（２０）への所望のスムーズな移行を規定するように成形されたテンプレート（４）を使用して適用される、請求項１から８までのいずれか１項記載の方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>10</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記テンプレート（４）は、前記付属品パーツ（３）の前記重なり領域に前記シーラント材を分配するようにも成形されている、請求項１から９までのいずれか１項記載の方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>11</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記エッジシール幅（δ１）は、前記ロータブレード（２）の曲率によってさらに特定される、請求項１から１０までのいずれか１項記載の方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>12</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記エッジシール（Ｓ１，Ｓ０１，Ｓ０１Ｆ）を形成する前記ステップは、<com:Br/>
+  少なくとも前記付属品パーツ（３）の前記長手方向エッジ（３Ｅ）に並んで前記ロータブレード（２）の前記表面にシーラント材（Ｓ）を堆積させるステップと、<com:Br/>
+  下準備工具（Ｔ０）を使用して、前記付属品パーツ（３）の前記長手方向エッジ（３Ｅ）および選択された前記エッジシール幅（δ１）によって画定された領域に前記シーラント材（Ｓ）を広げるステップと、<com:Br/>
+  前記下準備工具（Ｔ０）よりも低い硬さと、所望のエッジシール形状に基づく輪郭とを有する洗練工具（Ｔ１）を使用して、前記下準備工具（Ｔ０）によって広げられた前記シーラント（Ｓ）の形状を洗練するステップと、<com:Br/>
+を含む、請求項１から１１までのいずれか１項記載の方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>13</pat:ClaimNumber>
+         <pat:ClaimText>
+  風力タービンロータブレード（２）であって、<com:Br/>
+  前記ロータブレード（２）の外表面（２０）に装着された少なくとも１つの付属品パーツ（３）と、<com:Br/>
+  前記付属品パーツ（３）の少なくとも１つの長手方向エッジ（３Ｅ）に沿って形成された、請求項１から１２までのいずれか１項記載のエッジシール（Ｓ１，Ｓ０１，Ｓ０１Ｆ）と、<com:Br/>
+を備える風力タービンロータブレード（２）。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>14</pat:ClaimNumber>
+         <pat:ClaimText>
+  付属品パーツ（３）は、前縁保護カバー、後縁パネル、渦発生パネル、プレートまたはセンサパネルのうちのいずれかを備える、請求項１３記載の風力タービンロータブレード。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>15</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記付属品パーツ（３）の長手方向エッジ（３Ｅ）における厚さは、０．５～１．５ｍｍの範囲内にある、請求項１３または１４記載の風力タービンロータブレード。
+</pat:ClaimText>
+      </pat:Claim>
+   </pat:Claims>
+   <pat:Abstract>
+      <com:P com:pNumber="">
+  本発明は、ロータブレード（２）の外表面（２０）に装着された付属品パーツ（３）の長手方向エッジ（３Ｅ）に沿ってエッジシール（Ｓ１，Ｓ０１，Ｓ０１Ｆ）を提供する方法であって、付属品パーツ（３）の長手方向エッジ（３Ｅ）における高さ（ｔ１）を特定するステップと、ロータブレード表面（２０）に適用されるエッジシール（Ｓ１，Ｓ０１，Ｓ０１Ｆ）のための幅（δ１）を選択するステップであって、エッジシール（Ｓ１，Ｓ０１，Ｓ０１Ｆ）の幅（δ１）は、付属品パーツ（３）の長手方向エッジ（３Ｅ）における高さ（ｔ１）を少なくとも２０倍だけ超えるように選択される、ステップと、少なくとも付属品パーツ（３）の長手方向エッジ（３Ｅ）における高さ（ｔ１）および選択されたエッジシール幅（δ１）によって規定される体積でロータブレード表面（２０）にシーラント材（Ｓ）を適用することにより、エッジシール（Ｓ１，Ｓ０１，Ｓ０１Ｆ）を形成するステップとを含む方法を記載する。
+</com:P>
+   </pat:Abstract>
+   <pat:Drawings>
+      <pat:Figure>
+         <pat:FigureNumber>1</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>2022503667000002.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">44</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">132</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>2</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>2022503667000003.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">59</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">142</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>3</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>2022503667000004.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">58</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">133</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>4</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>2022503667000005.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">86</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">169</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>5</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>2022503667000006.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">89</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">169</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>6</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>2022503667000007.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">64</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">110</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>7</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>2022503667000008.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">67</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">110</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>8</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>2022503667000009.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">65</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">126</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+   </pat:Drawings>
+   <jppat:SearchReportBag>
+      <jppat:SearchReport>
+         <jppat:PageImage>
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>2022503667000010.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">241</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </jppat:PageImage>
+      </jppat:SearchReport>
+      <jppat:SearchReport>
+         <jppat:PageImage>
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>2022503667000011.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">241</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </jppat:PageImage>
+      </jppat:SearchReport>
+      <jppat:SearchReport>
+         <jppat:PageImage>
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>2022503667000012.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">241</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </jppat:PageImage>
+      </jppat:SearchReport>
+   </jppat:SearchReportBag>
+</jppat:InternationalPatentPublication>

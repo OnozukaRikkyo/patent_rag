@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding='utf-8'?>
+<!-- <?xml-stylesheet type="text/xsl" href="../../../../../XSL/gat-u9.xsl"?> -->
+<!DOCTYPE jp-official-gazette PUBLIC "-//JPO//DTD REGISTERED UTILITY MODEL 1.0//EN" "../../../../../DTD/gat-u9.dtd">
+<jp-official-gazette kind-of-jp="U9" kind-of-st16="U" lang="ja" dtd-version="1.0" country="JP" xmlns:jp="http://www.jpo.go.jp"><bibliographic-data lang="ja" country="JP">
+    <publication-reference>
+      <document-id>
+        <country>JP</country>
+        <doc-number>3214154</doc-number>
+        <kind>登録実用新案公報(U)</kind>
+        <date>20171206</date>
+      </document-id>
+    </publication-reference>
+    <application-reference>
+      <document-id>
+        <doc-number>2017003204</doc-number>
+        <date>20170627</date>
+      </document-id>
+    </application-reference>
+    <invention-title>バンバンスティック</invention-title>
+    <parties>
+      <jp:applicants-agents-article>
+        <jp:applicants-agents sequence="1">
+          <applicant sequence="1">
+            <addressbook lang="ja">
+              <name>株式会社森田エンタープライズ</name>
+              <registered-number>000146870</registered-number>
+              <address>
+                <text>埼玉県さいたま市見沼区大字大谷７５０番地</text>
+              </address>
+            </addressbook>
+          </applicant>
+        </jp:applicants-agents>
+      </jp:applicants-agents-article>
+      <inventors>
+        <inventor sequence="1">
+          <addressbook>
+            <name>大木  則勝</name>
+            <address>
+              <text>埼玉県さいたま市見沼区大字大谷７５０番地  株式会社  森田エンタープライズ内</text>
+            </address>
+          </addressbook>
+        </inventor>
+      </inventors>
+    </parties>
+    <dates-of-public-availability>
+      <printed-with-grant>
+        <document-id>
+          <date>20171228</date>
+        </document-id>
+      </printed-with-grant>
+    </dates-of-public-availability>
+    <classification-ipc><edition/><main-clsf>A63H  27/10        20060101AFI20171214BHJP        </main-clsf><further-clsf>A63H   5/00        20060101ALI20171214BHJP        </further-clsf><further-clsf>G10K   3/00        20060101ALI20171214BHJP        </further-clsf></classification-ipc>
+    <classification-national><country>JP</country><main-clsf>A63H27/10 H</main-clsf><further-clsf>A63H5/00 H</further-clsf><further-clsf>G10K3/00</further-clsf></classification-national>
+    <number-of-claims jp:adopted-law="claim">1</number-of-claims>
+    <figure-to-publish>
+      <fig-number>1</fig-number>
+    </figure-to-publish>
+    <jp:request-for-registrability-report true-or-false="false"/>
+    <jp:filing-form>書面</jp:filing-form>
+    <jp:total-pages>4</jp:total-pages>
+  </bibliographic-data><jp:image-of-bibliographic-data><img id="000001" he="140" wi="160" file="0003214154.tif" img-format="tif" img-content="drawing"/></jp:image-of-bibliographic-data><jp:image-of-chosen-drawing>
+    <img id="000002" he="80" wi="69" file="0003214154.tif" img-format="tif" img-content="drawing"/>
+  </jp:image-of-chosen-drawing><jp:abstract-correction/><description>
+        
+        <technical-field>
+            <p num="0001">  本考案は、応援グッズとして用いられるスティック式バルーンに関するものである。</p>
+        </technical-field>
+        <background-art>
+            <p num="0002">  各種運動競技、コンサート、テレビ観戦等で空気により膨らませたバンバンスティックを２本のバンバンスティックを叩いて使用したり、１本のバンバンスティックを振ったりして使用し、多人数で応援するグッズとして広く浸透している。</p>
+        </background-art>
+        <citation-list>
+            <p num="0003"><patcit num="1"><text>特開平５−３１２６０号公報</text></patcit><patcit num="2"><text>特開平９−２８５６４８号公報</text></patcit><patcit num="3"><text>特開２００１−３０９９６号公報</text></patcit><patcit num="4"><text>特開２００６−５１０５３号公報</text></patcit><patcit num="5"><text>特開２００９−２８１５６５号公報</text></patcit></p>
+        </citation-list>
+        <summary-of-invention>
+            <tech-problem>
+                <p num="0004">  解決しようとする課題は、ポリエチレンフイルムを使用し、フイルムを２枚に重ね合わせたフイルムの表面を熱で溶かし溶着させる事で空気の入る層を形成し、重ね合わせたフイルムの一部に逆止弁を熱溶着させる事により、空気の漏れないバンバンスティックを提供する。</p>
+            </tech-problem>
+            <tech-solution>
+                <p num="0005">  本考案は、バンバンスティック１において、シート部２にシール部３、逆止弁４を設けたバンバンスティックを提供する。</p>
+            </tech-solution>
+            <advantageous-effects>
+                <p num="0006">  以上説明した様に本考案によればエアーを注入することによりバンバンスティックとしての形状が形成されバンバンスティックを２本で叩くことにより、応援グッズとして音をたてて使用するバンバンスティックを提供することが可能である。</p>
+            </advantageous-effects>
+        </summary-of-invention>
+        <best-mode>
+            <p num="0007">  以上説明した様に本考案によれば、バンバンスティック１において、シート部２にシール部３、逆止弁４を設ける事により、シート部２に空気層が形成され、シート部２に逆止弁４を設け、逆止弁４から空気を入れる事により空気の漏れないバンバンスティックを提供する事が可能である。</p>
+        </best-mode>
+        <description-of-drawings>
+            <p num=""/>
+        </description-of-drawings>
+        <description-of-embodiments>
+            <p num="0008">  以下、図面を用いて本発明の実施の形態を説明する。バンバンスティック１において、シート部２にシール部３、逆止弁４を設ける事により、シート部２に空気層が形成され、シート部２に逆止弁４を設ける事により逆止弁４から空気を入れる事により空気の漏れないバンバンスティックを提供する。</p>
+            <p num="0009">  図１は、本考案の表面図を表したものである。本考案は、２枚に重ね合わせた、ポリエチレンのシートに熱を加えてシール加工することにより空気層が形成され、形成した空気層に空気を注入することにより、膨らんだ応援棒が形成され、膨らんだ応援棒２本を双方で叩くことにより、音が発生しバンバンスティックとして使用することが可能になった。</p>
+        </description-of-embodiments>
+        <description-of-drawings>
+            <p num="0010"><figref num="1">  本考案の表面図である。</figref><figref num="2">  本考案の斜視図を表した説明図である。</figref></p>
+        </description-of-drawings>
+        <reference-signs-list>
+            <p num="0011">    １  バンバンスティック<br/>
+    ２  シート部<br/>
+    ３  シール部<br/>
+    ４  逆止弁</p>
+        </reference-signs-list>
+    </description><claims>
+        <claim num="">
+            <claim-text/>
+        </claim>
+    </claims><abstract>
+  <p num="">【課題】空気の漏れないバンバンスティックを提供する。<br/>【解決手段】ポリエチレンフイルムを２枚重ね合わせて形成したバンバンスティック１であって、ポリエチレンシート部２に熱溶着シール部３、逆止弁４を設ける。シート部に空気層が形成され、逆止弁から空気を入れて使用する。<br/>【選択図】図１</p>
+</abstract><drawings>
+        <figure num="1">
+            <img id="000003" file="0003214154.tif" he="83" img-format="tif" wi="72" img-content="drawing"/>
+        </figure>
+        <figure num="2">
+            <img id="000004" file="0003214154.tif" he="80" img-format="tif" wi="71" img-content="drawing"/>
+        </figure>
+    </drawings><jp:written-amendment-group><jp:written-amendment kind="amendment"><date>20171003</date><jp:amendment-article><jp:amendment-group jp:serial-number="1"><jp:document-code>A26333</jp:document-code><jp:item-of-amendment>全文</jp:item-of-amendment><jp:way-of-amendment>3</jp:way-of-amendment><jp:contents-of-amendment jp:kind-of-document="claims" jp:kind-of-law="utility">
+                    <claims>
+                        <claim num="1">
+                            <claim-text>バンバンスティック１において、シート部２にシール部３、逆止弁４を設ける事により、シート部２に空気層が形成され、シート部２に逆止弁４を設ける事により逆止弁４から空気を入れる事により空気の漏れないバンバンスティックを提供する。</claim-text>
+                        </claim>
+                    </claims>
+                </jp:contents-of-amendment></jp:amendment-group></jp:amendment-article></jp:written-amendment></jp:written-amendment-group></jp-official-gazette>

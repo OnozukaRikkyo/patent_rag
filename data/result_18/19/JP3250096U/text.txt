@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="../../../../../XSL/JPRegisteredUtilityModelPublication.xsl"?> -->
+<jputl:RegisteredUtilityModelPublication xmlns:jpcom="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPCommon"
+                                         xmlns:jputl="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPUtility"
+                                         xmlns:com="http://www.wipo.int/standards/XMLSchema/ST96/Common"
+                                         xmlns:pat="http://www.wipo.int/standards/XMLSchema/ST96/Patent"
+                                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                         xsi:schemaLocation="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPUtility ../../../../../XSD/JPRegisteredUtilityModelPublication_V1_0.xsd"
+                                         com:languageCode="ja"
+                                         com:st96Version="V3_1"
+                                         com:ipoVersion="JP_V1_0">
+   <com:IPOfficeCode>JP</com:IPOfficeCode>
+   <jputl:RegisteredUtilityModelPublicationBibliographicData com:languageCode="ja">
+      <com:IPOfficeCode>JP</com:IPOfficeCode>
+      <jputl:UtilityModelPublicationIdentification>
+         <com:IPOfficeCode>JP</com:IPOfficeCode>
+         <pat:PublicationNumber>3250096</pat:PublicationNumber>
+         <com:PublicationDate>2025-02-10</com:PublicationDate>
+      </jputl:UtilityModelPublicationIdentification>
+      <pat:PlainLanguageDesignationText>登録実用新案公報(U)</pat:PlainLanguageDesignationText>
+      <com:RegistrationDate>2025-01-31</com:RegistrationDate>
+      <jputl:ApplicationIdentification>
+         <com:ApplicationNumber>
+            <com:ApplicationNumberText>2024600145</com:ApplicationNumberText>
+         </com:ApplicationNumber>
+         <pat:FilingDate>2023-02-24</pat:FilingDate>
+      </jputl:ApplicationIdentification>
+      <pat:InventionTitle>めっき用導電装置及びめっき装置</pat:InventionTitle>
+      <jputl:RegisteredUtilityModelPublicationPartyBag>
+         <jputl:ApplicantsRegisteredPractitionersBag>
+            <jputl:ApplicantRegisteredPractitionerBag com:sequenceNumber="1">
+               <jputl:Applicant com:sequenceNumber="1">
+                  <com:PartyIdentifier>524227871</com:PartyIdentifier>
+                  <jpcom:Contact>
+                     <com:Name>
+                        <com:EntityName>江陰納力新材料科技有限公司</com:EntityName>
+                     </com:Name>
+                     <com:PostalAddressBag>
+                        <com:PostalAddress>
+                           <com:PostalAddressText>中華人民共和国江蘇省無錫市江陰市▲ファン▼土鎮華浜路２６号</com:PostalAddressText>
+                        </com:PostalAddress>
+                     </com:PostalAddressBag>
+                  </jpcom:Contact>
+                  <jpcom:Contact>
+                     <jpcom:OriginalLanguageIndicator>true</jpcom:OriginalLanguageIndicator>
+                     <com:Name>
+                        <com:EntityName>ＪＩＡＮＧＹＩＮ  ＮＡＮＯＰＯＲＥ  ＩＮＮＯＶＡＴＩＶＥ  ＭＡＴＥＲＩＡＬＳ  ＴＥＣＨＮＯＬＯＧＹ  ＬＴＤ</com:EntityName>
+                     </com:Name>
+                     <com:PostalAddressBag>
+                        <com:PostalAddress>
+                           <com:PostalAddressText>Ｎｏ．  ２６  Ｈｕａｂｉｎ  Ｒｏａｄ，  Ｈｕａｎｇｔｕ  Ｔｏｗｎ，  Ｊｉａｎｇｙｉｎ  Ｃｉｔｙ  Ｗｕｘｉ，  Ｊｉａｎｇｓｕ  ２１４４４５  Ｃｈｉｎａ．</com:PostalAddressText>
+                        </com:PostalAddress>
+                     </com:PostalAddressBag>
+                  </jpcom:Contact>
+               </jputl:Applicant>
+               <jputl:RegisteredPractitioner com:sequenceNumber="1">
+                  <jputl:AgentCategory>Representative</jputl:AgentCategory>
+                  <pat:RegisteredPractitionerRegistrationNumber>110001841</pat:RegisteredPractitionerRegistrationNumber>
+                  <jpcom:Contact>
+                     <com:Name>
+                        <com:EntityName>弁理士法人ＡＴＥＮ</com:EntityName>
+                     </com:Name>
+                  </jpcom:Contact>
+               </jputl:RegisteredPractitioner>
+            </jputl:ApplicantRegisteredPractitionerBag>
+         </jputl:ApplicantsRegisteredPractitionersBag>
+         <jputl:InventorBag>
+            <jputl:Inventor com:sequenceNumber="1">
+               <jpcom:Contact>
+                  <com:Name>
+                     <com:EntityName>蒋  文強</com:EntityName>
+                  </com:Name>
+                  <com:PostalAddressBag>
+                     <com:PostalAddress>
+                        <com:PostalAddressText>中華人民共和国  ２１４４４５  江蘇省  無錫市  江陰市  ▲ファン▼土鎮  華浜路  ２６号</com:PostalAddressText>
+                     </com:PostalAddress>
+                  </com:PostalAddressBag>
+               </jpcom:Contact>
+            </jputl:Inventor>
+            <jputl:Inventor com:sequenceNumber="2">
+               <jpcom:Contact>
+                  <com:Name>
+                     <com:EntityName>李  学法</com:EntityName>
+                  </com:Name>
+                  <com:PostalAddressBag>
+                     <com:PostalAddress>
+                        <com:PostalAddressText>中華人民共和国  ２１４４４５  江蘇省  無錫市  江陰市  ▲ファン▼土鎮  華浜路  ２６号</com:PostalAddressText>
+                     </com:PostalAddress>
+                  </com:PostalAddressBag>
+               </jpcom:Contact>
+            </jputl:Inventor>
+            <jputl:Inventor com:sequenceNumber="3">
+               <jpcom:Contact>
+                  <com:Name>
+                     <com:EntityName>張  国平</com:EntityName>
+                  </com:Name>
+                  <com:PostalAddressBag>
+                     <com:PostalAddress>
+                        <com:PostalAddressText>中華人民共和国  ２１４４４５  江蘇省  無錫市  江陰市  ▲ファン▼土鎮  華浜路  ２６号</com:PostalAddressText>
+                     </com:PostalAddress>
+                  </com:PostalAddressBag>
+               </jpcom:Contact>
+            </jputl:Inventor>
+         </jputl:InventorBag>
+      </jputl:RegisteredUtilityModelPublicationPartyBag>
+      <jputl:PriorityClaimBag>
+         <jputl:PriorityClaim com:sequenceNumber="1">
+            <com:IPOfficeCode>CN</com:IPOfficeCode>
+            <com:ApplicationNumber>
+               <com:ApplicationNumberText>202210177516.8      </com:ApplicationNumberText>
+            </com:ApplicationNumber>
+            <pat:FilingDate>2022-02-24</pat:FilingDate>
+            <jputl:ApplicationFilingCategory>International</jputl:ApplicationFilingCategory>
+         </jputl:PriorityClaim>
+         <jputl:PriorityClaim com:sequenceNumber="2">
+            <com:IPOfficeCode>CN</com:IPOfficeCode>
+            <com:ApplicationNumber>
+               <com:ApplicationNumberText>PCT/CN2022/094873   </com:ApplicationNumberText>
+            </com:ApplicationNumber>
+            <pat:FilingDate>2022-05-25</pat:FilingDate>
+            <jputl:ApplicationFilingCategory>International</jputl:ApplicationFilingCategory>
+         </jputl:PriorityClaim>
+      </jputl:PriorityClaimBag>
+      <jputl:IPCClassification>
+         <com:Edition/>
+         <pat:MainClassification>C25D   7/06        20060101AFI20250203BHJP        </pat:MainClassification>
+         <pat:FurtherClassification>C25D   5/56        20060101ALI20250203BHJP        </pat:FurtherClassification>
+         <pat:FurtherClassification>C25D  17/00        20060101ALI20250203BHJP        </pat:FurtherClassification>
+         <pat:FurtherClassification>B08B   3/02        20060101ALI20250203BHJP        </pat:FurtherClassification>
+         <pat:FurtherClassification>C25D  17/12        20060101ALI20250203BHJP        </pat:FurtherClassification>
+      </jputl:IPCClassification>
+      <jputl:NationalClassification>
+         <com:IPOfficeCode>JP</com:IPOfficeCode>
+         <jputl:MainNationalClassification>
+            <pat:PatentClassificationText>C25D7/06 K</pat:PatentClassificationText>
+         </jputl:MainNationalClassification>
+         <jputl:FurtherNationalClassification>
+            <pat:PatentClassificationText>C25D5/56 Z</pat:PatentClassificationText>
+         </jputl:FurtherNationalClassification>
+         <jputl:FurtherNationalClassification>
+            <pat:PatentClassificationText>C25D17/00 B</pat:PatentClassificationText>
+         </jputl:FurtherNationalClassification>
+         <jputl:FurtherNationalClassification>
+            <pat:PatentClassificationText>B08B3/02</pat:PatentClassificationText>
+         </jputl:FurtherNationalClassification>
+         <jputl:FurtherNationalClassification>
+            <pat:PatentClassificationText>C25D7/06 C</pat:PatentClassificationText>
+         </jputl:FurtherNationalClassification>
+         <jputl:FurtherNationalClassification>
+            <pat:PatentClassificationText>C25D17/12 F</pat:PatentClassificationText>
+         </jputl:FurtherNationalClassification>
+      </jputl:NationalClassification>
+      <jputl:ClaimTotalQuantitySet>
+         <pat:ClaimTotalQuantity>15</pat:ClaimTotalQuantity>
+         <jputl:AdoptedLawCategory>Claim</jputl:AdoptedLawCategory>
+      </jputl:ClaimTotalQuantitySet>
+      <jputl:InternationalFilingData>
+         <jputl:ApplicationIdentification>
+            <com:ApplicationNumber>
+               <com:ApplicationNumberText>CN2023078076</com:ApplicationNumberText>
+            </com:ApplicationNumber>
+            <pat:FilingDate>2023-02-24</pat:FilingDate>
+         </jputl:ApplicationIdentification>
+      </jputl:InternationalFilingData>
+      <jputl:InternationalPublishingData>
+         <jputl:PatentDocumentIdentification>
+            <jputl:PatentPublicationIdentification>
+               <pat:PublicationNumber>WO2023160642</pat:PublicationNumber>
+               <com:PublicationDate>2023-08-31</com:PublicationDate>
+            </jputl:PatentPublicationIdentification>
+         </jputl:PatentDocumentIdentification>
+      </jputl:InternationalPublishingData>
+      <jputl:RequestRegistrabilityReportIndicator>false</jputl:RequestRegistrabilityReportIndicator>
+      <jputl:FilingForm>ＯＬ</jputl:FilingForm>
+   </jputl:RegisteredUtilityModelPublicationBibliographicData>
+   <jputl:ChosenDrawingImage>
+      <com:Image com:imageContentCategory="Drawing">
+         <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+         <com:FileName>0003250096000001.tif</com:FileName>
+         <com:HeightMeasure com:measureUnitCode="Mm">73</com:HeightMeasure>
+         <com:WidthMeasure com:measureUnitCode="Mm">82</com:WidthMeasure>
+      </com:Image>
+   </jputl:ChosenDrawingImage>
+   <jputl:Description>
+      <pat:TechnicalField>
+         <com:P com:pNumber="0001">
+関連出願の相互参照<com:Br/>
+  本願は、２０２２年０２月２４日に出願された、出願番号が２０２２１０１７７５１６．８であり、名称が「めっき用導電装置及びめっき装置」である中国特許出願の優先権、及び２０２２年０５月２５日に出願された、出願番号がＰＣＴ／ＣＮ２０２２／０９４８７３であり、名称が「めっき用導電装置及びめっき装置」である国際特許出願の優先権を主張するものであり、その全ての内容は参照により本願に組み込まれる。
+</com:P>
+         <com:P com:pNumber="0002">
+  本願は、電解めっき薄膜の技術分野に関し、特に、めっき用導電装置及びめっき装置に関する。
+</com:P>
+      </pat:TechnicalField>
+      <pat:BackgroundArt>
+         <com:P com:pNumber="0003">
+  電解めっきは、複合集電体の銅膜を製造する際における重要な工程であり、整流器は、導電性ローラ、チタンバスケットに接続され、電流は、整流器の正極からチタンバスケットを経て、めっき液、導電機構及び整流器の負極を流れ、それにより、めっきシステム全体が完全な回路を形成することにより、めっき製品に薄膜を形成することを実現する。
+</com:P>
+         <com:P com:pNumber="0004">
+  従来、導電性ローラは、通常、同径の管状構造であり、めっき過程において、導電性ローラがめっき製品と接触するとともに、めっき液（銅含有溶液）と直接又は間接的に接触し、導電性ローラ上に銅逆めっき又は銅堆積を形成する現象が発生し、長時間の銅めっき過程において、導電性ローラ上にめっきされた銅がある程度蓄積された後、その表面に不規則な形状の銅結晶層が形成され、この銅結晶層が導電性ローラ上に極めて不均一に分布して、導電性ローラの局所的な位置に銅スラグ又は銅スパイクが形成される。めっき製品が導電性ローラに接触する場合、導電性ローラに形成された銅スラグ又は銅スパイクは、めっき製品の表面に堆積された銅膜を傷つけ、めっき製品の表面の銅膜のめっき品質に深刻な影響を与える。また、導電性ローラ上の銅結晶層が厚すぎると、めっき製品の表面の銅膜の色度及び均一性にも影響する。
+</com:P>
+      </pat:BackgroundArt>
+      <pat:InventionSummary>
+         <pat:TechnicalProblem>
+            <com:P com:pNumber="0005">
+  本願の様々な実施形態によれば、めっき用導電装置及びめっき装置を提供する。
+</com:P>
+         </pat:TechnicalProblem>
+         <pat:TechnicalSolution>
+            <com:P com:pNumber="0006">
+  第１態様では、本願に係る、めっき製品の表面に薄膜をめっきするためのめっき用導電装置は、<com:Br/>
+  めっき液を収容するめっき槽が設けられたフレームと、<com:Br/>
+  前記フレームに固定され、かつ前記めっき槽の深さ方向に沿って間隔をあけて対向して設置された２つの導電機構であって、前記導電機構は、導電性ローラ、チタンバスケット及び整流器を含み、前記整流器の正極は、前記チタンバスケットに電気的に接続され、前記整流器の負極は、前記導電性ローラに電気的に接続され、前記チタンバスケットは、少なくとも一部が前記めっき液内に浸漬され、<com:Br/>
+  前記導電性ローラの両端は、円柱体であり、前記円柱体の断面円の直径はｄ１であり、導電性ローラの中間部は、その軸方向に垂直な断面の最大直径がｄ２であり、かつｄ２がｄ１よりも小さく、前記導電性ローラは、一部が前記めっき液内に浸漬され、かつ前記導電性ローラは、めっきプロセスにおいて、前記導電性ローラの中間部がめっき液にも、めっき製品の中間部にも接触しないように設置される２つの導電機構と、を含み、<com:Br/>
+  前記めっき製品が前記導電機構を通過する際に、前記めっき製品の一方の面が２本の前記導電性ローラの一方に接触し、他方の面が他方の前記導電性ローラに接触する。
+</com:P>
+            <com:P com:pNumber="0007">
+  本願では、導電性ローラは、電解めっきプロセスにおいて、導電性ローラの中間部がめっき液にも、めっき製品の中間部にも接触しないように設置されることにより、導電性ローラの中間部がめっき液に直接又は間接的に接触することを防止し、導電性ローラにおける銅逆めっき又は銅堆積現象の発生を低減し、導電性ローラがめっき製品の表面に堆積された薄膜を傷つけるリスクを低減し、めっき製品のめっき品質を著しく向上させる。
+</com:P>
+            <com:P com:pNumber="0008">
+  本願では、前記導電性ローラの両端は円柱体であり、前記円柱体の断面円の直径は、ｄ１であり、導電性ローラの中間部は、その軸方向に垂直な断面の最大直径がｄ２であり、かつｄ２がｄ１よりも小さい。
+</com:P>
+            <com:P com:pNumber="0009">
+  一実施形態において、前記導電性ローラの両端の円柱体の断面円の直径ｄ１の範囲は、約５ｃｍ～約２０ｃｍである。
+</com:P>
+            <com:P com:pNumber="0010">
+  別の実施形態において、前記導電性ローラの両端の円柱体の断面円の直径ｄ１の範囲は、約１０ｃｍ～約１５ｃｍである。
+</com:P>
+            <com:P com:pNumber="0011">
+  一実施形態において、ｄ１とｄ２との差の範囲は、約１ｃｍ～約３ｃｍであり、即ち、１ｃｍ≦ｄ１－ｄ２≦３ｃｍである。
+</com:P>
+            <com:P com:pNumber="0012">
+  一実施形態において、前記導電性ローラの中間部は、紡錘状構造である。本願における「紡錘状構造」とは、両端が細く、中間が太い構造をいう。
+</com:P>
+            <com:P com:pNumber="0013">
+  一実施形態において、前記導電性ローラは、内部が中空の構造である。
+</com:P>
+            <com:P com:pNumber="0014">
+  一実施形態において、前記導電性ローラの材質は、３０４ステンレス鋼、３１６ステンレス鋼のいずれかである。
+</com:P>
+            <com:P com:pNumber="0015">
+  一実施形態において、前記導電機構は、補助陽極をさらに含み、前記整流器の正極は、前記補助陽極に電気的に接続される。
+</com:P>
+            <com:P com:pNumber="0016">
+  一実施形態において、前記補助陽極の材質は、チタン金属であり、その表面にイリジウム金属層が均一に塗布される。
+</com:P>
+            <com:P com:pNumber="0017">
+  第２態様では、本願に係るめっき装置は、巻き出し機構と、巻き取り機構と、上記技術的手段のいずれか１つに記載のめっき用導電装置と、を含み、前記巻き出し機構と前記巻き取り機構は、いずれも前記フレームに固定され、かつ前記めっき製品の搬送経路に間隔をあけて設置される。
+</com:P>
+            <com:P com:pNumber="0018">
+  一実施形態において、前記めっき装置は、複数のテンション素子をさらに含み、複数の前記テンション素子は、いずれも前記フレームに固定され、かつ前記巻き出し機構と前記巻き取り機構との間に均一に分布する。
+</com:P>
+            <com:P com:pNumber="0019">
+  一実施形態において、前記テンション素子は、テンションプーリ又はテンションスプリングである。
+</com:P>
+            <com:P com:pNumber="0020">
+  一実施例において、前記めっき装置は、２つのスプレー素子をさらに含み、２つの前記スプレー素子は、いずれも前記フレームに固定され、前記スプレー素子は、スプレー口を有し、２つの前記スプレー口のうちの一方は、２つの前記導電性ローラのうちの一方に向いており、他方は、２つの前記導電性ローラのうちの他方に向いている。
+</com:P>
+            <com:P com:pNumber="0021">
+  一実施形態において、前記スプレー素子は、スプレーヘッドである。
+</com:P>
+            <com:P com:pNumber="0022">
+  一実施例において、前記フレームに固定された加熱素子をさらに含む。
+</com:P>
+            <com:P com:pNumber="0023">
+  一実施形態において、前記加熱素子は、前記フレームに螺合され、かつ赤外線で加熱する装置である。
+</com:P>
+         </pat:TechnicalSolution>
+      </pat:InventionSummary>
+      <pat:DrawingDescription>
+         <com:P com:pNumber="0024">
+  本願の実施形態又は従来技術における技術的手段をより明確に説明するために、以下、実施形態又は従来技術の説明に使用される必要がある図面を簡単に説明する。明らかなように、以下の説明における図面は、本願の実施形態に過ぎず、当業者であれば、創造的な労働をせずに、開示された図面に基づいて他の図面を得ることができる。<com:Br/>
+            <com:FigureReference com:referencedFigureNumber="1">本願のいくつかの実施形態に示すめっき用導電装置の平面図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="2">本願のいくつかの実施形態に示すめっき装置の正面図である。</com:FigureReference>
+         </com:P>
+      </pat:DrawingDescription>
+      <pat:EmbodimentDescription>
+         <com:P com:pNumber="0025">
+  以下、本願の実施形態における図面を参照しながら、本願の実施形態における技術的手段を明確かつ完全に説明する。説明する実施形態は、本願の一部の実施形態にすぎず、全てではないことは明らかである。本願の実施形態に基づいて、当業者が創造的な労働をせずに得られる全ての他の実施形態は、いずれも本願の保護範囲に属する。
+</com:P>
+         <com:P com:pNumber="0026">
+  本願の上記の目的、特徴及び利点をより明確かつ理解しやすくするために、以下、本願の具体的な実施形態について、添付の図面を参照しながら詳細に説明する。以下の説明では、本願の完全な理解を提供するために、多くの具体的な詳細が記載される。しかしながら、本願は、ここで説明したものとは異なる他の多くの方法で実施することができ、当業者であれば、本願の趣旨を逸脱することなく同様の改良を行うことができるため、以下に開示する具体的な実施形態によって本願が限定されるものではない。
+</com:P>
+         <com:P com:pNumber="0027">
+  本願の説明において、「中心」、「縦方向」、「横方向」、「長さ」、「幅」、「厚さ」、「上」、「下」、「前」、「後」、「左」、「右」、「垂直」、「水平」、「頂」、「底」、「内」、「外」、「時計回り」、「反時計回り」、「軸方向」、「径方向」、「周方向」などの用語で示す方位又は位置関係は、図面に示す方位又は位置関係であり、本願を説明しやすい、又は説明を簡単にするだけに用いられ、示している装置又は部品が必ず特定の方位を有し、特定の方位構造と操作を有することを表す又は暗示することではないことを理解されるべきであり、そのため本願を限定するものと解釈されるべきではない。
+</com:P>
+         <com:P com:pNumber="0028">
+  また、用語「第１」、「第２」は、説明するためだけに用いられるものであり、比較的な重要性を指示又は暗示するか、或いは示された技術的特徴の数を黙示的に指示すると理解してはいけない。これにより、「第１」、「第２」で限定されている技術的特徴は、少なくとも１つの当該技術的特徴を明示的又は暗示的に含んでもよい。本願の説明において、明確かつ具体的な限定がない限り、「複数」は、少なくとも２つ、例えば、２つ、３つなどを意味する。
+</com:P>
+         <com:P com:pNumber="0029">
+  本願において、特に明確に規定及び限定しない限り、「取り付け」、「連結」、「接続」などの用語は、広義に理解すべきであり、例えば、固定接続であってもよく、着脱可能な接続であってもよく、或いは、一体的な接続であってもよく、機械的な接続であってもよく、電気的な接続であってもよく、直接的に接続してもよく、中間媒体を介して間接的に接続されてもよく、２つの素子の内部の連通又は２つの素子の相互作用関係であってもよい。当業者にとって、具体的な状況に応じて上記用語の本願中の具体的な意味を理解することができる。
+</com:P>
+         <com:P com:pNumber="0030">
+  本願において、明確な規定と限定がない限り、第１の技術的特徴が第２の技術的特徴の「上」又は「下」にあることは、第１の技術的特徴と第２の技術的特徴とが直接接触することを含んでもよく、第１の技術的特徴と第２の技術的特徴とが中間媒体を介して間接的に接触することを含んでもよい。また、第１の技術的特徴が第２の技術的特徴の「上」、「上方」及び「上面」にあることは、第１の技術的特徴が第２の技術的特徴の真上又は斜め上にあることを含み、或いは、第１の技術的特徴の水平な高さが第２の技術的特徴よりも高いことを表すだけである。第１の技術的特徴が第２の技術的特徴の「下」、「下方」及び「下面」にあることは、第１の技術的特徴が第２の技術的特徴の直下又は斜め下にあることを含み、或いは、第１の技術的特徴の水平な高さが第２の技術的特徴よりも低いことを表すだけである。
+</com:P>
+         <com:P com:pNumber="0031">
+  なお、要素が別の要素に「固定される」又は「設置される」と呼ばれる場合、それは別の要素上に直接存在する場合もあれば、介在要素が存在する場合もある。要素が別の要素に「接続される」と考えられる場合、それは別の要素に直接接続される場合もあれば、介在要素が同時に存在する場合もある。本明細書で用いられる用語「垂直」、「水平」、「上」、「下」、「左」、「右」及び同様の表現は、説明のみを目的としており、唯一の実施形態を表すものではない。
+</com:P>
+         <com:P com:pNumber="0032">
+  図１に示すように、本願は、めっき用導電装置１００を提供し、めっき用導電装置１００は、フレーム１１０と、２つの導電機構１２０とを含み、めっき用導電装置１００は、めっき製品２００の表面に薄膜を電解めっきするためのものである。
+</com:P>
+         <com:P com:pNumber="0033">
+  フレーム１１０には、めっき槽（図示せず）が形成され、めっき槽は、めっき液を収容することができ、めっき液は、めっき製品２００に薄膜を形成するために用いることができ、電流の導通に用いることもできる。フレーム１１０の形成プロセスを簡略化し、フレーム１１０の製造コストを節約するために、フレーム１１０には、鋳造やプレスなどによってめっき槽が一体成形されてもよく、めっき槽は、フレーム１１０が成形された後、他の補助具によって別途形成されてもよい。めっき液は、銅含有溶液、鉄含有溶液など、めっき製品２００の表面に薄膜を形成できる流体媒体であってもよく、本実施形態において、銅含有溶液のみを代表とする。
+</com:P>
+         <com:P com:pNumber="0034">
+  ２つの導電機構１２０は、いずれも螺合や溶接などによってフレーム１１０に固定され、２つの導電機構１２０とフレーム１１０との固定接続を実現する。また、２つの導電機構１２０は、めっき槽の深さ方向に沿って間隔をあけて対向して設置され、即ち、２つの導電機構１２０の間に隙間があり、本実施形態において、２つの導電機構１２０は、鉛直方向に間隔をあけて設置される。導電機構１２０は、導電性ローラ１２１、チタンバスケット１２２及び整流器１２３を含み、導電性ローラ１２１とチタンバスケット１２２は、いずれもフレーム１１０に固定されている。整流器１２３の正極は、チタンバスケット１２２に電気的に接続され、整流器１２３の負極は、導電性ローラ１２１に電気的に接続されている。チタンバスケット１２２は、少なくとも一部がめっき液内に浸漬され、導電性ローラ１２１の径方向において、導電性ローラ１２１の一方側は、めっき液内に浸漬され、導電性ローラ１２１の他方側は、めっき液外に露出し、めっき液が導電性を有するため、整流器１２３、チタンバスケット１２２、導電性ローラ１２１及びめっき液は、完全な電流回路を形成し、めっき製品２００のめっきプロセスに必要な電流を提供する。また、導電性ローラ１２１の両端は、円柱体であり、前記円柱体の断面円の直径は、ｄ１であり、導電性ローラ１２１の中間部は、その軸方向に垂直な断面の最大直径がｄ２であり、かつｄ２がｄ１よりも小さい。めっき製品２００は、めっき過程において、導電性ローラ１２１の中間部がめっき液にも、めっき製品２００の中間部にも接触しないため、導電性ローラ１２１の中間部がめっき液に直接又は間接的に接触することを防止し、導電性ローラ１２１における銅逆めっき又は銅堆積の現象の発生を低減し、導電性ローラ１２１がめっき製品２００の表面に堆積された薄膜を傷つけるリスクを低減し、めっき製品２００のめっき品質を著しく向上させる。
+</com:P>
+         <com:P com:pNumber="0035">
+  めっき製品２００が導電機構１２０を通過するとき、めっき製品２００の一方の面は、２本の導電性ローラ１２１のうちの１本に接触し、めっき製品２００の他方の面は、２本の導電性ローラ１２１のうちの他の１本に接触することにより、めっき製品２００の２つの表面に薄膜を電解めっきし、めっき製品２００の両面めっきを実現し、めっき製品２００の表面の電解めっき効率を向上させる。
+</com:P>
+         <com:P com:pNumber="0036">
+  また、導電性ローラ１２１上に絶縁体が設置されると、電場に入れた絶縁体が電場の作用を受けて、絶縁体の内部に「分極」現象が発生し、導体の両側に分極電荷が発生し、電場の強さに影響を与え、絶縁体と薄膜との接触位置におけるめっき品質に影響を与えるが、上記めっき用導電装置１００における導電性ローラ１２１の構造は、上記問題を効果的に回避できる。
+</com:P>
+         <com:P com:pNumber="0037">
+  導電性ローラ１２１を成形するために、一実施形態において、図１に示すように、導電性ローラ１２１の両端の直径が５ｃｍ～２０ｃｍであり、導電性ローラ１２１の中間位置がその端部位置に比べて１ｃｍ～３ｃｍ凹んでおり、言い換えれば、導電性ローラの両端は、円柱体であり、前記円柱体の断面円の直径は、ｄ１であり、導電性ローラの中間部は、その軸方向に垂直な断面の最大直径がｄ２であり、かつｄ２がｄ１よりも小さく、導電性ローラの両端の円柱体の断面円の直径ｄ１の範囲が５ｃｍ～２０ｃｍであり、かつｄ１とｄ２の差の範囲が１ｃｍ～３ｃｍであり、即ち、１ｃｍ≦ｄ１-ｄ２≦３ｃｍである。めっき製品２００は、電解めっき過程において、導電性ローラ１２１の中間部がめっき液にも、めっき製品２００の中間部にも接触しないため、導電性ローラ１２１の中間部がめっき液に直接又は間接的に接触することを防止し、導電性ローラ１２１における銅逆めっき又は銅堆積現象の発生を低減し、導電性ローラ１２１がめっき製品２００の表面に堆積された薄膜を傷つけるリスクを低減し、めっき製品２００のめっき品質を著しく向上させる。
+</com:P>
+         <com:P com:pNumber="0038">
+  設置を行う場合、導電性ローラ１２１の両端の円柱体の直径は、５ｃｍ、１０ｃｍ、１５ｃｍ、２０ｃｍのうちの１つであってもよい。もちろん、導電性ローラ１２１の両端の円柱体の直径は、上記範囲値に限定されず、５ｃｍ～２０ｃｍの範囲内の他の数値であってもよい。また、導電性ローラ１２１の異なる取り付けプロセス又は成形プロセスなどについて、導電性ローラ１２１の両端の円柱体の直径は、上記直径の設置範囲に限定されず、導電性ローラ１２１の取り付けプロセス又は成形プロセスなどに応じて、導電性ローラ１２１の両端の円柱体の直径を設置することができる。
+</com:P>
+         <com:P com:pNumber="0039">
+  さらに、導電性ローラ１２１の中間部は、紡錘状構造であり、本願における「紡錘状構造」とは、両端が細く、中間が太い構造をいう。整流器１２３の正極に接続されたチタンバスケット１２２、陰極に対応する導電性ローラ１２１の一端、及びめっき液は、電気回路を形成し、導電性ローラ１２１の中間位置の導電能力が弱いため、導電性ローラ１２１の中間部を紡錘状構造に設計し、即ち、導電性ローラ１２１の両端の円柱体に接続された部分が細く、導電性ローラ１２１の両端の円柱体から離れた中間部分が太くなることにより、中間部とチタンバスケット１２２との間の距離を小さくし、導電性ローラ１２１の中間部の電場強度を効果的に向上させ、めっき膜の均一性を効果的に向上させる。
+</com:P>
+         <com:P com:pNumber="0040">
+  導電性ローラ１２１の製造コストを節約するために、一実施形態において、図１に示すように、導電性ローラ１２１の中間部は、内部が中空の管状構造であり、導電性ローラ１２１の成形過程に必要な材料を減少させ、導電性ローラ１２１の製造コストを節約することができる。また、フレーム１１０の耐荷重強度に対する要求が低く、めっき用導電装置１００の軽量化設計を実現できる。
+</com:P>
+         <com:P com:pNumber="0041">
+  導電性ローラ１２１の製造成形を容易にするために、一実施形態において、図１に示すように、導電性ローラ１２１の材質は、３０４ステンレス鋼、３１６ステンレス鋼のいずれかである。３０４ステンレス鋼と３１６ステンレス鋼は、いずれも優れた成形性を有するため、導電性ローラ１２１の製造成形に便利であり、かつステンレス鋼は、さらに優れた耐食性、強靭性などを有し、導電性ローラ１２１の耐用年数を顕著に向上させ、導電性ローラ１２１が長時間使用中に変形するなどの不良現象を防止することができる。
+</com:P>
+         <com:P com:pNumber="0042">
+  もちろん、他の実施形態において、導電性ローラ１２１は、例えば、３１６Ｌステンレス鋼のような優れた成形性と導電性を有する他の材質で製造されてもよく、導電性ローラ１２１の材質については、本願では限定されず、プロセスのニーズや予算コストに応じて選択することができる。
+</com:P>
+         <com:P com:pNumber="0043">
+  めっき製品２００のめっき品質をさらに向上させるために、一実施形態において、図１に示すように、導電機構１２０は、補助陽極１２４をさらに含み、整流器１２３の正極は、補助陽極１２４に電気的に接続される。導電性ローラ１２１の両端は、円柱体であり、前記円柱体の断面円の直径は、ｄ１であり、導電性ローラ１２１の中間部は、その軸方向に垂直な断面の最大直径がｄ２であり、かつｄ２がｄ１よりも小さいため、導電性ローラ１２１の中間位置の導電能力が弱く、整流器１２３、補助陽極１２４、導電性ローラ１２１及びめっき液が完全な電流回路を形成し、補助陽極１２４は、整流器１２３、チタンバスケット１２２、導電性ローラ１２１及びめっき液からなる電流回路と共に導電性ローラ１２１の導電能力を向上させ、補助陽極１２４は、導電性ローラ１２１の中間部の電流密度が小さいという欠点を補い、めっき製品２００の表面に形成された薄膜の均一性を大幅に向上させ、めっき製品２００のめっき品質を向上させる。
+</com:P>
+         <com:P com:pNumber="0044">
+  上記導電性ローラ１２１の構造と補助陽極１２４とを組み合わせることにより、導電性ローラ１２１の中間部の導電性能が弱いことによるめっき膜の厚さの不均一の問題、及びめっき中に導電性ローラ１２１における銅結晶が膜表面全体を傷つける問題を解決し、超薄めっき膜の厚さの均一性を実現する。
+</com:P>
+         <com:P com:pNumber="0045">
+  補助陽極１２４の材質は、チタン金属であり、チタン金属は、強酸に不溶であるため、めっき液と接触した場合、変形、腐食などの不良現象が発生しにくく、補助電極の耐用年数の延長に寄与する。しかし、チタン金属は、導電性が弱いため、その表面にイリジウム金属層が均一に塗布され、補助陽極１２４の導電性を向上させ、導電性ローラ１２１の中間部の電流密度が小さいという欠点を補い、めっき製品２００の表面に形成された薄膜の均一性を大幅に向上させ、めっき製品２００のめっき製品を向上させる。
+</com:P>
+         <com:P com:pNumber="0046">
+  また、図１及び図２に示すように、本願は、めっき装置３００をさらに提供し、めっき装置３００は、巻き出し機構３１０と、巻き取り機構３２０と、上記技術的手段のいずれか一項に記載のめっき用導電装置１００とを含み、巻き出し機構３１０は、螺合、溶接などによってフレーム１１０に固定され、巻き取り機構３２０も、螺合、溶接などによってフレーム１１０に固定されることにより、巻き出し機構３１０及び巻き取り機構３２０の取付固定を実現する。巻き出し機構３１０及び巻き取り機構３２０は、めっき製品２００の搬送経路に間隔をあけて設置され、巻き出し機構３１０は、めっき前のめっき製品２００を自動的に搬送するために用いられ、巻き取り機構３２０は、めっき後のめっき製品２００を自動的に巻き取るために用いられる。
+</com:P>
+         <com:P com:pNumber="0047">
+  上記めっき装置３００において、導電性ローラ１２１の両端は、円柱体であり、前記円柱体の断面円の直径は、ｄ１であり、導電性ローラ１２１の中間部は、その軸方向に垂直な断面の最大直径がｄ２であり、かつｄ２がｄ１よりも小さい。めっき製品２００は、電解めっき過程において、導電性ローラ１２１の中間部がめっき液にも、めっき製品２００の中間部にも接触しないため、導電性ローラ１２１がめっき液に直接又は間接的に接触することを防止し、導電性ローラ１２１における銅逆めっき又は銅堆積現象の発生を低減し、導電性ローラ１２１がめっき製品２００の表面に堆積された薄膜を傷つけることを回避し、めっき製品２００のめっき品質を著しく向上させる。
+</com:P>
+         <com:P com:pNumber="0048">
+  めっき製品２００の表面のめっき品質を向上させるために、一実施形態において、図１及び図２に示すように、めっき装置３００は、複数のテンション素子３３０をさらに含み、複数のテンション素子３３０は、いずれも螺合、カシメなどによってフレーム１１０に固定され、複数のテンション素子３３０は、巻き出し機構３１０と巻き取り機構３２０との間に均一に分布し、言い換えれば、複数のテンション素子３３０は、めっき製品２００の搬送経路に均一に分布する。めっき製品２００がテンション素子３３０を通過するとき、テンション素子３３０は、めっき製品２００を引っ張ることができ、めっき製品２００の表面の平坦性を確保し、めっき製品２００の表面に形成された薄膜の均一性をさらに向上させ、めっき製品２００の表面のめっき品質を向上させる。
+</com:P>
+         <com:P com:pNumber="0049">
+  テンション素子３３０は、テンションプーリ又はテンションスプリングであり、めっき製品２００がテンション素子３３０を通過するとき、テンション素子３３０がめっき製品２００を引っ張ることを確保し、めっき製品２００の表面の平坦性を確保する。もちろん、テンション素子３３０は、上記提供されたテンションプーリ又はテンションスプリングに限定されず、めっき製品２００を引っ張ることができる他の素子であってもよく、テンション素子３３０のタイプについては、本願では限定しない。
+</com:P>
+         <com:P com:pNumber="0050">
+  導電性ローラ１２１における銅逆めっき又は銅堆積の発生を低減するために、一実施形態において、図１及び図２に示すように、めっき装置３００は、２つのスプレー素子（図示せず）をさらに含み、２つのスプレー素子は、いずれも螺合、カシメなどによってフレーム１１０に固定される。スプレー素子は、スプレー口を有し、２つのスプレー口のうちの一方は、２本の導電性ローラ１２１の一方に向いており、２つのスプレー口のうちの他方は、２本の導電性ローラ１２１の他方に向いている。スプレー素子から噴射された洗浄媒体によって導電性ローラ１２１を洗浄することで、導電性ローラ１２１上に残留しためっき液を洗浄し、導電性ローラ１２１上に残留しためっき液が長時間空気に曝されて、導電性ローラ１２１上に銅逆めっき又は銅堆積現象が発生することを防止する。
+</com:P>
+         <com:P com:pNumber="0051">
+  スプレー素子は、導電性ローラ１２１に残留しためっき液を洗浄するためのスプレーヘッドである。もちろん、スプレー素子は、上記提供されたスプレーヘッドに限定されず、導電性ローラ１２１上に残留しためっき液を洗浄できる他の素子であってもよく、スプレー素子のタイプについては、本願では限定しない。
+</com:P>
+         <com:P com:pNumber="0052">
+  めっき装置３００のめっき製品２００に対するめっき効率を向上させるために、一実施形態において、図１及び図２に示すように、めっき装置３００は、加熱素子（図示せず）をさらに含み、加熱素子は、螺合、溶接などによってフレーム１１０に固定され、加熱素子は、めっき製品２００の表面の薄膜の成形速度を加速し、めっき装置３００のめっき製品２００に対するめっき効率を向上させることができる。
+</com:P>
+         <com:P com:pNumber="0053">
+  加熱素子は、赤外線で加熱する装置であり、加熱素子は、めっき製品２００の表面の薄膜の成形速度を加速することができる。もちろん、加熱素子は、上記提供された赤外線で加熱する装置に限定されず、めっき製品２００の表面の薄膜成形速度を加速できる他の素子であってもよく、加熱素子のタイプについては、本願では限定しない。
+</com:P>
+         <com:P com:pNumber="0054">
+  以下、具体的な実施例を参照しながら本願をさらに説明する。
+</com:P>
+         <com:P com:pNumber="0055">
+  なお、実施例において、いずれもシート抵抗の均一性及び薄膜表面の孔の形態によって、めっき製品表面のめっき品質を示す。四探針測定器を用いて、めっき製品２００の表面に形成された薄膜の抵抗を測定し、シート抵抗の均一性<com:Br/>
+            <com:Image com:imageContentCategory="Drawing">
+               <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+               <com:FileName>0003250096000002.jpg</com:FileName>
+               <com:HeightMeasure com:measureUnitCode="Mm">19</com:HeightMeasure>
+               <com:WidthMeasure com:measureUnitCode="Mm">140</com:WidthMeasure>
+            </com:Image>
+であり、めっき後のめっき製品２００を展開し、ＣＣＤカメラ（産業用カメラ）により展開後のめっき製品２００の表面に形成された薄膜の状況を撮像し、孔の数及び孔径の大きさを観測することにより、めっき製品２００の表面のめっき品質を示す。
+</com:P>
+         <pat:EmbodimentExample>
+            <com:P com:pNumber="0056">
+（実施例１）<com:Br/>
+  ポリプロピレンフィルムの表面に薄膜めっきを行い、ポリプロピレンフィルムの厚さは、６μｍであり、導電性ローラ１２１は、従来の導電性ローラ１２１であり、補助陽極１２４は設置されていない。
+</com:P>
+            <com:P com:pNumber="0057">
+  めっき液成分は、硫酸銅１３０ｇ／Ｌ、硫酸１４０ｇ／Ｌ、塩酸６０ｍｇ／Ｌ、光沢剤８ｍｌ／Ｌである。
+</com:P>
+            <com:P com:pNumber="0058">
+  抗酸化液は、ＤＰ－Ａ剤５ｍｌ／Ｌ、ＤＰ－Ｂ剤１０ｍｌ／Ｌであり、プロセス温度は、２０～３０℃であり、ＰＨは、１．８～３．５である。
+</com:P>
+            <com:P com:pNumber="0059">
+  赤外線で加熱する装置の設定温度は、８０℃である。
+</com:P>
+            <com:P com:pNumber="0060">
+  ポリプロピレンフィルムの搬送ライン速度は、２ｍ／ｍｉｎである。
+</com:P>
+            <com:P com:pNumber="0061">
+  ポリプロピレンフィルムの一方の面（以下、Ａ面と呼ばれる）の総電流は、１１５２Ａであり、ポリプロピレンフィルムの他方の面（以下、Ｂ面と呼ばれる）の総電流は、１１６４Ａである。
+</com:P>
+            <com:P com:pNumber="0062">
+  ポリプロピレンフィルムの搬送中の張力は、８０Ｎである。
+</com:P>
+            <com:P com:pNumber="0063">
+  結果を表１及び表２に示す。
+</com:P>
+            <com:P com:pNumber="0064">
+  表１  １２００ｍポリプロピレンフィルムのＡ面とＢ面の異なる位置でのシート抵抗
+</com:P>
+            <com:P com:pNumber="0065">
+               <com:Table>
+                  <com:TableImage com:imageContentCategory="Drawing" com:tableNumber="1">
+                     <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+                     <com:FileName>0003250096000003.jpg</com:FileName>
+                     <com:HeightMeasure com:measureUnitCode="Mm">31</com:HeightMeasure>
+                     <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+                  </com:TableImage>
+               </com:Table>
+            </com:P>
+            <com:P com:pNumber="0066">
+  表２  ポリプロピレンフィルム表面の薄膜の孔の検出データ
+</com:P>
+            <com:P com:pNumber="0067">
+               <com:Table>
+                  <com:TableImage com:imageContentCategory="Drawing" com:tableNumber="2">
+                     <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+                     <com:FileName>0003250096000004.jpg</com:FileName>
+                     <com:HeightMeasure com:measureUnitCode="Mm">63</com:HeightMeasure>
+                     <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+                  </com:TableImage>
+               </com:Table>
+            </com:P>
+            <com:P com:pNumber="0068">
+  表１及び表２から分かるように、補助陽極１２４が設置されていない場合、従来の導電性ローラ１２１を用いてポリプロピレンフィルムに薄膜をめっきするとき、四探針測定器を用いて１２００ｍの範囲内のポリプロピレンフィルム表面に形成された薄膜の抵抗を測定し、ポリプロピレンフィルムのＡ面のシート抵抗の均一性は１１．６％であり、ポリプロピレンフィルムのＢ面のシート抵抗の均一性は１１．６％である。ＣＣＤカメラにより、展開された１２００ｍ<com:Sup>２</com:Sup>の範囲内のポリプロピレンフィルム表面に形成された薄膜の状況を撮像し、孔の総数は、１７５２個であり、各セグメント内の孔径は、いずれも大きい。
+</com:P>
+            <com:P com:pNumber="0069">
+（実施例２）<com:Br/>
+  ポリプロピレンフィルムの表面に薄膜の電解めっきを行い、ポリプロピレンフィルムの厚さは、６μｍであり、導電性ローラ１２１は、本願に係る導電性ローラ１２１であり（導電性ローラ１２１の両端は円柱体であり、円柱体の断面円の直径はｄ１であり、導電性ローラ１２１の中間部は、その軸方向に垂直な断面の最大直径がｄ２であり、かつｄ２がｄ１よりも小さい）、補助陽極１２４は設置されていない。
+</com:P>
+            <com:P com:pNumber="0070">
+  めっき液成分は、硫酸銅１３０ｇ／Ｌ、硫酸１４０ｇ／Ｌ、塩酸６０ｍｇ／Ｌ、光沢剤８ｍｌ／Ｌである。
+</com:P>
+            <com:P com:pNumber="0071">
+  抗酸化液は、ＤＰ－Ａ剤５ｍｌ／Ｌ、ＤＰ－Ｂ剤１０ｍｌ／Ｌであり、プロセス温度は、２０～３０℃であり、ＰＨは、１．８～３．５である。
+</com:P>
+            <com:P com:pNumber="0072">
+  赤外線で加熱する装置の設定温度は、８０℃である。
+</com:P>
+            <com:P com:pNumber="0073">
+  ポリプロピレンフィルムの搬送ライン速度は、２ｍ／ｍｉｎである。
+</com:P>
+            <com:P com:pNumber="0074">
+  ポリプロピレンフィルムのＡ面の総電流は、１１５２Ａであり、ポリプロピレンフィルムのＢ面の総電流は、１１６４Ａである。
+</com:P>
+            <com:P com:pNumber="0075">
+  ポリプロピレンフィルムの搬送中の張力は、８０Ｎである。
+</com:P>
+            <com:P com:pNumber="0076">
+  結果を表３及び表４に示す。
+</com:P>
+            <com:P com:pNumber="0077">
+  表３  １２００ｍポリプロピレンフィルムのＡ面とＢ面の異なる位置でのシート抵抗
+</com:P>
+            <com:P com:pNumber="0078">
+               <com:Table>
+                  <com:TableImage com:imageContentCategory="Drawing" com:tableNumber="3">
+                     <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+                     <com:FileName>0003250096000005.jpg</com:FileName>
+                     <com:HeightMeasure com:measureUnitCode="Mm">31</com:HeightMeasure>
+                     <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+                  </com:TableImage>
+               </com:Table>
+            </com:P>
+            <com:P com:pNumber="0079">
+  表４  ポリプロピレンフィルム表面の薄膜の孔の検出データ
+</com:P>
+            <com:P com:pNumber="0080">
+               <com:Table>
+                  <com:TableImage com:imageContentCategory="Drawing" com:tableNumber="4">
+                     <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+                     <com:FileName>0003250096000006.jpg</com:FileName>
+                     <com:HeightMeasure com:measureUnitCode="Mm">63</com:HeightMeasure>
+                     <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+                  </com:TableImage>
+               </com:Table>
+            </com:P>
+            <com:P com:pNumber="0081">
+  表３及び表４から分かるように、補助陽極１２４が設置されていない場合、本願に係る導電性ローラ１２１を用いてポリプロピレンフィルムに薄膜を電解めっきするとき、四探針測定器を用いて１２００ｍの範囲内のポリプロピレンフィルム表面に形成された薄膜の抵抗を測定し、ポリプロピレンフィルムのＡ面のシート抵抗の均一性は１２．２％であり、ポリプロピレンフィルムのＢ面のシート抵抗の均一性は１４．３％である。ＣＣＤカメラにより、展開された１２００ｍ<com:Sup>２</com:Sup>の範囲内のポリプロピレンフィルム表面に形成された薄膜の状況を撮像し、孔の総数は、４９２個であり、各セグメント内の孔径は、いずれも小さい。
+</com:P>
+            <com:P com:pNumber="0082">
+（実施例３）<com:Br/>
+  ポリプロピレンフィルムの表面に薄膜の電解めっきを行い、ポリプロピレンフィルムの厚さは、６μｍであり、導電性ローラ１２１は、本願に係る導電性ローラ１２１であり（導電性ローラ１２１の両端は円柱体であり、円柱体の断面円の直径はｄ１であり、導電性ローラ１２１の中間部は、その軸方向に垂直な断面の最大直径がｄ２であり、かつｄ２がｄ１よりも小さい）、補助陽極１２４は設置されている。
+</com:P>
+            <com:P com:pNumber="0083">
+  めっき液成分は、硫酸銅１３０ｇ／Ｌ、硫酸１４０ｇ／Ｌ、塩酸６０ｍｇ／Ｌ、光沢剤８ｍｌ／Ｌである。
+</com:P>
+            <com:P com:pNumber="0084">
+  抗酸化液は、ＤＰ－Ａ剤５ｍｌ／Ｌ、ＤＰ－Ｂ剤１０ｍｌ／Ｌであり、プロセス温度は、２０～３０℃であり、ＰＨは、１．８～３．５である。
+</com:P>
+            <com:P com:pNumber="0085">
+  赤外線で加熱する装置の設定温度は、８０℃である。
+</com:P>
+            <com:P com:pNumber="0086">
+  ポリプロピレンフィルムの搬送ライン速度は、２ｍ／ｍｉｎである。
+</com:P>
+            <com:P com:pNumber="0087">
+  ポリプロピレンフィルムのＡ面の総電流は、１１５２Ａであり、ポリプロピレンフィルムのＢ面の総電流は、１１６４Ａである。
+</com:P>
+            <com:P com:pNumber="0088">
+  補助陽極１２４のＡ面の総電流は、５２Ａであり、補助陽極１２４のＢ面の総電流は、６４Ａである。
+</com:P>
+            <com:P com:pNumber="0089">
+  ポリプロピレンフィルムの搬送中の張力は、８０Ｎである。
+</com:P>
+            <com:P com:pNumber="0090">
+  結果を表５及び表６に示す。
+</com:P>
+            <com:P com:pNumber="0091">
+  表５  １２００ｍポリプロピレンフィルムのＡ面とＢ面の異なる位置でのシート抵抗
+</com:P>
+            <com:P com:pNumber="0092">
+               <com:Table>
+                  <com:TableImage com:imageContentCategory="Drawing" com:tableNumber="5">
+                     <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+                     <com:FileName>0003250096000007.jpg</com:FileName>
+                     <com:HeightMeasure com:measureUnitCode="Mm">31</com:HeightMeasure>
+                     <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+                  </com:TableImage>
+               </com:Table>
+            </com:P>
+            <com:P com:pNumber="0093">
+  表６  ポリプロピレンフィルム表面の薄膜の孔の検出データ
+</com:P>
+            <com:P com:pNumber="0094">
+               <com:Table>
+                  <com:TableImage com:imageContentCategory="Drawing" com:tableNumber="6">
+                     <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+                     <com:FileName>0003250096000008.jpg</com:FileName>
+                     <com:HeightMeasure com:measureUnitCode="Mm">63</com:HeightMeasure>
+                     <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+                  </com:TableImage>
+               </com:Table>
+            </com:P>
+            <com:P com:pNumber="0095">
+  表５及び表６から分かるように、補助陽極１２４が設置されている場合、本願に係る導電性ローラ１２１を用いてポリプロピレンフィルムに薄膜をめっきするとき、四探針測定器を用いて１２００ｍの範囲内のポリプロピレンフィルム表面に形成された薄膜の抵抗を測定し、ポリプロピレンフィルムのＡ面のシート抵抗の均一性は７．３％であり、ポリプロピレンフィルムのＢ面のシート抵抗の均一性は７．３％である。ＣＣＤカメラにより、展開された１２００ｍ<com:Sup>２</com:Sup>の範囲内のポリプロピレンフィルム表面に形成された薄膜の状況を撮像し、孔の総数は、４５６個であり、各セグメント内の孔径は、著しく小さくなった。
+</com:P>
+            <com:P com:pNumber="0096">
+  以上をまとめると、本願に係る導電性ローラ１２１を使用すると（導電性ローラ１２１の両端は円柱体であり、円柱体の断面円の直径はｄ１であり、導電性ローラ１２１の中間部は、その軸方向に垂直な断面の最大直径がｄ２であり、かつｄ２がｄ１よりも小さい場合）、ポリプロピレンフィルムの表面に形成された薄膜の孔の数が明らかに減少し、かつ各セグメント内の孔径がいずれも小さくなり、めっき製品２００のめっき過程において、導電性ローラ１２１における銅逆めっき又は銅堆積現象が低減され、導電膜がめっき製品２００の表面に堆積された薄膜を傷つけるリスクが低減され、めっき製品２００のめっき品質が著しく向上することが示された。また、補助陽極１２４が設置されている場合、導電性ローラ１２１の中間部の電流密度が増加するため、めっき製品２００の表面に形成された薄膜の均一性を大幅に向上させ、めっき製品２００のめっき品質をさらに向上させる。
+</com:P>
+            <com:P com:pNumber="0097">
+  上述した実施形態の各技術的特徴は任意に組み合わせることができる。簡潔に説明するために、上述した実施形態における各技術的特徴の全ての可能な組み合わせを説明していないが、これらの組み合わせは、矛盾がない限り、全て本明細書に記載された範囲に属すると考えられるべきである。
+</com:P>
+            <com:P com:pNumber="0098">
+  以上、実施例は本願のいくつかの実施形態のみを説明しており、それらの説明は、具体的で詳細であるが、本願の範囲を限定するものとして解釈されるべきではない。なお、当業者にとって、本願の趣旨を離脱しない限り、本願に対して各種の変形及び改善を行うことができ、これらの変形及び改善は、本願の保護範囲に属する。よって、本願の保護範囲は、添付の実用新案登録請求の範囲を基準とするべきである。
+</com:P>
+         </pat:EmbodimentExample>
+      </pat:EmbodimentDescription>
+      <pat:ReferenceSignBag>
+         <com:P com:pNumber="0099">
+  １００  めっき用導電装置、１１０  フレーム、１２０  導電機構、１２１  導電性ローラ、１２２  チタンバスケット、１２３  整流器、１２４  補助陽極、２００  めっき製品、３００  めっき装置、３１０  巻き出し機構、３２０  巻き取り機構、３３０  テンション素子。
+</com:P>
+      </pat:ReferenceSignBag>
+   </jputl:Description>
+   <pat:Claims>
+      <pat:Claim>
+         <pat:ClaimNumber>1</pat:ClaimNumber>
+         <pat:ClaimText>
+  めっき製品の表面に薄膜をめっきするためのめっき用導電装置であって、<com:Br/>
+  めっき液を収容するめっき槽が設けられたフレームと、<com:Br/>
+  前記フレームに固定され、かつ前記めっき槽の深さ方向に沿って間隔をあけて対向して設置された２つの導電機構であって、前記導電機構は、導電性ローラ、チタンバスケット及び整流器を含み、前記整流器の正極は、前記チタンバスケットに電気的に接続され、前記整流器の負極は、前記導電性ローラに電気的に接続され、前記チタンバスケットは、少なくとも一部が前記めっき液内に浸漬され、前記導電性ローラの両端は、円柱体であり、前記円柱体の断面円の直径は、ｄ１であり、導電性ローラの中間部は、その軸方向に垂直な断面の最大直径がｄ２であり、かつｄ２がｄ１よりも小さく、前記導電性ローラは、一部が前記めっき液内に浸漬され、かつ前記導電性ローラは、めっきプロセスにおいて、前記導電性ローラの中間部がめっき液にも、めっき製品の中間部にも接触しないように設置される２つの導電機構と、を含み、<com:Br/>
+  前記めっき製品が前記導電機構を通過する際に、前記めっき製品の一方の面が２本の前記導電性ローラの一方に接触し、他方の面が他方の前記導電性ローラに接触する、ことを特徴とするめっき用導電装置。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>2</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記導電性ローラの両端の円柱体の断面円の直径ｄ１の範囲は、約５ｃｍ～約２０ｃｍであり、かつｄ１－ｄ２の範囲は、約１ｃｍ～約３ｃｍである、ことを特徴とする請求項１に記載のめっき用導電装置。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>3</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記導電性ローラの両端の円柱体の断面円の直径ｄ１の範囲は、約１０ｃｍ～約１５ｃｍである、ことを特徴とする請求項２に記載のめっき用導電装置。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>4</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記導電性ローラの中間部は、紡錘状構造である、ことを特徴とする請求項１に記載のめっき用導電装置。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>5</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記導電性ローラは、内部が中空の構造である、ことを特徴とする請求項１に記載のめっき用導電装置。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>6</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記導電性ローラの材質は、３０４ステンレス鋼、３１６ステンレス鋼のいずれかである、ことを特徴とする請求項１に記載のめっき用導電装置。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>7</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記導電機構は、補助陽極をさらに含み、前記整流器の正極は、前記補助陽極に電気的に接続される、ことを特徴とする請求項１に記載のめっき用導電装置。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>8</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記補助陽極の材質は、チタン金属であり、その表面にイリジウム金属層が均一に塗布される、ことを特徴とする請求項７に記載のめっき用導電装置。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>9</pat:ClaimNumber>
+         <pat:ClaimText>
+  巻き出し機構と、巻き取り機構と、請求項１～８のいずれか一項に記載のめっき用導電装置と、を含み、前記巻き出し機構と前記巻き取り機構は、いずれも前記フレームに固定され、かつ前記めっき製品の搬送経路に間隔をあけて設置される、ことを特徴とするめっき装置。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>10</pat:ClaimNumber>
+         <pat:ClaimText>
+  複数のテンション素子をさらに含み、複数の前記テンション素子は、いずれも前記フレームに固定され、かつ前記巻き出し機構と前記巻き取り機構との間に均一に分布する、ことを特徴とする請求項９に記載のめっき装置。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>11</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記テンション素子は、テンションプーリ又はテンションスプリングである、ことを特徴とする請求項１０に記載のめっき装置。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>12</pat:ClaimNumber>
+         <pat:ClaimText>
+  ２つのスプレー素子をさらに含み、２つの前記スプレー素子は、いずれも前記フレームに固定され、前記スプレー素子は、スプレー口を有し、２つの前記スプレー口のうちの一方は、２つの前記導電性ローラのうちの一方に向いており、他方は、２つの前記導電性ローラのうちの他方に向いている、ことを特徴とする請求項９に記載のめっき装置。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>13</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記スプレー素子は、スプレーヘッドである、ことを特徴とする請求項１２に記載のめっき装置。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>14</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記フレームに固定された加熱素子をさらに含む、ことを特徴とする請求項９に記載のめっき装置。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>15</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記加熱素子は、前記フレームに螺合され、かつ赤外線で加熱する装置である、ことを特徴とする請求項１４に記載のめっき装置。
+</pat:ClaimText>
+      </pat:Claim>
+   </pat:Claims>
+   <pat:Abstract>
+      <com:P com:pNumber="">本願は、めっき用導電装置（１００）及びめっき装置（３００）に関する。めっき用導電装置（１００）は、フレーム（１１０）と、２つの導電機構（１２０）とを含み、フレーム（１１０）には、めっき槽が設けられ、導電機構（１２０）は、導電性ローラ（１２１）と、チタンバスケット（１２２）と、整流器（１２３）とを含み、整流器（１２３）の正極は、チタンバスケット（１２２）に電気的に接続され、整流器（１２３）の負極は、導電性ローラ（１２１）に電気的に接続され、チタンバスケット（１２２）は、少なくとも一部がめっき液内に浸漬され、導電性ローラ（１２１）の両端の円柱体の断面円の直径はｄ１であり、導電性ローラ（１２１）の中間部の最大直径はｄ２であり、かつｄ２がｄ１よりも小さく、導電性ローラ（１２１）は、一部がめっき液内に浸漬され、かつ導電性ローラ（１２１）は、めっきプロセスにおいて、導電性ローラ（１２１）の中間部がめっき液にも、めっき製品（２００）の中間部にも接触しないように設置され、めっき製品（２００）が導電機構（１２０）を通過する際に、めっき製品（２００）の一方の面が２本の導電性ローラ（１２１）の一方に接触し、他方の面が他方の導電性ローラ（１２１）に接触する。<com:Br/>
+【選択図】図１
+</com:P>
+   </pat:Abstract>
+   <pat:Drawings>
+      <pat:Figure>
+         <pat:FigureNumber>1</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>0003250096000009.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">125</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">143</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>2</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>0003250096000010.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">64</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">142</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+   </pat:Drawings>
+</jputl:RegisteredUtilityModelPublication>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="../../../../../XSL/JPUnexaminedPatentPublication.xsl"?> -->
+<jppat:UnexaminedPatentPublication xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                                   xmlns:jppat="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPPatent"
+                                   xmlns:pat="http://www.wipo.int/standards/XMLSchema/ST96/Patent"
+                                   xmlns:com="http://www.wipo.int/standards/XMLSchema/ST96/Common"
+                                   xmlns:jpcom="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPCommon"
+                                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                   xsi:schemaLocation="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPPatent ../../../../../XSD/JPUnexaminedPatentPublication_V1_0.xsd"
+                                   com:languageCode="ja"
+                                   com:st96Version="V3_1"
+                                   com:ipoVersion="JP_V1_0">
+   <com:IPOfficeCode>JP</com:IPOfficeCode>
+   <jppat:UnexaminedPatentPublicationBibliographicData com:languageCode="ja">
+      <com:IPOfficeCode>JP</com:IPOfficeCode>
+      <jppat:PatentPublicationIdentification>
+         <com:IPOfficeCode>JP</com:IPOfficeCode>
+         <pat:PublicationNumber>2024125135</pat:PublicationNumber>
+         <com:PublicationDate>2024-09-13</com:PublicationDate>
+      </jppat:PatentPublicationIdentification>
+      <pat:PlainLanguageDesignationText>公開特許公報(A)</pat:PlainLanguageDesignationText>
+      <jppat:ApplicationIdentification>
+         <com:ApplicationNumber>
+            <com:ApplicationNumberText>2023048924</com:ApplicationNumberText>
+         </com:ApplicationNumber>
+         <pat:FilingDate>2023-03-03</pat:FilingDate>
+      </jppat:ApplicationIdentification>
+      <pat:InventionTitle>出力アップ  電磁調理器について</pat:InventionTitle>
+      <jppat:UnexaminedPatentPublicationPartyBag>
+         <jppat:ApplicantsRegisteredPractitionersBag>
+            <jppat:ApplicantRegisteredPractitionerBag com:sequenceNumber="1">
+               <jppat:Applicant com:sequenceNumber="1">
+                  <com:PartyIdentifier>520234165</com:PartyIdentifier>
+                  <jpcom:Contact>
+                     <com:Name>
+                        <com:EntityName>村上  一成</com:EntityName>
+                     </com:Name>
+                     <com:PostalAddressBag>
+                        <com:PostalAddress>
+                           <com:PostalAddressText>岩手県盛岡市肴町３－３０－５０１</com:PostalAddressText>
+                        </com:PostalAddress>
+                     </com:PostalAddressBag>
+                  </jpcom:Contact>
+               </jppat:Applicant>
+            </jppat:ApplicantRegisteredPractitionerBag>
+         </jppat:ApplicantsRegisteredPractitionersBag>
+         <jppat:InventorBag>
+            <jppat:Inventor com:sequenceNumber="1">
+               <jpcom:Contact>
+                  <com:Name>
+                     <com:EntityName>村上  一成</com:EntityName>
+                  </com:Name>
+                  <com:PostalAddressBag>
+                     <com:PostalAddress>
+                        <com:PostalAddressText>岩手県盛岡市肴町３－３０－５０１</com:PostalAddressText>
+                     </com:PostalAddress>
+                  </com:PostalAddressBag>
+               </jpcom:Contact>
+            </jppat:Inventor>
+         </jppat:InventorBag>
+      </jppat:UnexaminedPatentPublicationPartyBag>
+      <jppat:IPCClassification>
+         <com:Edition/>
+         <pat:MainClassification>H05B   6/36        20060101AFI20240906BHJP        </pat:MainClassification>
+      </jppat:IPCClassification>
+      <jppat:NationalClassification>
+         <com:IPOfficeCode>JP</com:IPOfficeCode>
+         <jppat:MainNationalClassification>
+            <pat:PatentClassificationText>H05B6/36 Z</pat:PatentClassificationText>
+         </jppat:MainNationalClassification>
+         <jppat:FurtherNationalClassification>
+            <pat:PatentClassificationText>H05B6/36 A</pat:PatentClassificationText>
+         </jppat:FurtherNationalClassification>
+      </jppat:NationalClassification>
+      <jppat:ClaimTotalQuantitySet>
+         <pat:ClaimTotalQuantity>1</pat:ClaimTotalQuantity>
+         <jppat:AdoptedLawCategory>Claim</jppat:AdoptedLawCategory>
+      </jppat:ClaimTotalQuantitySet>
+      <jppat:RequestExaminationIndicator>true</jppat:RequestExaminationIndicator>
+      <jppat:FilingForm>書面</jppat:FilingForm>
+      <jppat:ThemeCodeInformationBag>
+         <jppat:ThemeCodeInformation>3K059</jppat:ThemeCodeInformation>
+      </jppat:ThemeCodeInformationBag>
+      <jppat:FtermInformationBag>
+         <jppat:FtermInformation>3K059AA08</jppat:FtermInformation>
+         <jppat:FtermInformation>3K059AB08</jppat:FtermInformation>
+         <jppat:FtermInformation>3K059AB28</jppat:FtermInformation>
+         <jppat:FtermInformation>3K059AD01</jppat:FtermInformation>
+         <jppat:FtermInformation>3K059CD52</jppat:FtermInformation>
+         <jppat:FtermInformation>3K059CD72</jppat:FtermInformation>
+      </jppat:FtermInformationBag>
+   </jppat:UnexaminedPatentPublicationBibliographicData>
+   <jppat:ChosenDrawingImage>
+      <com:Image>
+         <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+         <com:FileName>2024125135000001.tif</com:FileName>
+         <com:HeightMeasure com:measureUnitCode="Mm">90</com:HeightMeasure>
+         <com:WidthMeasure com:measureUnitCode="Mm">124</com:WidthMeasure>
+      </com:Image>
+   </jppat:ChosenDrawingImage>
+   <jppat:AbstractCorrectionIndicator>true</jppat:AbstractCorrectionIndicator>
+   <jppat:Description>
+      <com:Heading>論文</com:Heading>
+      <com:P com:pNumber="">高温を得る為には、変圧器を組み込み、百ボルトを二百ボルトに上げる事である。<com:Br/>
+つまり２次コイルの巻き数を変える事により、とり出す電圧の大きさを自由に調整できる事になる。その結果強い渦電流を起こし、高熱を得ることも可能である。<com:Br/>
+その為には、一次コイルを下にし、コイルの巻数の多い二次コイルを上にして変圧器を横倒しにとりつければ良い。</com:P>
+   </jppat:Description>
+   <pat:Claims>
+      <pat:Claim>
+         <pat:ClaimNumber>  </pat:ClaimNumber>
+         <pat:ClaimText>  </pat:ClaimText>
+      </pat:Claim>
+   </pat:Claims>
+   <pat:Abstract>
+      <com:P>【課題】高温を得る。<com:Br/>【解決手段】高温を得る為には、変圧器を組み込み、百ボルトを三百ボルトに上げる事である。つまり２次コイルの巻き数を変える事により、とり出す電圧の大きさを自由に調整できる事になる。その結果強い渦電流を起こし、高熱を得ることも可能である。その為には、一次コイルを下にし、コイルの巻数の多い二次コイルを上にして変圧器を横倒しにとりつける。<com:Br/>【選択図】図１</com:P>
+   </pat:Abstract>
+   <pat:Drawings>
+      <pat:Figure>
+         <pat:FigureNumber>1</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>2024125135000002.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">79</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">97</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+   </pat:Drawings>
+   <jppat:WrittenAmendmentBag>
+      <jppat:WrittenAmendment>
+         <jppat:WrittenAmendmentCategory>Amendment</jppat:WrittenAmendmentCategory>
+         <pat:FilingDate>2023-08-23</pat:FilingDate>
+         <jppat:AmendmentsBag>
+            <jppat:AmendmentBag jppat:amendmentNumber="1">
+               <com:DocumentName>A16330</com:DocumentName>
+               <jppat:AmendmentItem>全文</jppat:AmendmentItem>
+               <jppat:AmendmentWay>3</jppat:AmendmentWay>
+               <jppat:AmendmentContentsBag>
+                  <jppat:AmendmentDocumentNameCategory>Description</jppat:AmendmentDocumentNameCategory>
+                  <jppat:Description>
+                     <com:Heading>発明の詳細な説明</com:Heading>
+                     <com:P com:pNumber="">高温を得る為には、変圧器を組み込み、百ボルトを二百ボルトに上げる事である。<com:Br/>
+つまり２次コイルの巻き数を変える事により、とり出す電圧の大きさを自由に調整できる事になる。その結果強い渦電流を起こし、高熱を得ることも可能である。<com:Br/>
+その為には、一次コイルを下にし、コイルの巻数の多い二次コイルを上にして変圧器を横倒しにとりつければ良い。</com:P>
+                     <pat:DrawingDescription>
+                        <com:P com:pNumber="">
+                           <com:FigureReference com:referencedFigureNumber="1">  変圧器を二次コイルを上にして、横倒しに設置する。</com:FigureReference>
+                        </com:P>
+                     </pat:DrawingDescription>
+                  </jppat:Description>
+               </jppat:AmendmentContentsBag>
+            </jppat:AmendmentBag>
+            <jppat:AmendmentBag jppat:amendmentNumber="2">
+               <com:DocumentName>A16333</com:DocumentName>
+               <jppat:AmendmentItem>全文</jppat:AmendmentItem>
+               <jppat:AmendmentWay>3</jppat:AmendmentWay>
+               <jppat:AmendmentContentsBag>
+                  <jppat:AmendmentDocumentNameCategory>Claims</jppat:AmendmentDocumentNameCategory>
+                  <pat:Claims>
+                     <pat:Claim>
+                        <pat:ClaimNumber>1</pat:ClaimNumber>
+                        <pat:ClaimText>変圧器を二次コイルを上にして、横倒しに設置する。</pat:ClaimText>
+                     </pat:Claim>
+                  </pat:Claims>
+               </jppat:AmendmentContentsBag>
+            </jppat:AmendmentBag>
+            <jppat:AmendmentBag jppat:amendmentNumber="4">
+               <com:DocumentName>A16331</com:DocumentName>
+               <jppat:AmendmentItem>全図</jppat:AmendmentItem>
+               <jppat:AmendmentWay>3</jppat:AmendmentWay>
+               <jppat:AmendmentContentsBag>
+                  <jppat:AmendmentDocumentNameCategory>Drawings</jppat:AmendmentDocumentNameCategory>
+                  <pat:Drawings>
+                     <pat:Figure>
+                        <pat:FigureNumber>1</pat:FigureNumber>
+                        <com:Image com:imageContentCategory="Drawing">
+                           <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+                           <com:FileName>2024125135000003.tif</com:FileName>
+                           <com:HeightMeasure com:measureUnitCode="Mm">90</com:HeightMeasure>
+                           <com:WidthMeasure com:measureUnitCode="Mm">124</com:WidthMeasure>
+                        </com:Image>
+                     </pat:Figure>
+                  </pat:Drawings>
+               </jppat:AmendmentContentsBag>
+            </jppat:AmendmentBag>
+         </jppat:AmendmentsBag>
+      </jppat:WrittenAmendment>
+   </jppat:WrittenAmendmentBag>
+</jppat:UnexaminedPatentPublication>

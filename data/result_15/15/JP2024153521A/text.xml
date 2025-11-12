@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="../../../../../XSL/JPUnexaminedPatentPublication.xsl"?> -->
+<jppat:UnexaminedPatentPublication xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                                   xmlns:jppat="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPPatent"
+                                   xmlns:pat="http://www.wipo.int/standards/XMLSchema/ST96/Patent"
+                                   xmlns:com="http://www.wipo.int/standards/XMLSchema/ST96/Common"
+                                   xmlns:jpcom="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPCommon"
+                                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                   xsi:schemaLocation="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPPatent ../../../../../XSD/JPUnexaminedPatentPublication_V1_0.xsd"
+                                   com:languageCode="ja"
+                                   com:st96Version="V3_1"
+                                   com:ipoVersion="JP_V1_0">
+   <com:IPOfficeCode>JP</com:IPOfficeCode>
+   <jppat:UnexaminedPatentPublicationBibliographicData com:languageCode="ja">
+      <com:IPOfficeCode>JP</com:IPOfficeCode>
+      <jppat:PatentPublicationIdentification>
+         <com:IPOfficeCode>JP</com:IPOfficeCode>
+         <pat:PublicationNumber>2024153521</pat:PublicationNumber>
+         <com:PublicationDate>2024-10-29</com:PublicationDate>
+      </jppat:PatentPublicationIdentification>
+      <pat:PlainLanguageDesignationText>公開特許公報(A)</pat:PlainLanguageDesignationText>
+      <jppat:ApplicationIdentification>
+         <com:ApplicationNumber>
+            <com:ApplicationNumberText>2023076937</com:ApplicationNumberText>
+         </com:ApplicationNumber>
+         <pat:FilingDate>2023-04-17</pat:FilingDate>
+      </jppat:ApplicationIdentification>
+      <pat:InventionTitle>身体牽引装置</pat:InventionTitle>
+      <jppat:UnexaminedPatentPublicationPartyBag>
+         <jppat:ApplicantsRegisteredPractitionersBag>
+            <jppat:ApplicantRegisteredPractitionerBag com:sequenceNumber="1">
+               <jppat:Applicant com:sequenceNumber="1">
+                  <com:PartyIdentifier>592037561</com:PartyIdentifier>
+                  <jpcom:Contact>
+                     <com:Name>
+                        <com:EntityName>中西  博</com:EntityName>
+                     </com:Name>
+                     <com:PostalAddressBag>
+                        <com:PostalAddress>
+                           <com:PostalAddressText>大阪府大阪市城東区蒲生３－１５－１４</com:PostalAddressText>
+                        </com:PostalAddress>
+                     </com:PostalAddressBag>
+                  </jpcom:Contact>
+               </jppat:Applicant>
+            </jppat:ApplicantRegisteredPractitionerBag>
+         </jppat:ApplicantsRegisteredPractitionersBag>
+         <jppat:InventorBag>
+            <jppat:Inventor com:sequenceNumber="1">
+               <jpcom:Contact>
+                  <com:Name>
+                     <com:EntityName>中西  博</com:EntityName>
+                  </com:Name>
+                  <com:PostalAddressBag>
+                     <com:PostalAddress>
+                        <com:PostalAddressText>大阪市城東区蒲生３－１５－１４</com:PostalAddressText>
+                     </com:PostalAddress>
+                  </com:PostalAddressBag>
+               </jpcom:Contact>
+            </jppat:Inventor>
+         </jppat:InventorBag>
+      </jppat:UnexaminedPatentPublicationPartyBag>
+      <jppat:IPCClassification>
+         <com:Edition/>
+         <pat:MainClassification>A61F   5/042       20060101AFI20241022BHJP        </pat:MainClassification>
+      </jppat:IPCClassification>
+      <jppat:NationalClassification>
+         <com:IPOfficeCode>JP</com:IPOfficeCode>
+         <jppat:MainNationalClassification>
+            <pat:PatentClassificationText>A61F5/042 A</pat:PatentClassificationText>
+         </jppat:MainNationalClassification>
+      </jppat:NationalClassification>
+      <jppat:ClaimTotalQuantitySet>
+         <pat:ClaimTotalQuantity>5</pat:ClaimTotalQuantity>
+         <jppat:AdoptedLawCategory>Claim</jppat:AdoptedLawCategory>
+      </jppat:ClaimTotalQuantitySet>
+      <jppat:PublishFigure>
+         <pat:FigureNumber>1</pat:FigureNumber>
+      </jppat:PublishFigure>
+      <jppat:RequestExaminationIndicator>true</jppat:RequestExaminationIndicator>
+      <jppat:FilingForm>書面</jppat:FilingForm>
+      <jppat:ThemeCodeInformationBag>
+         <jppat:ThemeCodeInformation>4C098</jppat:ThemeCodeInformation>
+      </jppat:ThemeCodeInformationBag>
+      <jppat:FtermInformationBag>
+         <jppat:FtermInformation>4C098AA03</jppat:FtermInformation>
+         <jppat:FtermInformation>4C098BB02</jppat:FtermInformation>
+         <jppat:FtermInformation>4C098BB11</jppat:FtermInformation>
+         <jppat:FtermInformation>4C098BC21</jppat:FtermInformation>
+         <jppat:FtermInformation>4C098BC42</jppat:FtermInformation>
+         <jppat:FtermInformation>4C098BD02</jppat:FtermInformation>
+         <jppat:FtermInformation>4C098DD25</jppat:FtermInformation>
+      </jppat:FtermInformationBag>
+   </jppat:UnexaminedPatentPublicationBibliographicData>
+   <jppat:ChosenDrawingImage>
+      <com:Image com:imageContentCategory="Drawing">
+         <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+         <com:FileName>2024153521000001.jpg</com:FileName>
+         <com:HeightMeasure com:measureUnitCode="Mm">93</com:HeightMeasure>
+         <com:WidthMeasure com:measureUnitCode="Mm">104</com:WidthMeasure>
+      </com:Image>
+   </jppat:ChosenDrawingImage>
+   <jppat:AbstractCorrectionIndicator>true</jppat:AbstractCorrectionIndicator>
+   <jppat:Description>
+      <pat:TechnicalField>
+         <com:P com:pNumber="0001">本発明は人体の関節痛など、不調を牽引して改善する身体牽引装置に関する。</com:P>
+      </pat:TechnicalField>
+      <pat:BackgroundArt>
+         <com:P com:pNumber="0002">特許出願平１１－０２９５２９（特開２０００－２２５１３６）、実開平０７－０２７５２１などが従来から知られている。</com:P>
+      </pat:BackgroundArt>
+      <com:Heading>先行技術</com:Heading>
+      <com:P com:pNumber="0003">先願の多くは構造が複雑で高価であり、一般的に使用しにくかった。<com:Br/>
+更に先行装置は身体を強度に引き過ぎる物もあり、その結果医学界では人体牽引療法が効果有る無しの賛否両論あり其々医者の掲載記事を見ることができる。</com:P>
+      <pat:InventionSummary>
+         <pat:TechnicalProblem>
+            <com:P com:pNumber="0004">本発明は人体を弱い牽引が関節痛などの改善に有効であるとする意見を支持し発明した物で、簡単な構造で牽引力を調節できることを課題とした。</com:P>
+         </pat:TechnicalProblem>
+      </pat:InventionSummary>
+      <com:Heading>課題を解決する為の手段</com:Heading>
+      <com:P com:pNumber="0005">本体は化学合成樹脂など、強度と復元力のある素材の特性を利用し製作する。<com:Br/>
+本発明は装置上部の、上受台（１）に乗せた身体部位、首、背、足などの自重で復元力のある、柱（２）が牽引する方向へ折れ曲がり移動し身体牽引装置となる。<com:Br/>
+上受台（１）と、柱（２）これを支える、下台（３）を不動固定して目的を達成する手段となる。</com:P>
+      <com:Heading>発明の効果</com:Heading>
+      <com:P com:pNumber="0006">請求項１項の本発明は弱い牽引力で関節痛などを改善する為、使用する人それぞれの、首、背、足などの自重量で牽引力を発生させ調節可能なものとなる。<com:Br/>
+上記目的を得るため、柱（２）の両辺に折れ曲がる位置を任意に設定する。<com:Br/>
+柱（２）の両辺に左か右、又は左右へ単数又は複数の、倒れ位置線（４）を任意で切り込み、折れ曲がりやすくすることにより牽引する方向と牽引力幅を調節できる効果をつくる。<com:Br/>
+請求項２項は、柱（２）の強度を増す、補強板（５）を単数又は複数を接着剤かホッチキス（６）などで、柱（２）に固着し復元強度を新品状態に復元する。<com:Br/>
+倒れ位置線（４）を新に設けることにより傾き方向と牽引幅が変更可能となる効果をつくり、症状に適した牽引が可能となる。。<com:Br/>
+請求項３は身体牽引装置の下部に複数の、切り込み線（８）を設け折り、長さで傾き方向を作り、下位置の固定で任意の傾き方向を変更可能とした効果をつくる。</com:P>
+      <pat:DrawingDescription>
+         <com:P com:pNumber="0007">
+            <com:FigureReference com:referencedFigureNumber="1">  前面斜視透視図、全体図</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="2">  背面透視図、全体図</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="3">  上面透視図、</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="4">  平面図、補強板</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="5">  正面透視図</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="6">  横面透視図、折れ曲がり状態</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="7">  上面透視図、折れ曲がり状態</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="8">  上面透視図、下部のみ断面</com:FigureReference>
+         </com:P>
+      </pat:DrawingDescription>
+      <pat:EmbodimentDescription>
+         <com:P com:pNumber="0008">全体の素材は化学合成樹脂など強度と復元力のある素材の特性を利用し、身体の部位、首、背、足などを受ける大きさにつくり、保持しやすい曲線や湾曲部でなる形態に布やウレタンなどを配し、使いやすいものとする。<com:Br/>
+上受台（１）と、柱（２）と、固定した、下台（３）からなる形状とする。<com:Br/>
+柱（２）に、倒れ位置線（４）を左か右又は左右に単数又は複数を設け折れ曲がる位置を変更でき傾き、方向と牽引力幅が調節可能となる形態とする。<com:Br/>
+請求項２項は柱の強度を増す、補強板（５）を単数又は複数を接着剤固定か又はホッチキス（６）で固着する。<com:Br/>
+過使用で復元力が低下した時上記、補強板（５）、で新品の状態に復元でき、倒れ位置線（４）を新に設け切り込み、症状に適した傾き方向と幅が変更可能な形態となる。<com:Br/>
+請求項３項は身体牽引装置の、下台（３）の下部に複数の長さを変えた、切り込み線（８）を設け切り込み、下位置での方向固定を変更可能とした形態となる。</com:P>
+         <pat:EmbodimentExample>
+            <com:P com:pNumber="0009">使用するにあたり身体は上向きに寝て、足を牽引する場合は、上受台（１）に足の踵を乗せると牽引する方向に、柱（２）が折れ曲がり牽引する。<com:Br/>
+実施例としては空になったペットボトルをカット加工し、下台（３）をビス固着か、ホッチキス（６）止めか接着剤固着しても完成できる。<com:Br/>
+柱（２）の強度復元は、カットした不要なペットボトル片を、補強板（５）とし固着する。<com:Br/>
+折れ曲がる位置を、倒れ位置線（４）で切り込み、症状に適した任意の牽引幅を得られる物となる。<com:Br/>
+ペットボトルの波型底をきり落として複数の長さを変えた、切り込み線（８）を切り込みビス固定して下位置での牽引方向を変更が可能となる。</com:P>
+         </pat:EmbodimentExample>
+      </pat:EmbodimentDescription>
+      <pat:IndustrialApplicability>
+         <com:P com:pNumber="0010">身体の関節疾病の症状改善に、牽引療法を単純な構造と、安価な材料で簡単に製作でき、弱い牽引力は安全性をも兼ね備えた物となり、使用する人に恩恵をもたらす物となる。</com:P>
+      </pat:IndustrialApplicability>
+      <pat:ReferenceSignBag>
+         <com:P com:pNumber="0011">１・・・上受台    ２・・・柱    ３・・・下台  ４・・・倒れ位置線    ５・・・補強板    ６・・・ホッチキス    ７・・・押さえ片    （８）・・・切り込み線    ９・・・ビス穴</com:P>
+      </pat:ReferenceSignBag>
+   </jppat:Description>
+   <pat:Claims>
+      <pat:Claim>
+         <pat:ClaimNumber/>
+         <pat:ClaimText/>
+      </pat:Claim>
+   </pat:Claims>
+   <pat:Abstract>
+      <com:P com:pNumber="">【課題】化学合成樹脂の強度と復元力を利用する、一例として空のペットボトルをカット加工し、身体を牽引する装置となるもので、人それぞれにあわせ牽引力及び牽引方向を調節できることを課題とした身体牽引装置を提供する。<com:Br/>【解決手段】強度と復元力のある素材を利用し、身体部位、首、背、足などの自重でのせた、上受台（１）が柱（２）を牽引方向に折り曲げて牽引するものとなる。柱（２）に、倒れ位置線（４）や補強板をホッチキスなどで固定し牽引幅と牽引方向を調節でき、復元力も補強できるものとなる。上記を支える下台（３）を固定するビスをビス穴で固着し安定させ、下台（３）には、切り込み線で真っすぐ、又は左右方向への牽引を選べるものとなる。これらの手段で使用者に適した牽引力を自由に変更できる身体牽引装置となる。<com:Br/>【選択図】図１</com:P>
+   </pat:Abstract>
+   <pat:Drawings>
+      <pat:Figure>
+         <pat:FigureNumber>1</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2024153521000002.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">93</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">104</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>2</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2024153521000003.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">89</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">85</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>3</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2024153521000004.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">61</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">99</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>4</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2024153521000005.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">65</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">85</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>5</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2024153521000006.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">159</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">81</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>6</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2024153521000007.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">149</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">87</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>7</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2024153521000008.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">99</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">81</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>8</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2024153521000009.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">93</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">76</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+   </pat:Drawings>
+   <jppat:WrittenAmendmentBag>
+      <jppat:WrittenAmendment>
+         <jppat:WrittenAmendmentCategory>Amendment</jppat:WrittenAmendmentCategory>
+         <pat:FilingDate>2023-07-28</pat:FilingDate>
+         <jppat:AmendmentsBag>
+            <jppat:AmendmentBag jppat:amendmentNumber="1">
+               <com:DocumentName>A16333</com:DocumentName>
+               <jppat:AmendmentItem>全文</jppat:AmendmentItem>
+               <jppat:AmendmentWay>3</jppat:AmendmentWay>
+               <jppat:AmendmentContentsBag>
+                  <jppat:AmendmentDocumentNameCategory>Claims</jppat:AmendmentDocumentNameCategory>
+                  <pat:Claims>
+                     <pat:Claim>
+                        <pat:ClaimNumber>1</pat:ClaimNumber>
+                        <pat:ClaimText>  使用者の身体の各部位を保持する上受け台と、前記上受け台を支持する弾性板と、前記弾性板の下端を支持する下固定台と、前記弾性板を前記弾性板の厚み方向に倒れさせる倒し手段と、前記弾性板が倒れてはいけない方向への弾性板の倒れを阻止する倒れ阻止手段を備え、前記弾性板が持つ強度と弾力を前記弾性板が倒れた時に発生する反復復元力を身体牽引に利用することを特徴とする身体牽引装置。</pat:ClaimText>
+                     </pat:Claim>
+                     <pat:Claim>
+                        <pat:ClaimNumber>2</pat:ClaimNumber>
+                        <pat:ClaimText>  前記倒し手段は、前記弾性板の断面係数を小さくする切り込み又は穴又は括れである請求項１に記載の身体牽引装置。</pat:ClaimText>
+                     </pat:Claim>
+                     <pat:Claim>
+                        <pat:ClaimNumber>3</pat:ClaimNumber>
+                        <pat:ClaimText>  前記倒し手段は、前記弾性板に水平又は左右に傾けて設けられている請求項１に記載の身体牽引装置。</pat:ClaimText>
+                     </pat:Claim>
+                     <pat:Claim>
+                        <pat:ClaimNumber>4</pat:ClaimNumber>
+                        <pat:ClaimText>  前記弾性板の強度を可変とする強度可変手段を備えた請求項１に記載の身体牽引装置。</pat:ClaimText>
+                     </pat:Claim>
+                     <pat:Claim>
+                        <pat:ClaimNumber>5</pat:ClaimNumber>
+                        <pat:ClaimText>  前記弾性板の倒れ角度を可変とする倒れ角度可変手段を備えた請求項１に記載の身体牽引装置。</pat:ClaimText>
+                     </pat:Claim>
+                     <pat:Claim>
+                        <pat:ClaimNumber>6</pat:ClaimNumber>
+                        <pat:ClaimText>  前記下固定台は回転可能となっている請求項１に記載の身体牽引装置。</pat:ClaimText>
+                     </pat:Claim>
+                  </pat:Claims>
+               </jppat:AmendmentContentsBag>
+            </jppat:AmendmentBag>
+            <jppat:AmendmentBag jppat:amendmentNumber="2">
+               <com:DocumentName>A16330</com:DocumentName>
+               <jppat:AmendmentItem>全文</jppat:AmendmentItem>
+               <jppat:AmendmentWay>3</jppat:AmendmentWay>
+               <jppat:AmendmentContentsBag>
+                  <jppat:AmendmentDocumentNameCategory>Description</jppat:AmendmentDocumentNameCategory>
+                  <jppat:Description>
+                     <pat:TechnicalField>
+                        <com:P com:pNumber="0001">  本発明は、身体牽引装置に関するものであり、更に詳しくは、人体の腰痛や骨の歪みなどを牽引して矯正し、改善する身体牽引装置に関するものである。</com:P>
+                     </pat:TechnicalField>
+                     <pat:BackgroundArt>
+                        <com:P com:pNumber="0002">  従来より、人体の腰痛や骨の歪みなどを牽引して矯正する身体牽引装置は、種々提案されているが、構造が複雑であるとともに大型であるため、病院などでしか使用できず、家庭などで手軽に使用できないという問題点があった。</com:P>
+                     </pat:BackgroundArt>
+                     <com:CitationBag>
+                        <com:PatentCitationBag>
+                           <com:P com:pNumber="0003">
+                              <com:PatentCitation com:sequenceNumber="1">
+                                 <com:PatentCitationText>特開２０００－２２５１３６号公報</com:PatentCitationText>
+                              </com:PatentCitation>
+                              <com:PatentCitation com:sequenceNumber="2">
+                                 <com:PatentCitationText>実開平０７－０２７５２１号公報</com:PatentCitationText>
+                              </com:PatentCitation>
+                           </com:P>
+                        </com:PatentCitationBag>
+                     </com:CitationBag>
+                     <pat:InventionSummary>
+                        <pat:TechnicalProblem>
+                           <com:P com:pNumber="0004">  本発明は、上記問題点を解決するためになされたものであり、家庭などでも手軽に使用できる身体牽引装置を提供することにある。</com:P>
+                        </pat:TechnicalProblem>
+                        <pat:TechnicalSolution>
+                           <com:P com:pNumber="0006">  上記課題を解決するために、本発明の身体牽引装置は、使用者の身体の各部位を保持する上受け台と、前記上受け台を支持する弾性板と、前記弾性板の下端を支持する下固定台と、前記弾性板を前記弾性板の厚み方向に倒れさせる倒し手段と、前記弾性板が倒れてはいけない方向への弾性板の倒れを阻止する倒れ阻止手段を備え、前記弾性板が持つ強度と弾力を前記弾性板が倒れた時に発生する反復復元力を身体牽引に利用することを特徴とする。<com:Br/>
+  又、本発明の身体牽引装置は、前記倒し手段は、前記弾性板の断面係数を小さくする切り込み又は穴又は括れであるのが望ましい。<com:Br/>
+  又、本発明の身体牽引装置は、前記倒し手段は、前記弾性板に水平又は左右に傾けて設けられているのが望ましい。<com:Br/>
+  又、本発明の身体牽引装置は、前記弾性板の強度を可変とする強度可変手段を備えているのが望ましい。<com:Br/>
+  又、本発明の身体牽引装置は、前記弾性板の倒れ角度を可変とする倒れ角度可変手段を備えているのが望ましい。<com:Br/>
+  又、本発明の身体牽引装置は、前記下固定台は回転可能となっているのが望ましい。</com:P>
+                        </pat:TechnicalSolution>
+                        <pat:AdvantageousEffects>
+                           <com:P com:pNumber="0007">  本発明に係る身体牽引装置は、使用者の身体の各部位を保持する上受け台と、前記上受け台を支持する弾性板と、前記弾性板の下端を支持する下固定台と、前記弾性板を前記弾性板の厚み方向に倒れさせる倒し手段と、前記弾性板が倒れてはいけない方向への弾性板の倒れを阻止する倒れ阻止手段を備え、前記弾性板が持つ強度と弾力を前記弾性板が倒れた時に発生する反復復元力を身体牽引に利用することを特徴とするものであるから、弾性板の持つ強度と弾力性を反復復元力として利用し、牽引できるものであり、小型にすることが可能であるので、家庭においても使用が可能となり、何時でも手軽に使用できるという効果があり、更に、前記弾性板が倒れてはいけない方向への弾性板の倒れを阻止する倒れ阻止手段を備えているものは、前記弾性板を同一方向に倒れさせることが可能となり、最も効果のある身体牽引装置にすることができるという効果がある。<com:Br/>
+  又請求項２のように、前記倒し手段は、前記弾性板の断面係数を小さくする切り込み又は穴又は括れであるものは、倒し手段を設けた位置で確実に弾性板を倒すことができ、弾性板が倒れた時に発生する反復復元力を身体牽引に利用することができるという効果がある。<com:Br/>
+  又請求項３のように、前記倒し手段は、前記弾性板に水平又は左右に傾けて設けられているものは、反復復元力の角度を自由に設定でき、最も効果のある身体牽引装置にすることができるという効果がある。<com:Br/>
+  又請求項４のように、前記弾性板の強度を可変とする強度可変手段を備えているものは、前記弾性板の強度を最も効果のある強度に変えることが出来、最も効果のある身体牽引装置にすることができるという効果がある。<com:Br/>
+  又請求項５のように、前記弾性板の倒れ角度を可変とする倒れ角度可変手段を備えているものは、前記弾性板の倒れ角度を最も効果のある倒れ角度にすることが出来、最も効果のある身体牽引装置にすることができるという効果がある。<com:Br/>
+  又請求項６のように、前記下固定台は回転可能となっているものは、上受け台に上載した部位を片側又は両側左右へ微回転で振り牽引が可能となるという効果がある。</com:P>
+                        </pat:AdvantageousEffects>
+                     </pat:InventionSummary>
+                     <pat:DrawingDescription>
+                        <com:P com:pNumber="0008">
+                           <com:FigureReference com:referencedFigureNumber="1">図１は、本発明の身体牽引装置の一部を断面した側面図。</com:FigureReference>
+                           <com:FigureReference com:referencedFigureNumber="2">図２は、同上の身体牽引装置の保持部を示す平面図。</com:FigureReference>
+                           <com:FigureReference com:referencedFigureNumber="3">図３は、同上の身体牽引装置の要部の正面図。</com:FigureReference>
+                           <com:FigureReference com:referencedFigureNumber="4">図４は、同上の身体牽引装置の他の実施例における要部の正面図。</com:FigureReference>
+                           <com:FigureReference com:referencedFigureNumber="5">図５は、同上の身体牽引装置の他の実施例における要部の正面図。</com:FigureReference>
+                           <com:FigureReference com:referencedFigureNumber="6">図６は、同上の身体牽引装置の他の実施例の正面図。</com:FigureReference>
+                           <com:FigureReference com:referencedFigureNumber="7">図７は、同上の身体牽引装置の他の実施例の正面図。</com:FigureReference>
+                           <com:FigureReference com:referencedFigureNumber="8">図８は、図７における動作状態図。</com:FigureReference>
+                           <com:FigureReference com:referencedFigureNumber="9">図９は、本発明の身体牽引装置の強度可変手段の概略図。</com:FigureReference>
+                           <com:FigureReference com:referencedFigureNumber="10">図１０は、本発明の身体牽引装置の強度可変手段の他の実施例の概略図。</com:FigureReference>
+                           <com:FigureReference com:referencedFigureNumber="11">図１１は、本発明の身体牽引装置の倒れ角度可変手段の概略図。</com:FigureReference>
+                           <com:FigureReference com:referencedFigureNumber="12">図１２は、本発明の身体牽引装置の弾性板の断面図。</com:FigureReference>
+                           <com:FigureReference com:referencedFigureNumber="13">図１３は、本発明の身体牽引装置の使用状態図。</com:FigureReference>
+                        </com:P>
+                     </pat:DrawingDescription>
+                     <pat:EmbodimentDescription>
+                        <com:P com:pNumber="0009">  以下、本発明を実施するための形態について、図１乃至図１１を参照して説明する。</com:P>
+                        <pat:EmbodimentExample>
+                           <com:P com:pNumber="0010">  身体牽引装置１は、使用者の身体の各部位を保持する上受け台２と、上受け台２を支持する弾性板３と、弾性板３の下端を支持する下固定台４と、弾性板３を弾性板の厚み方向に倒れさせる倒し手段５と、弾性板３が倒れてはいけない方向への弾性板３の倒れを阻止する倒れ阻止手段６を備え、弾性板３が持つ強度と弾力を弾性板３が倒れた時に発生する反復復元力を身体牽引に利用しており、人体に対し弱い牽引が関節痛又は歪み等の改善に有効であると注目し発明したものであり、弾性板３の特性を簡単な構造で牽引力として利用したものである。上受け台２と下固定台４との間には上受け台２と弾性板３とが倒れ込んだ際に上受け台２と弾性板３の少なくとも一部が入り込む空間Ｋが形成されている。</com:P>
+                           <com:P com:pNumber="0011">  上受け台２は、使用者の改善を必要とする身体の部位である頭、首、背中、腰、脹脛、足首、踵を受けるとともに保持する大きさのクッション材でできた保持部７が設けられている。保持部７は使用者の身体の部位に接触するので接触部はクッション性を有する材料で覆われているか、クッション性を有する材料でできているのが望ましいものである。<com:Br/>
+  保持部７が取付けられる取付部８は、弾性板３と一体的に形成されており、弾性板３にスリット９を形成するとともに９０度倒すことで形成されており、内側に倒して形成された第１の取付部８ａと，外側に倒して形成された第２の取付部８ｂとで構成されている。第１の取付部８ａと第２の取付部８ｂとは、保持部７に上載する身体の部位の大きさや重さに応じて形状を設定すれば良いものであり、一例として踵を受ける保持部７の場合は、第１の取付部８ａを対となった２個の四角形形状とし、第２の取付部８ｂを第１の取付部８ａ間に形成される大きさの１個の四角形形形状のもので形成すれば良いものである。<com:Br/>
+  弾性板３と一体的に取付部８が形成されているものは、弾性板３が持つ強度と弾力を取付部８に供与するとともに、取付部８と弾性板３がスムーズに動いて取付部８からの荷重を弾性板３でスムーズに吸収することが出来、最も効果のある身体牽引装置にすることができるという効果がある。</com:P>
+                           <com:P com:pNumber="0012">  保持部７は、図２に示すように、面積及び突出量を無段階で変えられるように、弾性板３に対して交差する方向に摺動自在に保持部７となる板材に長穴１０を開けたものをねじのような固定具１１で取り付けるようにしても構わないものである。</com:P>
+                           <com:P com:pNumber="0013">  弾性板３は、ポリエチレンテレフタレートのような化学合成樹脂板や合成ゴムや金属板で形成されており、上受け台２に上載する使用者の身体の部位により異なるが、踵の場合は、厚みが１ミリメートル、幅が１０ミリメートル、長さが２０ミリメートルのポリエチレンテレフタレート板を使用することが出来るものである。弾性板３は、厚みが足らない場合は、接合することで所定の強度を得ることができるものであり、接合方法としては接着又は図１２に示すように、両面テープ１２を用いることができるものである。弾性板３は、一本又は複数本で構成されていても構わないものであり、着脱することで弾性板３の強度を変えるようにしても構わないものである。実施例にあっては、図３においてハッチングしている部分が両面テープ１２を用いて二枚の弾性板３を重合している箇所であり、両面テープ１２が所有する粘性により最適な身体牽引装置１にすることができるという効果がある。</com:P>
+                           <com:P com:pNumber="0014">  下固定台４は、合成樹脂材でできているが、弾性板３と一体的に形成されており、実施例にあっては、ペットボトルを加工して形成しているが、弾性板３と別体に形成されていても構わないものである。下固定台４は、身体牽引装置１を強固に固定する場合は別体の基台１３にねじ１４により固定すれば良いものである。</com:P>
+                           <com:P com:pNumber="0015">  下固定台４は、回転板１５に回動自在に支軸１６により軸支されていて回転可能となっていても構わないものであり、下固定台４が回転可能となっているものは、上受け台２に上載した部位を片側又は両側左右へ微回転で振り牽引が可能となり、骨格のズレ、背骨、骨盤、靭帯や筋の矯正及びＯ脚Ｘ脚の症状改善の効果が期待できるものである。</com:P>
+                           <com:P com:pNumber="0016">  倒し手段５は、弾性板３の断面係数を小さくするように図３に示された切り込み又は図４に示された穴又は図５に示された括れにより形成されており、弾性板３の縦片の任意の位置に水平又は左右に傾けて設けられていても構わないものである。切り込みは、図３に示すように、弾性板３の幅方向の端部にＶ字状の形成されているものや、弾性板３の全幅にわたって厚み方向に凹部が形成されていても構わないものである。</com:P>
+                           <com:P com:pNumber="0017">  弾性板３には、弾性板３が倒れてはいけない方向への弾性板３の倒れを阻止する倒れ阻止手段６が設けられている。倒れ阻止手段６は、弾性板３の上受け台２の方向に対して直交する方向の断面形状を凹曲面状とすることで凸曲面側には倒れないようにしており、弾性板３と一緒に倒れ阻止手段６も倒れるので倒れ阻止手段６が邪魔になることは無いのである。実施例にあっては、ペットボトルの飲み物収納部の凹曲面状となった内壁の外側に位置する凸曲面状となった外壁を倒れ阻止手段６としている。弾性板３を複数設けた場合は、強度が高い弾性板３が倒れ阻止手段６となるものであり、強度が高い弾性板３側には弾性板３は倒れず、強度が低い弾性板３側には弾性板３は倒れるものである。</com:P>
+                           <com:P com:pNumber="0018">  図６、図７、図８は、倒れ阻止手段６の他の実施例を示すものであり、弾性板３と対面する位置に上受け台２と下固定台４を連結する連結部材で倒れ阻止手段６が形成されており、図６に示すものは、弾性板３、上受け台２、下固定台４と一体的に形成されており、図７に示すものは、弾性板３、上受け台２、下固定台４と別体に形成されており、図８に示す様に、弾性板３は倒れ阻止手段６により倒れが阻止されない側のみにしか倒れないようになっている。</com:P>
+                           <com:P com:pNumber="0019">  弾性板３には、弾性板３の強度を可変とする強度可変手段１７が設けられていても構わないものである。弾性板３と強度可変手段１７に凹状の係合部と凸の係合部とを設け、化学合成樹脂材等で図９に示す長さや幅や厚さが異なる強度可変手段１７を複数枚準備し、各使用者の部位の重量と牽引角度に応じて交換し、凹状の係合部に凸の係合部を挿入係合すれば良いものである。強度可変手段１７は、各使用者の部位の重量に応じて最適なものを交換する以外に、図１０に示すように、弾性板３との接合面積を無段階で変えられるように、弾性板３に対して上受け台２の方向に摺動自在に強度可変手段１７となる板材に長穴１８を開けたものをねじのような固定具１９で取り付けるようにしても構わないものである。</com:P>
+                           <com:P com:pNumber="0020">弾性板３には、弾性板３の倒れ角度を可変とする倒れ角度可変手段２０が設けられていても構わないものであり、弾性板３と倒れ角度可変手段２０に強度可変手段１７と同様の凹凸の係合部を設け、化学合成樹脂材等で弾性板３の断面係数を小さくする切り込み又は穴又は括れにより倒れ角度が異なる倒れ角度可変手段２０を複数枚準備し、各使用者の部位の牽引角度に応じて交換すれば良いものである。倒れ角度可変手段２０は、各使用者の部位の倒れ角度に応じて最適なものを交換する以外に、図１２に示すように、弾性板３を下固定台４に対し取り付け角度を無段階で変えられるように軸支するとともに、所定の角度で固定するようにすれば良いものであり、一例としてねじ２１のボルト部で軸支するとともにねじ２１のナット部で固定すれば良い。弾性板３を上受け台２に対しても取り付け角度を無段階で変えられるように軸支するとともに、所定の角度で固定するようにすれば良いものであり、一例としてねじのボルト部で軸支するとともにねじのナット部で固定すれば良いものである。</com:P>
+                           <com:P com:pNumber="0021">身体牽引装置１は、化学合成樹脂製品の平面体又は容積体に成形したものを加工して製作可能であり、治療部位に合った容器やペットボトルを加工して簡単に製作できるものである。</com:P>
+                           <com:P com:pNumber="0022">上受け台２には、身体部位を拘束する形状の弾力性を有するゴムやポリウレタンなどで部位の形状に合うようにＶ形溝やＵ形溝に変形させて部位に密着するようにし、部位を深く拘束することができるように構成されている。又、部位を簡単に差し入れできるゴムリングや調節可能なベルトを備えて部位を深く拘束することができるようになっており、牽引の効果を高めている。</com:P>
+                           <com:P com:pNumber="0023">  次に、本発明の身体牽引装置１の使用方法について図１３を参照して説明する。使用者が仰向けに寝て改善を要する部位を上受け台２に乗せるのであり、足を牽引する場合は、上受け台２に上載した足の重力と倒し手段５とで弾性板３は折れ曲がり牽引力を発生させ身体牽引をすることができる。牽引の部位を変える場合は、その部位に応じて弾性板３の強度を強度可変手段１７により変更したり、倒れ角度を倒れ角度可変手段２０により変更すれば良いものであり、事前に最も適した条件を把握し、使用する都度その条件と一致した内容で身体牽引装置１を使用すれば良いものである。<com:Br/>
+弾性板３が持つ強度と弾力を弾性板３が倒れた時に発生する反復復元力として身体牽引に利用するものであり、使用者の改善を要する部位を持ち上げることで弾性板３により復帰するものである。</com:P>
+                        </pat:EmbodimentExample>
+                     </pat:EmbodimentDescription>
+                     <pat:ReferenceSignBag>
+                        <com:P com:pNumber="0024">１    身体牽引装置<com:Br/>
+２    上受け台<com:Br/>
+３    弾性板<com:Br/>
+４    下固定台<com:Br/>
+５    倒し手段<com:Br/>
+６    倒れ阻止手段</com:P>
+                     </pat:ReferenceSignBag>
+                  </jppat:Description>
+               </jppat:AmendmentContentsBag>
+            </jppat:AmendmentBag>
+            <jppat:AmendmentBag jppat:amendmentNumber="3">
+               <com:DocumentName>A16331</com:DocumentName>
+               <jppat:AmendmentItem>全図</jppat:AmendmentItem>
+               <jppat:AmendmentWay>3</jppat:AmendmentWay>
+               <jppat:AmendmentContentsBag>
+                  <jppat:AmendmentDocumentNameCategory>Drawings</jppat:AmendmentDocumentNameCategory>
+                  <pat:Drawings>
+                     <pat:Figure>
+                        <pat:FigureNumber>1</pat:FigureNumber>
+                        <com:Image com:imageContentCategory="Drawing">
+                           <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+                           <com:FileName>2024153521000010.tif</com:FileName>
+                           <com:HeightMeasure com:measureUnitCode="Mm">112</com:HeightMeasure>
+                           <com:WidthMeasure com:measureUnitCode="Mm">88</com:WidthMeasure>
+                        </com:Image>
+                     </pat:Figure>
+                     <pat:Figure>
+                        <pat:FigureNumber>2</pat:FigureNumber>
+                        <com:Image com:imageContentCategory="Drawing">
+                           <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+                           <com:FileName>2024153521000011.tif</com:FileName>
+                           <com:HeightMeasure com:measureUnitCode="Mm">58</com:HeightMeasure>
+                           <com:WidthMeasure com:measureUnitCode="Mm">52</com:WidthMeasure>
+                        </com:Image>
+                     </pat:Figure>
+                     <pat:Figure>
+                        <pat:FigureNumber>3</pat:FigureNumber>
+                        <com:Image com:imageContentCategory="Drawing">
+                           <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+                           <com:FileName>2024153521000012.tif</com:FileName>
+                           <com:HeightMeasure com:measureUnitCode="Mm">68</com:HeightMeasure>
+                           <com:WidthMeasure com:measureUnitCode="Mm">57</com:WidthMeasure>
+                        </com:Image>
+                     </pat:Figure>
+                     <pat:Figure>
+                        <pat:FigureNumber>4</pat:FigureNumber>
+                        <com:Image com:imageContentCategory="Drawing">
+                           <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+                           <com:FileName>2024153521000013.tif</com:FileName>
+                           <com:HeightMeasure com:measureUnitCode="Mm">58</com:HeightMeasure>
+                           <com:WidthMeasure com:measureUnitCode="Mm">57</com:WidthMeasure>
+                        </com:Image>
+                     </pat:Figure>
+                     <pat:Figure>
+                        <pat:FigureNumber>5</pat:FigureNumber>
+                        <com:Image com:imageContentCategory="Drawing">
+                           <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+                           <com:FileName>2024153521000014.tif</com:FileName>
+                           <com:HeightMeasure com:measureUnitCode="Mm">61</com:HeightMeasure>
+                           <com:WidthMeasure com:measureUnitCode="Mm">57</com:WidthMeasure>
+                        </com:Image>
+                     </pat:Figure>
+                     <pat:Figure>
+                        <pat:FigureNumber>6</pat:FigureNumber>
+                        <com:Image com:imageContentCategory="Drawing">
+                           <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+                           <com:FileName>2024153521000015.tif</com:FileName>
+                           <com:HeightMeasure com:measureUnitCode="Mm">62</com:HeightMeasure>
+                           <com:WidthMeasure com:measureUnitCode="Mm">45</com:WidthMeasure>
+                        </com:Image>
+                     </pat:Figure>
+                     <pat:Figure>
+                        <pat:FigureNumber>7</pat:FigureNumber>
+                        <com:Image com:imageContentCategory="Drawing">
+                           <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+                           <com:FileName>2024153521000016.tif</com:FileName>
+                           <com:HeightMeasure com:measureUnitCode="Mm">71</com:HeightMeasure>
+                           <com:WidthMeasure com:measureUnitCode="Mm">50</com:WidthMeasure>
+                        </com:Image>
+                     </pat:Figure>
+                     <pat:Figure>
+                        <pat:FigureNumber>8</pat:FigureNumber>
+                        <com:Image com:imageContentCategory="Drawing">
+                           <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+                           <com:FileName>2024153521000017.tif</com:FileName>
+                           <com:HeightMeasure com:measureUnitCode="Mm">55</com:HeightMeasure>
+                           <com:WidthMeasure com:measureUnitCode="Mm">67</com:WidthMeasure>
+                        </com:Image>
+                     </pat:Figure>
+                     <pat:Figure>
+                        <pat:FigureNumber>9</pat:FigureNumber>
+                        <com:Image com:imageContentCategory="Drawing">
+                           <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+                           <com:FileName>2024153521000018.tif</com:FileName>
+                           <com:HeightMeasure com:measureUnitCode="Mm">45</com:HeightMeasure>
+                           <com:WidthMeasure com:measureUnitCode="Mm">109</com:WidthMeasure>
+                        </com:Image>
+                     </pat:Figure>
+                     <pat:Figure>
+                        <pat:FigureNumber>10</pat:FigureNumber>
+                        <com:Image com:imageContentCategory="Drawing">
+                           <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+                           <com:FileName>2024153521000019.tif</com:FileName>
+                           <com:HeightMeasure com:measureUnitCode="Mm">72</com:HeightMeasure>
+                           <com:WidthMeasure com:measureUnitCode="Mm">58</com:WidthMeasure>
+                        </com:Image>
+                     </pat:Figure>
+                     <pat:Figure>
+                        <pat:FigureNumber>11</pat:FigureNumber>
+                        <com:Image com:imageContentCategory="Drawing">
+                           <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+                           <com:FileName>2024153521000020.tif</com:FileName>
+                           <com:HeightMeasure com:measureUnitCode="Mm">70</com:HeightMeasure>
+                           <com:WidthMeasure com:measureUnitCode="Mm">55</com:WidthMeasure>
+                        </com:Image>
+                     </pat:Figure>
+                     <pat:Figure>
+                        <pat:FigureNumber>12</pat:FigureNumber>
+                        <com:Image com:imageContentCategory="Drawing">
+                           <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+                           <com:FileName>2024153521000021.tif</com:FileName>
+                           <com:HeightMeasure com:measureUnitCode="Mm">70</com:HeightMeasure>
+                           <com:WidthMeasure com:measureUnitCode="Mm">20</com:WidthMeasure>
+                        </com:Image>
+                     </pat:Figure>
+                     <pat:Figure>
+                        <pat:FigureNumber>13</pat:FigureNumber>
+                        <com:Image com:imageContentCategory="Drawing">
+                           <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+                           <com:FileName>2024153521000022.tif</com:FileName>
+                           <com:HeightMeasure com:measureUnitCode="Mm">62</com:HeightMeasure>
+                           <com:WidthMeasure com:measureUnitCode="Mm">51</com:WidthMeasure>
+                        </com:Image>
+                     </pat:Figure>
+                  </pat:Drawings>
+               </jppat:AmendmentContentsBag>
+            </jppat:AmendmentBag>
+         </jppat:AmendmentsBag>
+      </jppat:WrittenAmendment>
+      <jppat:WrittenAmendment>
+         <jppat:WrittenAmendmentCategory>Amendment</jppat:WrittenAmendmentCategory>
+         <pat:FilingDate>2024-07-09</pat:FilingDate>
+         <jppat:AmendmentsBag>
+            <jppat:AmendmentBag jppat:amendmentNumber="1">
+               <com:DocumentName>A16333</com:DocumentName>
+               <jppat:AmendmentItem>全文</jppat:AmendmentItem>
+               <jppat:AmendmentWay>3</jppat:AmendmentWay>
+               <jppat:AmendmentContentsBag>
+                  <jppat:AmendmentDocumentNameCategory>Claims</jppat:AmendmentDocumentNameCategory>
+                  <pat:Claims>
+                     <pat:Claim>
+                        <pat:ClaimNumber>1</pat:ClaimNumber>
+                        <pat:ClaimText>化学合成樹脂材などの弾力性素材の特性を利用するもので、身体の部位を乗せ保持する上受け台と、該上受け台を支持する弾性板の柱と、該柱の下部位置で全体を保持する下固定台での構成で、前記上受け台に乗せた部位の加重で、前記柱が牽引する方向へ倒れる手段を備え非加重時には前記柱が持つ反復復元力にて復元し繰り返し牽引を可能にすることを特徴とする身体牽引装置。</pat:ClaimText>
+                     </pat:Claim>
+                     <pat:Claim>
+                        <pat:ClaimNumber>2</pat:ClaimNumber>
+                        <pat:ClaimText>前記倒れる手段は、前記柱に形成する、倒れ位置線、又は穴、又は括れの位置と大きさを任意に設け、牽引力となる牽引幅を選べる請求項１記載の身体牽引装置。</pat:ClaimText>
+                     </pat:Claim>
+                     <pat:Claim>
+                        <pat:ClaimNumber>3</pat:ClaimNumber>
+                        <pat:ClaimText>前記柱の使用強度の減退を復活させ、強度及び倒れる位置を変更できる弾性板を補強板として固着し、調節と補強を可能とする、請求項１記載の身体牽引装置。</pat:ClaimText>
+                     </pat:Claim>
+                     <pat:Claim>
+                        <pat:ClaimNumber>4</pat:ClaimNumber>
+                        <pat:ClaimText>前記上受け台、及び柱、及び下固定台の形状が曲線加工版、又は角度加工板、又は溝加工板、又は折り加工板などの化学合成樹脂材での形状保持加工板であり、及びこれ等の組み合わせで全体の強度を保持し、一方にのみ倒れて復元する形状保持力を利用した、前記柱である、請求項１記載の身体牽引装置。</pat:ClaimText>
+                     </pat:Claim>
+                     <pat:Claim>
+                        <pat:ClaimNumber>5</pat:ClaimNumber>
+                        <pat:ClaimText>前記上受け台は乗せた部位に合致して保持する形状とし、又は柔軟性素材、又は弾力性素材のＶ形溝、又はＵ形溝、又は弾力材リング、又は調節可能なベルトなどを設けて保持する、請求項１記載の、身体牽引装置。</pat:ClaimText>
+                     </pat:Claim>
+                  </pat:Claims>
+               </jppat:AmendmentContentsBag>
+            </jppat:AmendmentBag>
+            <jppat:AmendmentBag jppat:amendmentNumber="2">
+               <com:DocumentName>A16330</com:DocumentName>
+               <jppat:AmendmentItem>全文</jppat:AmendmentItem>
+               <jppat:AmendmentWay>3</jppat:AmendmentWay>
+               <jppat:AmendmentContentsBag>
+                  <jppat:AmendmentDocumentNameCategory>Description</jppat:AmendmentDocumentNameCategory>
+                  <jppat:Description>
+                     <pat:TechnicalField>
+                        <com:P com:pNumber="0001">本発明は、身体牽引装置に関するものであり、さらに詳しくは、人体の腰痛や骨の歪みなどを牽引して矯正し、改善する身体牽引装置に関するものである。</com:P>
+                     </pat:TechnicalField>
+                     <pat:BackgroundArt>
+                        <com:P com:pNumber="0002">従来より、人体の腰痛や骨の歪みなどを牽引して矯正する身体牽引装置は、種々提案されているが、構造が複雑であるとともに大型であるため、病院などでしか使用できず、家庭などで手軽に使用できないという問題点があった。</com:P>
+                     </pat:BackgroundArt>
+                     <com:CitationBag>
+                        <com:PatentCitationBag>
+                           <com:P com:pNumber="0003">
+                              <com:PatentCitation com:sequenceNumber="1">
+                                 <com:PatentCitationText>特開２０００－２２５１３６号公報</com:PatentCitationText>
+                              </com:PatentCitation>
+                              <com:PatentCitation com:sequenceNumber="2">
+                                 <com:PatentCitationText>実開平０７－０２７５２１号公報</com:PatentCitationText>
+                              </com:PatentCitation>
+                           </com:P>
+                        </com:PatentCitationBag>
+                     </com:CitationBag>
+                     <pat:InventionSummary>
+                        <pat:TechnicalProblem>
+                           <com:P com:pNumber="0004">本発明は、上記問題点を解決する為になされたものであり、家庭などでも手軽に使用できる身体牽引装置を提供することにある。</com:P>
+                        </pat:TechnicalProblem>
+                     </pat:InventionSummary>
+                     <com:Heading>課題を解決する為の手段</com:Heading>
+                     <com:P com:pNumber="0005">上記課題を解決する為に、化学合成樹脂材などが持つ強度と弾力、反復復元力を利用する。<com:Br/>
+本発明の身体牽引装置は、使用者の身体の各部位を保持する上受け台と、前記上受け台を支持する弾性板である柱と、前記柱の下部位置で全体を保持する下固定台とからなり、前記柱を牽引する方向に倒れる倒し手段を備え、前記、柱がもつ強度と弾力性復元力を牽引に利用可能な身体牽引装置となる。<com:Br/>
+上受け台に乗った身体部位の加重量で前記、柱を牽引する方向へ倒し牽引し、非加重時は反復復元力で起立し、繰り返し使用可能な牽引装置となる。<com:Br/>
+請求項２項の本発明の倒れる手段は、弾性板である柱に形成された倒れ位置線、又は穴、又は括れの位置で、上受け台に乗せた重量で牽引する方向に倒れる。<com:Br/>
+請求項３項の、身体牽引装置は、前記、柱である弾性板の耐久性の継続と、倒れる位置の調節又は変更を、新たに補強板の貼り付け固着で可能となる。<com:Br/>
+又、補強板を前記、倒れ位置線、穴、括れ全体に重ね塞いで強度を増す物となる。<com:Br/>
+前記、柱に固着出来、補強板となる素材であれば使用可能である。<com:Br/>
+請求項４項、構成する素材の形状は、上受け台と弾性板の柱と下固定台の形状が曲線加工板、又は角度加工板、又は折りめ後付けできる加工板であり、又はそれらを組み合わせた構成でも可能である。<com:Br/>
+柱が前記、曲線や角度形状体にて外側へ折れ難い特性を利用する構成である。<com:Br/>
+請求項５項の身体牽引装置は、上受け台に身体部位を拘束する形状の弾力性素材のＶ形溝やＵ形溝、又は部位の出し入れを簡単にする弾力材リング、又は調節可能なベルトを備えている。<com:Br/>
+前記拘束手段が、牽引力のロスを防ぐものとなる。</com:P>
+                     <com:Heading>発明の効果</com:Heading>
+                     <com:P com:pNumber="0006">本発明に係る身体牽引装置は、使用者の体の各部位を保持する上受け台と、前記上受け台を支持する弾性板である柱と、該柱の下位置で上全体を保持する下固定台で構成する。<com:Br/>
+前記柱が牽引方向に倒れる手段を備え、前記柱が持つ強度と弾力及び倒れた時に発生する反復復元力で繰り返し起立し牽引に利用することが可能である。<com:Br/>
+簡単な構造で家庭においていつでも手軽に使用できるものとなる。<com:Br/>
+又、請求項２では、倒れる手段は、弾性板である柱に形成された倒れ位置線、又は穴、又は括れであり、該位置で確実に牽引方向に倒れることで効果を生む。<com:Br/>
+又、請求項３では、前記柱である弾性板の使用耐久性継続と、倒し位置の変更を新たに補強板の貼り付け固着で可能となる。<com:Br/>
+前記、倒れ位置線、穴、括れに新たに補強板を重ね固着し、新たに調節変更することができる。<com:Br/>
+補強板の役割をするものを貼り付ける手段は接着剤、又は両面テープ、ホッチキスなどで簡単に固着でき補強できる身体牽引装置となる。<com:Br/>
+又、請求項４のように、前記上受け台と、柱と、下固定台の形状が湾曲状の曲線加工板、又は角度付き加工板、又は折りめが後付けできる加工板であり、又はそれらを組み合わせる。<com:Br/>
+曲線や角度の保持力を付与した加工板が持つ外側に折れ難い特性を利用して、牽引する方向へ倒れやすい手段である倒れ位置線、穴、括れで、効果を生む。<com:Br/>
+又は、前記加工板の組み合わせで異なる部位に適した強度と形態が製作できる効果が発生する。<com:Br/>
+又、請求項５のように、前記上受け台に身体部位を拘束する形状の弾力性素材のＶ形溝、又はＵ形溝を狭く設け、又は深く設け拘束力を高める。<com:Br/>
+又は、部位の出し入れを簡単にできるもので拘束力のある弾力材リング、又は調節可能なベルトを備えたもので確実に拘束することができる。<com:Br/>
+該上受け台に乗せた部位が牽引した時にズレない物となり、牽引力を保持する効果を作る。</com:P>
+                     <pat:DrawingDescription>
+                        <com:P com:pNumber="0007">
+                           <com:FigureReference com:referencedFigureNumber="1">本発明のペットボトル身体牽引装置、前面斜視透視全体図である。</com:FigureReference>
+                           <com:FigureReference com:referencedFigureNumber="2">同上の背面透視図、全体図である。</com:FigureReference>
+                           <com:FigureReference com:referencedFigureNumber="3">同上の身体牽引装置の上面透視図。</com:FigureReference>
+                           <com:FigureReference com:referencedFigureNumber="4">図４は、補強板の平面図、。</com:FigureReference>
+                           <com:FigureReference com:referencedFigureNumber="5">は、ペットボトル正面透視図。</com:FigureReference>
+                           <com:FigureReference com:referencedFigureNumber="6">図６は、横面透視図、折れ曲がり状態。</com:FigureReference>
+                           <com:FigureReference com:referencedFigureNumber="7">図７は、上面透視図、折れ曲がり状態。</com:FigureReference>
+                           <com:FigureReference com:referencedFigureNumber="8">図８は、上面透視図、下面の開き断面。</com:FigureReference>
+                        </com:P>
+                     </pat:DrawingDescription>
+                     <com:Heading>発明を実施する為の形態</com:Heading>
+                     <com:P com:pNumber="0008">以下、本発明を実施する為の形態に付いて、図１から図８を参照して説明する。</com:P>
+                     <jppat:InventionMode>
+                        <com:P com:pNumber="0009">全体の構成は、上受け台（１）と、柱（２）と支える、下固定台（３）からなる。<com:Br/>
+全体の素材は化学合成樹脂など強度と弾力、反復復元力のある素材で、その特性を利用し牽引を繰り返し実施することができる。<com:Br/>
+大きさは身体の部位其々、首、背、足などに合わせた大きさにつくる。<com:Br/>
+又、全体の形状は化学合成樹脂などで、湾曲形の形状体、又は角度が付いた形状体、又は折り目を付ける平面板体、又はこれ等の組み合わせたものである。<com:Br/>
+上受け台（１）の部位を乗せる部分は、保持しやすいＶ形溝やＵ形溝、曲線や湾曲部でなる形態で、柔軟性素材やポリウレタンなどを配し、部位を拘束する。<com:Br/>
+柱（２）に倒れ牽引する幅となる、倒れ位置線（４）を左か右または左右に単数又は複数を設け折れ曲がる位置を設定できるものとなる。<com:Br/>
+前記位置の設定は穴や括れでも実施可能であり、この手段で、傾き方向と牽引幅の調節変更の実施が可能となる。<com:Br/>
+請求項２項の本発明の倒れる手段は弾性板である、柱（２）に形成された、倒れ位置線（４）、又は穴、又は括れの位置で、上受け台（１）に乗せた部位の重量で牽引する方向に倒れる。<com:Br/>
+請求項３項の前記弾性板である、柱（２）の過使用での耐久性の減退を復元と増強をする、補強板（５）を貼り付け固着し継続して使用可能となる。<com:Br/>
+又、倒れ位置線（４）、穴、括れを塞いで位置の変更や複数にした補強板（５）で折れ溝となる隙間を設けても可能となる。<com:Br/>
+前記、柱（２）の強度を増す、補強板（５）を単数又は複数を接着剤固定か強力両面テープ、又はホッチキス（６）で固着する。<com:Br/>
+請求項４項の、身体牽引装置は、上受け台（１）と弾性板の、柱と（２）、下固定台（３）  の形状が曲線加工板のペットボトル形や円柱型のバケツ形に前記上受け台、柱、下固定台を設けても可能である。<com:Br/>
+又は角度加工板は箱などの多角柱でも製作出来、又は平面板に折りめ加工板でも可能であり、又は部分的にそれらの組み合わせで非牽引方向への倒れを防止するものとなる。<com:Br/>
+前記にて乗せる部位の大きさに適した強度の形態での製作が可能となる。<com:Br/>
+請求項５項に於ける、前記、上受け台（１）に身体部位を拘束する形状の弾力性素材のポリウレタンやゴム系素材でＶ形溝やＵ形溝、又は部位の出し入れを簡単にする弾力材リング、又は調整可能なベルトを備え部位の拘束を確実にする。<com:Br/>
+種々の拘束手段で、牽引力のズレを減少させ、牽引ロスを防ぐものとなる。<com:Br/>
+又、下固定台（３）の最下部は移動可能な安定性のある板体などにビス固定する。</com:P>
+                     </jppat:InventionMode>
+                     <jppat:InventionMode>
+                        <com:P com:pNumber="0010">使用するにあたり身体は上向きに寝て、足を牽引する場合は、上受け台（１）に足のかかとを乗せると牽引する方向に、柱（２）が折れ曲がり倒れ牽引する。<com:Br/>
+実施例としては、空になったペットボトルをカット加工し、下受け台（３）の最下面を安定板にビスなどで固着し、牽引時に移動しない案定にて実施できる。<com:Br/>
+柱（２）の強度復元や倒れる手段の位置変更にカットしたペットボトル片を、補強板（５）とし固着して任意の牽引装置として実施可能となる。。<com:Br/>
+折れ曲がる位置に、倒れ位置線（４）を切り込み、倒れ幅を選べる。<com:Br/>
+又、ペットボトルの波型底を切り落として複数の長さが違う、切り込み線（８）で開き、角度を付けた下固定台が可能となり左右どちらかの方向への牽引ができる。<com:Br/>
+牽引方向が選べる牽引装置となり、移動可能な下板にビス固定し安定させる。</com:P>
+                     </jppat:InventionMode>
+                     <pat:IndustrialApplicability>
+                        <com:P com:pNumber="0011">身体の関節疾病の牽引療法を単純な構造と、安価な素料で簡単に製作でき、牽引力は部位による荷重で発生するわずかな牽引で安全性をも兼ね備えた物となり、使用する人に恩恵をもたらすものとなる。</com:P>
+                     </pat:IndustrialApplicability>
+                     <com:Heading>記号の説明</com:Heading>
+                     <com:P com:pNumber="0012">１・・・・上受け台  ２・・・・柱  ３・・・・下固定台  ４・・・倒れ位置線<com:Br/>
+５・・・補強板  ６・・・・ホッチキス  ７・・・・上受け台折り面<com:Br/>
+８・・・・・切り込み線  ９・・・・ビス穴</com:P>
+                  </jppat:Description>
+               </jppat:AmendmentContentsBag>
+            </jppat:AmendmentBag>
+            <jppat:AmendmentBag jppat:amendmentNumber="3">
+               <com:DocumentName>A16331</com:DocumentName>
+               <jppat:AmendmentItem>全図</jppat:AmendmentItem>
+               <jppat:AmendmentWay>3</jppat:AmendmentWay>
+               <jppat:AmendmentContentsBag>
+                  <jppat:AmendmentDocumentNameCategory>Drawings</jppat:AmendmentDocumentNameCategory>
+                  <pat:Drawings>
+                     <pat:Figure>
+                        <pat:FigureNumber>1</pat:FigureNumber>
+                        <com:Image com:imageContentCategory="Drawing">
+                           <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+                           <com:FileName>2024153521000023.tif</com:FileName>
+                           <com:HeightMeasure com:measureUnitCode="Mm">85</com:HeightMeasure>
+                           <com:WidthMeasure com:measureUnitCode="Mm">80</com:WidthMeasure>
+                        </com:Image>
+                     </pat:Figure>
+                     <pat:Figure>
+                        <pat:FigureNumber>2</pat:FigureNumber>
+                        <com:Image com:imageContentCategory="Drawing">
+                           <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+                           <com:FileName>2024153521000024.tif</com:FileName>
+                           <com:HeightMeasure com:measureUnitCode="Mm">80</com:HeightMeasure>
+                           <com:WidthMeasure com:measureUnitCode="Mm">70</com:WidthMeasure>
+                        </com:Image>
+                     </pat:Figure>
+                     <pat:Figure>
+                        <pat:FigureNumber>3</pat:FigureNumber>
+                        <com:Image com:imageContentCategory="Drawing">
+                           <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+                           <com:FileName>2024153521000025.tif</com:FileName>
+                           <com:HeightMeasure com:measureUnitCode="Mm">57</com:HeightMeasure>
+                           <com:WidthMeasure com:measureUnitCode="Mm">67</com:WidthMeasure>
+                        </com:Image>
+                     </pat:Figure>
+                     <pat:Figure>
+                        <pat:FigureNumber>4</pat:FigureNumber>
+                        <com:Image com:imageContentCategory="Drawing">
+                           <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+                           <com:FileName>2024153521000026.tif</com:FileName>
+                           <com:HeightMeasure com:measureUnitCode="Mm">57</com:HeightMeasure>
+                           <com:WidthMeasure com:measureUnitCode="Mm">58</com:WidthMeasure>
+                        </com:Image>
+                     </pat:Figure>
+                     <pat:Figure>
+                        <pat:FigureNumber>5</pat:FigureNumber>
+                        <com:Image com:imageContentCategory="Drawing">
+                           <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+                           <com:FileName>2024153521000027.tif</com:FileName>
+                           <com:HeightMeasure com:measureUnitCode="Mm">80</com:HeightMeasure>
+                           <com:WidthMeasure com:measureUnitCode="Mm">79</com:WidthMeasure>
+                        </com:Image>
+                     </pat:Figure>
+                     <pat:Figure>
+                        <pat:FigureNumber>6</pat:FigureNumber>
+                        <com:Image com:imageContentCategory="Drawing">
+                           <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+                           <com:FileName>2024153521000028.tif</com:FileName>
+                           <com:HeightMeasure com:measureUnitCode="Mm">61</com:HeightMeasure>
+                           <com:WidthMeasure com:measureUnitCode="Mm">87</com:WidthMeasure>
+                        </com:Image>
+                     </pat:Figure>
+                     <pat:Figure>
+                        <pat:FigureNumber>7</pat:FigureNumber>
+                        <com:Image com:imageContentCategory="Drawing">
+                           <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+                           <com:FileName>2024153521000029.tif</com:FileName>
+                           <com:HeightMeasure com:measureUnitCode="Mm">70</com:HeightMeasure>
+                           <com:WidthMeasure com:measureUnitCode="Mm">76</com:WidthMeasure>
+                        </com:Image>
+                     </pat:Figure>
+                     <pat:Figure>
+                        <pat:FigureNumber>8</pat:FigureNumber>
+                        <com:Image com:imageContentCategory="Drawing">
+                           <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+                           <com:FileName>2024153521000030.tif</com:FileName>
+                           <com:HeightMeasure com:measureUnitCode="Mm">58</com:HeightMeasure>
+                           <com:WidthMeasure com:measureUnitCode="Mm">68</com:WidthMeasure>
+                        </com:Image>
+                     </pat:Figure>
+                  </pat:Drawings>
+               </jppat:AmendmentContentsBag>
+            </jppat:AmendmentBag>
+         </jppat:AmendmentsBag>
+      </jppat:WrittenAmendment>
+   </jppat:WrittenAmendmentBag>
+</jppat:UnexaminedPatentPublication>

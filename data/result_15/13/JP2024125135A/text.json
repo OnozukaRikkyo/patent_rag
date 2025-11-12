@@ -1,0 +1,64 @@
+{
+    "path": "data\\result_15\\13\\JP2024125135A\\text.txt",
+    "publication": {
+        "doc_number": "2024125135",
+        "country": "JP",
+        "kind": null,
+        "date": "2024-09-13"
+    },
+    "application": {
+        "doc_number": "2023048924",
+        "date": "2023-03-03"
+    },
+    "invention_title": "出力アップ  電磁調理器について",
+    "parties": {
+        "applicants": [
+            {
+                "name": "村上  一成",
+                "registered_number": "520234165",
+                "address": "岩手県盛岡市肴町３－３０－５０１"
+            }
+        ],
+        "agents": [],
+        "inventors": [
+            {
+                "name": "村上  一成",
+                "registered_number": null,
+                "address": "岩手県盛岡市肴町３－３０－５０１"
+            }
+        ]
+    },
+    "classifications": {
+        "ipc_main": "H05B   6/36        20060101AFI20240906BHJP",
+        "ipc_further": [],
+        "jp_main": "H05B6/36 Z",
+        "jp_further": [
+            "H05B6/36 A"
+        ]
+    },
+    "theme_codes": [
+        "3K059"
+    ],
+    "f_terms": [
+        "3K059AA08",
+        "3K059AB08",
+        "3K059AB28",
+        "3K059AD01",
+        "3K059CD52",
+        "3K059CD72"
+    ],
+    "claims": [
+        "【請求項1】変圧器を二次コイルを上にして、横倒しに設置する。"
+    ],
+    "description": {
+        "technical_field": [],
+        "background_art": [],
+        "disclosure": {
+            "tech_problem": [],
+            "tech_solution": [],
+            "advantageous_effects": []
+        },
+        "best_mode": []
+    },
+    "abstract": "【課題】高温を得る。【解決手段】高温を得る為には、変圧器を組み込み、百ボルトを三百ボルトに上げる事である。つまり２次コイルの巻き数を変える事により、とり出す電圧の大きさを自由に調整できる事になる。その結果強い渦電流を起こし、高熱を得ることも可能である。その為には、一次コイルを下にし、コイルの巻数の多い二次コイルを上にして変圧器を横倒しにとりつける。【選択図】図１"
+}

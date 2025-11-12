@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding='utf-8'?>
+<!-- <?xml-stylesheet type="text/xsl" href="../../../../../XSL/gat-u9.xsl"?> -->
+<!DOCTYPE jp-official-gazette PUBLIC "-//JPO//DTD REGISTERED UTILITY MODEL 1.0//EN" "../../../../../DTD/gat-u9.dtd">
+<jp-official-gazette kind-of-jp="U9" kind-of-st16="U" lang="ja" dtd-version="1.0" country="JP" xmlns:jp="http://www.jpo.go.jp"><bibliographic-data lang="ja" country="JP">
+    <publication-reference>
+      <document-id>
+        <country>JP</country>
+        <doc-number>3213402</doc-number>
+        <kind>登録実用新案公報(U)</kind>
+        <date>20171018</date>
+      </document-id>
+    </publication-reference>
+    <application-reference>
+      <document-id>
+        <doc-number>2017004044</doc-number>
+        <date>20170815</date>
+      </document-id>
+    </application-reference>
+    <invention-title>浴室用水滴除去装置</invention-title>
+    <parties>
+      <jp:applicants-agents-article>
+        <jp:applicants-agents sequence="1">
+          <applicant sequence="1">
+            <addressbook lang="ja">
+              <name>安田  純二</name>
+              <registered-number>517308817</registered-number>
+              <address>
+                <text>大阪府吹田市東御旅町２−２１</text>
+              </address>
+            </addressbook>
+          </applicant>
+        </jp:applicants-agents>
+      </jp:applicants-agents-article>
+      <inventors>
+        <inventor sequence="1">
+          <addressbook>
+            <name>安田  純二</name>
+            <address>
+              <text>大阪府吹田市東御旅町２−２１</text>
+            </address>
+          </addressbook>
+        </inventor>
+      </inventors>
+    </parties>
+    <dates-of-public-availability>
+      <printed-with-grant>
+        <document-id>
+          <date>20171109</date>
+        </document-id>
+      </printed-with-grant>
+    </dates-of-public-availability>
+    <classification-ipc><edition/><main-clsf>A47K  10/48        20060101AFI20171026BHJP        </main-clsf></classification-ipc>
+    <classification-national><country>JP</country><main-clsf>A47K10/48 Z</main-clsf></classification-national>
+    <number-of-claims jp:adopted-law="claim">4</number-of-claims>
+    <figure-to-publish>
+      <fig-number>1</fig-number>
+    </figure-to-publish>
+    <jp:request-for-registrability-report true-or-false="false"/>
+    <jp:filing-form>書面</jp:filing-form>
+    <jp:total-pages>4</jp:total-pages>
+  </bibliographic-data><jp:image-of-bibliographic-data><img id="000001" he="140" wi="160" file="0003213402.tif" img-format="tif" img-content="drawing"/></jp:image-of-bibliographic-data><jp:image-of-chosen-drawing>
+    <img id="000002" he="46" wi="69" file="0003213402.tif" img-format="tif" img-content="drawing"/>
+  </jp:image-of-chosen-drawing><jp:abstract-correction/><description>
+        
+        <technical-field>
+            <p num="0001">  本考案は、お風呂上りに人体に付着した水滴をエアーの力で除去すると同時に浴室内に溜まった水滴を排出する装置に関する。</p>
+        </technical-field>
+        <background-art>
+            <p num="0002">  現在、エアーノズルの利用法として産業用が多く主に金属を加工した際に出る粉塵を除去したりする装置が多数考案されている。</p>
+        </background-art>
+        <summary-of-invention>
+            <tech-problem>
+                <p num="0003">  送風機より送られた空気を浴室内の取付けた<br/>
+エアーノズルより手動にて噴射し人体に付着した水滴を除去するのと同時に浴室内に溜まった水滴も排水溝へと強制的に排出し常に清潔さを保つ事を目的とする。<br/>
+従来にエアーノズルでは勢いが強く人体に損傷を与える可能性があると同時に浴室内の他の装置まで破損する可能性がある。</p>
+            </tech-problem>
+            <tech-solution>
+                <p num="0004">  前記目的を達成する為、本考案による浴室用水滴除去装置のエアーノズルは可変式で目的に応じてエアーの勢い範囲を散水栓のように変更出来家庭内でも安全に使える。</p>
+                <p num="0005">  手元のエアーガンで勢いの強弱とノズルの先端を回転させる事のよりエアーの噴出角を調整する。</p>
+                <p num="0006">  エアーノズルをシャワーヘッドの様に取付けることにより自由度をたかめ人体の水滴を確実に取り去ると共に浴室内のそのほとんどの壁面床面まで届きより多くに水滴除去を可能にする。</p>
+                <p num="0007">  本考案は家庭用を想定しており送風機の稼動音の問題は、送風機自体を建物外に設置する事で解決する。</p>
+            </tech-solution>
+            <advantageous-effects>
+                <p num="0008">  本考案による人体の付着した水滴除去と乾燥手段は、入浴後のふき取り作業を簡潔化し浴室内の乾燥を促しカビの発生を抑える効果があり、時間的にも衛生的のも非常に良い。</p>
+            </advantageous-effects>
+        </summary-of-invention>
+        <description-of-drawings>
+            <p num=""><figref num="1">本考案の設置例を示す即断面図</figref><figref num="2">本考案のエアーノズル</figref></p>
+        </description-of-drawings>
+        <heading>考案を実施する為の形態</heading>
+        <p num="0009">  送風機より送られた空気を浴室内に取付けたエアーノズルより手動にて噴射し人体に付着した水滴を除去するのと同時に浴室内に溜まった水滴も排水溝へと強制的に排出する。<br/>
+エアーノズルの先端を可変式としエアーの広がる範囲を変化させエアー圧力も可変式とする。</p>
+        <mode-for-invention>
+            <p num="0010">  以下、添付図面に従って実施例を説明する。図１▲１▼は可変式のエアーノズルで自在に移動させることが出来る、図１▲２▼は送風機で図１▲３▼のエアーホースを通じて浴室内にエアーを送り込む、図１▲４▼は電源で使用に伴い自在にＯＮ・ＯＦＦが選択出来る。</p>
+            <p num="0011">  図２は図１の▲１▼のエアーノズルで図２▲２▼のスロットルでエアーの吐出圧力を調整出来る、図２▲１▼はエアーノズルの絞りになり吐出するエアーの広がりを調整することが出来る。</p>
+            <p num="0012">  本考案の実施例は上記説明から構成されるものであるから、お風呂上りに人体に付着した水滴を瞬時に効率よく除去すると同時に浴室内に溜まった水滴を排水溝に強制的に流し常に衛生的な状態を保つと同時に入浴後の拭取り作業の効率化が望めることから今後  社会的には介護の現場での使用や公衆浴場の清掃作業等にと使用することで介護職員や清掃作業員の方の仕事の効率化が望め社会的にも貢献できる。</p>
+        </mode-for-invention>
+        <reference-signs-list>
+            <p num="0013">〔図１〕<br/>
+▲１▼エアーノズル<br/>
+▲２▼送風機<br/>
+▲３▼エアーホース<br/>
+▲４▼電源スイッチ<br/>
+▲５▼電源コード<br/>
+〔図２〕<br/>
+▲１▼エアーノズル絞り<br/>
+▲２▼スロットル<br/>
+▲３▼ジョイント</p>
+        </reference-signs-list>
+    </description><claims>
+        <claim num="1">
+            <claim-text>  浴室外に設置して使用される送風機と<br/>
+前記送風機により送られた空気を浴室内に導くエアーホースと<br/>
+前記エアーホースの先端部に取付けられ<br/>
+前記エアーホースに送られた空気を噴出することによって入浴後の使用者又は浴室から水滴を除去する手に持って操作可能なエアーノズルを<br/>
+備える浴室用水滴除去装置。</claim-text>
+        </claim>
+        <claim num="2">
+            <claim-text>  前記送風機は空気を圧縮するエアーコンプレッサーと<br/>
+前記エアーコンプレッサーにより圧縮された空気をためるエアータンクを有し  前記エアーホースには  前記エアータンクにためられた圧縮空気が送られる請求項１に記載の浴室水滴除去装置。</claim-text>
+        </claim>
+        <claim num="3">
+            <claim-text>  前記エアーノズルは使用者の手動操作により噴出する空気の流量が可変可能である請求項１または請求項２に記載の浴室用水滴除去装置。</claim-text>
+        </claim>
+        <claim num="4">
+            <claim-text>  前記エアーノズルは使用者の手動操作によりエアーノズルの噴出口の開口の大きさが可変である請求項１から３のいずれかに記載の浴室水滴除去装置。</claim-text>
+        </claim>
+    </claims><abstract>
+  <p num="">【課題】お風呂上りに人体に付着した水滴をエアーの力で除去すると同時に浴室内に溜まった水滴を排出することができる浴室用水滴除去装置を提供する。<br/>【解決手段】送風機２より送られた空気を浴室内の取付けたエアーノズル１より手動にて噴射し人体に付着した水滴を除去するのと同時に室内に溜まった水滴も排水溝へと強制的に排出し常に清潔さを保つ事を目的とする。本考案の浴室用水滴除去装置のエアーノズル１は可変式で目的に応じてエアーの勢い範囲を散水栓のように変更出来家庭内でも安全に使える。この浴室用水滴除去装置を使うことにより人体の付着した水滴除去と乾燥手段は、入浴後のふき取り作業を簡潔化し浴室内の乾燥を促しカビの発生を抑える効果があり、時間的にも衛生的にも非常に良い。<br/>【選択図】図１</p>
+</abstract><drawings>
+        <figure num="1">
+            <img id="000003" file="0003213402.tif" he="56" img-format="tif" wi="85" img-content="drawing"/>
+        </figure>
+        <figure num="2">
+            <img id="000004" file="0003213402.tif" he="69" img-format="tif" wi="57" img-content="drawing"/>
+        </figure>
+    </drawings></jp-official-gazette>

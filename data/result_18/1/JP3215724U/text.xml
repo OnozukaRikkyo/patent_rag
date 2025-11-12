@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding='utf-8'?>
+<!-- <?xml-stylesheet type="text/xsl" href="../../../../../XSL/gat-u9.xsl"?> -->
+<!DOCTYPE jp-official-gazette PUBLIC "-//JPO//DTD REGISTERED UTILITY MODEL 1.0//EN" "../../../../../DTD/gat-u9.dtd">
+<jp-official-gazette kind-of-jp="U9" kind-of-st16="U" lang="ja" dtd-version="1.0" country="JP" xmlns:jp="http://www.jpo.go.jp"><bibliographic-data lang="ja" country="JP">
+    <publication-reference>
+      <document-id>
+        <country>JP</country>
+        <doc-number>3215724</doc-number>
+        <kind>登録実用新案公報(U)</kind>
+        <date>20180322</date>
+      </document-id>
+    </publication-reference>
+    <application-reference>
+      <document-id>
+        <doc-number>2017005053</doc-number>
+        <date>20171018</date>
+      </document-id>
+    </application-reference>
+    <invention-title>新規薬品一包化包装シート（１０錠入り）</invention-title>
+    <parties>
+      <jp:applicants-agents-article>
+        <jp:applicants-agents sequence="1">
+          <applicant sequence="1">
+            <addressbook lang="ja">
+              <name>加藤  久男</name>
+              <registered-number>593057104</registered-number>
+              <address>
+                <text>東京都町田市南町田二丁目１９−２３</text>
+              </address>
+            </addressbook>
+          </applicant>
+        </jp:applicants-agents>
+      </jp:applicants-agents-article>
+      <inventors>
+        <inventor sequence="1">
+          <addressbook>
+            <name>加藤  久男</name>
+            <address>
+              <text>東京都町田市南町田二丁目１９−２３</text>
+            </address>
+          </addressbook>
+        </inventor>
+      </inventors>
+    </parties>
+    <dates-of-public-availability>
+      <printed-with-grant>
+        <document-id>
+          <date>20180412</date>
+        </document-id>
+      </printed-with-grant>
+    </dates-of-public-availability>
+    <classification-ipc><edition/><main-clsf>B65D  83/04        20060101AFI20180329BHJP        </main-clsf><further-clsf>B65D  75/32        20060101ALI20180329BHJP        </further-clsf></classification-ipc>
+    <classification-national><country>JP</country><main-clsf>B65D83/04 D</main-clsf><further-clsf>B65D75/32</further-clsf></classification-national>
+    <number-of-claims jp:adopted-law="claim">1</number-of-claims>
+    <figure-to-publish>
+      <fig-number>4</fig-number>
+    </figure-to-publish>
+    <jp:request-for-registrability-report true-or-false="false"/>
+    <jp:filing-form>書面</jp:filing-form>
+    <jp:total-pages>5</jp:total-pages>
+  </bibliographic-data><jp:image-of-bibliographic-data><img id="000001" he="140" wi="160" file="0003215724.tif" img-format="tif" img-content="drawing"/></jp:image-of-bibliographic-data><jp:image-of-chosen-drawing>
+    <img id="000002" he="30" wi="70" file="0003215724.tif" img-format="tif" img-content="drawing"/>
+  </jp:image-of-chosen-drawing><jp:abstract-correction/><description>
+        
+        <technical-field>
+            <p num="0001">  本考案は、薬を飲むとき、又は携帯するときの不安をなくすために考案した。</p>
+            <p num="0002">  薬を飲むとき又は携帯するときなぞ、薬品一包化包装の点線（折れ線）の部分に沿って切り離さなければならない。</p>
+        </technical-field>
+        <summary-of-invention>
+            <p num=""/>
+        </summary-of-invention>
+        <heading>考案が解決しようとする理由</heading>
+        <p num="0003">  薬品一包化包装の点線（折れ線）の部分に沿って切り離すと必ず四隅に鋭利な角ができる。  薬を飲むとき又は携帯するときなぞ、薬品一包化包装の点線（折れ線）部分を切り離した時、四隅にできた鋭利な角で、指先や掌を突っつき、又旅先などで薬の服用時に個々に薬をつまみ出す時等、ややもすると私ごとになりますが、四隅にできた鋭利な角で指先を突っつき血がにじんだこともあり、他人様にこの様な事が及ばぬようにと考案した。</p>
+        <heading>課題を解決するための手段</heading>
+        <p num="0004">  本考案は、薬品一包化包装の点線（折れ線）部分の上下に丸みを設けることによって、薬を飲むとき又は携帯するとき、薬品一包化包装の点線（折れ線）部分に沿って切り離しても何ら不安を感じずに薬を服用でき不安が解決できた。</p>
+        <heading>考案の成果</heading>
+        <p num="0005">  しかるに、上記の説明により、薬を飲むとき又は携帯するとき、家族と談話をしながら手元を見ずとも小分けに切り離すことができ、気楽に分割ができる。</p>
+        <description-of-drawings>
+            <p num="0006"><figref num="1">  従来の薬品一包化包装の平面図である。</figref><figref num="2">  従来の薬品一方化包装の断面図である。</figref><figref num="3">  従来の薬品一包化包装分割部分平面図</figref></p>
+        </description-of-drawings>
+        <description-of-drawings>
+            <p num="0006"><figref num="4">  新規薬品一包化包装平面図</figref><figref num="5">  新規薬品一包化包装分割部分平面図</figref></p>
+        </description-of-drawings>
+        <heading>明細書</heading>
+        <p num=""/>
+        <description-of-embodiments>
+            <p num="0007">  本考案は、薬品一包化包装の点線（折れ線）部分にの上下に丸みを設けることによって、薬を飲むとき又は携帯するとき、薬品一包化包装の点線（折れ線）部分に沿って切り離しても何ら不安を感じずに薬を服用でき不安が解決できた。</p>
+            <embodiments-example>
+                <p num="0008">  しかるに本考案は、薬を服用するとき何ら不安を感じずに、薬品一包化包装の薬の取り出しに点線（折れ線）部分を気にすることなく薬を分割でき、服用時の不安を解決できた。</p>
+            </embodiments-example>
+        </description-of-embodiments>
+    </description><claims>
+        <claim num="">
+            <claim-text/>
+        </claim>
+    </claims><abstract>
+  <p num="">【課題】薬品一包化包装シートを提供する。<br/>【解決手段】薬品一包化包装シートの折れ線部分の上下左右に丸みを設ける。これによって、薬を服用するとき又は携帯するとき、何ら不安を感じずに、小分けに切り離すことができ、気楽に服用できる。不安を解消できる。<br/>【選択図】図４</p>
+</abstract><drawings>
+        <figure num="1">
+            <img id="000003" file="0003215724.tif" he="26" img-format="tif" wi="61" img-content="drawing"/>
+        </figure>
+        <figure num="2">
+            <img id="000004" file="0003215724.tif" he="12" img-format="tif" wi="64" img-content="drawing"/>
+        </figure>
+        <figure num="3">
+            <img id="000005" file="0003215724.tif" he="21" img-format="tif" wi="56" img-content="drawing"/>
+        </figure>
+        <figure num="4">
+            <img id="000006" file="0003215724.tif" he="21" img-format="tif" wi="50" img-content="drawing"/>
+        </figure>
+        <figure num="5">
+            <img id="000007" file="0003215724.tif" he="22" img-format="tif" wi="61" img-content="drawing"/>
+        </figure>
+        <figure num="6">
+            <img id="000008" file="0003215724.tif" he="51" img-format="tif" wi="80" img-content="drawing"/>
+        </figure>
+    </drawings><jp:written-amendment-group><jp:written-amendment kind="amendment"><date>20180122</date><jp:amendment-article><jp:amendment-group jp:serial-number="1"><jp:document-code>A26333</jp:document-code><jp:item-of-amendment>全文</jp:item-of-amendment><jp:way-of-amendment>3</jp:way-of-amendment><jp:contents-of-amendment jp:kind-of-document="claims" jp:kind-of-law="utility">
+                    <claims>
+                        <claim num="1">
+                            <claim-text>  薬品一包化シート（１０錠入り）の折れ線部分（点線部分）の上下左右に丸みを有することを特徴とする、薬品一包化シート（１０錠入り）</claim-text>
+                        </claim>
+                    </claims>
+                </jp:contents-of-amendment></jp:amendment-group><jp:amendment-group jp:serial-number="2"><jp:document-code>A26330</jp:document-code><jp:item-of-amendment>全文</jp:item-of-amendment><jp:way-of-amendment>3</jp:way-of-amendment><jp:contents-of-amendment jp:kind-of-document="description" jp:kind-of-law="utility">
+                    <description>
+                        
+                        <technical-field>
+                            <p num="0001">本考案は、薬を服用時に又は携帯するときの不安をなくすために考案した。</p>
+                            <p num="0002">薬の服用時又は携帯するときなぞ、お医者様の処方によって薬品一包化包装シート（１０錠入り）の点線（折れ線）の部分に沿って切り離した時（図３）の様に新規の角ができる。</p>
+                        </technical-field>
+                        <summary-of-invention>
+                            <p num=""/>
+                        </summary-of-invention>
+                        <heading>考案が解決しようとする理由</heading>
+                        <p num="0003">  薬品一包化包装シート（１０錠入り）の点線（折れ線）の部分に沿って切り離すと必ず四隅に鋭利な角（図３）ができる。  薬を服用するとき又は携帯するときなぞ、従来の薬品一包化包装シート（１０錠入り）では、点線（折れ線）部分を切り離した時（図３）、四隅にできた鋭利な角で、指先や掌を突っつき、又旅先などで薬の服用時に個々に薬をつまみ出す時等、ややもすると、私ごとになりますが、四隅にできた鋭利な角で指先を突っつき血が滲んだこともあり、他人様にこの様な事が及ばぬようにと考案した。</p>
+                        <heading>課題を解決するための手段</heading>
+                        <p num="0004">本考案は、薬品一包化包装シート（１０錠入り）の点線（折れ線）部分の上下左右に丸みを設ける（図４）ことによって、薬を封用するとき又は携帯するとき、新規薬品一包化包装シート（１０錠入り）では点線（折れ線）部分に沿って切り離しても（図５）何ら不安を感じずに薬を服用でき不安が解消できた。</p>
+                        <heading>考案の成果</heading>
+                        <p num="0005">  しかるに、上記の構造により、薬を服用するとき又は携帯するとき、家族と談笑しながら手元を見ずとも小分けに切り離す（図５）ことができ、気楽に服用ができる。</p>
+                        <description-of-drawings>
+                            <p num="0006"><figref num="1">  従来市販されている薬品一包化包装シート（１０錠入り）の平面図、四隅が丸くなっている。</figref><figref num="2">  従来市販されている薬品一方化包装シート（１０錠入り）の断面図である。</figref><figref num="3">  従来市販されている薬品一包化包装シート（１０錠入り）の薬品服用分割時に新規にできる角である。</figref><figref num="4">  新規薬品一包化包装シート（１０錠入り）点線部分の上下左右に新規に丸みを設けた平面図である。</figref><figref num="5">  新規薬品一包化包装シート（１０錠入り）分割時の平面図</figref><figref num="6">  新規薬品一包化包装シート（１０錠入り）を小分割したとき四隅の角が丸くなっており、平時家庭でも、携帯時にも誠に安心である</figref></p>
+                        </description-of-drawings>
+                        <description-of-embodiments>
+                            <p num="0007">  本考案は、薬品一包化包装シートの点線（折れ線）部分の上下左右に丸みを設ることによって、薬を服用するとき又は携帯するときなぞ、新規の薬品一包化包装シート（１０錠入り）は、点線（折れ線）部分に沿って切り離しても何ら不安を感じることなく薬を服用でき、不安が解消できた。</p>
+                            <embodiments-example>
+                                <p num="0008">  しかるに本考案は、薬を服用するとき何ら不安を感じずに、新規薬品一包化包装シート（１０錠入り）では、点線（折れ線）を気にすることなく小分割部分を取り出すことができ、安心して服用できる。</p>
+                            </embodiments-example>
+                        </description-of-embodiments>
+                    </description>
+                </jp:contents-of-amendment></jp:amendment-group><jp:amendment-group jp:serial-number="4"><jp:document-code>A26331</jp:document-code><jp:item-of-amendment>全図</jp:item-of-amendment><jp:way-of-amendment>3</jp:way-of-amendment><jp:contents-of-amendment jp:kind-of-document="drawings" jp:kind-of-law="utility">
+                    <drawings>
+                        <figure num="1">
+                            <img id="000009" file="0003215724.tif" he="29" img-format="tif" wi="67" img-content="drawing"/>
+                        </figure>
+                        <figure num="2">
+                            <img id="000010" file="0003215724.tif" he="13" img-format="tif" wi="65" img-content="drawing"/>
+                        </figure>
+                        <figure num="3">
+                            <img id="000011" file="0003215724.tif" he="24" img-format="tif" wi="59" img-content="drawing"/>
+                        </figure>
+                        <figure num="4">
+                            <img id="000012" file="0003215724.tif" he="29" img-format="tif" wi="51" img-content="drawing"/>
+                        </figure>
+                        <figure num="5">
+                            <img id="000013" file="0003215724.tif" he="25" img-format="tif" wi="55" img-content="drawing"/>
+                        </figure>
+                        <figure num="6">
+                            <img id="000014" file="0003215724.tif" he="25" img-format="tif" wi="44" img-content="drawing"/>
+                        </figure>
+                    </drawings>
+                </jp:contents-of-amendment></jp:amendment-group></jp:amendment-article></jp:written-amendment></jp:written-amendment-group></jp-official-gazette>

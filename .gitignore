@@ -1,0 +1,19 @@
+# 仮想環境
+.venv/
+venv/
+
+# ログ
+log/
+*.log
+
+# 直接は関係ないスクリプト
+scripts/
+
+# キャッシュ
+__pycache__/
+
+# ベクトルストア
+data_store/
+
+# 大容量データ
+eval/dataset02/knowledge/result_1_10000.jsonl

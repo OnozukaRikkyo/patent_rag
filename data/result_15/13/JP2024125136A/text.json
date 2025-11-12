@@ -1,0 +1,53 @@
+{
+    "path": "data\\result_15\\13\\JP2024125136A\\text.txt",
+    "publication": {
+        "doc_number": "2024125136",
+        "country": "JP",
+        "kind": null,
+        "date": "2024-09-13"
+    },
+    "application": {
+        "doc_number": "2023048925",
+        "date": "2023-03-03"
+    },
+    "invention_title": "ファラデー発電改良型",
+    "parties": {
+        "applicants": [
+            {
+                "name": "村上  一成",
+                "registered_number": "520234165",
+                "address": "岩手県盛岡市肴町３－３０－５０１"
+            }
+        ],
+        "agents": [],
+        "inventors": [
+            {
+                "name": "村上  一成",
+                "registered_number": null,
+                "address": "岩手県盛岡市肴町３の３０の５０１"
+            }
+        ]
+    },
+    "classifications": {
+        "ipc_main": "H02K  35/02        20060101AFI20240906BHJP",
+        "ipc_further": [],
+        "jp_main": "H02K35/02",
+        "jp_further": []
+    },
+    "theme_codes": [],
+    "f_terms": [],
+    "claims": [
+        "【請求項1】発電機能拡大"
+    ],
+    "description": {
+        "technical_field": [],
+        "background_art": [],
+        "disclosure": {
+            "tech_problem": [],
+            "tech_solution": [],
+            "advantageous_effects": []
+        },
+        "best_mode": []
+    },
+    "abstract": "【課題】効率の良い発電装置を提供する。【解決手段】エンジン発電装置は、ピストンに接続される磁力を帯びたコネクティングロッドを有し、コネクティングロッドが移動する周囲にコイルを配置する。【選択図】図１"
+}

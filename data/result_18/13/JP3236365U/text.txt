@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="../../../../../XSL/JPRegisteredUtilityModelPublication.xsl"?> -->
+<jputl:RegisteredUtilityModelPublication xmlns:jpcom="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPCommon"
+                                         xmlns:jputl="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPUtility"
+                                         xmlns:com="http://www.wipo.int/standards/XMLSchema/ST96/Common"
+                                         xmlns:pat="http://www.wipo.int/standards/XMLSchema/ST96/Patent"
+                                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                         xsi:schemaLocation="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPUtility ../../../../../XSD/JPRegisteredUtilityModelPublication_V1_0.xsd"
+                                         com:languageCode="ja"
+                                         com:st96Version="V3_1"
+                                         com:ipoVersion="JP_V1_0">
+   <com:IPOfficeCode>JP</com:IPOfficeCode>
+   <jputl:RegisteredUtilityModelPublicationBibliographicData com:languageCode="ja">
+      <com:IPOfficeCode>JP</com:IPOfficeCode>
+      <jputl:UtilityModelPublicationIdentification>
+         <com:IPOfficeCode>JP</com:IPOfficeCode>
+         <pat:PublicationNumber>3236365</pat:PublicationNumber>
+         <com:PublicationDate>2022-02-15</com:PublicationDate>
+      </jputl:UtilityModelPublicationIdentification>
+      <pat:PlainLanguageDesignationText>登録実用新案公報(U)</pat:PlainLanguageDesignationText>
+      <com:RegistrationDate>2022-02-04</com:RegistrationDate>
+      <jputl:ApplicationIdentification>
+         <com:ApplicationNumber>
+            <com:ApplicationNumberText>2021002996</com:ApplicationNumberText>
+         </com:ApplicationNumber>
+         <pat:FilingDate>2021-08-02</pat:FilingDate>
+      </jputl:ApplicationIdentification>
+      <pat:InventionTitle>建築物</pat:InventionTitle>
+      <jputl:RegisteredUtilityModelPublicationPartyBag>
+         <jputl:ApplicantsRegisteredPractitionersBag>
+            <jputl:ApplicantRegisteredPractitionerBag com:sequenceNumber="1">
+               <jputl:Applicant com:sequenceNumber="1">
+                  <com:PartyIdentifier>520392993</com:PartyIdentifier>
+                  <jpcom:Contact>
+                     <com:Name>
+                        <com:EntityName>森  直樹</com:EntityName>
+                     </com:Name>
+                     <com:PostalAddressBag>
+                        <com:PostalAddress>
+                           <com:PostalAddressText>奈良県奈良市登美ヶ丘３－７－８</com:PostalAddressText>
+                        </com:PostalAddress>
+                     </com:PostalAddressBag>
+                  </jpcom:Contact>
+               </jputl:Applicant>
+               <jputl:RegisteredPractitioner com:sequenceNumber="1">
+                  <jputl:AgentCategory>Representative</jputl:AgentCategory>
+                  <pat:RegisteredPractitionerRegistrationNumber>110002055</pat:RegisteredPractitionerRegistrationNumber>
+                  <jpcom:Contact>
+                     <com:Name>
+                        <com:EntityName>特許業務法人ｉＲｉｆｙ国際特許事務所</com:EntityName>
+                     </com:Name>
+                  </jpcom:Contact>
+               </jputl:RegisteredPractitioner>
+            </jputl:ApplicantRegisteredPractitionerBag>
+         </jputl:ApplicantsRegisteredPractitionersBag>
+         <jputl:InventorBag>
+            <jputl:Inventor com:sequenceNumber="1">
+               <jpcom:Contact>
+                  <com:Name>
+                     <com:EntityName>川崎  直宏</com:EntityName>
+                  </com:Name>
+                  <com:PostalAddressBag>
+                     <com:PostalAddress>
+                        <com:PostalAddressText>東京都文京区本郷１丁目２８－３４  本郷ＭＫビル４階</com:PostalAddressText>
+                     </com:PostalAddress>
+                  </com:PostalAddressBag>
+               </jpcom:Contact>
+            </jputl:Inventor>
+            <jputl:Inventor com:sequenceNumber="2">
+               <jpcom:Contact>
+                  <com:Name>
+                     <com:EntityName>奥茂  謙仁</com:EntityName>
+                  </com:Name>
+                  <com:PostalAddressBag>
+                     <com:PostalAddress>
+                        <com:PostalAddressText>東京都文京区本郷１丁目２８－３４  本郷ＭＫビル４階</com:PostalAddressText>
+                     </com:PostalAddress>
+                  </com:PostalAddressBag>
+               </jpcom:Contact>
+            </jputl:Inventor>
+            <jputl:Inventor com:sequenceNumber="3">
+               <jpcom:Contact>
+                  <com:Name>
+                     <com:EntityName>森    直樹</com:EntityName>
+                  </com:Name>
+                  <com:PostalAddressBag>
+                     <com:PostalAddress>
+                        <com:PostalAddressText>奈良県奈良市登美ケ丘３－７－８</com:PostalAddressText>
+                     </com:PostalAddress>
+                  </com:PostalAddressBag>
+               </jpcom:Contact>
+            </jputl:Inventor>
+            <jputl:Inventor com:sequenceNumber="4">
+               <jpcom:Contact>
+                  <com:Name>
+                     <com:EntityName>石橋  寿仁</com:EntityName>
+                  </com:Name>
+                  <com:PostalAddressBag>
+                     <com:PostalAddress>
+                        <com:PostalAddressText>奈良県奈良市東九条町６１４－１９</com:PostalAddressText>
+                     </com:PostalAddress>
+                  </com:PostalAddressBag>
+               </jpcom:Contact>
+            </jputl:Inventor>
+         </jputl:InventorBag>
+      </jputl:RegisteredUtilityModelPublicationPartyBag>
+      <jputl:IPCClassification>
+         <com:Edition/>
+         <pat:MainClassification>E04G  23/02        20060101AFI20220207BHJP        </pat:MainClassification>
+         <pat:FurtherClassification>E04H   1/04        20060101ALI20220207BHJP        </pat:FurtherClassification>
+      </jputl:IPCClassification>
+      <jputl:NationalClassification>
+         <com:IPOfficeCode>JP</com:IPOfficeCode>
+         <jputl:MainNationalClassification>
+            <pat:PatentClassificationText>E04G23/02 J</pat:PatentClassificationText>
+         </jputl:MainNationalClassification>
+         <jputl:FurtherNationalClassification>
+            <pat:PatentClassificationText>E04H1/04 A</pat:PatentClassificationText>
+         </jputl:FurtherNationalClassification>
+      </jputl:NationalClassification>
+      <jputl:ClaimTotalQuantitySet>
+         <pat:ClaimTotalQuantity>2</pat:ClaimTotalQuantity>
+         <jputl:AdoptedLawCategory>Claim</jputl:AdoptedLawCategory>
+      </jputl:ClaimTotalQuantitySet>
+      <jputl:PublishFigure>
+         <pat:FigureNumber>3</pat:FigureNumber>
+      </jputl:PublishFigure>
+      <jputl:RelatedDocumentBag>
+         <jputl:Conversion>
+            <jputl:ParentDocument>
+               <jputl:PatentDocumentIdentification>
+                  <jputl:ApplicationIdentification>
+                     <com:ApplicationNumber>
+                        <com:ApplicationNumberText>2020170521</com:ApplicationNumberText>
+                     </com:ApplicationNumber>
+                     <pat:FilingDate>2020-10-08</pat:FilingDate>
+                  </jputl:ApplicationIdentification>
+               </jputl:PatentDocumentIdentification>
+            </jputl:ParentDocument>
+            <pat:ConversionCategory>Patent to utility model</pat:ConversionCategory>
+         </jputl:Conversion>
+      </jputl:RelatedDocumentBag>
+      <jputl:RequestRegistrabilityReportIndicator>false</jputl:RequestRegistrabilityReportIndicator>
+      <jputl:FilingForm>ＯＬ</jputl:FilingForm>
+   </jputl:RegisteredUtilityModelPublicationBibliographicData>
+   <jputl:ChosenDrawingImage>
+      <com:Image com:imageContentCategory="Drawing">
+         <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+         <com:FileName>0003236365000001.tif</com:FileName>
+         <com:HeightMeasure com:measureUnitCode="Mm">230</com:HeightMeasure>
+         <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+      </com:Image>
+   </jputl:ChosenDrawingImage>
+   <jputl:AbstractCorrectionIndicator>true</jputl:AbstractCorrectionIndicator>
+   <jputl:Description>
+      <pat:TechnicalField>
+         <com:P com:pNumber="0001">
+  本考案は、隣接する住戸間に各住戸への出入口に接続する屋外階段を備えた構造の階段室型共同住宅において、上方に新たな居住階を形成した階段室型共同住宅に係る建築物に関する。
+</com:P>
+      </pat:TechnicalField>
+      <pat:BackgroundArt>
+         <com:P com:pNumber="0002">
+  隣接する住戸間に各住戸への出入口に接続する屋外階段を備えた構造の共同住宅は一般に階段室型共同住宅と呼ばれている。このような階段室型共同住宅のうち、施工から４０～５０年を経過した住棟は、居住者に高齢者が多いにも関わらず、エレベータが未設置であるという問題もあり、建て替えが望まれている。
+</com:P>
+         <com:P com:pNumber="0003">
+  しかしながら、住棟を新たに建て替えることは費用的に容易なことではなく、また建て替えに伴って居住者が一時的に引越しする必要がある等、現実的には難しいという事情がある。
+</com:P>
+         <com:P com:pNumber="0004">
+  このため、例えば、階段室型集合住宅等の中高層の既存住宅の近傍に、新規な廊下やエレベータを有する増築構造物を構築し、この増築構造物を既存住宅と連結することにより、既存住宅をバリアフリー化する増築方法が開示されている（例えば、特許文献１参照。）。
+</com:P>
+      </pat:BackgroundArt>
+      <com:CitationBag>
+         <com:PatentCitationBag>
+            <com:P com:pNumber="0005">
+               <com:PatentCitation com:sequenceNumber="1">
+                  <com:PatentCitationText>特許第４８２９５９９号公報</com:PatentCitationText>
+               </com:PatentCitation>
+            </com:P>
+         </com:PatentCitationBag>
+      </com:CitationBag>
+      <pat:InventionSummary>
+         <pat:TechnicalProblem>
+            <com:P com:pNumber="0006">
+  上述したように階段室型共同住宅の増築方法にあっては、次のような問題があった。すなわち、既存住宅の近傍に増築構造物を構築する方法では、隣接する部分に十分な土地が確保できる場合に限られるという問題があった。さらに、バリアフリー化は可能であるものの、増築するための費用も決して安くないことから、高齢者にとっては費用負担が大きいという問題があった。
+</com:P>
+            <com:P com:pNumber="0007">
+  本考案は、このような課題に鑑みてなされたものであり、その目的とするところは、階段室型共同住宅において、既存住宅への影響及び設置費用を最小限に抑えつつ、居住空間を有する増築階を形成した階段室型共同住宅に係る建築物を提供することにある。
+</com:P>
+         </pat:TechnicalProblem>
+         <pat:TechnicalSolution>
+            <com:P com:pNumber="0008">
+  本考案の建築物は、隣接する住戸間に各住戸への出入口に接続する屋外階段を備えた階段室型共同住宅からなる既存住宅と、前記既存住宅の近傍の地面上に設けられ、増築部分を構成する増築構造物と、前記増築構造物と隣接した或いは距離を隔てた位置の地面上に、前記増築構造物の前記既存住宅と反対側に設けられた付設構造物と、前記既存住宅の上方で、かつ、前記増築構造物と前記付設構造物との間に形成された増築階と、前記既存住宅の屋外階段側に上下で隣接する少なくとも１組の階の床高さの略中間の高さで且つ該既存住宅との間に空間を有するように設けられた新規廊下と、前記１組の階の間に存在する屋外階段の踊り場と前記新規廊下とを連結する通路とを備えている。
+</com:P>
+         </pat:TechnicalSolution>
+         <pat:AdvantageousEffects>
+            <com:P com:pNumber="0009">
+  本考案によれば、階段室型共同住宅において、既存住宅への影響及び設置費用を最小限に抑えつつ、居住空間を有する増築階を形成することができる。
+</com:P>
+         </pat:AdvantageousEffects>
+      </pat:InventionSummary>
+      <pat:DrawingDescription>
+         <com:P com:pNumber="0010">
+            <com:FigureReference com:referencedFigureNumber="1">本考案の第１の実施形態である階段室型共同住宅の増築方法が適用される階段室型共同住宅（施工前）の概略を示す縦断面図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="2">同階段室型共同住宅（施工前）の概略を示す平面図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="3">同階段室型共同住宅（施工後）の概略を示す縦断面図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="4">同階段室型共同住宅（施工後）の概略を示す平面図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="5">本考案の第２の実施形態である階段室型共同住宅の増築方法が適用される階段室型共同住宅（施工前）の概略を示す縦断面図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="6">同階段室型共同住宅（施工後）の概略を示す縦断面図である。</com:FigureReference>
+         </com:P>
+      </pat:DrawingDescription>
+      <pat:EmbodimentDescription>
+         <com:P com:pNumber="0011">
+  以下、図面を参照しつつ本考案の実施形態について説明する。  <com:Br/>
+  図１は本考案の第１の実施形態である階段室型共同住宅の増築方法が適用される階段室型共同住宅（建築物）１０の施工前の概略を示す縦断面図、図２は階段室型共同住宅１０の概略を示す平面図である。また、図３は階段室型共同住宅１０の施工後の概略を示す縦断面図、図４は階段室型共同住宅１０の施工後の概略を示す平面図である。これらの図中ＧＬは地面を示している。
+</com:P>
+         <com:P com:pNumber="0012">
+  本考案に係る階段室型共同住宅の増築方法は、隣接する住戸間に各住戸への出入口に接続する屋外階段を備えた階段室型共同住宅からなる既存住宅の上方に新たな居住空間を有する増築階を形成する増築方法であり、本考案に係る建築物はこの方法により増築された階段室型共同住宅である。
+</com:P>
+         <com:P com:pNumber="0013">
+  施工前の建築物は公知の階段室型共同住宅１０は、地面ＧＬに対して垂直に立設された支持部２１，２２，２３及び支持壁２４，２５を備えている。これら支持部２１，２２，２３及び支持壁２４，２５により、平面視で複数の箱型に形成されている。
+</com:P>
+         <com:P com:pNumber="0014">
+  支持部２１と支持部２２との間には、フロア３１，３２，３３，３４が設けられている。支持部２２と支持部２３との間には、踊り場４１，４２，４３，４４が設けられている。
+</com:P>
+         <com:P com:pNumber="0015">
+  踊り場４１とフロア３１との間には、屋外階段５１が設けられている。フロア３１と踊り場４２との間には、屋外階段５２が設けられている。踊り場４２とフロア３２との間には、屋外階段５３が設けられている。フロア３２と踊り場４３との間には、屋外階段５４が設けられている。踊り場４３とフロア３３との間には、屋外階段５５が設けられている。フロア３３と踊り場４４との間には、屋外階段５６が設けられている。踊り場４４とフロア３４との間には、屋外階段５７が設けられている。
+</com:P>
+         <com:P com:pNumber="0016">
+  フロア３１には、住戸６１が設けられており、住戸６１は出入口７１を介して屋外階段５１，５２と接続されている。フロア３２には、住戸６２が設けられており、住戸６２は出入口７２を介して屋外階段５３，５４と接続されている。フロア３３には、住戸６３が設けられており、住戸６３は出入口７３を介して屋外階段５５，５６と接続されている。フロア３４には、住戸６４が設けられており、住戸６４は出入口７４を介して屋外階段５７と接続されている。
+</com:P>
+         <com:P com:pNumber="0017">
+  次に、図３及び図４により、階段室型共同住宅１０に対して増築し、新たな建築物１００とする工程について説明する。階段室型共同住宅１０の近傍の地面ＧＬ上に増築部分を構成する増築構造物１１０，１１１，１１２を立設する。増築構造物１１１，１１２と隣接した或いは距離を隔てた位置の地面ＧＬ上に、付設構造物１１３を増築構造物１１１，１１２の階段室型共同住宅１０と反対側に立設する。また、支持構造物１１４を立設する。
+</com:P>
+         <com:P com:pNumber="0018">
+  次に、階段室型共同住宅１０の上方で、かつ、増築構造物１１１，１１２と付設構造物１１３との間に増築階１２１，１２２及び増築屋根１２３を形成する。これにより増築階（住戸）１２４，１２５が形成される。増築階１２１，１２２及び増築屋根１２３は、予め組み立てられた箱状のプレハブユニットを設置することにより構築することもできるし、その他の方法、例えば鉄骨（軽量鉄骨等）を現場で組んで構築することもできる。プレハブユニットを利用した場合、住戸毎の増床作業を効率良くすすめることができるという利点がある。
+</com:P>
+         <com:P com:pNumber="0019">
+  住戸６２と住戸６３の間及び住戸６３と住戸６４の屋外階段５４，５５及び屋外階段５６，５７側に上下で隣接する少なくとも１組の階の床高さの略中間の高さで、かつ、住戸６２と住戸６３の間及び住戸６３と住戸６４の間に空間を有するように新規廊下１３１，１３２を設ける。このとき、支持部２３の一部２３ａは取り壊す。
+</com:P>
+         <com:P com:pNumber="0020">
+  １組の階、すなわち住戸６２と住戸６３間に存在する屋外階段の踊り場４３と新規廊下１３１とを通路１４１にて連結する。そして、手すり１４１ａを設置する。同様にして住戸６３と住戸６４間に存在する屋外階段の踊り場４４と新規廊下１３２とを通路１４２にて連結する。そして、手すり１４２ａを設置する。
+</com:P>
+         <com:P com:pNumber="0021">
+  続いて、増築構造物１１０と増築構造物１１１との間に、エレベータ１５０及び非常階段１６０を設置する。なお、図３中１５１，１５２，１５３，１５４，１５５は、地面ＧＬ、新規廊下１３１，１３２、増築階１２１，１２２におけるエレベータ１５０の出入口を示している。また、支持構造物１１４の外側に、増築階１２１，１２２に接続される非常階段１６０を設置する。
+</com:P>
+         <com:P com:pNumber="0022">
+  このような工程により、階段室型共同住宅１０に対して増築し、新たな建築物１００とすることで、住戸６１～６４に居住する住民は引っ越しをすることなく、新しい住戸１２４，１２５を形成することができる。またエレベータ１５０を設置することで、全ての住戸６１～６４には半階分の階段を昇降するだけでエレベータ１５０にアクセスすることができ、バリアフリー化することができる。このとき、エレベータ１５０の着床階を減らすことにより低予算化が可能となる。さらなる低予算化のために、新規廊下１３１に関わる構造を省略してもよい。
+</com:P>
+         <com:P com:pNumber="0023">
+  なお、新しい住戸１２４，１２５に介護施設（介護付き有料老人ホーム等）や診療所、介護事業者のベース等を設置すれば、高齢者が建物を出ることなく、介護施設や診療所に通うことができ、比較的容易に介護や医療サービスを受けられるというメリットもある。また、新しい住戸１２４，１２５の分譲又は賃貸によって増築費用を賄うことが可能となる。したがって、既存の住戸６１～６４に居住する住民の金銭的負担や生活変化への負担を最小限にして、バリアフリー化を実施することが可能となる。
+</com:P>
+         <com:P com:pNumber="0024">
+  さらに、住戸６１～６４に居住する住民が新しい住戸１２４，１２５に移転することで、エレベータ１５０の着床階に居住することもでき、介護を受けたり、車椅子等での外出が可能となる。
+</com:P>
+         <com:P com:pNumber="0025">
+  図５は本考案の第２の実施形態である階段室型共同住宅の増築方法が適用される階段室型共同住宅（建築物）１０Ａの施工前の概略を示す縦断面図、図６は階段室型共同住宅１０Ａの施工後の概略を示す縦断面図である。図５，６において、図１～図４と同一機能部分には同一符号を付し、その詳細な説明は省略する。
+</com:P>
+         <com:P com:pNumber="0026">
+  本考案に係る階段室型共同住宅の増築方法は、隣接する住戸間に各住戸への出入口に接続する屋外階段を備えた階段室型共同住宅からなる既存住宅の上方に新たな居住空間を有する増築階を形成する増築方法であり、本考案に係る建築物はこの方法により増築された階段室型共同住宅である。
+</com:P>
+         <com:P com:pNumber="0027">
+  施工前の建築物は公知の階段室型共同住宅１０Ａは、地面ＧＬに対して垂直に立設された支持部２１，２２，２３及び支持壁２４，２５（図２参照）を備えている。これら支持部２１，２２，２３及び支持壁２４，２５により、平面視で複数の箱型に形成されている。
+</com:P>
+         <com:P com:pNumber="0028">
+  支持部２１と支持部２２との間には、フロア３１，３２，３３，３４，３５が設けられている。支持部２２と支持部２３との間には、踊り場４１，４２，４３，４４，４５が設けられている。
+</com:P>
+         <com:P com:pNumber="0029">
+  踊り場４１とフロア３１との間には、屋外階段５１が設けられている。フロア３１と踊り場４２との間には、屋外階段５２が設けられている。踊り場４２とフロア３２との間には、屋外階段５３が設けられている。フロア３２と踊り場４３との間には、屋外階段５４が設けられている。踊り場４３とフロア３３との間には、屋外階段５５が設けられている。フロア３３と踊り場４４との間には、屋外階段５６が設けられている。踊り場４４とフロア３４との間には、屋外階段５７が設けられている。フロア３４と踊り場４５との間には、屋外階段５８が設けられている。踊り場４５とフロア３５との間には、屋外階段５９が設けられている。
+</com:P>
+         <com:P com:pNumber="0030">
+  フロア３１には、住戸６１が設けられており、住戸６１は出入口７１を介して屋外階段５１，５２と接続されている。フロア３２には、住戸６２が設けられており、住戸６２は出入口７２を介して屋外階段５３，５４と接続されている。フロア３３には、住戸６３が設けられており、住戸６３は出入口７３を介して屋外階段５５，５６と接続されている。フロア３４には、住戸６４が設けられており、住戸６４は出入口７４を介して屋外階段５７と接続されている。フロア３５には、住戸６５が設けられており、住戸６５は出入口７５を介して屋外階段５９と接続されている。
+</com:P>
+         <com:P com:pNumber="0031">
+  次に、図６により、階段室型共同住宅１０Ａに対して増築し、新たな建築物１００Ａとする工程について説明する。階段室型共同住宅１０Ａの近傍の地面ＧＬ上に増築部分を構成する増築構造物１１０，１１１，１１２を立設する。増築構造物１１１，１１２と隣接した或いは距離を隔てた位置の地面ＧＬ上に、付設構造物１１３を増築構造物１１１，１１２の階段室型共同住宅１０Ａと反対側に立設する。また、支持構造物１１４を立設する。
+</com:P>
+         <com:P com:pNumber="0032">
+  次に、階段室型共同住宅１０Ａの上方で、かつ、増築構造物１１１，１１２と付設構造物１１３との間に増築階１２１，１２２及び増築屋根１２３を形成する。これにより住戸１２４，１２５が形成される。増築階１２１，１２２及び増築屋根１２３は、予め組み立てられた箱状のプレハブユニットを設置することにより構築することもできるし、その他の方法、例えば鉄骨（軽量鉄骨等）を現場で組んで構築することもできる。プレハブユニットを利用した場合、住戸毎の増床作業を効率良くすすめることができるという利点がある。
+</com:P>
+         <com:P com:pNumber="0033">
+  住戸６２と住戸６３の間及び住戸６４と住戸６５の屋外階段５４，５５及び屋外階段５８，５９側に上下で隣接する少なくとも１組の階の床高さの略中間の高さで、かつ、住戸６２と住戸６３の間及び住戸６４と住戸６５の間に空間を有するように新規廊下１３１，１３３を設ける。このとき、支持部２３の一部２３ａは取り壊す。
+</com:P>
+         <com:P com:pNumber="0034">
+  １組の階、すなわち住戸６２と住戸６３間に存在する屋外階段の踊り場４３と新規廊下１３１とを通路１４１にて連結する。そして、手すり１４１ａを設置する。同様にして住戸６４と住戸６５間に存在する屋外階段の踊り場４５と新規廊下１３３とを通路１４３にて連結する。そして、手すり１４３ａを設置する。
+</com:P>
+         <com:P com:pNumber="0035">
+  続いて、増築構造物１１０と増築構造物１１１との間に、エレベータ１５０及び非常階段１６０を設置する。なお、図６中１５１，１５２，１５３，１５４，１５５は、地面ＧＬ、新規廊下１３１，１３３、増築階１２４，１２５におけるエレベータ１５０の出入口を示している。また、また、支持構造物１１４の外側に、増築階１２４，１２５に接続される非常階段１６０を設置する。
+</com:P>
+         <com:P com:pNumber="0036">
+  このような工程により、階段室型共同住宅１０Ａに対して増築し、新たな建築物１００Ａとすることで、住戸６１～６５に居住する住民は引っ越しをすることなく、新しい住戸１２４，１２５を形成することができる。またエレベータ１５０を設置することで、全ての住戸６１～６５には半階分の階段を昇降するだけでエレベータ１５０にアクセスすることができ、バリアフリー化することができる。このとき、エレベータ１５０の着床階を減らすことにより低予算化が可能となる。さらなる低予算化のために、新規廊下１３１に関わる構造を省略してもよい。
+</com:P>
+         <com:P com:pNumber="0037">
+  第２の実施形態においても、上述した第１の実施形態と同様に、新しい住戸１２４，１２５に介護施設（介護付き有料老人ホーム等）や診療所、介護事業者のベース等を設置すれば、高齢者が建物を出ることなく、介護施設や診療所に通うことができ、比較的容易に介護や医療サービスを受けられるというメリットもある。また、新しい住戸１２４，１２５の分譲又は賃貸によって増築費用を賄うことが可能となる。したがって、既存の住戸６１～６５に居住する住民の金銭的負担や生活変化への負担を最小限にして、バリアフリー化を実施することが可能となる。
+</com:P>
+         <com:P com:pNumber="0038">
+  さらに、住戸６１～６５に居住する住民が新しい住戸１２４，１２５に移転することで、エレベータ１５０の着床階に居住することもでき、介護を受けたり、車椅子等での外出が可能となる。
+</com:P>
+         <com:P com:pNumber="0039">
+  以上、本考案の実施形態について説明したが、本考案はこれに限定されることなくその趣旨を逸脱しない範囲で種々の改良・変更が可能であることは勿論である。例えば、上述した例では、４階建ての階段室型共同住宅を６階建ての建築物に増築する場合及び５階建ての階段室型共同住宅を７階建ての建築物に増築する場合を示しているが、階段室型共同住宅が３階建て以下の場合や６階建て以上の場合にも適用することができ、増築後の建築物は５階建て以下や８階建て以上とすることもできる。また、エレベータの出入口の設置数は、新規廊下の数に合わせてあるが、適宜増減してもよいし、配置を変えてもよい。
+</com:P>
+      </pat:EmbodimentDescription>
+      <pat:IndustrialApplicability>
+         <com:P com:pNumber="0040">
+  本考案は、階段室型共同住宅において、既存住宅への影響及び設置費用を最小限に抑えつつ、居住空間を有する増築階を形成する増築方法及びその方法によって増築された建築物として有効である。
+</com:P>
+         <com:P com:pNumber="0041">
+  以下に、本考案に含まれる内容を付記する。<com:Br/>
+［１］隣接する住戸間に各住戸への出入口に接続する屋外階段を備えた階段室型共同住宅からなる既存住宅の上方に新たな居住空間を有する増築階を形成する既存住宅の増築方法であって、<com:Br/>
+  前記既存住宅の近傍の地面上に増築部分を構成する増築構造物を立設し、<com:Br/>
+  前記増築構造物と隣接した或いは距離を隔てた位置の地面上に、付設構造物を前記増築構造物の前記既存住宅と反対側に立設し、<com:Br/>
+  前記既存住宅の上方で、かつ、前記増築構造物と前記付設構造物との間に前記増築階を形成し、<com:Br/>
+  前記既存住宅の屋外階段側に上下で隣接する少なくとも１組の階の床高さの略中間の高さで且つ該既存住宅との間に空間を有するように新規廊下を設け、<com:Br/>
+  前記１組の階の間に存在する屋外階段の踊り場と前記新規廊下とを通路にて連結することを特徴とする階段室型共同住宅の増築方法。<com:Br/>
+［２］前記新規廊下のうち複数の新規廊下に面した乗降口を有するエレベータを設置する［１］記載の階段室型共同住宅の増築方法。<com:Br/>
+［３］隣接する住戸間に各住戸への出入口に接続する屋外階段を備えた階段室型共同住宅からなる既存住宅と、<com:Br/>
+  前記既存住宅の近傍の地面上に設けられ、増築部分を構成する増築構造物と、<com:Br/>
+  前記増築構造物と隣接した或いは距離を隔てた位置の地面上に、前記増築構造物の前記既存住宅と反対側に設けられた付設構造物と、<com:Br/>
+  前記既存住宅の上方で、かつ、前記増築構造物と前記付設構造物との間に形成された増築階と、<com:Br/>
+  前記既存住宅の屋外階段側に上下で隣接する少なくとも１組の階の床高さの略中間の高さで且つ該既存住宅との間に空間を有するように設けられた新規廊下と、<com:Br/>
+  前記１組の階の間に存在する屋外階段の踊り場と前記新規廊下とを連結する通路とを備えていることを特徴とする建築物。<com:Br/>
+［４］前記新規廊下のうち複数の新規廊下に面した乗降口を有するエレベータがさらに設けられている［３］記載の建築物。
+</com:P>
+      </pat:IndustrialApplicability>
+      <pat:ReferenceSignBag>
+         <com:P com:pNumber="0042">
+  １０，１０Ａ…階段室型共同住宅（既存住宅）、２１～２３…支持部、２３ａ…一部、２４，２５…支持壁、３１～３４…フロア、４１～４４…踊り場、５１～５９…屋外階段、６１～６４…住戸、７１～７４…出入口、１００，１００Ａ…建築物、１１０，１１１，１１２…増築構造物、１１３…付設構造物、１１４…支持構造物、１２１，１２２，１２４，１２５…増築階、１２３…増築屋根、１２４，１２５…住戸、１３１，１３２…新規廊下、１４１，１４２…通路、１５０…エレベータ、１５１～１５５…出入口、１６０…非常階段。
+</com:P>
+      </pat:ReferenceSignBag>
+   </jputl:Description>
+   <pat:Claims>
+      <pat:Claim>
+         <pat:ClaimNumber>1</pat:ClaimNumber>
+         <pat:ClaimText>
+  隣接する住戸間に各住戸への出入口に接続する屋外階段を備えた階段室型共同住宅からなる既存住宅と、<com:Br/>
+  前記既存住宅の近傍の地面上に設けられ、増築部分を構成する増築構造物と、<com:Br/>
+  前記増築構造物と隣接した或いは距離を隔てた位置の地面上に、前記増築構造物の前記既存住宅と反対側に設けられた付設構造物と、<com:Br/>
+  前記既存住宅の上方で、かつ、前記増築構造物と前記付設構造物との間に形成された増築階と、<com:Br/>
+  前記既存住宅の屋外階段側に上下で隣接する少なくとも１組の階の床高さの略中間の高さで且つ該既存住宅との間に空間を有するように設けられた新規廊下と、<com:Br/>
+  前記１組の階の間に存在する屋外階段の踊り場と前記新規廊下とを連結する通路とを備えていることを特徴とする建築物。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>2</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記新規廊下のうち複数の新規廊下に面した乗降口を有するエレベータがさらに設けられていることを特徴とする請求項１記載の建築物。
+</pat:ClaimText>
+      </pat:Claim>
+   </pat:Claims>
+   <pat:Abstract>
+      <com:P com:pNumber="">【課題】階段室型共同住宅において、既存住宅への影響及び設置費用を最小限に抑えつつ、居住空間を有する増築階を形成した階段室型共同住宅に係る建築物を提供する。<com:Br/>【解決手段】階段室型共同住宅１０の近傍の地面上に増築部分を構成する増築構造物１１１、１１２を立設し、増築構造物と隣接した或いは距離を隔てた位置の地面上に、付設構造物１１３を増築構造物の階段室型共同住宅と反対側に立設し、階段室型共同住宅の上方で、かつ、増築構造物と付設構造物との間に増築階１２１、１２２を形成し、階段室型共同住宅の屋外階段側に上下で隣接する少なくとも１組の階の床高さの略中間の高さで且つ階段室型共同住宅との間に空間を有するように新規廊下１３１、１３２を設け、１組の階の間に存在する屋外階段の踊り場と新規廊下とを通路１４１、１４２にて連結する。<com:Br/>【選択図】図３</com:P>
+   </pat:Abstract>
+   <pat:Drawings>
+      <pat:Figure>
+         <pat:FigureNumber>1</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>0003236365000002.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">199</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>2</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>0003236365000003.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">241</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>3</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>0003236365000004.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">230</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>4</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>0003236365000005.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">219</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>5</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>0003236365000006.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">230</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>6</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>0003236365000007.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">255</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+   </pat:Drawings>
+</jputl:RegisteredUtilityModelPublication>

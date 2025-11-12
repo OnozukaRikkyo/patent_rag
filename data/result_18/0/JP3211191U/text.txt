@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding='utf-8'?>
+<!-- <?xml-stylesheet type="text/xsl" href="../../../../../XSL/gat-u9.xsl"?> -->
+<!DOCTYPE jp-official-gazette PUBLIC "-//JPO//DTD REGISTERED UTILITY MODEL 1.0//EN" "../../../../../DTD/gat-u9.dtd">
+<jp-official-gazette kind-of-jp="U9" kind-of-st16="U" lang="ja" dtd-version="1.0" country="JP" xmlns:jp="http://www.jpo.go.jp"><bibliographic-data lang="ja" country="JP">
+    <publication-reference>
+      <document-id>
+        <country>JP</country>
+        <doc-number>3211191</doc-number>
+        <kind>登録実用新案公報(U)</kind>
+        <date>20170607</date>
+      </document-id>
+    </publication-reference>
+    <application-reference>
+      <document-id>
+        <doc-number>2017001822</doc-number>
+        <date>20170405</date>
+      </document-id>
+    </application-reference>
+    <invention-title>墓用花立</invention-title>
+    <parties>
+      <jp:applicants-agents-article>
+        <jp:applicants-agents sequence="1">
+          <applicant sequence="1">
+            <addressbook lang="ja">
+              <name>株式会社日清精工</name>
+              <registered-number>510137630</registered-number>
+              <address>
+                <text>大阪府東大阪市柏田西１−１１‐２</text>
+              </address>
+            </addressbook>
+          </applicant>
+        </jp:applicants-agents>
+      </jp:applicants-agents-article>
+      <inventors>
+        <inventor sequence="1">
+          <addressbook>
+            <name>岩谷  将司</name>
+            <address>
+              <text>大阪府東大阪市上小阪４−５−１５</text>
+            </address>
+          </addressbook>
+        </inventor>
+      </inventors>
+    </parties>
+    <dates-of-public-availability>
+      <printed-with-grant>
+        <document-id>
+          <date>20170629</date>
+        </document-id>
+      </printed-with-grant>
+    </dates-of-public-availability>
+    <classification-ipc><edition/><main-clsf>E04H  13/00        20060101AFI20170615BHJP        </main-clsf></classification-ipc>
+    <classification-national><country>JP</country><main-clsf>E04H13/00 H</main-clsf></classification-national>
+    <number-of-claims jp:adopted-law="claim">2</number-of-claims>
+    <figure-to-publish>
+      <fig-number>1</fig-number>
+    </figure-to-publish>
+    <jp:request-for-registrability-report true-or-false="false"/>
+    <jp:filing-form>書面</jp:filing-form>
+    <jp:total-pages>3</jp:total-pages>
+  </bibliographic-data><jp:image-of-bibliographic-data><img id="000001" he="140" wi="160" file="0003211191.tif" img-format="tif" img-content="drawing"/></jp:image-of-bibliographic-data><jp:image-of-chosen-drawing>
+    <img id="000002" he="75" wi="66" file="0003211191.tif" img-format="tif" img-content="drawing"/>
+  </jp:image-of-chosen-drawing><jp:abstract-correction/><description>
+        
+        <technical-field>
+            <p num="0001">本考案は墓石に取り付け、簡易に取り外しができる花立である。</p>
+        </technical-field>
+        <background-art>
+            <p num="0002">彼岸、盆などの墓参りが集中する時期には飲料ボトル、缶、瓶、仏壇用花立などで代用されていた。</p>
+        </background-art>
+        <summary-of-invention>
+            <tech-problem>
+                <p num="0003">仏壇用花立など、これまでの代用品では割れる、倒れるといったもので怪我などの二次被害も考えられる。これらを解決しようとするものである。</p>
+            </tech-problem>
+            <tech-solution>
+                <p num="0004">本考案は樹脂製なので割れない、墓石に基台を接着させることにより倒れないので問題点を解決している。</p>
+            </tech-solution>
+            <advantageous-effects>
+                <p num="0005">上述のように  割れない・倒れない  に加え取り外し機構を設けていることにより  取り外し  が可能になり単体で洗えることから衛生面にも配慮されており、樹脂製により盗難被害も少なくなる。経年劣化により取り替える際にも専用接着材により墓石を傷つけることなく剥がすことも可能である。</p>
+            </advantageous-effects>
+        </summary-of-invention>
+        <description-of-drawings>
+            <p num="0006"><figref num="1">本考案の墓用花立の外観図。</figref><figref num="2">基台の連結機構  （ａ）斜視図  （ｂ）平面図</figref><figref num="3">花立本体の連結機構  （ａ）斜視図  （ｂ）底面図</figref></p>
+        </description-of-drawings>
+        <description-of-embodiments>
+            <p num="0007">図１で、本発明に外観をしめす。本考案の墓用花立Ｐは、  花立本体１と基台２からなる。基台２は墓石に接着剤等で取り付けられる。花立本体１は基台２に対して脱着可能である。</p>
+            <p num="0008">図２で基台の連結機構をしめす。（ａ）は斜視図、（ｂ）は平面図である。基台２は底有の円筒で、内側周囲に、花立本体の爪部３と係止させるための円周方向に長尺状の受部５を、本体の爪部の位置に対応させて４カ所、均等に爪部が下方に通れる間を置いて配置する。基台は円筒以外の形状であってもよい。</p>
+            <p num="0009">      図３で花立本体の下端に備えた連結機構を示す。（ａ）は斜視図、（ｂ）は底面図である。<br/>
+花立本体の下端には、受部５には、円周方向に長尺状の爪部３（４か所）を、均等に間をおいて配置している。</p>
+            <p num="0010">爪部及び、受部は、ともに円周方向に長尺状で、それぞれに同じ角度の重なる傾斜面をつけることによって右回しで圧着、左回しで取り外しができる。</p>
+            <p num="0011">以下、使用方法を説明する。<br/>
+基台２を墓石芝台部に専用接着剤を用いて取り付ける。実用強度が出たら、花立本体１の爪部を、基台の受部間の空間に落とし入れ、右回りに回して固定する。</p>
+            <p num="0012">取り外し洗浄を行う際には、花立本体１を左に回し、爪部３と受部５を離し、取付部間の空間から上に引き上げる。このようして花立本体１を容易に取外しができ、花体本体の交換も容易にできる。</p>
+        </description-of-embodiments>
+        <industrial-applicability>
+            <p num="0010">      各店舗への卸業務により需要と供給を期待する。</p>
+        </industrial-applicability>
+        <reference-signs-list>
+            <p num="0011">      Ｐ  墓用花立<br/>
+      １  花立本体<br/>
+      ２  基台<br/>
+      ３  爪部<br/>
+      ４  花立本体底面<br/>
+      ５  受部</p>
+        </reference-signs-list>
+    </description><claims>
+        <claim num="1">
+            <claim-text>  基台と花立本体とからなり、基台と花立本体とを脱着可能にする連結機構を備えたことを特徴とする墓用花立。</claim-text>
+        </claim>
+        <claim num="2">
+            <claim-text>  前記連結機構は、花立本体の下端に備えた爪部と、基台に備えた受部からなり、前記爪部を受部に係止させて連結したことを特徴とする請求項１記載の墓用花立。</claim-text>
+        </claim>
+    </claims><abstract>
+  <p num="">【課題】墓石に取り付け、簡易に取り外しができる墓用花立を提供する。<br/>【解決手段】基台２と花立本体１とからなり、基台２と花立本体１とを脱着可能にする連結機構を備えた墓用花立で、前記連結機構は、花立本体の下端に備えた爪部と、基台に備えた受部からなり、前記爪部を受部に係止させて連結したことを特徴とする。<br/>【選択図】図１</p>
+</abstract><drawings>
+        <figure num="1">
+            <img id="000003" file="0003211191.tif" he="75" img-format="tif" wi="66" img-content="drawing"/>
+        </figure>
+        <figure num="2">
+            <img id="000004" file="0003211191.tif" he="32" img-format="tif" wi="80" img-content="drawing"/>
+        </figure>
+        <figure num="3">
+            <img id="000005" file="0003211191.tif" he="33" img-format="tif" wi="73" img-content="drawing"/>
+        </figure>
+    </drawings></jp-official-gazette>

@@ -1,0 +1,57 @@
+{
+    "path": "data\\result_18\\12\\JP3236424U\\text.txt",
+    "publication": {
+        "doc_number": "3236424",
+        "country": "JP",
+        "kind": null,
+        "date": "2022-02-18"
+    },
+    "application": {
+        "doc_number": "2021002392",
+        "date": "2021-05-11"
+    },
+    "invention_title": "簡易着脱式エプロン",
+    "parties": {
+        "applicants": [
+            {
+                "name": "中川  万友美",
+                "registered_number": "521269034",
+                "address": "神奈川県川崎市多摩区栗谷１丁目９番地２３号１０１号室"
+            }
+        ],
+        "agents": [],
+        "inventors": [
+            {
+                "name": "中川  万友美",
+                "registered_number": null,
+                "address": "神奈川県川崎市多摩区栗谷１丁目９番地２３号１０１号室"
+            }
+        ]
+    },
+    "classifications": {
+        "ipc_main": "A41D  13/04        20060101AFI20220210BHJP",
+        "ipc_further": [],
+        "jp_main": "A41D13/04",
+        "jp_further": []
+    },
+    "theme_codes": [],
+    "f_terms": [],
+    "claims": [
+        "【請求項1】エプロンの着脱部分を磁石にし、着脱を簡易にしたことを特徴とする簡易着脱式エプロン。"
+    ],
+    "description": {
+        "technical_field": [],
+        "background_art": [],
+        "disclosure": {
+            "tech_problem": [
+                "通常エプロンは、後ろへ手を回し紐を結ぶかボタンで止める動作が必要になるが、この発案を取り入れることで簡略化できる"
+            ],
+            "tech_solution": [
+                "紐もしくはボタンを磁石に変える"
+            ],
+            "advantageous_effects": []
+        },
+        "best_mode": []
+    },
+    "abstract": "【課題】着脱時の結ぶ、ボタンを穴に通すなどの動作を簡単にする簡易着脱式エプロンを提供する。【解決手段】簡易着脱式エプロンは、従来紐やボタンで止めていたエプロンの着脱部分を、磁石に変える。【選択図】図１"
+}

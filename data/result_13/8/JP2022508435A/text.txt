@@ -1,0 +1,1247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="../../../../../XSL/JPInternationalPatentPublication.xsl"?> -->
+<jppat:InternationalPatentPublication xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                                      xmlns:jppat="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPPatent"
+                                      xmlns:pat="http://www.wipo.int/standards/XMLSchema/ST96/Patent"
+                                      xmlns:com="http://www.wipo.int/standards/XMLSchema/ST96/Common"
+                                      xmlns:jpcom="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPCommon"
+                                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                      xsi:schemaLocation="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPPatent ../../../../../XSD/JPInternationalPatentPublication_V1_0.xsd"
+                                      com:languageCode="ja"
+                                      com:st96Version="V3_1"
+                                      com:ipoVersion="JP_V1_0">
+   <com:IPOfficeCode>JP</com:IPOfficeCode>
+   <jppat:InternationalPatentPublicationBibliographicData com:languageCode="ja">
+      <com:IPOfficeCode>JP</com:IPOfficeCode>
+      <jppat:PatentPublicationIdentification>
+         <com:IPOfficeCode>JP</com:IPOfficeCode>
+         <pat:PublicationNumber>2022508435</pat:PublicationNumber>
+         <com:PublicationDate>2022-01-19</com:PublicationDate>
+      </jppat:PatentPublicationIdentification>
+      <pat:PlainLanguageDesignationText>公表特許公報(A)</pat:PlainLanguageDesignationText>
+      <jppat:ApplicationIdentification>
+         <com:ApplicationNumber>
+            <com:ApplicationNumberText>2021537477</com:ApplicationNumberText>
+         </com:ApplicationNumber>
+         <pat:FilingDate>2018-09-10</pat:FilingDate>
+      </jppat:ApplicationIdentification>
+      <pat:InventionTitle>生体適合性マイクロスイマーの作製方法、マイクロスイマー、およびそのようなマイクロスイマーの使用方法</pat:InventionTitle>
+      <jppat:InternationalPatentPublicationPartyBag>
+         <jppat:ApplicantsRegisteredPractitionersBag>
+            <jppat:ApplicantRegisteredPractitionerBag com:sequenceNumber="1">
+               <jppat:Applicant com:sequenceNumber="1">
+                  <com:PartyIdentifier>512247223</com:PartyIdentifier>
+                  <jpcom:Contact>
+                     <com:Name>
+                        <com:EntityName>マツクス－プランク－ゲゼルシヤフト  ツール  フエルデルング  デル  ヴイツセンシヤフテン  エー  フアウ</com:EntityName>
+                     </com:Name>
+                     <com:PostalAddressBag>
+                        <com:PostalAddress>
+                           <com:PostalAddressText>ドイツ連邦共和国  ８０５３９  ミュンヘン  ホーフガルテンシュトラーセ  ８</com:PostalAddressText>
+                        </com:PostalAddress>
+                     </com:PostalAddressBag>
+                  </jpcom:Contact>
+                  <jpcom:Contact>
+                     <jpcom:OriginalLanguageIndicator>true</jpcom:OriginalLanguageIndicator>
+                     <com:Name>
+                        <com:EntityName>ＭＡＸ－ＰＬＡＮＣＫ－ＧＥＳＥＬＬＳＣＨＡＦＴ  ＺＵＲ  ＦＯｅＲＤＥＲＵＮＧ  ＤＥＲ  ＷＩＳＳＥＮＳＣＨＡＦＴＥＮ  Ｅ．Ｖ．</com:EntityName>
+                     </com:Name>
+                     <com:PostalAddressBag>
+                        <com:PostalAddress>
+                           <com:PostalAddressText>Ｈｏｆｇａｒｔｅｎｓｔｒａｓｓｅ  ８，８０５３９      Ｍｕｅｎｃｈｅｎ，  Ｂｕｎｄｅｓｒｅｐｕｂｌｉｋ  Ｄｅｕｔｓｃｈｌａｎｄ</com:PostalAddressText>
+                        </com:PostalAddress>
+                     </com:PostalAddressBag>
+                  </jpcom:Contact>
+               </jppat:Applicant>
+               <jppat:Applicant com:sequenceNumber="2">
+                  <com:PartyIdentifier>521094894</com:PartyIdentifier>
+                  <jpcom:Contact>
+                     <com:Name>
+                        <com:EntityName>コチ  ユニバーシティ</com:EntityName>
+                     </com:Name>
+                     <com:PostalAddressBag>
+                        <com:PostalAddress>
+                           <com:PostalAddressText>トルコ国，イスタンブール／サルイエル  ３４４５０，ルメリフェネリ  ヨル</com:PostalAddressText>
+                        </com:PostalAddress>
+                     </com:PostalAddressBag>
+                  </jpcom:Contact>
+               </jppat:Applicant>
+               <jppat:RegisteredPractitioner com:sequenceNumber="1">
+                  <jppat:AgentCategory>Representative</jppat:AgentCategory>
+                  <pat:RegisteredPractitionerRegistrationNumber>100079108</pat:RegisteredPractitionerRegistrationNumber>
+                  <jppat:RegisteredPractitionerCategory>Attorney</jppat:RegisteredPractitionerCategory>
+                  <jpcom:Contact>
+                     <com:Name>
+                        <com:EntityName>稲葉  良幸</com:EntityName>
+                     </com:Name>
+                  </jpcom:Contact>
+               </jppat:RegisteredPractitioner>
+               <jppat:RegisteredPractitioner com:sequenceNumber="2">
+                  <jppat:AgentCategory>Representative</jppat:AgentCategory>
+                  <pat:RegisteredPractitionerRegistrationNumber>100109346</pat:RegisteredPractitionerRegistrationNumber>
+                  <jppat:RegisteredPractitionerCategory>Attorney</jppat:RegisteredPractitionerCategory>
+                  <jpcom:Contact>
+                     <com:Name>
+                        <com:EntityName>大貫  敏史</com:EntityName>
+                     </com:Name>
+                  </jpcom:Contact>
+               </jppat:RegisteredPractitioner>
+               <jppat:RegisteredPractitioner com:sequenceNumber="3">
+                  <jppat:AgentCategory>Representative</jppat:AgentCategory>
+                  <pat:RegisteredPractitionerRegistrationNumber>100117189</pat:RegisteredPractitionerRegistrationNumber>
+                  <jppat:RegisteredPractitionerCategory>Attorney</jppat:RegisteredPractitionerCategory>
+                  <jpcom:Contact>
+                     <com:Name>
+                        <com:EntityName>江口  昭彦</com:EntityName>
+                     </com:Name>
+                  </jpcom:Contact>
+               </jppat:RegisteredPractitioner>
+               <jppat:RegisteredPractitioner com:sequenceNumber="4">
+                  <jppat:AgentCategory>Representative</jppat:AgentCategory>
+                  <pat:RegisteredPractitionerRegistrationNumber>100134120</pat:RegisteredPractitionerRegistrationNumber>
+                  <jppat:RegisteredPractitionerCategory>Attorney</jppat:RegisteredPractitionerCategory>
+                  <jpcom:Contact>
+                     <com:Name>
+                        <com:EntityName>内藤  和彦</com:EntityName>
+                     </com:Name>
+                  </jpcom:Contact>
+               </jppat:RegisteredPractitioner>
+            </jppat:ApplicantRegisteredPractitionerBag>
+         </jppat:ApplicantsRegisteredPractitionersBag>
+         <jppat:InventorBag>
+            <jppat:Inventor com:sequenceNumber="1">
+               <jpcom:Contact>
+                  <com:Name>
+                     <com:EntityName>シッティ，メティン</com:EntityName>
+                  </com:Name>
+                  <com:PostalAddressBag>
+                     <com:PostalAddress>
+                        <com:PostalAddressText>ドイツ連邦共和国，７０５６９  シュトゥットガルト，ナッペンウェグ  ２１シー</com:PostalAddressText>
+                     </com:PostalAddress>
+                  </com:PostalAddressBag>
+               </jpcom:Contact>
+            </jppat:Inventor>
+            <jppat:Inventor com:sequenceNumber="2">
+               <jpcom:Contact>
+                  <com:Name>
+                     <com:EntityName>セイラン，ハカン</com:EntityName>
+                  </com:Name>
+                  <com:PostalAddressBag>
+                     <com:PostalAddress>
+                        <com:PostalAddressText>ドイツ連邦共和国，７０５６９  シュトゥットガルト，ブーヘンレンダーシュトラーセ  １４エー</com:PostalAddressText>
+                     </com:PostalAddress>
+                  </com:PostalAddressBag>
+               </jpcom:Contact>
+            </jppat:Inventor>
+            <jppat:Inventor com:sequenceNumber="3">
+               <jpcom:Contact>
+                  <com:Name>
+                     <com:EntityName>ヤサ，オンケイ</com:EntityName>
+                  </com:Name>
+                  <com:PostalAddressBag>
+                     <com:PostalAddress>
+                        <com:PostalAddressText>ドイツ連邦共和国，７０５６７  シュトゥットガルト，ローゼンヴィースシュトラーセ  １２</com:PostalAddressText>
+                     </com:PostalAddress>
+                  </com:PostalAddressBag>
+               </jpcom:Contact>
+            </jppat:Inventor>
+            <jppat:Inventor com:sequenceNumber="4">
+               <jpcom:Contact>
+                  <com:Name>
+                     <com:EntityName>ヤサ，イミハン  セレン</com:EntityName>
+                  </com:Name>
+                  <com:PostalAddressBag>
+                     <com:PostalAddress>
+                        <com:PostalAddressText>ドイツ連邦共和国，７０５６７  シュトゥットガルト，ローゼンヴィースシュトラーセ  １２</com:PostalAddressText>
+                     </com:PostalAddress>
+                  </com:PostalAddressBag>
+               </jpcom:Contact>
+            </jppat:Inventor>
+            <jppat:Inventor com:sequenceNumber="5">
+               <jpcom:Contact>
+                  <com:Name>
+                     <com:EntityName>キジレル，セダ</com:EntityName>
+                  </com:Name>
+                  <com:PostalAddressBag>
+                     <com:PostalAddress>
+                        <com:PostalAddressText>トルコ国，イスタンブール／サルイエル  ３４４５０，ルメリフェネリ  ヨル，コチ  ユニバーシティ内</com:PostalAddressText>
+                     </com:PostalAddress>
+                  </com:PostalAddressBag>
+               </jpcom:Contact>
+            </jppat:Inventor>
+            <jppat:Inventor com:sequenceNumber="6">
+               <jpcom:Contact>
+                  <com:Name>
+                     <com:EntityName>ボズユック，ウグル</com:EntityName>
+                  </com:Name>
+                  <com:PostalAddressBag>
+                     <com:PostalAddress>
+                        <com:PostalAddressText>トルコ国，イスタンブール／サルイエル  ３４４５０，ルメリフェネリ  ヨル，コチ  ユニバーシティ内</com:PostalAddressText>
+                     </com:PostalAddress>
+                  </com:PostalAddressBag>
+               </jpcom:Contact>
+            </jppat:Inventor>
+         </jppat:InventorBag>
+      </jppat:InternationalPatentPublicationPartyBag>
+      <jppat:IPCClassification>
+         <com:Edition/>
+         <pat:MainClassification>A61K  47/52        20170101AFI20220112BHJP        </pat:MainClassification>
+         <pat:FurtherClassification>A61K  47/30        20060101ALI20220112BHJP        </pat:FurtherClassification>
+         <pat:FurtherClassification>A61K  45/00        20060101ALI20220112BHJP        </pat:FurtherClassification>
+         <pat:FurtherClassification>A61P  35/00        20060101ALI20220112BHJP        </pat:FurtherClassification>
+         <pat:FurtherClassification>A61K  47/02        20060101ALI20220112BHJP        </pat:FurtherClassification>
+         <pat:FurtherClassification>A61K  31/704       20060101ALI20220112BHJP        </pat:FurtherClassification>
+         <pat:FurtherClassification>A61K  47/36        20060101ALI20220112BHJP        </pat:FurtherClassification>
+         <pat:FurtherClassification>B33Y  10/00        20150101ALI20220112BHJP        </pat:FurtherClassification>
+         <pat:FurtherClassification>B33Y  80/00        20150101ALI20220112BHJP        </pat:FurtherClassification>
+      </jppat:IPCClassification>
+      <jppat:NationalClassification>
+         <com:IPOfficeCode>JP</com:IPOfficeCode>
+         <jppat:MainNationalClassification>
+            <pat:PatentClassificationText>A61K47/52</pat:PatentClassificationText>
+         </jppat:MainNationalClassification>
+         <jppat:FurtherNationalClassification>
+            <pat:PatentClassificationText>A61K47/30</pat:PatentClassificationText>
+         </jppat:FurtherNationalClassification>
+         <jppat:FurtherNationalClassification>
+            <pat:PatentClassificationText>A61K45/00</pat:PatentClassificationText>
+         </jppat:FurtherNationalClassification>
+         <jppat:FurtherNationalClassification>
+            <pat:PatentClassificationText>A61P35/00</pat:PatentClassificationText>
+         </jppat:FurtherNationalClassification>
+         <jppat:FurtherNationalClassification>
+            <pat:PatentClassificationText>A61K47/02</pat:PatentClassificationText>
+         </jppat:FurtherNationalClassification>
+         <jppat:FurtherNationalClassification>
+            <pat:PatentClassificationText>A61K31/704</pat:PatentClassificationText>
+         </jppat:FurtherNationalClassification>
+         <jppat:FurtherNationalClassification>
+            <pat:PatentClassificationText>A61K47/36</pat:PatentClassificationText>
+         </jppat:FurtherNationalClassification>
+         <jppat:FurtherNationalClassification>
+            <pat:PatentClassificationText>B33Y10/00</pat:PatentClassificationText>
+         </jppat:FurtherNationalClassification>
+         <jppat:FurtherNationalClassification>
+            <pat:PatentClassificationText>B33Y80/00</pat:PatentClassificationText>
+         </jppat:FurtherNationalClassification>
+      </jppat:NationalClassification>
+      <pat:StateDesignation>
+         <pat:NationalDesignation>
+            <com:DesignatedCountryCode>AP</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>BW</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>GH</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>GM</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>KE</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>LR</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>LS</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>MW</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>MZ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>NA</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>RW</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SD</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SL</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>ST</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SZ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>TZ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>UG</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>ZM</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>ZW</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>EA</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>AM</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>AZ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>BY</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>KG</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>KZ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>RU</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>TJ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>TM</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>EP</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>AL</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>AT</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>BE</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>BG</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>CH</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>CY</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>CZ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>DE</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>DK</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>EE</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>ES</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>FI</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>FR</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>GB</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>GR</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>HR</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>HU</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>IE</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>IS</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>IT</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>LT</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>LU</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>LV</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>MC</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>MK</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>MT</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>NL</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>NO</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>PL</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>PT</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>RO</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>RS</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SE</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SI</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SK</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SM</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>TR</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>OA</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>BF</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>BJ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>CF</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>CG</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>CI</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>CM</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>GA</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>GN</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>GQ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>GW</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>KM</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>ML</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>MR</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>NE</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SN</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>TD</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>TG</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>AE</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>AG</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>AL</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>AM</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>AO</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>AT</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>AU</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>AZ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>BA</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>BB</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>BG</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>BH</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>BN</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>BR</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>BW</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>BY</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>BZ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>CA</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>CH</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>CL</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>CN</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>CO</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>CR</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>CU</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>CZ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>DE</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>DJ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>DK</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>DM</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>DO</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>DZ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>EC</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>EE</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>EG</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>ES</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>FI</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>GB</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>GD</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>GE</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>GH</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>GM</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>GT</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>HN</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>HR</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>HU</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>ID</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>IL</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>IN</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>IR</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>IS</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>JO</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>JP</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>KE</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>KG</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>KH</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>KN</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>KP</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>KR</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>KW</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>KZ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>LA</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>LC</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>LK</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>LR</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>LS</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>LU</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>LY</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>MA</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>MD</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>ME</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>MG</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>MK</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>MN</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>MW</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>MX</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>MY</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>MZ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>NA</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>NG</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>NI</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>NO</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>NZ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>OM</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>PA</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>PE</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>PG</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>PH</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>PL</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>PT</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>QA</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>RO</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>RS</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>RU</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>RW</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SA</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SC</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SD</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SE</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SG</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SK</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SL</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SM</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>ST</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SV</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>SY</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>TH</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>TJ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>TM</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>TN</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>TR</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>TT</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>TZ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>UA</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>UG</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>US</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>UZ</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>VC</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>VN</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>ZA</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>ZM</com:DesignatedCountryCode>
+            <com:DesignatedCountryCode>ZW</com:DesignatedCountryCode>
+         </pat:NationalDesignation>
+      </pat:StateDesignation>
+      <jppat:InternationalFilingData>
+         <jppat:ApplicationIdentification>
+            <com:ApplicationNumber>
+               <com:ApplicationNumberText>EP2018074311</com:ApplicationNumberText>
+            </com:ApplicationNumber>
+            <pat:FilingDate>2018-09-10</pat:FilingDate>
+         </jppat:ApplicationIdentification>
+      </jppat:InternationalFilingData>
+      <jppat:InternationalPublishingData>
+         <jppat:PatentDocumentIdentification>
+            <jppat:PatentPublicationIdentification>
+               <pat:PublicationNumber>WO2020052728</pat:PublicationNumber>
+               <com:PublicationDate>2020-03-19</com:PublicationDate>
+            </jppat:PatentPublicationIdentification>
+         </jppat:PatentDocumentIdentification>
+      </jppat:InternationalPublishingData>
+      <jppat:RequestExaminationIndicator>true</jppat:RequestExaminationIndicator>
+      <jppat:RequestPreliminaryExaminationIndicator>false</jppat:RequestPreliminaryExaminationIndicator>
+      <pat:NationalStageFilingDate>2021-04-14</pat:NationalStageFilingDate>
+      <jppat:ThemeCodeInformationBag>
+         <jppat:ThemeCodeInformation>4C076</jppat:ThemeCodeInformation>
+         <jppat:ThemeCodeInformation>4C084</jppat:ThemeCodeInformation>
+         <jppat:ThemeCodeInformation>4C086</jppat:ThemeCodeInformation>
+      </jppat:ThemeCodeInformationBag>
+      <jppat:FtermInformationBag>
+         <jppat:FtermInformation>4C076AA95</jppat:FtermInformation>
+         <jppat:FtermInformation>4C076CC27</jppat:FtermInformation>
+         <jppat:FtermInformation>4C076DD21</jppat:FtermInformation>
+         <jppat:FtermInformation>4C076DD29</jppat:FtermInformation>
+         <jppat:FtermInformation>4C076EE01</jppat:FtermInformation>
+         <jppat:FtermInformation>4C076EE37</jppat:FtermInformation>
+         <jppat:FtermInformation>4C076EE59</jppat:FtermInformation>
+         <jppat:FtermInformation>4C076FF32</jppat:FtermInformation>
+         <jppat:FtermInformation>4C076FF68</jppat:FtermInformation>
+         <jppat:FtermInformation>4C084AA17</jppat:FtermInformation>
+         <jppat:FtermInformation>4C084NA13</jppat:FtermInformation>
+         <jppat:FtermInformation>4C084ZB262</jppat:FtermInformation>
+         <jppat:FtermInformation>4C084ZC782</jppat:FtermInformation>
+         <jppat:FtermInformation>4C086AA01</jppat:FtermInformation>
+         <jppat:FtermInformation>4C086AA02</jppat:FtermInformation>
+         <jppat:FtermInformation>4C086EA10</jppat:FtermInformation>
+         <jppat:FtermInformation>4C086MA01</jppat:FtermInformation>
+         <jppat:FtermInformation>4C086MA04</jppat:FtermInformation>
+         <jppat:FtermInformation>4C086NA13</jppat:FtermInformation>
+         <jppat:FtermInformation>4C086ZB26</jppat:FtermInformation>
+      </jppat:FtermInformationBag>
+   </jppat:InternationalPatentPublicationBibliographicData>
+   <jppat:Description>
+      <pat:TechnicalField>
+         <com:P com:pNumber="0001">
+  本発明は、生体適合性マイクロスイマーを作製する方法に関する。本発明はさらに、そのようなマイクロスイマーおよびそのようなマイクロスイマーを使用する方法に関する。
+</com:P>
+      </pat:TechnicalField>
+      <pat:BackgroundArt>
+         <com:P com:pNumber="0002">
+  外部磁場を動力源とする微視的なスイマーは、それらのワイヤレス作動、能動的な移動、および正確な位置特定能力により、医療用途で大きな可能性を秘めている。それらの小さいサイズおよび束縛されない制御は、深い組織浸透を可能にすることができ、したがって、低侵襲手術および治療に革命をもたらすことができる。これまで、外部電源を使用して作動する合成磁気マイクロスイマーは、標的化されたカーゴ送達、オブジェクト／細胞の操作、および組織工学用途のために、異なるプラットフォームで使用されてきた。特に、らせん状磁気マイクロスイマーは、マイクロスケール作動のための磁気勾配引きに対する磁気トルクの効率のために最近関心を集めている。
+</com:P>
+         <com:P com:pNumber="0003">
+  外部回転磁場を用いて低レイノルズ数領域で動作するらせん状マイクロスイマーは、以前は、らせん状に曲がった銅線の先端に組み込まれた小さな磁石を使用してミリメートルスケールで設計されていた。次いで、自己スクロールおよび視射角堆積を含む異なる製作技術を利用して、ミクロンスケールでらせん状磁気スイマーを製作した。その後、二光子直接レーザー書き込み（ＴＤＬＷ）技術の進歩により、より複雑なポリマー微細構造の３次元（３Ｄ）製作が実現し、用途の広い化学部分を使用してそれらの局所的な３Ｄパターニングが容易になり、生体適合性の超常磁性酸化鉄ナノ粒子（ＳＰＩＯＮ）をマイクロスイマーに埋め込む可能性が提供された。これまで、異なる感光性材料がＴＤＬＷ技術で使用され、らせん状マイクロスイマーが製作されてきた。最初に、薬物を充填したリポソームで機能化されたらせん状マイクロスイマーを利用して、インビトロで単一細胞の薬物送達を実行した。
+</com:P>
+         <com:P com:pNumber="0004">
+  この分野での最近の開発にもかかわらず、らせん状磁気マイクロスイマーは、それらの潜在的な医療用途に不可欠である生理学的に関連する生分解および制御された局所カーゴ放出能力を有するように、依然として強化する必要がある。
+</com:P>
+         <com:P com:pNumber="0005">
+  無毒の分解生成物を形成することによる、既知の期間における体内で投与されたマイクロスイマーの生分解は、医療用途の重要な側面である。最近、水酸化ナトリウムベースの加水分解反応による、ＰＥＧ－ＤＡ／ＰＥ－ＴＡとＳＰＩＯＮとの様々な比率で構成されたらせん状マイクロスイマーの分解が実証された。しかしながら、マイクロスイマーの分解のために１Ｍ  ＮａＯＨ溶液を使用することは、問題となる可能性があるため、新しい自然の生理学的に関連する分解メカニズムのマイクロスイマーへの統合は、将来の医療用途に不可欠である。
+</com:P>
+         <com:P com:pNumber="0006">
+  加えて、能動的なマイクロスイマーによる疾患部位での濃縮された治療薬の制御放出は、全体的な治療効率を高めることができる。らせん状マイクロスイマーは、回転磁場を使用して、作用部位への治療薬の能動的な送達の問題を克服する。
+</com:P>
+         <com:P com:pNumber="0007">
+  しかしながら、治療薬の制御放出は、依然として問題であり、マイクロスイマーベースの薬物送達システムで対処する必要がある。遠隔トリガーシステムは、所望の時間に所望の部位への治療薬の放出を促進するために常に魅力的であった。
+</com:P>
+         <com:P com:pNumber="0008">
+  このため、本発明の目的は、いかなる毒性分解生成物でもなく、かつそれを形成しない生分解性マイクロスイマーを利用可能にして、マイクロスイマーを幅広い医療用途で容易に使用できるようにすることである。本発明のさらなる目的は、マイクロスイマーを利用可能にし、それによってカーゴ材料の制御された能動的放出が可能であり、カーゴ材料のオンデマンドで正確かつ効果的な送達を確実にすることである。本発明のさらに別の目的は、標的領域を取り巻く組織に過度の害を及ぼすことなく、所望の標的領域に誘導することができるマイクロスイマーを利用可能にすることである。
+</com:P>
+         <com:P com:pNumber="0009">
+  この目的は、請求項１に記載の生体適合性マイクロスイマーを作製する方法によって満たされる。本発明のさらなる利点および有利な実施形態は、従属請求項、説明、および添付の図面から明らかになるであろう。
+</com:P>
+         <com:P com:pNumber="0010">
+  そのような方法は、<com:Br/>
+  －光架橋性バイオポリマー溶液を提供するステップと、<com:Br/>
+  －磁性粒子および光開始剤を光架橋性バイオポリマー溶液に添加して、３Ｄ印刷可能な溶液を形成するステップと、<com:Br/>
+  －３Ｄ印刷可能な溶液に方向付けられた可変焦点でレーザーを適用するステップと、<com:Br/>
+  －３Ｄ印刷可能な溶液を通してレーザーの焦点を変動させ、所定の形状の生体適合性マイクロスイマーを形成するステップと、<com:Br/>
+  －所定の形状を有する生体適合性マイクロスイマーに化学リンカーを適用するステップと、を含み得る。
+</com:P>
+         <com:P com:pNumber="0011">
+  光架橋性バイオポリマー溶液でマイクロスイマーを形成することにより、マイクロスイマーは、３Ｄ印刷技術を使用して迅速かつ効率的な方法で作製することができる。
+</com:P>
+         <com:P com:pNumber="0012">
+  そのような３Ｄ印刷技術は、マイクロスイマーの形成を可能にし、マイクロスイマーは、マイクロスイマーの少なくとも１つの寸法が０．０００１～１ｍｍの範囲で選択される構成要素として定義される。
+</com:P>
+         <com:P com:pNumber="0013">
+  さらに、バイオポリマー溶液を使用してマイクロスイマーを形成すると、マイクロスイマーは、それら自体もそれらの分解生成物も、生活環境内で毒性応答を形成しないように形成することができる。これは、胃腸管に直接接続されていない体の部分でそのような磁気マイクロスイマーを使用する可能性を利用できるようにする。
+</com:P>
+         <com:P com:pNumber="0014">
+  さらに、マイクロスイマーでの化学リンカーの提供は、異なる化学物質および他の材料を簡単にマイクロスイマーに付着させることができ、それにより、カーゴ材料を所望の標的領域に輸送することができるマイクロスイマーを利用可能にすることを意味する。
+</com:P>
+         <com:P com:pNumber="0015">
+  マイクロスイマー内に存在する磁性粒子を使用することにより、カーゴ材料を、制御されかつ標的化された方法で所望の標的領域に送達することができ、それにより、カーゴ材料の標的領域へのオンデマンドで正確かつ効果的な送達を確実にする。
+</com:P>
+         <com:P com:pNumber="0016">
+  化学リンカーは、生体適合性マイクロスイマーと、マイクロスイマーに付着可能であり、かつマイクロスイマーによって輸送可能であるカーゴとの間のリンクを形成し得る。このようにして、カーゴは、マイクロスイマーに化学的に結合され得る。
+</com:P>
+         <com:P com:pNumber="0017">
+  この方法は、化学リンカーを介して生体適合性マイクロスイマーにカーゴを付着させるステップをさらに含み得る。したがって、カーゴ材料は、マイクロスイマーに化学的に結合することができ、それによって、例えば、マイクロスイマーの表面上に存在して、所望の標的領域でカーゴ材料の効率的な放出を可能にする。
+</com:P>
+         <com:P com:pNumber="0018">
+  化学リンカーは、好ましくは、マイクロスイマーとカーゴとの間のリンクを刺激の存在下で放出できるように選択される。このようにして、マイクロスイマーが形成され、それによってカーゴ材料の制御された能動的放出が可能であり、カーゴ材料のオンデマンドで正確かつ効果的な送達を確実にする。
+</com:P>
+         <com:P com:pNumber="0019">
+  これに関連して、カーゴは、酵素、分子、薬物、タンパク質、遺伝物質、ナノ粒子、治療または診断目的のための放射性種子、および前述の組み合わせからなる要素の群から選択され得ることに留意されたい。
+</com:P>
+         <com:P com:pNumber="0020">
+  化学リンカーは、光開裂性リンカー、好ましくはＮＨＳおよびアルキン修飾ｏ－ニトロネジル誘導体であり得る。光開裂性リンカーを使用することにより、カーゴ材料を、例えばレーザー光、例えば赤外線または紫外線レーザー光によって、マイクロスイマーから放出することができる。
+</com:P>
+         <com:P com:pNumber="0021">
+  これに関連して、化学リンカーは、酵素的に開裂可能なリンカー、例えば、マトリックスメタロプロテイナーゼ認識ペプチド配列のうちの１つであり得ることに留意されたい。このようにして、特定の酵素、例えば癌性組織に存在する酵素の存在下で、カーゴ材料をマイクロスイマーから放出することができ、すなわち、刺激は、特定のレベルの特定の酵素によって提供される。
+</com:P>
+         <com:P com:pNumber="0022">
+  さらに、化学リンカーは、熱の影響下でカーゴ材料を放出するように構成された熱的に開裂可能なリンカーであり得る、すなわち、刺激は、特定の範囲内の温度の適用によって提供されることに留意されたい。
+</com:P>
+         <com:P com:pNumber="0023">
+  光架橋性バイオポリマー溶液は、生物活性、生分解性、および生体適合性ポリマー、例えば、キトサン、ゼラチン、アルギン酸塩、ポリペプチド、核酸、多糖類、および前述の組み合わせ、好ましくはキトサンを含む溶液であり得る。このようにして、マイクロスイマーが導入され得るホスト内で毒性反応を形成しない、大量かつ比較的安価な材料から容易に形成することができるマイクロスイマーが利用可能になる。
+</com:P>
+         <com:P com:pNumber="0024">
+  これに関連して、生分解性という用語は、生体適合性マイクロスイマーが、酵素活性によって、かつ取り巻く組織に損傷を与えることなく、生体内で経時的に分解することを意味することに留意されたい。これは、水酸化ナトリウムベースの加水分解反応によって分解される従来技術から既知のマイクロスイマーには当てはまらない。そのような反応は、有毒な副産物を形成するため、人体または動物の体内の組織に深刻な害を及ぼす。
+</com:P>
+         <com:P com:pNumber="0025">
+  さらに、磁性粒子は、レーザーの適用時にマイクロスイマーを形成する前に、光架橋性バイオポリマー溶液中に均一に懸濁されるコロイド粒子であることに留意されたい。
+</com:P>
+         <com:P com:pNumber="0026">
+  磁性粒子は、５ｎｍ～２００ｎｍ、特に５～１００ｎｍ、好ましくは４０～６０ｎｍの範囲で選択されるサイズを有する。このようにして、磁性粒子の均一な分散を可能にする３Ｄ印刷可能な溶液を利用可能にすることができる。マイクロスイマー内に存在し、かつ変化する磁場強度に供されるサイズが２００ｎｍを超える磁性粒子または磁性粒子の凝集体は、誤ってマイクロスイマーを所望の経路から逸脱させ、したがってマイクロスイマーの操舵能力を低下させる可能性がある。さらに、サイズが２００ｎｍを超える磁性粒子または磁性粒子の凝集体は、ＴＤＬＷ印刷技術と互換性がなくなる。したがって、構造の忠実度は、低くなる。
+</com:P>
+         <com:P com:pNumber="0027">
+  磁性粒子は、酸化鉄粒子、鉄白金粒子、ネオジム鉄ホウ素粒子、アルミニウムニッケルコバルト粒子、鉄粒子、コバルト粒子、サマリウムコバルト粒子からなる要素の群から選択され得る。この材料は、生体適合性があり、かつ宿主内で無毒であることが既知なので、好ましくは酸化鉄粒子が使用される。
+</com:P>
+         <com:P com:pNumber="0028">
+  光開始剤は、２光子吸収時に半分に分裂し、光架橋を開始するラジカルを生成する分子であり、光開始剤は、例えば、ＬＡＰである。２光子吸収を使用して反応する光開始剤を使用することにより、サイズが、例えば１～１０００μｍの範囲の長さおよび例えば、０．１～１００μｍの範囲の幅の３Ｄマイクロスイマーを形成することが可能である。
+</com:P>
+         <com:P com:pNumber="0029">
+  これに関連して、光開始剤は、理想的には水溶性であることに留意されたい。３Ｄプリンターで使用できるようにするには、光開始剤が３Ｄプリンターの波長の光子を吸収して、ラジカルを生成し、その結果、所望の形状のマイクロスイマーを形成できる必要がある。この目的のために、光開始剤が２光子吸収を伴うラジカル生成を可能にする２光子断面を有することが理想的である。
+</com:P>
+         <com:P com:pNumber="0030">
+  カーゴは、刺激の適用、例えば光の適用時に、または宿主内の病的状態のために所定量の特定の酵素の近くで、例えば特定の癌性細胞の近くの存在下で、マイクロスイマーから放出可能であることが好ましい。
+</com:P>
+         <com:P com:pNumber="0031">
+  この方法は、レーザーを適用するステップ中に３Ｄ印刷可能な溶液内で磁性粒子を整列させるために、磁場強度が５～３０ｍＴの範囲で選択される磁場を適用するステップをさらに含み得る。このようにして、マイクロスイマーの磁気配向を事前に定義することができる。
+</com:P>
+         <com:P com:pNumber="0032">
+  マイクロスイマーは、らせん状または二重らせん状の構造などの回転磁場の存在下で、時間に依存して非対称に移動するように構成された形状を有し得る。そのようにマイクロスイマーを形成することにより、マイクロスイマーをより正確に操縦および移動させることが可能になる。
+</com:P>
+         <com:P com:pNumber="0033">
+  マイクロスイマーは、細長い形状を有し得、長さ対幅の比は、２：１～１０：１の範囲で選択される。そのような形状は、回転磁場を使用して有利な方法で移動することができ、マイクロスイマーで所望の量のカーゴを輸送することが可能になる。
+</com:P>
+         <com:P com:pNumber="0034">
+  さらなる態様によれば、本発明はさらに、特に本明細書で論じられる方法を使用して作製された生体適合性マイクロスイマーであって、マイクロスイマーが、光架橋性バイオポリマー溶液、磁性粒子、および光開始剤を含む３Ｄ印刷可能な溶液で形成された本体部分を備え、マイクロスイマーの本体部分が、らせん状または二重らせん状の構造などの回転磁場の存在下で、時間に依存して非対称に移動するように構成された形状を有し、本体部分が、化学リンカーでコーティングされる、生体適合性マイクロスイマーに関する。
+</com:P>
+         <com:P com:pNumber="0035">
+  マイクロスイマーは、理想的には、前述の作製方法に従ってさらに開発することができ、それにより、マイクロスイマーは、作製方法に関連して説明した結果として得られる利点を有することができる。
+</com:P>
+         <com:P com:pNumber="0036">
+  したがって、マイクロスイマーは、ある部位で製造された後、別の部位に出荷され、次いで、そこでカーゴを充填することができる。例えば、カーゴ材料が放射性造影剤である場合、マイクロスイマーが、例えば、カーゴ材料とともに放射線検査室への出荷時にまだ充填されていないが、放射性材料が崩壊して、したがって不活性になるのを防ぐためにそれを使用する直前にのみ充填する場合に、それは有益である。
+</com:P>
+         <com:P com:pNumber="0037">
+  マイクロスイマーは、宿主内で簡単に分解し、この分解中に害を及ぼす可能性のあるいかなる毒性反応物も形成しないため、生分解性マイクロスイマーを提供することで、以前に必要だった回収ステップを排除することが可能になる。
+</com:P>
+         <com:P com:pNumber="0038">
+  マイクロスイマーの本体部分は、細長い形状を有し得、長さ対幅の比は、２：１～１０：１の範囲で選択される。これに関連して、マイクロスイマーの少なくとも１つの寸法は、０．０００１～１ｍｍの範囲で選択され得ることに留意されたい。
+</com:P>
+         <com:P com:pNumber="0039">
+  有利なことに、マイクロスイマーは、レイノルズ数が０．１未満で移動するように構成され得る。これにより、マイクロスイマーは、制御された方法でホスト内で移動できるようになる。
+</com:P>
+         <com:P com:pNumber="0040">
+  マイクロスイマーは、その主軸に垂直な方向、すなわちその細長い範囲に垂直な方向に磁化し得る。これにより、マイクロスイマーの磁気配向を事前定義することが可能になる。
+</com:P>
+         <com:P com:pNumber="0041">
+  マイクロスイマーは、リゾチーム濃度が１．５μｇ／ｍｌの溶液中で２１０時間以内に、マイクロスイマーの長さが、初期の長さの最大で７０％、好ましくは最大で６５％の長さに分解し、かつマイクロスイマーの直径が、マイクロスイマーの初期の直径の最大で５０％、好ましくは最大で４５％の直径に分解するように、分解するように構成され得る。これは、マイクロスイマーの生体適合性をさらに示している。
+</com:P>
+         <com:P com:pNumber="0042">
+  さらなる態様によれば、本発明は、前述のように、カーゴ材料が充填された１つのマイクロスイマーを使用する方法に関する。この方法は、<com:Br/>
+  －所望の標的領域に関連付けられた領域にマイクロスイマーを提供するステップと、<com:Br/>
+  －時間可変磁場を用いてマイクロスイマーを所望の標的領域に方向付けするステップと、<com:Br/>
+  －所望の標的領域でマイクロスイマーを刺激して、カーゴを放出するステップと、を含む。
+</com:P>
+         <com:P com:pNumber="0043">
+  このようにして、作用部位での治療薬、すなわちカーゴ材料の濃度を、従来技術のシステムと比較して、制御しかつ増加させることができる。さらに、従来技術と比較して、遠隔トリガーシステムを使用して、全体的な注入用量を減らすことができる。例えば、光刺激を提供することにより、特に実用的な光トリガー放出が利用可能になる。他のトリガーまたは刺激メカニズムには、それらの時空間精度が高いため、ｐＨ、温度、超音波、および磁場が含まれ得る。
+</com:P>
+         <com:P com:pNumber="0044">
+  紫外線（ＵＶ）光トリガー放出システムを使用すると、ＵＶ光の組織浸透深度が不十分なため、人体または動物の体内の特定の場所から皮膚に近いそれらの領域への潜在的な医療用途の数が制限される。しかしながら、光アップコンバージョンプロセスでは、低エネルギーの光子（例えば、より深い侵入深さを有する近赤外光）が、体内で高エネルギーの光子（例えば、ＵＶ光）に変換され得る。そのようなシステムは、ＵＶ光を使用して浸透することができない人体または動物の体の領域におけるマイクロスイマーの刺激を可能にするために利用され得、それにより、体の異なる部分における可能な医療用途の数を増加させる。
+</com:P>
+         <com:P com:pNumber="0045">
+  方向付けするステップは、１Ｈｚ～５０Ｈｚの範囲で選択された周波数で、５ｍＴ～５０ｍＴの範囲の回転磁場強度の適用を含み得る。人体および／または動物の体内での磁場の使用ならびにそれらの周囲の磁場の使用は、既知のいかなる副作用もなしに有益な方法で行うことができる。
+</com:P>
+         <com:P com:pNumber="0046">
+  カーゴを放出するために所望の標的領域でマイクロスイマーを刺激するステップは、標的領域に光刺激を適用することによって行われる。光刺激の適用は、所望の標的領域でのカーゴ材料の標的化放出のための効率的なトリガーメカニズムをもたらすことが見出された。
+</com:P>
+         <com:P com:pNumber="0047">
+  マイクロスイマーを方向付けするステップは、マイクロスイマーの所望の標的領域への経路を追跡するために、例えばＭＲＩを使用して、画像マッピングと併せて実施され得る。これは、マイクロスイマーの現在の位置のフィードバックを有利に可能にし、また、カーゴの放出のより正確な標的化刺激を可能にする。
+</com:P>
+      </pat:BackgroundArt>
+      <pat:DrawingDescription>
+         <com:P com:pNumber="0048">
+  本発明は、以下に示されている図面を参照しながら、実施形態により以下に詳細に説明される。
+</com:P>
+         <com:P com:pNumber="0049">
+            <com:FigureReference com:referencedFigureNumber="1A-C">合成および製作プロセスならびにその結果得られるマイクロスイマーの概要を示す図であり、Ａ）光架橋性溶液の合成の詳細であり、Ｂ）二光子直接レーザー書き込み技術を使用したマイクロスイマーの３Ｄ印刷を示し、Ｃ）マイクロスイマーの３Ｄ印刷された３ｘ３アレイの光学顕微鏡画像を示す。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="2A-B">回転磁場を使用したマイクロスイマーの作動および操舵能力を示す図であり、図２Ａ）磁気励起周波数の関数としてのマイクロスイマーの前進速度を示し、図２Ｂ）ωの点線で示されている４．５Ｈｚの１０ｍＴの回転磁場の適用時のマイクロスイマーの制御された水泳軌道スナップショット（破線）を示す。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="3A-E">リゾチームを使用したマイクロスイマーの酵素分解を示す図であり、図３Ａ）１５μｇ・ｍＬ<com:Sup>－１</com:Sup>のリゾチームで処理したマイクロスイマーの光学顕微鏡画像を示し、図３Ａｉは、時間ｔ＝０ｈであり、図３Ａｉｉは、時間ｔ＝２０４ｈであり、表面腐食に基づく分解メカニズムを明らかにし、図３Ｂ）異なるリゾチーム濃度に合わせたマイクロスイマーの長さの変化を示し、図３Ｃ）異なるリゾチーム濃度に合わせたマイクロスイマーの直径の変化を示し、図３Ｄ）ＳＫＢＲ３乳癌細胞の死染色を示し、図３Ｄｉは、未処理を示し、図３Ｄｉｉは、マイクロスイマーの分解生成物で１日間処理されたそれらの細胞を示し、白抜きの点は、生細胞を表し、実線の点は、死細胞を表し、図３Ｅ）分解生成物で処理されたＳＫＢＲ３乳癌細胞の生存率の定量化を示す。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="4A-D">マイクロスイマーからの光トリガー薬物放出のプロセスを示す図であり、図４Ａは、ＤＯＸ修飾マイクロスイマーを得るための概略的な反応経路を示し、マイクロスイマー上のアミノ基は、ｏ－ニトロベンジル光開裂性化学リンカー分子のＮＨＳ基と反応し、マイクロスイマーのアルキン末端との以下のアジド修飾ＤＯＸ反応であり、図４Ｂは、ｉ）時間ｔ＝０分および図４Ｂｉｉ時間ｔ＝３０分で３０ｍＷの光強度に曝露されたマイクロスイマーからのＤＯＸ放出、ならびにマイクロスイマーからのＤＯＸの開裂およびその放出を示す蛍光強度の減少を示し、図４Ｃ）３ｍＷ（丸い点）および３０ｍＷ（四角い点）の光強度に対するマイクロスイマーからの累積ＤＯＸ放出を示し、図４Ｄ）マイクロスイマーからのＤＯＸのスマートな投薬を示し、ｔ＝０～１分およびｔ＝６～７分の実線のバーは、３６５ｎｍの波長のレーザーの適用およびマイクロスイマーから毎分約１５％のＤＯＸが放出されたことを示している。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="5">２，４，６－トリニトロベンゼンスルホン酸（ＴＮＢＳ）アッセイを使用したメタクリル化度の決定を示す図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="6">マイクロスイマーの２光子ベースの３Ｄ印刷に利用されたマイクロチャネル設定の写真を示す図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="7A-B">１５ｋｅＶで１０分間実行されたマイクロスイマーのエネルギー分散型Ｘ線分光法元素マッピングを示す図であり、図７Ｂは、マイクロスイマー内の炭素原子の存在を示している。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="8i-iv">ωで示される１０ｍＴの回転磁場下の５Ｈｚで泳いだマイクロスイマーの図２Ｂと同様の制御された水泳軌道スナップショット（点線）を示す図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="9A-B">薬物分子のマイクロスイマーへの化学的統合を示す図である。Ａ）ｏ－ニトロベンジルリンカー修飾されていないマイクロスイマーは、薬物分子（アジド－ＤＯＸ）で直接処理した。Ｂ）ｏ－ニトロベンジルリンカー修飾されたマイクロスイマーは、薬物分子（アジド－ＤＯＸ）で処理した。画像は、同じ蛍光強度および曝露時間でキャプチャし、マイクロスイマーへのアジド－ＤＯＸの制御された統合を表している。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="10A-C">制御放出実験前の薬物分子の光退色試験を示す図であり、図１０Ａ）陰性群（ｏ－ニトロベンジルリンカー修飾されていないマイクロスイマー）への３０分間の４７０ｎｍ波長の光励起を示し、１０Ｂ）陰性群への３０分間の３ｍＷ  ３６５ｎｍ波長の露光を示し、図１０Ｃ）陰性群への３０分間の３０ｍＷ  ３６５ｎｍ波長の露光を示す。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="11A-B">マイクロスイマーからの制御されたかつ局所的な薬物放出を示す画像であり、図１１Ａ）マイクロスイマーに焦点を合わせた３６５ｎｍ波長の露光（左の列）、露光時の薬物分子の制御放出（中央の列）を示し、一方、残りの群（右の列）は、依然として統合された薬物分子を有し、図１１Ｂ）マイクロスイマー本体の半分からの正確かつ制御された薬物放出を示している。</com:FigureReference>
+         </com:P>
+         <com:P com:pNumber="0050">
+  以下、同じまたは同様の機能を有する特徴について、同じ参照番号を使用して以下で説明する。一実施形態で使用される参照番号に関して与えられた説明は、何か反対のことが述べられていない限り、他の実施形態に関連して同じ参照番号にも適用されることも理解される。
+</com:P>
+         <com:P com:pNumber="0051">
+  図１Ａ～Ｃは、生体適合性マイクロスイマー１０を作製するプロセスおよび結果として得られるマイクロスイマー１０の概要を示している。この方法は、容器中に光架橋性バイオポリマー溶液１２を提供するステップと、磁性粒子および光開始剤（両方とも図示せず）を光架橋性バイオポリマー溶液に添加して、３Ｄ印刷可能な溶液１４を形成するステップと、を含む。
+</com:P>
+         <com:P com:pNumber="0052">
+  図１Ａの実施例における３Ｄ印刷可能な溶液１４は、ｄｄＨ<com:Sub>２</com:Sub>Ｏを含有する８％（ｖ／ｖ）酢酸で調製することにより形成され、３０ｍｇ・ｍＬ<com:Sup>－１</com:Sup>のＣｈＭＡ、２０ｍｇ・ｍＬ<com:Sup>－１</com:Sup>のフェニル－２，４，６－トリメチルベンゾイルホスフィネート（ＬＡＰ）光開始剤、および５ｍｇ・ｍＬ<com:Sup>－１</com:Sup>のＰＥＧ／アミン官能化された５０ｎｍの生体適合性超常磁性酸化鉄ナノ粒子（ＳＰＩＯＮ）から構成される。続いて、この溶液を１５時間撹拌および超音波処理する。
+</com:P>
+         <com:P com:pNumber="0053">
+  キトサンは、世界で２番目に豊富な天然ポリマーであるキチンから得られる線状のカチオン性ポリマーである。キトサンは、生体適合性、生分解性、生体接着性、ならびに抗菌、抗腫瘍および抗酸化作用などのその固有の特性により、医療用途に理想的なポリマーとなる。
+</com:P>
+         <com:P com:pNumber="0054">
+  これに関連して、光架橋性バイオポリマー溶液１２は、生物活性、生分解性、および生体適合性ポリマー、例えば、キトサン、ゼラチン、アルギン酸塩、ポリペプチド、核酸、多糖類、および前述の組み合わせを含み、かつ前述に示されるような溶液であり、好ましい選定は、キトサンであることに留意されたい。
+</com:P>
+         <com:P com:pNumber="0055">
+  キトサンのような感光性のないポリマーは、その多糖骨格を変化させることなく残しながら化学的に修飾することができる。このため、キトサンの感光性形態であるメタクリルアミドキトサン（ＣｈＭＡ）を最初に調製した。これは、ポリマーのアミノ基を無水メタクリル酸と反応させることによって実行した。キトサンのアミノ基を、一定の反応時間で無水メタクリル酸／キトサン比に従って感光性のメタクリルアミド基に変換させた（図１Ａ）。
+</com:P>
+         <com:P com:pNumber="0056">
+  次いで、新しく形成されたポリマー鎖は、光開始剤の存在下で互いに架橋される能力、および約３５０ｎｍ波長の波長を有するＵＶ光を有する。
+</com:P>
+         <com:P com:pNumber="0057">
+  これに関連して、光開始剤は、２光子吸収時に半分に分裂し、光架橋を開始するラジカルを生成する分子であり、例えば、光開始剤は、前述のＬＡＰであることに留意されたい。光架橋能力は、３Ｄ印刷可能な溶液１４から固体マイクロスイマー１０を形成するために必要とされる。
+</com:P>
+         <com:P com:pNumber="0058">
+  ３Ｄポリマー溶液１４の合成後、ＣｈＭＡ高分子のメタクリル化度を２，４，６－トリニトロベンゼンスルホン酸（ＴＮＢＳ）アッセイを使用して決定した。この試験の結果は、図５に関連して論じられる。ＴＮＢＳは、遊離アミノ基を決定するために使用される分光光度試薬である。無水メタクリル酸／キトサン比は、一定の反応時間で変化し、アッセイは、無水メタクリル酸／キトサン比の増加とともにアミノ基が消費されたことを実証した。
+</com:P>
+         <com:P com:pNumber="0059">
+  印刷時間を促進するために、７０％のメタクリル化度を有するメタクリルアミドキトサン高分子を３Ｄ印刷用に選択した。このＣｈＭＡ高分子では、約７０％の感光性メタクリルアミド基で構成された骨格を製作手順に選択した。
+</com:P>
+         <com:P com:pNumber="0060">
+  図１Ｂに示されるように、３Ｄ印刷溶液１４の液滴１４’は、ペトリ皿の形態で基板１６上に配置される。ペトリ皿には６つのマイクロスイマー１０が示されている。また、焦点２０に焦点を合わせた２つのレーザービーム１８も示されている。
+</com:P>
+         <com:P com:pNumber="0061">
+  マイクロスイマー１０を形成するために、使用されるレーザー１８は、可変焦点を有し、これは、レーザー１８の焦点２０の位置が、例えば、それぞれのレーザー１８の焦点距離または基板１６に対するレーザー１８の位置を変動させて、焦点２０を移動させることによって、事前定義可能な方法で変化させることができることを意味する。焦点２０の位置のこの変動は、図１Ｂの原点によって示されるように、３つの空間次元ｘ、ｙ、およびｚすべてにおいて起こり得る。レーザー１８を適用し、３Ｄ印刷可能な溶液１４を通してレーザー１８の焦点を変動することにより、生体適合性マイクロスイマー１０を所定の形状で形成することができる。
+</com:P>
+         <com:P com:pNumber="0062">
+  図１Ｂおよび１Ｃに示されるキトサンベースのマイクロスイマー１０は、二光子直接レーザー書き込み（ＴＤＬＷ）技術を使用して二重らせん形状で製作した。このようにして、所定の構造を形成するための３Ｄ印刷可能な溶液１４のプレポリマーの光重合を近接チャネルで実行した。一般的に言えば、マイクロスイマー１０は、らせん状または二重らせん状の構造などの回転磁場の存在下で、時間に依存して非対称に移動するように構成された形状を有する。
+</com:P>
+         <com:P com:pNumber="0063">
+  さらに、３Ｄ印刷可能な溶液１４を形成するために添加される磁性粒子は、５ｎｍ～２００ｎｍ、特に５～２００ｎｍ、好ましくは４０～６０ｎｍの範囲で選択されるサイズを有することに留意されたい。磁性粒子は、それらの生体適合性のために好ましくはＳＰＩＯＮであるが、他の生体適合性磁性粒子も使用され得る。
+</com:P>
+         <com:P com:pNumber="0064">
+  この理由は、マイクロスイマー１０の設計でＳＰＩＯＮを使用することは、２つの主な利点を有するためである：（１）ＳＰＩＯＮは、生体適合性があり、かつインビボで深刻な副作用がないと見なされ、かつ（２）ＳＰＩＯＮは、コバルトまたはニッケルベースの表面コーティングと比較して、薬物およびカーゴの放出部位の可用性を劇的に高める。
+</com:P>
+         <com:P com:pNumber="0065">
+  マイクロスイマー１０は、細長い形状を有し得、長さ対幅の比は、２：１～１０：１の範囲で選択され、マイクロスイマーの少なくとも１つの寸法は、０．０００１～１ｍｍの範囲で選択することができる。
+</com:P>
+         <com:P com:pNumber="0066">
+  マイクロスイマー１０を磁場で移動できるようにするために、マイクロスイマーは、磁化される必要がある。この目的のために、図６も参照され、マイクロスイマー１０が形成される領域の両側のペトリ皿１６上に２つの永久磁石２２が配置され、その結果、磁場Ｂが矢印の方向に適用される。マイクロスイマー１０を形成する際にレーザー１８を適用するステップの間に、３Ｄ印刷可能な溶液１４内の磁性粒子を整列させるために、磁場Ｂの強度が選択される。
+</com:P>
+         <com:P com:pNumber="0067">
+  永久磁石２２を所定の方法で配列することにより、ＳＰＩＯＮの磁気配向が整列される。整列した磁気配向を有するマイクロスイマー１０中に存在するＳＰＩＯＮは、その後、制御および操縦することができ、その結果、マイクロスイマーは、回転磁場を使用して３Ｄ水性環境で移動することができる。
+</com:P>
+         <com:P com:pNumber="0068">
+  個々のマイクロスイマー１０の平均印刷速度は、約１０秒であった。形成されたマイクロスイマー上で行われたエネルギー分散型Ｘ線分光法（ＥＤＳ）の元素マッピングにより、マイクロスイマー１０中の鉄原子の均一な分散が確認された。
+</com:P>
+         <com:P com:pNumber="0069">
+  図１Ｃにさらに示されるように、マイクロスイマー１０は、直径６μｍおよび長さ２０μｍを有し、低振幅の回転磁場を伴う低レイノルズ数領域で動作するための二重らせんから構成される。図１Ｃに示すマイクロスイマー１０は、１０ｍＴおよび４．５Ｈｚの回転磁場を使用して、平均速度３．３４±０．７１μｍ・ｓ<com:Sup>－１</com:Sup>の水性環境で作動および制御することができる。これに関連して、低レイノルズ数レジームは、レイノルズ数が０．１未満のレジームであることに留意されたい。
+</com:P>
+         <com:P com:pNumber="0070">
+  図２ＡおよびＢは、マイクロスイマー１０が、回転磁場を使用して作動および操縦することができることを示している。図２Ａは、磁気励起周波数の関数としてのマイクロスイマー１０の前進速度を示している。実証されているように、図１Ｃに示されているサイズを有するマイクロスイマー１０は、４．５Ｈｚのステップアウト周波数を有する。
+</com:P>
+         <com:P com:pNumber="0071">
+  これを行うために、５コイルの電磁セットアップ（図示せず）を使用して、マイクロスイマー１０を作動および操縦した。マイクロスイマー１０の動きを追跡するために、５コイルの電磁セットアップを倒立光学顕微鏡（図示せず）上に実装することができる。５コイルの磁気セットアップは、それ自体が既知の方法で制御して、所望の回転磁場、例えば、２～５０ｍＴの範囲で生成および制御することができ、周波数は、１Ｈｚ～５０Ｈｚの範囲で選択され、２ｃｍ×２ｃｍ×２ｃｍの体積全体で９５％を超える均一性を有する。
+</com:P>
+         <com:P com:pNumber="0072">
+  これは、マイクロスイマー１０を所望の方向に方向付けするために、磁場の勾配および配向を変動できることを意味する。磁場の正確な磁場強度および周波数は、一般に、マイクロスイマーのサイズおよびその結果としてそこに存在するＳＰＩＯＮの量に応じて選択され得る。
+</com:P>
+         <com:P com:pNumber="0073">
+  図２Ａに示す結果は、１０ｍＴの回転磁場を使用して記録した。最初に、マイクロスイマーのステップアウト周波数は、適用される回転磁場の周波数を０．５Ｈｚステップで１Ｈｚから６Ｈｚに徐々に増加させることによって調査した。製作されたマイクロスイマーは、１０ｍＴの回転磁場下の４．５Ｈｚで最適に作動および操縦されることが実証された。４．５Ｈｚの最適作動周波数でのマイクロスイマーの平均前進速度は、３．３４±０．７１μｍ・ｓｅｃ<com:Sup>－１</com:Sup>と測定した。
+</com:P>
+         <com:P com:pNumber="0074">
+  倒立光学顕微鏡上に５コイルの電磁セットアップを配置することにより、マイクロスイマー１０を異なる経路で操縦し、顕微鏡によってこれらの経路でのそれらの進行を記録して、マイクロシステムの制御可能性の画像を実証および記録することが可能である。１０ｍＴの回転磁場下の４．５Ｈｚおよび５Ｈｚの両方でマイクロスイマーを操縦することが可能であることが示され（図２Ｂｉ～ｉｖおよび図８）、これに関連して、図８ｉ～８ｉｖが、図２Ｂｉ～ｉｖと同様の画像を示しているが、違いは適用された磁場の周波数であることに留意されたい。
+</com:P>
+         <com:P com:pNumber="0075">
+  図３Ａ～Ｅは、リゾチームを使用したマイクロスイマー１０の酵素分解を示している。前述のように、生分解性材料は、その機能を実行した後、自然に分解して体から消えることができるため、医薬品においてますます注目を集めている。生分解性材料としてのキトサンは、主にリゾチーム酵素によって分解され、これは、様々な組織および体液中に約１～１５μｇ・ｍＬ<com:Sup>－１</com:Sup>濃度の範囲で存在する。この効果は、リゾチーム酵素がポリマー骨格におけるモノマー間のグリコシド結合を切断し、結果として生じる小さな鎖が自然に除去されるためである。
+</com:P>
+         <com:P com:pNumber="0076">
+  図３Ａｉおよび３Ａｉｉは、マイクロスイマー１０の３Ｄ印刷アレイの光学顕微鏡画像を示し、図３Ａｉは、マイクロスイマー１０で実施された生分解実験の開始を示し、図３Ａｉｉは、水および酵素が架橋構造の内部に浸透することができず、したがって、最初はマイクロスイマー１０の外面を分解し始めた発生した表面侵食を示している。マイクロスイマー１０のらせんおよび鋭いエッジは、まずリゾチーム酵素によって分解されたことが示された。マイクロスイマー１０は、１５μｇ・ｍＬ<com:Sup>－１</com:Sup>のリゾチーム濃度での分解を示す図３Ａｉｉに示されるように、２０４時間後に部分的に分解された。
+</com:P>
+         <com:P com:pNumber="0077">
+  マイクロスイマー１０の分解を試験するために、３つの異なるリゾチーム酵素濃度（図３ＢおよびＣの三角形の点で示されている１．５μｇ・ｍＬ<com:Sup>－１</com:Sup>、図３ＢおよびＣの丸い点で示されている１５μｇ・ｍＬ<com:Sup>－１</com:Sup>、ならびに図３ＢおよびＣの三角形の点で示されている１５０μｇ・ｍＬ<com:Sup>－１</com:Sup>）は、マイクロスイマー１０の生分解のために選定し、１５０μｇ・ｍＬ<com:Sup>－１</com:Sup>は、非現実的に高い状態を表している。
+</com:P>
+         <com:P com:pNumber="0078">
+  図３Ｂは、異なるリゾチーム濃度に対する時間におけるマイクロスイマー１０の長さの変化を示し、図３Ｃは、異なるリゾチーム濃度に対する時間におけるマイクロスイマーの直径の変化を示す。すべての濃度について、マイクロスイマー１０の長さは、初期の長さの最大で７０％の長さに分解し、マイクロスイマー１０の直径は、２１０時間の期間内のマイクロスイマー１０の初期の直径の最大で５０％の直径に分解することが見出された。
+</com:P>
+         <com:P com:pNumber="0079">
+  予想通り、非現実的に高いリゾチーム酵素濃度群（１５０μｇ・ｍＬ<com:Sup>－１</com:Sup>）は、最小の直径および長さのマイクロスイマー１０を残して、最速の分解をもたらす。一方、１．５μｇ・ｍＬ<com:Sup>－１</com:Sup>リゾチーム濃度群は、２０４時間後に最大のマイクロスイマー１０が残っていた（図３Ｂおよび３Ｃ）。表面侵食によりらせんおよびエッジがまず分解したため、すべての群で直径および長さが急速に変化した。  マイクロスイマー１０の全身と比較して体積が小さいらせんおよびエッジの生分解後、直径および長さの変化率は、予想どおり劇的に減少した。
+</com:P>
+         <com:P com:pNumber="0080">
+  次いで、リゾチーム酵素は、らせんと比較して表面積対体積の比が低い円筒形のマイクロスイマー本体１０’を分解しようとしたため、これは必ずしも生分解速度の低下を意味するわけではない。表面侵食現象により、ある時点以降の生分解、長さ、および直径の変化を観察することがより困難になった。２０４時間でのマイクロスイマーについての部分的な生分解は、ほとんどの研究で数週間後に完全な分解が観察されなかった文献と一致している。
+</com:P>
+         <com:P com:pNumber="0081">
+  生分解に加えて、分解生成物のインビトロ生体適合性は、ＳＫＢＲ３乳癌細胞を使用して調査した。ＳＫＢＲ３細胞は、分解されたマイクロスイマー１０の分解生成物で１日処理し、次いで、毒性分析のために生死アッセイで染色した。結果は、マイクロスイマー１０の分解生成物がＳＫＢＲ３細胞に毒性作用を及ぼさず、対照群および処理群の両方の生／死細胞比が同様であり、細胞集団全体の約９０％であることを示した（図３Ｄおよび３Ｅ）。
+</com:P>
+         <com:P com:pNumber="0082">
+  これに関連して、図３Ｄは、ＳＫＢＲ３乳癌細胞の生死染色の光学顕微鏡画像の概略図を示し、図３Ｄｉは、未処理を示し、図３Ｄｉｉは、マイクロスイマー１０の分解生成物で１日間処理された癌細胞を示している。中空の点は、生細胞を表し、完全な点は、死細胞を表す。図３Ｅは、分解生成物で処理したＳＫＢＲ３乳癌細胞の生存率の定量化の結果を示している。分解生成物で処理した細胞では生存率は、変わらなかった（ｐ＞０．０５）。エラーバーは、標準偏差を表しており、これは、重要ではない（ｎ．ｓ．）。したがって、マイクロスイマー１０もそれらの分解生成物も、例えば人体内に害を及ぼす可能性のある毒性反応を形成しないことが本明細書に示されている。
+</com:P>
+         <com:P com:pNumber="0083">
+  図４Ａは、ＤＯＸ修飾マイクロスイマー１０を得るための反応経路を概略的に示している。ＤＯＸは、肝臓癌の治療に使用される物質である。ＤＯＸは、マイクロスイマー１０によって輸送することができるカーゴ材料２４である。カーゴ材料２４を付着させるために、化学リンカー２６は、最初に、例えばコーティングによって、マイクロスイマー１０の本体部分１０’に付着させる。
+</com:P>
+         <com:P com:pNumber="0084">
+  化学リンカー２６の機能は、生体適合性マイクロスイマー１０への化学結合２８およびマイクロスイマー１０へ付着可能かつそれによって輸送可能なカーゴ材料２４への化学結合３０を形成することによって、カーゴ２４とマイクロスイマー１０との間に放出可能なリンクを形成することである。化学リンカー２６のさらなる機能は、刺激の適用、例えば、光および／もしくは熱の適用時に、または「病的状態による」所定量の特定の酵素近くで、マイクロスイマー１０からカーゴ材料２４を放出することができることである。
+</com:P>
+         <com:P com:pNumber="0085">
+  これに関連して、カーゴ２４またはカーゴ材料２４は、酵素、分子、薬物、タンパク質、遺伝物質、ナノ粒子、治療または診断目的のための放射性種子、および前述の組み合わせからなる要素の群から選択され得ることに留意されたい。
+</com:P>
+         <com:P com:pNumber="0086">
+  これに関連して、化学リンカー２６は、光開裂性リンカー、好ましくはＮＨＳおよびアルキン修飾ｏ－ニトロネジル誘導体、酵素的に開裂可能なリンカー、例えば、マトリックスメタロプロテイナーゼ認識ペプチド配列のうちの１つ、熱的に開裂可能なリンカー、すなわち、体の温度より高い融点を有し、かつカーゴ２４を放出するために、熱が局所的に適用されると融解する化学リンカー、ならびに／または前述の組み合わせからなる要素の群から選択され得ることにさらに留意されたい。
+</com:P>
+         <com:P com:pNumber="0087">
+  図４Ａの例では、マイクロスイマー１０上に存在するアミノ基（ＮＨ<com:Sub>２</com:Sub>）は、ｏ－ニトロベンジル光開裂性リンカー分子２６のＮＨＳ基と反応して、化学結合２８を形成する。次いで、アジド修飾ＤＯＸ  ２４は、マイクロスイマー１０のアルキン末端と反応して、化学結合３０を形成する。
+</com:P>
+         <com:P com:pNumber="0088">
+  図４Ｂは、３０ｍＷの光強度の外部光刺激に３０分間曝露されたマイクロスイマー１０からのＤＯＸ放出を示している。図４Ｂｉは、光の適用前の蛍光強度を示し、図４Ｂｉｉは、３０分後の蛍光強度を示している。蛍光強度の減少は、マイクロスイマー１０からのＤＯＸの開裂およびその放出を示している。
+</com:P>
+         <com:P com:pNumber="0089">
+  図４Ｃは、３ｍＷ（丸い点）および３０ｍＷの光強度（四角い点）に対して２つの異なるレーザー強度を使用したマイクロスイマー１０からのＤＯＸ放出を示している。３０ｍＷの光強度を使用すると、３０分間の曝露後にＤＯＸの６０～７０％が放出されるが、３ｍＷの光強度で３０分間の曝露後にはＤＯＸの３０～４０％のみが放出される。図４Ｃにも示されているように、ＤＯＸの約６０％は、３０ｍＷの光強度での曝露の最初の５分以内に放出される。
+</com:P>
+         <com:P com:pNumber="0090">
+  オンデマンドの光トリガー薬物放出を実証するために、３６５ｎｍ波長で２つの異なる光強度（３ｍＷおよび３０ｍＷ）を選択した。３０ｍＷの場合、３０分後に蛍光強度が大幅に低下し、これは、図４Ｂに示すように、ＤＯＸ ２４がマイクロスイマー１０から放出されたことを意味する。結合したＤＯＸの約６０％が、３０ｍＷの光強度で５分以内に放出された（図４Ｃ）。
+</com:P>
+         <com:P com:pNumber="0091">
+  放出速度は、５分後に劇的に減少した。不完全な放出は、ニトロベンジル基で観察された低い光化学的変換によるものある。マイクロスイマー１０の中心から開裂されたＤＯＸ分子２４のより遅い拡散のために、５分後の遅い放出がおそらく観察された。３０ｍＷの光強度と比較して３ｍＷの光強度の場合、より遅い薬物放出が観察された。累積薬物２４の放出速度は、減少し、約４０％に収束した（図４Ｃ）。薬物放出が少ないことは、光強度が低いために反応速度が遅いこととして説明することができる。
+</com:P>
+         <com:P com:pNumber="0092">
+  したがって、光強度を変動させることにより、放出されるＤＯＸの量を制御することができ、したがって、刺激の強度および刺激が適用される時間に応じて、刺激の適用時に放出のタイプを合わせることができる。
+</com:P>
+         <com:P com:pNumber="0093">
+  図４Ｄは、マイクロスイマー１０からのＤＯＸ  ２４のそのようなスマートな投薬がどのように起こり得るかの例を示している。ｔ＝０～１分およびｔ＝６～７分の実線のバーは、３６５ｎｍの波長のレーザーの形態での刺激を示している。刺激の適用中に、ＤＯＸの約１５％がマイクロスイマー１０から毎分放出された。
+</com:P>
+         <com:P com:pNumber="0094">
+  マイクロスイマー１０からの急激な薬物放出は、光が１分間オン（３０ｍＷの光強度）のときに観察され、その後、光が５分間オフのとき、マイクロスイマーからの薬物放出はまったくなかった、またはわずかであった（図４Ｄ）。全薬物の約１５％が１回の用量で放出された。これは、使用者がマイクロスイマー１０からのオンデマンドの薬物放出プロファイルを制御できることを示した。また、投薬される薬物２４の量は、光強度または曝露時間のいずれかを変化させることによって調節することができる。
+</com:P>
+         <com:P com:pNumber="0095">
+  したがって、様々な速度の異なる薬物分子を放出するように制御することができる、光開裂ベースの光トリガー送達システム１０が示されている。これらのシステムでは、薬物分子２４は、光開裂性リンカー分子２６に化学的に結合している。光開裂性リンカー分子２６は、例えば、光放射時に２つの部分に分裂し、薬物分子２４は、付着した構造から放出される。ｏ－ニトロベンジルは、光開裂性基２４であり、機能的なｏ－ニトロベンジル誘導体は、様々な生体分子の送達に使用されてきた。Ｎ－ヒドロキシスクシンイミドエステル（ＮＨＳ）およびアルキンを有するｏ－ニトロベンジル誘導体は、その化学的機能性により、分子２４の放出に非常に効果的である。
+</com:P>
+         <com:P com:pNumber="0096">
+  ＮＨＳ基は、アミノ基（ＮＨＳ－アミンカップリングとして既知）と選択的に反応して、化学結合２８を形成し、アルキン基は、アジド基（銅（Ｉ）触媒クリック反応として既知）と反応して、化学結合３０を形成する。光開裂性リンカー分子２６のＮＨＳ末端は、マイクロスイマー１０の遊離アミノ基にコンジュゲートされた。次いで、モデル薬物２４として利用されたアジド修飾ＤＯＸは、付着した光開裂性リンカー分子２６のアルキン末端に結合して、化学結合３０を形成する。
+</com:P>
+         <com:P com:pNumber="0097">
+  したがって、２つの異なる化学反応を実行して、ＤＯＸで機能化されたマイクロスイマー１０を得た（図４Ａ）。第１のステップでは、溶液を含有するｏ－ニトロベンジル光開裂性リンカー分子２６でマイクロスイマー１０を処理した。この後、アルキン末端マイクロスイマー１０、いわゆるＮＨＳ－アミンカップリング反応が得られた。第２のステップとして、反応混合物２４を含有するアジド－ＤＯＸでアルキン末端マイクロスイマー１０を処理した。
+</com:P>
+         <com:P com:pNumber="0098">
+  多くの薬物２４は、深刻な標的外の副作用を有するので、治療薬２４のスマートな投薬は、様々な送達システム１０の別の重要な考慮事項である。提示されるように、マイクロスイマー１０からの制御された薬物放出２４は、レーザー光をオンデマンドでオンおよびオフに切り替えることによって可能である。
+</com:P>
+         <com:P com:pNumber="0099">
+  図５は、２，４，６－トリニトロベンゼンスルホン酸（ＴＮＢＳ）アッセイを使用したメタクリル化度の決定を示している。ＣｈＭＡ高分子のメタクリル化度は、未修飾の遊離アミノ基の定量に基づく２，４，６－トリニトロベンゼンスルホン酸（ＴＮＢＳ）アッセイで分析した。
+</com:P>
+         <com:P com:pNumber="0100">
+  対照群としての未修飾のキトサン、および０．０５％（ｗ／ｖ）のＣｈＭＡ高分子をそれぞれ０．２％（ｖ／ｖ）の酢酸溶液に溶解した。８０μＬの溶液を４０μＬの２％（ｗ／ｖ）のＮａＨＣＯ<com:Sub>３</com:Sub>および６０μＬの０．１％（ｖ／ｖ）のＴＮＢＳ試薬（Ｔｈｅｒｍｏ  Ｆｉｓｈｅｒ  Ｓｃｉｅｎｔｉｆｉｃ）とともに３７℃で２時間インキュベートした。
+</com:P>
+         <com:P com:pNumber="0101">
+  潜伏期間後、６０μＬの１Ｎ  ＨＣｌを溶液に添加し、次いでサンプルの吸光度をプレートリーダー（ＢｉｏＴｅｋ  Ｇｅｎ５  Ｓｙｎｅｒｇｙ  ２、Ｂａｄ  Ｆｒｉｅｄｒｉｃｈｓｈａｌｌ、Ｇｅｒｍａｎｙ）を使用して３４５ｎｍで測定した。メタクリル化度は、以下の式に従って計算した。<com:Br/>
+            <com:Math com:mathNumber="1">
+               <com:Image com:imageContentCategory="Drawing">
+                  <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+                  <com:FileName>2022508435000001.jpg</com:FileName>
+                  <com:HeightMeasure com:measureUnitCode="Mm">16</com:HeightMeasure>
+                  <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+               </com:Image>
+            </com:Math>
+         </com:P>
+         <com:P com:pNumber="0102">
+  図５に示すように、未反応のキトサンは、３４５ｎｍ波長の光（アミノ基に関して）で最も高い吸光度をもたらす。さらに、キトサンと無水メタクリル酸との反応中にアミノ基が消費されるため、これにより波長３４５ｎｍの光の吸光度が徐々に低下する。
+</com:P>
+         <com:P com:pNumber="0103">
+  前述の３Ｄ印刷プロセスでキトサンを使用できるようにするには、未反応のキトサンの吸光度よりも吸光度を低くする必要がある。７０％のメタクリルアミドと反応したキトサンは、３Ｄ印刷プロセスに必要な範囲内の吸光度を有するため、この製品が使用された。
+</com:P>
+         <com:P com:pNumber="0104">
+  図６は、マイクロスイマー１０の２光子ベースの３Ｄ印刷に利用されたマイクロチャネル設定を示している。水泳実験中に最適な磁気作動効率を得るために、永久磁石２０を使用して、プレポリマー溶液１４内のＳＰＩＯＮを整列させる。マイクロスイマー１０は、磁場Ｂに垂直に縦方向に印刷した。
+</com:P>
+         <com:P com:pNumber="0105">
+  図７ＡおよびＢは、それぞれのマイクロスイマー１０のエネルギー分散型Ｘ線分光法の元素マッピングを示している。マイクロスイマー１０の元素マッピングは、１５ｋｅＶで１０分間実行した。二重らせん状構造は、両方の画像で見ることができ、下の画像は、マイクロスイマー１０内の炭素原子（ハッシュ領域）の存在を示している。
+</com:P>
+         <com:P com:pNumber="0106">
+  図９ＡおよびＢは、薬物分子、すなわち、カーゴ材料２４のマイクロスイマー１０への化学的統合の光学顕微鏡画像を示している。図９Ａは、化学リンカー２４で処理されていない、すなわち、ｏ－ニトロベンジルリンカー修飾されていないが、薬物分子（アジド－ＤＯＸ）で直接処理されているマイクロスイマー１０を示している。
+</com:P>
+         <com:P com:pNumber="0107">
+  図９Ｂは、これらにカーゴ材料２４を投薬する前に化学リンカー２６が適用されるマイクロスイマー１０を示している。ｏ－ニトロベンジルリンカー修飾は、薬物分子２４（アジド－ＤＯＸ）で処理した。画像は、同じ蛍光強度および曝露時間でキャプチャし、マイクロスイマー１０へのアジド－ＤＯＸ ２４の制御された統合を表している。
+</com:P>
+         <com:P com:pNumber="0108">
+  クリック反応によりアジド－ＤＯＸ ２４がマイクロスイマー１０に結合したことを確認するために、図９Ａに示すように、陰性対照群としてマイクロスイマー１０の別の群を用いて第２のステップのみを実行した。陰性対照では、アミノ基とアジド基との間に反応がなかったため、アジド修飾ＤＯＸ ２４をマイクロスイマー１０に結合できなかった。蛍光顕微鏡を使用して、ＤＯＸ修飾群と陰性対照群とを比較した。
+</com:P>
+         <com:P com:pNumber="0109">
+  図９Ｂに示されるように、ＤＯＸ修飾群は、同じ曝露強度および時間での陰性群と比較して、有意に高く、かつ均一な蛍光発光を有した（図９Ａ）。一方、陰性群からの低い蛍光発光は、薬物分子２４のマイクロスイマー１０への拡散によるものであった。これらの結果により、ｏ－ニトロベンジルリンカーおよびアジド修飾ＤＯＸのマイクロスイマー１０への化学的結合が確認された。
+</com:P>
+         <com:P com:pNumber="0110">
+  したがって、一般に、カーゴ２４をマイクロスイマー１０に結合するために、化学リンカー２６を使用することが推奨される。
+</com:P>
+         <com:P com:pNumber="0111">
+  図１０Ａ～Ｃは、制御放出実験前の薬物分子についての光退色試験を示している。図１０Ａは、４７０ｎｍ波長のレーザー光で３０分間励起された陰性群を示し、陰性群は、化学リンカー２６を含まない、すなわち、ｏ－ニトロベンジルリンカー修飾されていないマイクロスイマー１０を含む。図１０Ｂは、陰性群の３ｍＷ  ３６５ｎｍ波長レーザー光への曝露を示している。図１０Ｃは、陰性群の３０ｍＷ  ３６５ｎｍ波長光への曝露を示している。
+</com:P>
+         <com:P com:pNumber="0112">
+マイクロスイマー１０からの漂白試験および制御された薬物放出<com:Br/>
+  マイクロスイマー１０とＤＯＸ  ２４との間のｏ－ニトロベンジルリンカー分子２６は、３６５ｎｍ波長および３～３０ｍＷの強度での光照射により選択的な結合開裂を受けた。
+</com:P>
+         <com:P com:pNumber="0113">
+  薬物放出実験の場合、主な仮定は、マイクロスイマー１０の初期蛍光強度が、マイクロスイマー１０への１００％の薬物２４の充填に対応するというものであった。マイクロスイマー１０からの薬物２４の放出は、経時的な蛍光強度の減少に基づいて特徴付けられた。
+</com:P>
+         <com:P com:pNumber="0114">
+  マイクロスイマー１０に光退色および拡散に関連する蛍光強度の変化がないことを確認するために、漂白試験を実行した。したがって、陰性群は、リンカー分子２６の開裂に使用された３６５ｎｍ波長で露光し、ＤＯＸ  ２４の励起および蛍光強度変化分析に使用された４７０ｎｍ波長で露光した。
+</com:P>
+         <com:P com:pNumber="0115">
+  ３６５ｎｍ（図１０Ａ）ならびに４７０ｎｍ波長（図１０Ｂおよび１０Ｃ）の両方で励起した場合、蛍光強度の低下は、観察されず、これは、薬物分子２４が露光時にそれらの蛍光を失わなかったことを意味するが、マイクロシステム全体の蛍光変化は、制御された薬物２４の放出によるものであった。
+</com:P>
+         <com:P com:pNumber="0116">
+  図１１ＡおよびＢは、マイクロスイマー１０からの薬物２４の制御されたかつ局所的な放出を示す光学顕微鏡画像を示している。図１１Ａは、左の列（図１１Ａｉ）に見られるマイクロスイマー１０に焦点を合わせた３６５ｎｍ波長のレーザー光を示している。薬物分子２４は、露光時に放出が制御されたが、右の列（図１１Ａｉｉｉ）に見られる他の群は、依然として統合された薬物分子２４を有していた。
+</com:P>
+         <com:P com:pNumber="0117">
+  図１１Ａに示されるように、薬物２４は、マイクロスイマー１０の特定の群から放出することができるが、他のものは、薬物を内部に保持した（図１１Ａ）。さらに、図１１Ｂは、マイクロスイマー１０の半分から薬物２４を放出することがどのように可能であるかを示し、これは、適用されるレーザー光（図示せず）の焦点の位置を変動することによって、カーゴ材料２４の放出に対して局所制御を有することができることをさらに示している。
+</com:P>
+         <com:P com:pNumber="0118">
+  前述のマイクロスイマー１０は、例えば、人体または動物の体の肝臓または腎臓内（それぞれ図示せず）の所望の標的領域でのカーゴ材料２４の標的化された送達に使用することができる。次いで、マイクロスイマー１０が、例えば、胃腸管で使用される場合、これらは飲み込むことによって簡単に摂取することができ、次いで、人体全体の自然な進行を監視することで、マイクロスイマー１０が、例えば、腸または胃内に存在すると、能動的に操縦することができ、次いで、マイクロスイマー１０が、カーゴ材料２４を例えば肝臓に送達するために使用される場合、マイクロスイマー１０は、所望の標的領域に関連する領域、例えば血管に注入される。
+</com:P>
+         <com:P com:pNumber="0119">
+  マイクロスイマー１０が、例えば標的部位、例えば肝臓腫瘍の１～２ｍｍ以内にあると、マイクロスイマー１０は、前述のように、時間可変磁場を用いて所望の標的領域に方向付けられる。マイクロスイマー１０が所望の標的領域に入ると、これは、所望の標的領域でカーゴ２４を放出するために刺激される。
+</com:P>
+         <com:P com:pNumber="0120">
+  論じたように、カーゴ２４を放出するために所望の標的領域でマイクロスイマー１０を刺激するステップは、標的領域に光刺激を適用することによって行われる。
+</com:P>
+         <com:P com:pNumber="0121">
+  マイクロスイマー１０の所望の標的領域への経路を追跡するために、マイクロスイマー１０を所望の標的領域に方向付けするステップが、例えばＭＲＩを使用して画像マッピングと併せて実施される場合、さらに有利である。
+</com:P>
+         <com:P com:pNumber="0122">
+  前述のように、カーゴ２４、すなわち薬物は、マイクロスイマー１０に光を集中させることによって局所的に放出することができる。
+</com:P>
+         <com:P com:pNumber="0123">
+  要約すると、磁気的に作動する生体適合性および生分解性のキトサンベースのマイクロスイマー１０が開発され、これは、オンデマンドの光トリガー薬物放出の能力を有する。この目的のために、感光性メタクリルアミドキトサン高分子を合成し、次いでＳＰＩＯＮをその中に埋め込んだ。マイクロスイマー１０は、ＴＤＬＷ技術を使用して、この３Ｄポリマー溶液から製作した。さらに、マイクロスイマーは、１０ｍＴの回転磁場下の異なる周波数で作動および操縦できることが実証された。
+</com:P>
+         <com:P com:pNumber="0124">
+  マイクロスイマー１０がインビトロでも使用できることを示すために、人体に見られる天然酵素を使用した、インビトロ細胞毒性分解生成物を生成することなく、マイクロスイマー１０の生分解も示されている。
+</com:P>
+         <com:P com:pNumber="0125">
+  また、合成マイクロスイマー１０内でのオンデマンドの光トリガー薬物放出の組み合わせも示されており、これにより、マイクロシステムは、様々な疾患の治療のための治療薬２４の能動的かつ制御された送達に関連する課題に有望である。
+</com:P>
+         <com:P com:pNumber="0126">
+  本明細書で論じられるすべての材料は、特に指定がない限り、Ｓｉｇｍａ－Ａｌｄｒｉｃｈから購入した。
+</com:P>
+         <com:P com:pNumber="0127">
+以下の特定の方法では、マイクロスイマー１０を製造するために実施されるステップが、本発明者らの言葉を使用して論じられる。
+</com:P>
+         <com:P com:pNumber="0128">
+メタクリルアミドキトサンの合成<com:Br/>
+  メタクリルアミドキトサン（ＣｈＭＡ）は、いくつかの修飾を伴う前述のプロトコルに従って合成した。最初に、３％（ｗ／ｖ）の低分子量のキトサン粉末を３％（ｖ／ｖ）の酢酸溶液に室温（ＲＴ）で２４時間溶解した。無水メタクリル酸をキトサン溶液に３．５：１ｗ／ｗ比で添加して、約７０％のメタクリル化度を得、反応をボルテックスミキサーを用いてＲＴで３時間実行した。反応を実行した後、反応混合物を水で希釈し、水に対して４日間透析した（１４ｋＤａカットオフ）。得られた混合物を凍結乾燥し、さらに使用するために－２０℃で保存した。
+</com:P>
+         <com:P com:pNumber="0129">
+マイクロスイマーの３Ｄ印刷<com:Br/>
+  ＣｈＭＡ（３０ｍｇ・ｍＬ<com:Sup>－１</com:Sup>）、ＬＡＰ開始剤（２０ｍｇ・ｍＬ<com:Sup>－１</com:Sup>）（Ｔｏｋｙｏ  Ｃｈｅｍｉｃａｌ  Ｉｎｄｕｓｔｒｙ  Ｃｏ．Ｌｔｄ．）、および超常磁性酸化鉄ナノ粒子（５ｍｇ・ｍＬ<com:Sup>－１</com:Sup>）（ｃｈｅｍｉｃｅｌｌ  ＧｍｂＨからの５０ｎｍの流体ＭＡＧ－ＰＥＧ／アミン）を８％（ｖ／ｖ）の酢酸溶液に溶解した。得られたプレポリマー溶液をトリクロロ（１Ｈ，１Ｈ，２Ｈ，２Ｈ－パーフルオロオクチル）シラン処理されたスライドガラスに滴下し、市販の直接レーザー書き込みシステム（Ｐｈｏｔｏｎｉｃ  Ｐｒｏｆｅｓｓｉｏｎａｌ、Ｎａｎｏｓｃｒｉｂｅ  ＧｍｂＨ）を用いて印刷を実行した。製作後、スライドガラスをｄｄＨ<com:Sub>２</com:Sub>Ｏで十分に洗浄し、次いでさらに使用するためにサンプルを４℃で保管した。
+</com:P>
+         <com:P com:pNumber="0130">
+マイクロスイマーへの光開裂性リンカーと薬物分子との統合<com:Br/>
+  最初に、光開裂性ｏ－ニトロベンジルリンカー（ＬｉｆｅＴｅｉｎ  ＬＬＣからの１－（５－メトキシ－２－ニトロ－４－プロプ－２－イニルオキシフェニル）エチルＮ－スクシンイミジルカーボネート）をＮＨＳ－アミンカップリング反応を通してマイクロスイマーの表面に結合させた。簡単に言えば、５００μＭのリンカーを無水ジメチルスルホキシドに溶解し、マイクロスイマーをリンカー溶液によってＲＴで４時間処理した。その後、アジド修飾ＤＯＸ（ＬｉｆｅＴｅｉｎ  ＬＬＣ）を、マイクロスイマーに結合したリンカー分子のアルキン末端にカップリングするために、いくつかの修飾とともに前述のプロトコルを適合させた。マイクロスイマーは、５０μＭのアジド修飾ＤＯＸ、１００μＭのＣｕＳＯ<com:Sub>４</com:Sub>、５ｍＭのアスコルビン酸ナトリウム、５００μＭのトリス（３－ヒドロキシプロピルトリアゾリルメチル）アミンを含有する溶液によってＲＴで３時間処理した。最後に、マイクロスイマーをｄｄＨ<com:Sub>２</com:Sub>Ｏで数回洗浄して、結合していない薬物分子を除去し、さらに使用するために暗所で保管した。
+</com:P>
+         <com:P com:pNumber="0131">
+マイクロスイマーからの漂白試験および制御された薬物放出<com:Br/>
+  薬物統合したマイクロスイマーをＲＴに平衡化し、ｄｄＨ<com:Sub>２</com:Sub>Ｏで数回洗浄してｄｄＨ<com:Sub>２</com:Sub>Ｏ中で一晩保管した。３６５ｎｍでの露光時のマイクロスイマーからの制御された薬物放出は、蛍光倒立顕微鏡（ＤＭｉ８、Ｌｅｉｃａ  Ｍｉｃｒｏｓｙｓｔｅｍｓ）を使用して調査した。タイムラプス蛍光画像は、３０分の期間１０秒ごとに取得した。光強度を３ｍＷまたは３０ｍＷのいずれかに調整し、曝露時間を１秒に設定した。マイクロスイマーの蛍光強度は、ＬＡＳＸ分析ツールボックス（Ｌｅｉｃａ  Ｍｉｃｒｏｓｙｓｔｅｍｓ）を使用して分析した。オンデマンドの制御された薬物放出実験は、１分間の露光とそれに続く５分間の不応期によって実行した。どちらの場合も、バックグラウンド蛍光は、測定値から差し引いた。
+</com:P>
+         <com:P com:pNumber="0132">
+  受動拡散による薬物分子を充填したマイクロスイマーの蛍光退色は、制御放出実験と同様に、３６５ｎｍまたは４７０ｎｍでの露光および画像取得によって試験した。３６５ｎｍでの３ｍＷおよび３０ｍＷの両方の光パワー、および４７０ｎｍでの光パワーの両方の漂白試験を３０分間試験し、１０秒ごとに蛍光画像を取得した。放出実験と同様に、個々のマイクロスイマーの蛍光強度をＬＡＳＸ分析ツールボックス（Ｌｅｉｃａ  Ｍｉｃｒｏｓｙｓｔｅｍｓ）で測定し、測定値からバックグラウンドを差し引いた。
+</com:P>
+         <com:P com:pNumber="0133">
+マイクロスイマーの分解および分解生成物の細胞毒性調査<com:Br/>
+  ３Ｄ印刷されたマイクロスイマーを、３７℃で１ｘリン酸緩衝生理食塩水で調製した異なる濃度のリゾチーム溶液（１．５、１５、および１５０μｇ・ｍＬ<com:Sup>－１</com:Sup>）で処理した。マイクロスイマーの長さおよび直径は、Ｎｉｋｏｎ  Ｅｃｌｉｐｓｅ  Ｔｉ－Ｅ倒立顕微鏡を使用して、ＤＩＣモードで２０倍の倍率で、時間間隔を増やしながら測定した（３、６、１２、２４、４８時間）。酵素の不活性化を防ぐために、酵素溶液を１２時間ごとに更新した。マイクロスイマーの生体適合性および細胞毒性を調査するために、分解生成物を使用した。簡単に説明すると、ＳＫＢＲ３乳癌細胞（継代＃８）を５０００細胞／ウェルとして９６ウェルプレートに播種した。次いで、約８０％のコンフルエンスに達した時点で、数千の３Ｄ印刷されたマイクロスイマーまたは増殖培地（対照群）の分解生成物で１日間処理した。最後に、細胞を生死イメージング溶液（Ｌｉｆｅ  Ｔｅｃｈｎｏｌｏｇｉｅｓ）によってＲＴで２０分間染色し、蛍光倒立顕微鏡を使用してイメージングし、定量分析のためにＩｍａｇｅＪを使用してカウントした。<com:Br/>
+         </com:P>
+      </pat:DrawingDescription>
+   </jppat:Description>
+   <pat:Claims>
+      <pat:Claim>
+         <pat:ClaimNumber>1</pat:ClaimNumber>
+         <pat:ClaimText>
+  －光架橋性バイオポリマー溶液（１２）を提供するステップと、<com:Br/>
+  －磁性粒子および光開始剤を前記光架橋性バイオポリマー溶液に添加して、３Ｄ印刷可能な溶液（１４）を形成するステップと、<com:Br/>
+  －前記３Ｄ印刷可能な溶液（１４）に方向付けした可変焦点でレーザー（１８）を適用するステップと、<com:Br/>
+  －前記３Ｄ印刷可能な溶液（１４）を通して前記レーザー（１８）の焦点を変動させ、所定の形状の前記生体適合性マイクロスイマー（１０）を形成するステップと、<com:Br/>
+  －所定の形状を有する前記生体適合性マイクロスイマー（１０）に化学リンカー（２６）を適用するステップと、を含む、<com:Br/>
+生体適合性マイクロスイマー（１０）を作製する方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>2</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記化学リンカー（２６）が、前記生体適合性マイクロスイマー（１０）と前記マイクロスイマー（１０）に付着可能であり、かつそれによって輸送可能であるカーゴ（２４）との間にリンクを形成する、<com:Br/>
+請求項１に記載の方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>3</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記化学リンカー（２６）を介して前記生体適合性マイクロスイマー（１０）にカーゴ（２４）を付着させるステップをさらに含む、<com:Br/>
+請求項２に記載の方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>4</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記カーゴ（２４）が、酵素、分子、薬物、タンパク質、遺伝物質、ナノ粒子、治療または診断目的のための放射性種子、および前述の組み合わせからなる要素の群から選択される、<com:Br/>
+請求項３に記載の方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>5</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記マイクロスイマー（１０）と前記カーゴ（２４）との間のリンクを、刺激の存在下で放出することができるように、前記化学リンカー（２６）が選択される、<com:Br/>
+請求項２～４のいずれか一項に記載の方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>6</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記化学リンカー（２６）が、光開裂性リンカー、好ましくはＮＨＳおよびアルキン修飾ｏ－ニトロネジル誘導体である、<com:Br/>
+請求項１～５のいずれか一項に記載の方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>7</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記化学リンカー（２６）が、酵素的に開裂可能なリンカー、例えば、マトリックスメタロプロテイナーゼ認識ペプチド配列のうちの１つであるか、または前記化学リンカー（２６）が、熱的に開裂可能なリンカーである、<com:Br/>
+請求項１～５のいずれか一項に記載の方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>8</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記光架橋性バイオポリマー溶液（１２）が、生物活性、生分解性、および生体適合性ポリマー、例えば、キトサン、ゼラチン、アルギン酸塩、ポリペプチド、核酸、多糖、および前述の組み合わせ、好ましくはキトサン、を含む、<com:Br/>
+請求項１～７のいずれか一項に記載の方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>9</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記磁性粒子が、５ｎｍ～２００ｎｍ、特に５～２００ｎｍ、好ましくは４０～６０ｎｍの範囲で選択されるサイズを有する、<com:Br/>
+請求項１～８のいずれか一項に記載の方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>10</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記磁性粒子が、酸化鉄粒子、鉄白金粒子、ネオジム鉄ホウ素粒子、アルミニウムニッケルコバルト粒子、鉄粒子、コバルト粒子、サマリウムコバルト粒子、好ましくは酸化鉄粒子からなる要素の群から選択される、<com:Br/>
+請求項１～９のいずれか一項に記載の方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>11</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記光開始剤が、２光子吸収時に半分に分裂し、かつ前記光架橋を開始するラジカルを生成する分子であり、前記光開始剤が、例えば、フェニル－２，４，６－トリメチルベンゾイルホスフィネート（ＬＡＰ）である、<com:Br/>
+請求項１～１０のいずれか一項に記載の方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>12</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記カーゴ（２４）が、刺激の適用、例えば、光の適用時に、または所定量の特定の酵素の近くで、前記マイクロスイマー（１０）から放出可能である、<com:Br/>
+請求項１～１１のいずれか一項に記載の方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>13</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記レーザー（１８）を適用するステップ中に前記３Ｄ印刷可能な溶液（１４）内で前記磁性粒子を整列させるために、磁場強度が選択された磁場（Ｂ）を適用するステップ、をさらに含む、<com:Br/>
+請求項１～１２のいずれか一項に記載の方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>14</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記マイクロスイマー（１０）が、らせん状または二重らせん状の構造などの回転磁場の存在下で、時間に依存して非対称に移動するように構成された形状を有する、<com:Br/>
+請求項１～１３のいずれか一項に記載の方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>15</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記マイクロスイマー（１０）が、細長い形状を有し、長さ対幅の比が、２：１～１０：１の範囲で選択される、<com:Br/>
+請求項１～１４のいずれか一項に記載の方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>16</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記マイクロスイマー（１０）の少なくとも１つの寸法が、０．０００１～１ｍｍの範囲で選択される、<com:Br/>
+請求項１～１５のいずれか一項に記載の方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>17</pat:ClaimNumber>
+         <pat:ClaimText>
+  請求項１～１６のいずれか一項に記載の方法を使用して作製され、前記マイクロスイマー（１０）が、光架橋性バイオポリマー溶液（１２）、磁性粒子、および光開始剤を含む３Ｄ印刷可能な溶液（１４）で形成された本体部分（１０’）を備え、<com:Br/>
+  前記マイクロスイマー（１０）の前記本体部分（１０’）が、らせん状または二重らせん状の構造などの回転磁場の存在下で、時間に依存して非対称に移動するように構成された形状を有し、前記本体部分（１０’）が、化学リンカー（２６）でコーティングされる、<com:Br/>
+生体適合性マイクロスイマー（１０）。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>18</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記マイクロスイマー（１０）の前記本体部分（１０’）が、細長い形状を有し、長さ対幅の比が、２：１～１０：１の範囲で選択される、<com:Br/>
+請求項１７に記載の生体適合性マイクロスイマー（１０）。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>19</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記マイクロスイマー（１０）の少なくとも１つの寸法が、０．０００１～１ｍｍの範囲で選択される、<com:Br/>
+請求項１７または請求項１８に記載の生体適合性マイクロスイマー（１０）。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>20</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記マイクロスイマー（１０）が、０．１未満のレイノルズ数で移動するように構成される、<com:Br/>
+請求項１７～１９のいずれか一項に記載の生体適合性マイクロスイマー（１０）。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>21</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記マイクロスイマー（１０）が、その主軸に垂直な方向に磁化される、<com:Br/>
+請求項１７～２０のいずれか一項に記載の生体適合性マイクロスイマー（１０）。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>22</pat:ClaimNumber>
+         <pat:ClaimText>
+  １．５μｇ／ｍｌのリゾチーム濃度で、前記マイクロスイマー（１０）の長さが、初期の長さの最大で７０％の長さに分解し、かつ前記マイクロスイマー（１０）の直径が、２１０時間の期間内に、前記マイクロスイマー（１０）の初期の直径の最大で５０％の直径に分解する、<com:Br/>
+請求項１７～２１のいずれか一項に記載の生体適合性マイクロスイマー（１０）。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>23</pat:ClaimNumber>
+         <pat:ClaimText>
+  請求項１７～２２のいずれか一項に従って、かつ／または請求項１～１６のいずれか一項に従って作製され、カーゴ（２４）を充填されている１つのマイクロスイマー（１０）を使用する方法であって、<com:Br/>
+  －前記所望の標的領域に関連付けられた領域に前記マイクロスイマー（１０）を提供するステップと、<com:Br/>
+  －時間可変磁場を用いて前記マイクロスイマー（１０）を前記所望の標的領域に方向付けするステップと、<com:Br/>
+  －前記所望の標的領域で前記マイクロスイマー（１０）を刺激して、前記カーゴ（２４）を放出するステップと、を含む、<com:Br/>
+マイクロスイマー（１０）を使用する方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>24</pat:ClaimNumber>
+         <pat:ClaimText>
+  方向付けするステップが、１Ｈｚ～５０Ｈｚの範囲で選択された周波数で５ｍＴ～５０ｍＴの範囲の磁場強度を有する回転磁場の適用を含む、<com:Br/>
+請求項２３に記載の方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>25</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記カーゴ（２４）を放出するために前記所望の標的領域で前記マイクロスイマー（１０）を刺激するステップが、前記標的領域に光刺激を適用することによって行われる、<com:Br/>
+請求項２３または２４に記載の方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>26</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記マイクロスイマー（１０）の前記所望の標的領域への経路を追跡するために、前記マイクロスイマー（１０）を方向付けするステップが、例えば、ＭＲＩを使用して、画像マッピングと併せて実施される、<com:Br/>
+請求項２３～２５のいずれか一項に記載の方法。<com:Br/>
+         </pat:ClaimText>
+      </pat:Claim>
+   </pat:Claims>
+   <pat:Abstract>
+      <com:P com:pNumber="">
+  本発明は、生体適合性マイクロスイマーを作製する方法であって、光架橋性バイオポリマー溶液を提供するステップと、磁性粒子および光開始剤を光架橋性バイオポリマー溶液に添加して、３Ｄ印刷可能な溶液を形成するステップと、３Ｄ印刷可能な溶液に方向付けられた可変焦点でレーザーを適用するステップと、３Ｄ印刷可能な溶液を通してレーザーの焦点を変動させ、所定の形状の生体適合性マイクロスイマーを形成するステップと、所定の形状を有する生体適合性マイクロスイマーに化学リンカーを適用するステップと、を含む、方法に関する。本発明はさらに、そのようなマイクロスイマーおよびそのようなマイクロスイマーを使用する方法に関する。
+</com:P>
+   </pat:Abstract>
+   <pat:Drawings>
+      <pat:Figure>
+         <pat:FigureNumber>1</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022508435000002.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">242</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">157</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>2</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022508435000003.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">255</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">142</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>3</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022508435000004.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">255</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">169</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>4</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022508435000005.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">218</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>5</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022508435000006.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">120</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>6</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022508435000007.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">176</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>7</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>2022508435000008.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">177</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">130</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>8</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>2022508435000009.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">121</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">133</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>9</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022508435000010.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">213</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>10</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022508435000011.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">255</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">128</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>11</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>2022508435000012.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">220</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+   </pat:Drawings>
+   <jppat:SearchReportBag>
+      <jppat:SearchReport>
+         <jppat:PageImage>
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>2022508435000013.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">241</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </jppat:PageImage>
+      </jppat:SearchReport>
+      <jppat:SearchReport>
+         <jppat:PageImage>
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>2022508435000014.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">241</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </jppat:PageImage>
+      </jppat:SearchReport>
+      <jppat:SearchReport>
+         <jppat:PageImage>
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>2022508435000015.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">241</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </jppat:PageImage>
+      </jppat:SearchReport>
+   </jppat:SearchReportBag>
+</jppat:InternationalPatentPublication>

@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="../../../../../XSL/JPUnexaminedPatentPublication.xsl"?> -->
+<jppat:UnexaminedPatentPublication xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                                   xmlns:jppat="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPPatent"
+                                   xmlns:pat="http://www.wipo.int/standards/XMLSchema/ST96/Patent"
+                                   xmlns:com="http://www.wipo.int/standards/XMLSchema/ST96/Common"
+                                   xmlns:jpcom="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPCommon"
+                                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                   xsi:schemaLocation="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPPatent ../../../../../XSD/JPUnexaminedPatentPublication_V1_0.xsd"
+                                   com:languageCode="ja"
+                                   com:st96Version="V3_1"
+                                   com:ipoVersion="JP_V1_0">
+   <com:IPOfficeCode>JP</com:IPOfficeCode>
+   <jppat:UnexaminedPatentPublicationBibliographicData com:languageCode="ja">
+      <com:IPOfficeCode>JP</com:IPOfficeCode>
+      <jppat:PatentPublicationIdentification>
+         <com:IPOfficeCode>JP</com:IPOfficeCode>
+         <pat:PublicationNumber>2022036324</pat:PublicationNumber>
+         <com:PublicationDate>2022-03-08</com:PublicationDate>
+      </jppat:PatentPublicationIdentification>
+      <pat:PlainLanguageDesignationText>公開特許公報(A)</pat:PlainLanguageDesignationText>
+      <jppat:ApplicationIdentification>
+         <com:ApplicationNumber>
+            <com:ApplicationNumberText>2018149654</com:ApplicationNumberText>
+         </com:ApplicationNumber>
+         <pat:FilingDate>2018-08-08</pat:FilingDate>
+      </jppat:ApplicationIdentification>
+      <pat:InventionTitle>摩擦攪拌接合装置及びその運転方法</pat:InventionTitle>
+      <jppat:UnexaminedPatentPublicationPartyBag>
+         <jppat:ApplicantsRegisteredPractitionersBag>
+            <jppat:ApplicantRegisteredPractitionerBag com:sequenceNumber="1">
+               <jppat:Applicant com:sequenceNumber="1">
+                  <com:PartyIdentifier>000000974</com:PartyIdentifier>
+                  <jpcom:Contact>
+                     <com:Name>
+                        <com:EntityName>川崎重工業株式会社</com:EntityName>
+                     </com:Name>
+                     <com:PostalAddressBag>
+                        <com:PostalAddress>
+                           <com:PostalAddressText>兵庫県神戸市中央区東川崎町３丁目１番１号</com:PostalAddressText>
+                        </com:PostalAddress>
+                     </com:PostalAddressBag>
+                  </jpcom:Contact>
+               </jppat:Applicant>
+               <jppat:RegisteredPractitioner com:sequenceNumber="1">
+                  <jppat:AgentCategory>Representative</jppat:AgentCategory>
+                  <pat:RegisteredPractitionerRegistrationNumber>110000556</pat:RegisteredPractitionerRegistrationNumber>
+                  <jpcom:Contact>
+                     <com:Name>
+                        <com:EntityName>特許業務法人  有古特許事務所</com:EntityName>
+                     </com:Name>
+                  </jpcom:Contact>
+               </jppat:RegisteredPractitioner>
+            </jppat:ApplicantRegisteredPractitionerBag>
+         </jppat:ApplicantsRegisteredPractitionersBag>
+         <jppat:InventorBag>
+            <jppat:Inventor com:sequenceNumber="1">
+               <jpcom:Contact>
+                  <com:Name>
+                     <com:EntityName>大橋  良司</com:EntityName>
+                  </com:Name>
+                  <com:PostalAddressBag>
+                     <com:PostalAddress>
+                        <com:PostalAddressText>神戸市中央区東川崎町３丁目１番１号  川崎重工業株式会社内</com:PostalAddressText>
+                     </com:PostalAddress>
+                  </com:PostalAddressBag>
+               </jpcom:Contact>
+            </jppat:Inventor>
+            <jppat:Inventor com:sequenceNumber="2">
+               <jpcom:Contact>
+                  <com:Name>
+                     <com:EntityName>村松  良崇</com:EntityName>
+                  </com:Name>
+                  <com:PostalAddressBag>
+                     <com:PostalAddress>
+                        <com:PostalAddressText>神戸市中央区東川崎町３丁目１番１号  川崎重工業株式会社内</com:PostalAddressText>
+                     </com:PostalAddress>
+                  </com:PostalAddressBag>
+               </jpcom:Contact>
+            </jppat:Inventor>
+            <jppat:Inventor com:sequenceNumber="3">
+               <jpcom:Contact>
+                  <com:Name>
+                     <com:EntityName>武岡  正樹</com:EntityName>
+                  </com:Name>
+                  <com:PostalAddressBag>
+                     <com:PostalAddress>
+                        <com:PostalAddressText>神戸市中央区東川崎町３丁目１番１号  川崎重工業株式会社内</com:PostalAddressText>
+                     </com:PostalAddress>
+                  </com:PostalAddressBag>
+               </jpcom:Contact>
+            </jppat:Inventor>
+            <jppat:Inventor com:sequenceNumber="4">
+               <jpcom:Contact>
+                  <com:Name>
+                     <com:EntityName>福田  拓也</com:EntityName>
+                  </com:Name>
+                  <com:PostalAddressBag>
+                     <com:PostalAddress>
+                        <com:PostalAddressText>神戸市中央区東川崎町３丁目１番１号  川崎重工業株式会社内</com:PostalAddressText>
+                     </com:PostalAddress>
+                  </com:PostalAddressBag>
+               </jpcom:Contact>
+            </jppat:Inventor>
+         </jppat:InventorBag>
+      </jppat:UnexaminedPatentPublicationPartyBag>
+      <jppat:IPCClassification>
+         <com:Edition/>
+         <pat:MainClassification>B23K  20/12        20060101AFI20220301BHJP        </pat:MainClassification>
+      </jppat:IPCClassification>
+      <jppat:NationalClassification>
+         <com:IPOfficeCode>JP</com:IPOfficeCode>
+         <jppat:MainNationalClassification>
+            <pat:PatentClassificationText>B23K20/12 360</pat:PatentClassificationText>
+         </jppat:MainNationalClassification>
+         <jppat:FurtherNationalClassification>
+            <pat:PatentClassificationText>B23K20/12 344</pat:PatentClassificationText>
+         </jppat:FurtherNationalClassification>
+      </jppat:NationalClassification>
+      <jppat:ClaimTotalQuantitySet>
+         <pat:ClaimTotalQuantity>14</pat:ClaimTotalQuantity>
+         <jppat:AdoptedLawCategory>Claim</jppat:AdoptedLawCategory>
+      </jppat:ClaimTotalQuantitySet>
+      <jppat:PublishFigure>
+         <pat:FigureNumber>1</pat:FigureNumber>
+      </jppat:PublishFigure>
+      <jppat:RequestExaminationIndicator>false</jppat:RequestExaminationIndicator>
+      <jppat:FilingForm>ＯＬ</jppat:FilingForm>
+      <jppat:ThemeCodeInformationBag>
+         <jppat:ThemeCodeInformation>4E167</jppat:ThemeCodeInformation>
+      </jppat:ThemeCodeInformationBag>
+      <jppat:FtermInformationBag>
+         <jppat:FtermInformation>4E167AA02</jppat:FtermInformation>
+         <jppat:FtermInformation>4E167AA06</jppat:FtermInformation>
+         <jppat:FtermInformation>4E167AA22</jppat:FtermInformation>
+         <jppat:FtermInformation>4E167AA27</jppat:FtermInformation>
+         <jppat:FtermInformation>4E167AA29</jppat:FtermInformation>
+         <jppat:FtermInformation>4E167BG11</jppat:FtermInformation>
+         <jppat:FtermInformation>4E167BG13</jppat:FtermInformation>
+         <jppat:FtermInformation>4E167BG26</jppat:FtermInformation>
+      </jppat:FtermInformationBag>
+   </jppat:UnexaminedPatentPublicationBibliographicData>
+   <jppat:ChosenDrawingImage>
+      <com:Image com:imageContentCategory="Drawing">
+         <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+         <com:FileName>2022036324000001.tif</com:FileName>
+         <com:HeightMeasure com:measureUnitCode="Mm">208</com:HeightMeasure>
+         <com:WidthMeasure com:measureUnitCode="Mm">168</com:WidthMeasure>
+      </com:Image>
+   </jppat:ChosenDrawingImage>
+   <jppat:Description>
+      <pat:TechnicalField>
+         <com:P com:pNumber="0001">
+  本発明は、摩擦攪拌接合装置及びその運転方法に関する。
+</com:P>
+      </pat:TechnicalField>
+      <pat:BackgroundArt>
+         <com:P com:pNumber="0002">
+  少なくとも２枚の部材を重ね合わせて、回転ツールを一方の部材に加圧して押し込み、摩擦攪拌することにより、接合する装置において、接合強度の良否を判定する接合状態検出手段を具備する加工管理装置が知られている（例えば、特許文献１参照）。特許文献１に開示されている加工管理装置では、接合状態検出手段が、回転ツールの先端部に設けられている突出部の先端位置に基づいて、一方の部材の接合部の板厚減少量を算出し、算出された板厚減少量に基づいて接合強度の良否を判定する。
+</com:P>
+      </pat:BackgroundArt>
+      <com:CitationBag>
+         <com:PatentCitationBag>
+            <com:P com:pNumber="0003">
+               <com:PatentCitation com:sequenceNumber="1">
+                  <com:PatentCitationText>特許第４６７１５２３号</com:PatentCitationText>
+               </com:PatentCitation>
+            </com:P>
+         </com:PatentCitationBag>
+      </com:CitationBag>
+      <pat:InventionSummary>
+         <pat:TechnicalProblem>
+            <com:P com:pNumber="0004">
+  しかしながら、特許文献１に開示されている加工管理装置では、突出部の先端位置を、回転ツールを昇降させるためのモータのエンコーダの出力に基づいて演算している。このめ、突出部が摩耗したような場合には、エンコーダから得られた突出部の先端位置と、実際の突出部の先端位置と、では、誤差が生じ、接合強度の良否判定が正確とはならないおそれがあり、未だ改善の余地があった。
+</com:P>
+            <com:P com:pNumber="0005">
+  本発明は、上記課題を解決するためになされたものであって、簡易な構成で、従来の摩擦攪拌接合装置に比して、所定の接合強度に達しているか否かを正確に判定することができ得る、摩擦攪拌接合装置及びその運転方法を提供することを目的とする。
+</com:P>
+         </pat:TechnicalProblem>
+         <pat:TechnicalSolution>
+            <com:P com:pNumber="0006">
+  上記従来の課題を解決するために、本発明に係る摩擦攪拌接合装置は、円柱状に形成され、軸線周りの回転と該軸線に沿った方向への進退移動とが可能なように構成されているピン部材と、円筒状に形成され、前記ピン部材が内部に挿通されており、前記軸線に沿った方向への進退移動が可能なように構成されているショルダ部材と、前記ピン部材を前記軸線周りに回転させる回転駆動器と、前記ピン部材及び前記ショルダ部材を前記軸線に沿って進退移動させる直動駆動器と、制御装置と、を備え、前記ショルダ部材の先端面には、第１刻印が形成され、前記制御装置は、前記ピン部材を回転させた状態で、前記ピン部材の先端部が被接合物の被接合部を押圧するように、前記直動駆動器及び前記回転駆動器を制御する（Ａ）と、前記ピン部材の先端部が第１位置にまで到達するように、前記直動駆動器及び前記回転駆動器を制御する（Ｂ）と、前記（Ｂ）の後、前記ピン部材を回転させた状態で、前記ピン部材及び前記ショルダ部材を前記被接合部から引き抜くように、前記直動駆動器及び前記回転駆動器を制御する（Ｃ）と、を実行するように構成されていて、前記第１位置は、前記ピン部材の先端部が当該位置まで到達することにより、前記被接合物の被接合部に前記第１刻印が印される位置である。
+</com:P>
+            <com:P com:pNumber="0007">
+  これにより、ピン部材及びショルダ部材が第１位置に到達すると、被接合物の被接合部に、第１刻印が印される。一方、ピン部材の先端部が摩耗しているような場合、又は直動駆動器等に不具合が生じているような場合等には、ピン部材及びショルダ部材が第１位置にまで到達しない。このため、ピン部材の圧入により押し出される軟化した部分の体積が、正常な場合に比して小さくなり、押し出された軟化した部分とショルダ部材の先端面との当接が不充分となり、被接合物の被接合部には、第１刻印が充分に印されない。したがって、第１刻印が印されているか否かで、被接合部が所定の接合強度に達しているか否かを正確に判定することができ得る。
+</com:P>
+            <com:P com:pNumber="0008">
+  また、本発明に係る摩擦攪拌接合装置の運転方法は、被接合物を摩擦熱で軟化させることにより接合する摩擦攪拌接合装置の運転方法であって、前記摩擦攪拌接合装置は、円柱状に形成され、軸線周りの回転と該軸線に沿った方向への進退移動とが可能なように構成されているピン部材と、円筒状に形成され、前記ピン部材が内部に挿通されており、前記軸線に沿った方向への進退移動が可能なように構成されているショルダ部材と、前記ピン部材を前記軸線周りに回転させる回転駆動器と、前記ピン部材及び前記ショルダ部材を前記軸線に沿って進退移動させる直動駆動器と、を備え、前記ショルダ部材の先端面には、第１刻印が形成され、前記ピン部材を回転させた状態で、前記ピン部材の先端部が前記被接合物の被接合部を押圧するように、前記直動駆動器及び前記回転駆動器が動作する（Ａ）と、前記ピン部材の先端部が第１位置にまで到達するように、前記直動駆動器及び前記回転駆動器が動作する（Ｂ）と、前記（Ｂ）の後、前記ピン部材を回転させた状態で、前記ピン部材及び前記ショルダ部材を前記被接合部から引き抜くように、前記直動駆動器及び前記回転駆動器が動作する（Ｃ）と、を備え、前記第１位置は、前記ピン部材の先端部が当該位置まで到達することにより、前記被接合物の被接合部に前記第１刻印が印される位置である。
+</com:P>
+            <com:P com:pNumber="0009">
+  これにより、ピン部材及びショルダ部材が第１位置に到達すると、被接合物の被接合部に、第１刻印が印される。一方、ピン部材の先端部が摩耗しているような場合、又は直動駆動器等に不具合が生じているような場合等には、ピン部材及びショルダ部材が第１位置にまで到達しない。このため、ピン部材の圧入により押し出される軟化した部分の体積が、正常な場合に比して小さくなり、押し出された軟化した部分とショルダ部材の先端面との当接が不充分となり、被接合物の被接合部には、第１刻印が充分に印されない。したがって、第１刻印が印されているか否かで、被接合部が所定の接合強度に達しているか否かを正確に判定することができ得る。
+</com:P>
+            <com:P com:pNumber="0010">
+  本発明の上記目的、他の目的、特徴、及び利点は、添付図面参照の下、以下の好適な実施形態の詳細な説明から明らかにされる。
+</com:P>
+         </pat:TechnicalSolution>
+         <pat:AdvantageousEffects>
+            <com:P com:pNumber="0011">
+  本発明に係る摩擦攪拌接合装置及びその運転方法によれば、簡易な構成で、従来の摩擦攪拌接合装置に比して、所定の接合強度に達しているか否かを正確に判定することができ得る。
+</com:P>
+         </pat:AdvantageousEffects>
+      </pat:InventionSummary>
+      <pat:DrawingDescription>
+         <com:P com:pNumber="0012">
+            <com:FigureReference com:referencedFigureNumber="1">図１は、本実施の形態１に係る摩擦攪拌接合装置の概略構成を示す模式図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="2">図２は、図１に示す摩擦攪拌接合装置におけるピン部材及びショルダ部材の先端面（下端面）の概略構成を示す模式図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="3">図３は、本実施の形態１に係る摩擦攪拌接合装置の動作の一例を示すフローチャートである。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="4">図４は、本実施の形態１に係る摩擦攪拌接合装置の要部を示す模式図であり、摩擦攪拌接合を実行している状態を示す。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="5">図５は、本実施の形態１における変形例１の摩擦攪拌接合装置の概略構成を示す模式図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="6">図６は、本実施の形態１における変形例２の摩擦攪拌接合装置の概略構成を示す模式図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="7">図７は、本実施の形態２に係る摩擦攪拌接合装置の動作の一例を示すフローチャートである。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="8">図８は、本実施の形態３に係る摩擦攪拌接合装置の概略構成を示す模式図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="9">図９は、図８に示す摩擦攪拌接合装置におけるピン部材及びショルダ部材の先端面（下端面）の概略構成を示す模式図である。</com:FigureReference>
+         </com:P>
+      </pat:DrawingDescription>
+      <pat:EmbodimentDescription>
+         <com:P com:pNumber="0013">
+  以下、本発明の好ましい実施の形態を、図面を参照しながら説明する。なお、以下では全ての図を通じて同一又は相当する要素には同一の参照符号を付して、その重複する説明を省略する。また、全ての図面において、本発明を説明するために必要となる構成要素を抜粋して図示しており、その他の構成要素については図示を省略している場合がある。さらに、本発明は以下の実施の形態に限定されない。
+</com:P>
+         <com:P com:pNumber="0014">
+  （実施の形態１）<com:Br/>
+  本実施の形態１に係る摩擦攪拌接合装置は、円柱状に形成され、軸線周りの回転と該軸線に沿った方向への進退移動とが可能なように構成されているピン部材と、円筒状に形成され、ピン部材が内部に挿通されており、軸線に沿った方向への進退移動が可能なように構成されているショルダ部材と、ピン部材を軸線周りに回転させる回転駆動器と、ピン部材及びショルダ部材を軸線に沿って進退移動させる直動駆動器と、制御装置と、を備え、ショルダ部材の先端面には、第１刻印が形成され、制御装置は、ピン部材を回転させた状態で、ピン部材の先端部が被接合物の被接合部を押圧するように、直動駆動器及び回転駆動器を制御する（Ａ）と、ピン部材の先端部が第１位置にまで到達するように、直動駆動器及び回転駆動器を制御する（Ｂ）と、（Ｂ）の後、ピン部材を回転させた状態で、ピン部材及びショルダ部材を被接合部から引き抜くように、直動駆動器及び回転駆動器を制御する（Ｃ）と、を実行するように構成されていて、第１位置は、ピン部材の先端部が当該位置まで到達することにより、被接合物の被接合部に第１刻印が印される位置である。
+</com:P>
+         <com:P com:pNumber="0015">
+  また、本実施の形態１に係る摩擦攪拌接合装置では、ピン部材の先端部は、ショルダ部材の先端面から突出するように形成されていてもよい。
+</com:P>
+         <com:P com:pNumber="0016">
+  以下、本実施の形態１に係る摩擦攪拌接合装置の一例について、図１～図４を参照しながら詳細に説明する。
+</com:P>
+         <com:P com:pNumber="0017">
+  ［摩擦攪拌接合装置の構成］<com:Br/>
+  図１は、本実施の形態１に係る摩擦攪拌接合装置の概略構成を示す模式図である。図２は、図１に示す摩擦攪拌接合装置におけるピン部材及びショルダ部材の先端面（下端面）の概略構成を示す模式図である。
+</com:P>
+         <com:P com:pNumber="0018">
+  図１に示すように、本実施の形態１に係る摩擦攪拌接合装置１００は、ピン部材１、ショルダ部材２、工具固定器３、直動駆動器４、回転駆動器５、裏当て支持部材６、裏当て部材７、ロボット８、及び制御装置１１０を備えていて、被接合物Ｗの被接合部Ｗａを摩擦熱で軟化させて、接合するように構成されている。
+</com:P>
+         <com:P com:pNumber="0019">
+  被接合物Ｗは、本実施の形態１においては、板状の第１部材Ｗ１と板状の第２部材Ｗ２で構成されている。第１部材Ｗ１は、金属材料（例えば、アルミニウム）、熱可塑性プラスチック（例えば、ポリアミド）、及び繊維強化プラスチック（例えば、炭素繊維強化プラスチック）のうち、少なくとも１つの材料を用いてもよく、第２部材Ｗ２は、第１部材Ｗ１とは異なる金属材料（例えば、鋼）を用いてもよい。
+</com:P>
+         <com:P com:pNumber="0020">
+  なお、本実施の形態１においては、被接合物Ｗを板状の第１部材Ｗ１と板状の第２部材Ｗ２で構成されている形態を採用したが、これに限定されず、被接合物Ｗ（第１部材Ｗ１及び第２部材Ｗ２）の形状は任意であり、例えば、直方体状であってもよく、円弧状に形成されていてもよい。
+</com:P>
+         <com:P com:pNumber="0021">
+  ピン部材１、ショルダ部材２、工具固定器３、直動駆動器４、及び回転駆動器５は、Ｃ型ガン（Ｃ型フレーム）で構成される裏当て支持部材６の上部に設けられている。また、裏当て支持部材６の下部には、裏当て部材７が設けられている。ピン部材１及びショルダ部材２と、裏当て部材７と、は互いに対向する位置で裏当て支持部材６に取り付けられている。裏当て支持部材６は、ロボット８の先端に取り付けられている。ロボット８としては、水平多関節型・垂直多関節型などのロボットを採用することができる。
+</com:P>
+         <com:P com:pNumber="0022">
+  なお、本実施の形態１に係る摩擦攪拌接合装置１００は、ロボット８に適用される場合に限定されるものではなく、例えば、ＮＣ工作機械、大型のＣフレーム、及びオートリベッター等の公知の加工用機器に適用してもよい。
+</com:P>
+         <com:P com:pNumber="0023">
+  また、本実施の形態１においては、裏当て支持部材６がＣ型ガンで構成されている形態を採用したが、これに限定されない。裏当て支持部材６は、ピン部材１及びショルダ部材２を進退移動可能に支持するとともに、ピン部材１及びショルダ部材２に対向する位置に裏当て部材７を支持することができれば、どのように構成されていてもよい。
+</com:P>
+         <com:P com:pNumber="0024">
+  裏当て部材７は、平板状に形成されていて、被接合物Ｗを支持するように構成されている。なお、裏当て部材７は、摩擦攪拌接合を実施できるように、被接合物Ｗを適切に支持することができるものであれば、その構成は特に限定されない。裏当て部材７は、例えば、複数の様々な形状を有する裏当て部材が別途準備され、被接合物Ｗの形状に応じて、交換できるように構成されていてもよい。
+</com:P>
+         <com:P com:pNumber="0025">
+  ピン部材１及びショルダ部材２は、工具固定器３により支持されており、直動駆動器４によって、上下方向に進退駆動されるように構成されている。直動駆動器４としては、例えば、電動モータ（サーボモータ）とボールネジ又はリニアガイド等を用いてもよく、エアシリンダ等を用いてもよい。
+</com:P>
+         <com:P com:pNumber="0026">
+  また、ピン部材１は、略円柱形に形成されていて、回転駆動器５により、ピン部材１の軸線Ｘｒ回りに回転可能に構成されている。回転駆動器５としては、例えば、電動モータ（サーボモータ）を用いてもよい。
+</com:P>
+         <com:P com:pNumber="0027">
+  ショルダ部材２は、中空を有する略円筒状に形成されていて、ショルダ部材２の中空内には、ピン部材１が内挿されている。また、本実施の形態１においては、ピン部材１の先端面１ａが、ショルダ部材２の先端面２ａよりも突出するように、ピン部材１及びショルダ部材２が配置されている。具体的には、ピン部材１の先端面１ａが、ショルダ部材２の先端面２ａよりも、予め設定されている所定の第１突出量Ｈ分だけ突出するように配置されている。
+</com:P>
+         <com:P com:pNumber="0028">
+  ここで、第１突出量は、予め実験等により設定することができる。例えば、ピン部材１の先端面１ａのショルダ部材２の先端面２ａに対する突出量（以下、ピン部材１の先端部の突出量という）を変えて、被接合部Ｗａを接合する。ついで、接合した被接合部Ｗａの接合強度を測定して、ピン部材１の先端部の突出量と、被接合部Ｗａの接合強度と、の関係示すグラフを作成する。そして、当該グラフから、所定の接合強度（例えば、ＪＩＳ  ３１４０の規格を満たす強度）以上となる突出量を算出して、当該算出した突出量を第１突出量Ｈとして設定してもよい。
+</com:P>
+         <com:P com:pNumber="0029">
+  また、図２に示すように、ショルダ部材２の先端面２ａには、第１刻印１０１が形成されている。第１刻印１０１としては、例えば、文字、図形、記号、及び立体的形状のうち、少なくとも１つの形状で構成されていてればよい。本実施の形態１においては、第１刻印１０１は、四角形状と、ＯＫという文字形状と、で構成されていて、ショルダ部材２の先端面２ａの２ヶ所に形成されている。
+</com:P>
+         <com:P com:pNumber="0030">
+  なお、本実施の形態１においては、ピン部材１及びショルダ部材２が、直動駆動器４により、進退移動可能に構成されている形態を採用したが、これに限定されない。ピン部材１及びショルダ部材２が、それぞれ独立して、進退移動可能に構成されている形態を採用してもよい。
+</com:P>
+         <com:P com:pNumber="0031">
+  制御装置１１０は、マイクロプロセッサ、ＣＰＵ等の演算処理器と、ＲＯＭ、ＲＡＭ等の記憶器と、カレンダー機能を有する時計器と、を備えている（図示せず）。記憶器には、基本プログラム、各種固定データ等の情報が記憶されている。演算処理器は、記憶器に記憶された基本プログラム等のソフトウェアを読み出して実行することにより、直動駆動器４、回転駆動器５、及びロボット８の各種動作を制御する。
+</com:P>
+         <com:P com:pNumber="0032">
+  なお、制御装置１１０は、集中制御する単独の制御装置１１０によって構成されていてもよいし、互いに協働して分散制御する複数の制御装置１１０によって構成されていてもよい。また、制御装置１１０は、マイクロコンピュータで構成されていてもよく、ＭＰＵ、ＰＬＣ(Ｐｒｏｇｒａｍｍａｂｌｅ  Ｌｏｇｉｃ  Ｃｏｎｔｒｏｌｌｅｒ)、論理回路等によって構成されていてもよい。
+</com:P>
+         <com:P com:pNumber="0033">
+  ［摩擦攪拌接合装置の動作（摩擦攪拌接合装置の運転方法）及び作用効果］<com:Br/>
+  次に、本実施の形態１に係る摩擦攪拌接合装置１の動作（運転方法）及び作用効果について、図１～図４を参照しながら説明する。なお、以下の動作は、制御装置１１０の演算処理器が、記憶器に格納されているプログラムを読み出すことにより実行される。
+</com:P>
+         <com:P com:pNumber="0034">
+  図３は、本実施の形態１に係る摩擦攪拌接合装置の動作の一例を示すフローチャートである。図４は、本実施の形態１に係る摩擦攪拌接合装置の要部を示す模式図であり、摩擦攪拌接合を実行している状態を示す。
+</com:P>
+         <com:P com:pNumber="0035">
+  まず、作業者が裏当て部材７の上面に被接合物Ｗを載置する。ついで、作業者が入力器（図示せず）を操作して、制御装置１１０に被接合物Ｗの接合実行を入力する。
+</com:P>
+         <com:P com:pNumber="0036">
+  すると、図３に示すように、制御装置１１０は、回転駆動器５を駆動させて、ピン部材１を所定の回転数（例えば、５００～３０００ｒｐｍ）で回転させる（ステップＳ１０１）。ついで、制御装置１１０は、ピン部材１を回転させた状態で、直動駆動器４を駆動させて、ピン部材１及びショルダ部材２を進行させて、ピン部材１の先端面１ａを被接合物Ｗの点接合部Ｗａに当接させる（ステップＳ１０２）。
+</com:P>
+         <com:P com:pNumber="0037">
+  次に、制御装置１１０は、ピン部材１の先端部が予め設定されている所定の第１位置まで移動するように、直動駆動器４を駆動させる（ステップＳ１０３）。このとき、制御装置１１０は、ピン部材１が予め設定された所定の押圧力（例えば、４ｋＮ～７０ｋＮ）で被接合物Ｗを押圧するように、直動駆動器４を制御する。
+</com:P>
+         <com:P com:pNumber="0038">
+  なお、所定の回転数及び所定の押圧力は、予め実験等により、適宜設定することができる。また、ピン部材１の先端部の位置情報は、直動駆動器４に設けられている位置検出器（エンコーダ）、又はピン部材１の移動量を検出する位置検出器により検出されて、制御装置１１０に出力される。
+</com:P>
+         <com:P com:pNumber="0039">
+  ここで、第１位置は、摩擦攪拌接合装置１００が正常な状態のときに、被接合物Ｗの被接合部Ｗａに第１刻印１０１が印される位置をいう。また、第１位置は、第２部材Ｗ２の第１部材Ｗ１と当接する面を０％とし、第２部材Ｗ２の裏当て部材７と当接する面を１００％とした場合に、０％より大きく、かつ、１００％未満の間で任意に設定することができる。
+</com:P>
+         <com:P com:pNumber="0040">
+  なお、接合強度を向上させる観点から、第１位置は、第２部材Ｗ２の裏当て部材７と当接する面に近い方がよく、２５％以上であってもよく、５０％以上であってもよく、７５％以上であってもよく、８０％以上であってもよく、９０％以上であってもよく、９５％以上であってもよい。
+</com:P>
+         <com:P com:pNumber="0041">
+  これにより、ピン部材１が、被接合物Ｗの被接合部Ｗａに当接し、ピン部材１の先端部と被接合部Ｗａとの摩擦により、摩擦熱が発生し、被接合物Ｗの被接合部Ｗａが軟化されて、塑性流動が生じる。
+</com:P>
+         <com:P com:pNumber="0042">
+  そして、図４に示すように、ピン部材１の先端部が、被接合部Ｗａの内部に圧入されることにより、第２部材Ｗ２の軟化部分である第２軟化部分４２が、第１部材Ｗ１の軟化部分である第１軟化部分４１に入り込む（突き刺さる）。
+</com:P>
+         <com:P com:pNumber="0043">
+  このとき、本実施の形態１に係る摩擦攪拌接合装置１００では、ショルダ部材２が回転せず、ピン部材１のみが回転するように構成されている。これにより、ピン部材１の先端部の圧入により押しのけられた、第１軟化部分４１が、ショルダ部材２の先端面２ａと当接して、第１刻印１０１が印される。
+</com:P>
+         <com:P com:pNumber="0044">
+  なお、ピン部材１の先端部が摩耗しているような場合、又は直動駆動器４等に不具合が生じているような場合等、摩擦攪拌接合装置１００が正常な状態ではない場合には、ピン部材１の先端部を第１位置まで到達するように、直動駆動器４を制御しても、ピン部材１の先端部が第１位置まで到達することができない。
+</com:P>
+         <com:P com:pNumber="0045">
+  このため、ピン部材１の先端部の圧入により、押し出される第１軟化部分４１及び第２軟化部分４２の体積が、正常な場合に比して小さくなり、押し出された第１軟化部分４１とショルダ部材２の先端面２ａとの当接が不充分となる。これにより、被接合物Ｗの被接合部Ｗａには、第１刻印１０１が充分に印されない。
+</com:P>
+         <com:P com:pNumber="0046">
+  したがって、第１刻印１０１が、被接合部Ｗａに印されているか否かを検知することで、被接合部Ｗａが、所定の接合強度に達しているか否かを正確に判定することができ得る。
+</com:P>
+         <com:P com:pNumber="0047">
+  次に、制御装置１１０は、図示されない位置検知器が検知した、ピン部材１の先端部の位置情報を基に、ピン部材１の先端部が、第１位置まで到達したか否かを判定する（ステップＳ１０４）。制御装置１１０は、ピン部材１の先端部が、第１位置まで到達していないと判定した場合（ステップＳ１０４でＮｏ）には、ピン部材１の先端部が、第１位置まで到達するまで、ステップＳ１０３～ステップＳ１０４の各処理を実行する。一方、制御装置１１０は、ピン部材１の先端部が、第１位置まで到達していると判定した場合（ステップＳ１０４でＹｅｓ）には、ステップＳ１０５の処理を実行する。
+</com:P>
+         <com:P com:pNumber="0048">
+  ステップＳ１０５では、制御装置１１０は、ピン部材１を回転させた状態で、ピン部材１の先端部１ａを被接合部Ｗａから引き抜くように、直動駆動器４を駆動させる。そして、制御装置１１０は、ピン部材１の先端部１ａが、被接合部Ｗａから引き抜かれると、ピン部材１の回転を停止するように、回転駆動器５を停止させて、本プログラムを終了する。なお、複数の被接合部Ｗａを接合する場合には、制御装置１１０は、ピン部材１の回転を停止させずに、次の被接合部Ｗａの接合を開始するように構成されていてもよい。
+</com:P>
+         <com:P com:pNumber="0049">
+  このように構成された、本実施の形態１に係る摩擦攪拌接合装置１００では、被接合物Ｗに対して、摩擦攪拌接合を実行することにより、第２部材Ｗ２の第２軟化部分４２が、第１部材Ｗ１の第１軟化部分４１に入り込み、引張せん断に対する強度が高くなり、相対的に剥離強度も高くなるといったアンカー効果が得られる。
+</com:P>
+         <com:P com:pNumber="0050">
+  また、本実施の形態１に係る摩擦攪拌接合装置１００では、ショルダ部材２が回転しないように構成され、かつ、制御装置１１０が、ピン部材１の先端部が第１位置まで移動するように、直動駆動器４を駆動させるように構成されている。
+</com:P>
+         <com:P com:pNumber="0051">
+  これにより、摩擦攪拌接合装置１００が正常である場合には、ピン部材１の先端部の圧入により押しのけられた、第１軟化部分４１が、ショルダ部材２の先端面２ａと当接して、第１刻印１０１が印される。
+</com:P>
+         <com:P com:pNumber="0052">
+  なお、ピン部材１の先端部が摩耗しているような場合、又は直動駆動器４の位置検知器等に不具合が生じているような場合等、摩擦攪拌接合装置１００が正常な状態ではない場合には、ピン部材１の先端部を第１位置まで到達するように、直動駆動器４を制御しても、ピン部材１の先端部が第１位置まで到達することができない。
+</com:P>
+         <com:P com:pNumber="0053">
+  このため、ピン部材１の先端部の圧入により、押し出される第１軟化部分４１及び第２軟化部分４２の体積が、正常な場合に比して小さくなり、押し出された第１軟化部分４１とショルダ部材２の先端面２ａとの当接が不充分となる。これにより、被接合物Ｗの被接合部Ｗａには、第１刻印１０１が充分に印されない。
+</com:P>
+         <com:P com:pNumber="0054">
+  したがって、第１刻印１０１が、被接合部Ｗａに印されているか否かを検知することで、被接合部Ｗａが、所定の接合強度に達しているか否かを正確に判定することができ得る。
+</com:P>
+         <com:P com:pNumber="0055">
+  ［変形例１］<com:Br/>
+  次に、本実施の形態１に係る摩擦攪拌接合装置の変形例について、説明する。
+</com:P>
+         <com:P com:pNumber="0056">
+  本実施の形態１における変形例１の摩擦攪拌接合装置は、ピン部材の先端部における、ショルダ部材の先端面から突出する長さ寸法を変更するように構成されている、調整器をさらに備える。
+</com:P>
+         <com:P com:pNumber="0057">
+  また、本変形例１の摩擦攪拌接合装置では、調整器が、ショルダ部材に対して、ピン部材を進退させるように構成されていてもよい。
+</com:P>
+         <com:P com:pNumber="0058">
+  以下、本変形例１の摩擦攪拌接合装置の一例について、図５を参照しながら説明する。
+</com:P>
+         <com:P com:pNumber="0059">
+  図５は、本実施の形態１における変形例１の摩擦攪拌接合装置の概略構成を示す模式図である。
+</com:P>
+         <com:P com:pNumber="0060">
+  図５に示すように、本変形例１の摩擦攪拌接合装置１００は、実施の形態１に係る摩擦攪拌接合装置１００と基本的構成は同じであるが、ピン部材１の先端部における、ショルダ部材２の先端面２ａから突出する長さ寸法を変更するように構成されている、調整器９をさらに備える点が異なる。本変形例１においては、調整器９は、ショルダ部材２に対して、ピン部材１を進退させるように構成されている。調整器９としては、例えば、直動アクチュエータで構成されていてもよく、エアシリンダ等を用いてもよく、又は電動モータ（サーボモータ）とボールネジ又はリニアガイド等を用いてもよい。
+</com:P>
+         <com:P com:pNumber="0061">
+  このように構成された、本変形例１の摩擦攪拌接合装置１００であっても、実施の形態１に係る摩擦攪拌接合装置１００と同様の作用効果を奏する。
+</com:P>
+         <com:P com:pNumber="0062">
+  また、本変形例１の摩擦攪拌接合装置１００では、ピン部材１の先端部における、ショルダ部材２の先端面２ａから突出する長さ寸法を変更するように構成されている、調整器９を備えている。これにより、被接合物の材料（材質）又は厚み寸法によって、適宜、ピン部材１の突出量を自由に変更することができ、被接合部Ｗａの接合強度を変更することができる。
+</com:P>
+         <com:P com:pNumber="0063">
+  ［変形例２］<com:Br/>
+  本実施の形態１における変形例２の摩擦攪拌接合装置は、調整器は、ピン部材に対してショルダ部材を進退させるように構成されている。
+</com:P>
+         <com:P com:pNumber="0064">
+  以下、本変形例２の摩擦攪拌接合装置の一例について、図６を参照しながら説明する。
+</com:P>
+         <com:P com:pNumber="0065">
+  図６は、本実施の形態１における変形例２の摩擦攪拌接合装置の概略構成を示す模式図である。
+</com:P>
+         <com:P com:pNumber="0066">
+  図６に示すように、本変形例２の摩擦攪拌接合装置１００は、実施の形態１における変形例１の摩擦攪拌接合装置１００と基本的構成は同じであるが、調整器９が、ピン部材１に対してショルダ部材２を進退させるように構成されている点が異なる。
+</com:P>
+         <com:P com:pNumber="0067">
+  このように構成された、本変形例２の摩擦攪拌接合装置１００であっても、実施の形態１における変形例１の摩擦攪拌接合装置１００と同様の作用効果を奏する。
+</com:P>
+         <com:P com:pNumber="0068">
+  （実施の形態２）<com:Br/>
+  本実施の形態２に係る摩擦攪拌接合装置は、円柱状に形成され、軸線周りの回転と該軸線に沿った方向への進退移動とが可能なように構成されているピン部材と、円筒状に形成され、ピン部材が内部に挿通されており、軸線に沿った方向への進退移動が可能なように構成されているショルダ部材と、ピン部材を軸線周りに回転させる回転駆動器と、ピン部材及びショルダ部材を軸線に沿って進退移動させる直動駆動器と、制御装置と、を備え、ショルダ部材の先端面には、第１刻印が形成され、制御装置は、ピン部材を回転させた状態で、ピン部材の先端部が被接合物の被接合部を押圧するように、直動駆動器及び回転駆動器を制御する（Ａ）と、被接合物の被接合部に第１刻印が印されるように、予め設定されている所定の第１時間、直動駆動器及び回転駆動器を動作させる（Ｂ１）と、（Ｂ１）の後、ピン部材を回転させた状態で、ピン部材及びショルダ部材を被接合部から引き抜くように、直動駆動器及び回転駆動器を制御する（Ｃ）と、を実行するように構成されている。
+</com:P>
+         <com:P com:pNumber="0069">
+  以下、本実施の形態２に係る摩擦攪拌接合装置の一例について、図７を参照しながら説明する。なお、本実施の形態２に係る摩擦攪拌接合装置は、実施の形態１に係る摩擦攪拌接合装置と構成は同じであるため、その詳細な説明は省略する。
+</com:P>
+         <com:P com:pNumber="0070">
+  ［摩擦攪拌接合装置の動作及び作用効果］<com:Br/>
+  図７は、本実施の形態２に係る摩擦攪拌接合装置の動作の一例を示すフローチャートである。
+</com:P>
+         <com:P com:pNumber="0071">
+  まず、実施の形態１に係る摩擦攪拌接合装置１００と同様に、作業者が裏当て部材７の上面に被接合物Ｗを載置する。ついで、作業者が入力器（図示せず）を操作して、制御装置１１０に被接合物Ｗの接合実行を入力する。
+</com:P>
+         <com:P com:pNumber="0072">
+  すると、図７に示すように、制御装置１１０は、回転駆動器５を駆動させて、ピン部材１を所定の回転数（例えば、５００～３０００ｒｐｍ）で回転させる（ステップＳ２０１）。ついで、制御装置１１０は、ピン部材１を回転させた状態で、直動駆動器４を駆動させて、ピン部材１及びショルダ部材２を進行させて、ピン部材１の先端面１ａを被接合物Ｗの点接合部Ｗａに当接させる（ステップＳ２０２）。
+</com:P>
+         <com:P com:pNumber="0073">
+  次に、制御装置１１０は、ピン部材１の先端部が被接合物Ｗの被接合部Ｗａ内に圧入するように、直動駆動器４を駆動させる（ステップＳ２０３）。このとき、制御装置１１０は、ピン部材１が予め設定された所定の押圧力（例えば、４ｋＮ～７０ｋＮ）で被接合物Ｗを押圧するように、直動駆動器４を制御する。
+</com:P>
+         <com:P com:pNumber="0074">
+  これにより、ピン部材１が回転しながら、被接合物Ｗの被接合部Ｗａに当接し、ピン部材１の先端部と被接合部Ｗａとの摩擦により、摩擦熱が発生し、被接合物Ｗの被接合部Ｗａが軟化されて、塑性流動が生じる。
+</com:P>
+         <com:P com:pNumber="0075">
+  そして、ピン部材１の先端部が、被接合部Ｗａの内部に圧入されることにより、第２部材Ｗ２の軟化部分である第２軟化部分４２が、第１部材Ｗ１の軟化部分である第１軟化部分４１に入り込む。
+</com:P>
+         <com:P com:pNumber="0076">
+  次に、制御装置１１０は、ステップＳ２０３で直動駆動器４を駆動させてから経過した時間を時計部から取得する（ステップＳ２０４）。ついで、制御装置１１０は、ステップＳ２０４で取得した時間（直動駆動器４を駆動させてから経過した時間）が、予め設定されている第１時間を経過したか否かを判定する（ステップＳ２０５）。
+</com:P>
+         <com:P com:pNumber="0077">
+  ここで、第１時間は、摩擦攪拌接合装置１００が正常な状態のときに、被接合物Ｗの被接合部Ｗａに第１刻印１０１が印されるまで、ピン部材１及びショルダ部材２の先端部が移動するまでにかかる時間である。換言すると、第１時間は、ピン部材１の先端部が、第１位置にまで到達するまでにかかる時間である。第１時間は、予め実験等により、設定することができる。
+</com:P>
+         <com:P com:pNumber="0078">
+  制御装置１１０は、ステップＳ２０４で取得した時間が、第１時間を経過していないと判定した場合（ステップＳ２０５でＮｏ）には、ステップＳ２０４で取得した時間が、第１時間を経過するまで、ステップＳ２０４及びステップＳ２０５の処理を実行する。一方、制御装置１１０は、ステップＳ２０４で取得した時間が、第１時間を経過していると判定した場合（ステップＳ２０５でＹｅｓ）には、ステップＳ２０６の処理を実行する。
+</com:P>
+         <com:P com:pNumber="0079">
+  ステップＳ２０６では、制御装置１１０は、ピン部材１を回転させた状態で、ピン部材１の先端部１ａを被接合部Ｗａから引き抜くように、直動駆動器４を駆動させる。そして、制御装置１１０は、ピン部材１の先端部１ａが、被接合部Ｗａから引き抜かれると、ピン部材１の回転を停止するように、回転駆動器５を停止させて、本プログラムを終了する。なお、複数の被接合部Ｗａを接合する場合には、制御装置１１０は、ピン部材１の回転を停止させずに、次の被接合部Ｗａの接合を開始するように構成されていてもよい。
+</com:P>
+         <com:P com:pNumber="0080">
+  このように構成された、本実施の形態２に係る摩擦攪拌接合装置１００であっても、実施の形態１に係る摩擦攪拌接合装置１００と同様の作用効果を奏する。
+</com:P>
+         <com:P com:pNumber="0081">
+  （実施の形態３）<com:Br/>
+  本実施の形態３に係る摩擦攪拌接合装置は、実施の形態１（変形例を含む）又は実施の形態２に係る摩擦攪拌接合装置において、ショルダ部材の先端面には、凹部が形成されていて、凹部の底面には、第２刻印が形成されている。
+</com:P>
+         <com:P com:pNumber="0082">
+  以下、本実施の形態３に係る摩擦攪拌接合装置の一例について、図８及び図９を参照しながら説明する。
+</com:P>
+         <com:P com:pNumber="0083">
+  ［摩擦攪拌接合装置の構成］<com:Br/>
+  図８は、本実施の形態３に係る摩擦攪拌接合装置の概略構成を示す模式図である。図９は、図８に示す摩擦攪拌接合装置におけるピン部材及びショルダ部材の先端面（下端面）の概略構成を示す模式図である。なお、図９においては、凹部の底面を理解しやすくするために、ハッチングを記している。
+</com:P>
+         <com:P com:pNumber="0084">
+  図８及び図９に示すように、本実施の形態３に係る摩擦攪拌接合装置１００は、実施の形態１に係る摩擦攪拌接合装置１００と基本的構成は同じであるが、ショルダ部材２の先端面２ａに凹部２０が形成されていて、当該凹部２０の底面には、第２刻印１０２が形成されている点が異なる。なお、本実施の形態３においては、凹部２０は、２ヶ所に形成されている。
+</com:P>
+         <com:P com:pNumber="0085">
+  凹部２０の深さ寸法は、予め実験等により、設定することができる。凹部２０の深さ寸法は、例えば、ピン部材１の先端部の摩耗を早期に検知するから、０．５ｍｍ以上としてもよく、ピン部材１を交換する等のメンテナンスを実行する時期を検知する観点から、３．０ｍｍとしてもよい。
+</com:P>
+         <com:P com:pNumber="0086">
+  第２刻印１０２としては、例えば、文字、図形、記号、及び立体的形状のうち、少なくとも１つの形状で構成されていてればよく、第１刻印１０１と異なる形状で構成されていてもよい。本実施の形態３においては、第２刻印１０２は、四角形状と、ＯＫ２という文字形状と、で構成されている。
+</com:P>
+         <com:P com:pNumber="0087">
+  このように構成された、本実施の形態３に係る摩擦攪拌接合装置１００であっても、実施の形態１に係る摩擦攪拌接合装置１００と同様の作用効果を奏する。
+</com:P>
+         <com:P com:pNumber="0088">
+  また、本実施の形態３に係る摩擦攪拌接合装置１００では、ショルダ部材２の先端面２ａに凹部２０が形成されていて、当該凹部２０の底面には、第２刻印１０２が形成されている。
+</com:P>
+         <com:P com:pNumber="0089">
+  これにより、被接合物Ｗの被接合部Ｗａに第１刻印１０１と第２刻印１０２が印されている場合には、被接合部Ｗａの接合強度が充分であることを正確に判定することができると共に、ピン部材１の先端部が摩耗していない状態である等、メンテナンスを実行しなくてもよいことを判断することができる。
+</com:P>
+         <com:P com:pNumber="0090">
+  また、被接合物Ｗの被接合部Ｗａに第１刻印１０１が印されていて、第２刻印１０２が印されていない場合には、被接合部Ｗａの接合強度が充分であることを正確に判定することができると共に、メンテナンスを実行する必要があることを判断することができる。
+</com:P>
+         <com:P com:pNumber="0091">
+  上記説明から、当業者にとっては、本発明の多くの改良又は他の実施形態が明らかである。したがって、上記説明は、例示としてのみ解釈されるべきであり、本発明を実行する最良の形態を当業者に教示する目的で提供されたものである。本発明の要旨を逸脱することなく、その構造及び／又は機能の詳細を実質的に変更できる。また、上記実施形態に開示されている複数の構成要素の適宜な組合せにより種々の発明を形成できる。
+</com:P>
+      </pat:EmbodimentDescription>
+      <pat:IndustrialApplicability>
+         <com:P com:pNumber="0092">
+  本発明の摩擦攪拌接合装置及びその運転方法は、簡易な構成で、従来の摩擦攪拌接合装置に比して、所定の接合強度に達しているか否かを正確に判定することができ得るため、有用である。
+</com:P>
+      </pat:IndustrialApplicability>
+      <pat:ReferenceSignBag>
+         <com:P com:pNumber="0093">
+  １  ピン部材<com:Br/>
+  １ａ  先端面<com:Br/>
+  ２  ショルダ部材<com:Br/>
+  ２ａ  先端面<com:Br/>
+  ３  工具固定器<com:Br/>
+  ４  直動駆動器<com:Br/>
+  ５  回転駆動器<com:Br/>
+  ６  支持部材<com:Br/>
+  ７  裏当て部材<com:Br/>
+  ８  ロボット<com:Br/>
+  ９  調整器<com:Br/>
+  ２０  凹部<com:Br/>
+  ４１  第１軟化部分<com:Br/>
+  ４２  第２軟化部分<com:Br/>
+  １００  摩擦攪拌接合装置<com:Br/>
+  １０１  第１刻印<com:Br/>
+  １０２  第２刻印<com:Br/>
+  １１０  制御装置<com:Br/>
+  Ｈ  第１突出量<com:Br/>
+  Ｗ１  第１部材<com:Br/>
+  Ｗ２  第２部材<com:Br/>
+  Ｘｒ  軸線<com:Br/>
+         </com:P>
+      </pat:ReferenceSignBag>
+   </jppat:Description>
+   <pat:Claims>
+      <pat:Claim>
+         <pat:ClaimNumber>1</pat:ClaimNumber>
+         <pat:ClaimText>
+  円柱状に形成され、軸線周りの回転と該軸線に沿った方向への進退移動とが可能なように構成されているピン部材と、<com:Br/>
+  円筒状に形成され、前記ピン部材が内部に挿通されており、前記軸線に沿った方向への進退移動が可能なように構成されているショルダ部材と、<com:Br/>
+  前記ピン部材を前記軸線周りに回転させる回転駆動器と、<com:Br/>
+  前記ピン部材及び前記ショルダ部材を前記軸線に沿って進退移動させる直動駆動器と、<com:Br/>
+  制御装置と、を備え、<com:Br/>
+  前記ショルダ部材の先端面には、第１刻印が形成され、<com:Br/>
+  前記制御装置は、前記ピン部材を回転させた状態で、前記ピン部材の先端部が被接合物の被接合部を押圧するように、前記直動駆動器及び前記回転駆動器を制御する（Ａ）と、<com:Br/>
+  前記ピン部材の先端部が第１位置にまで到達するように、前記直動駆動器及び前記回転駆動器を制御する（Ｂ）と、<com:Br/>
+  前記（Ｂ）の後、前記ピン部材を回転させた状態で、前記ピン部材及び前記ショルダ部材を前記被接合部から引き抜くように、前記直動駆動器及び前記回転駆動器を制御する（Ｃ）と、を実行するように構成されていて、<com:Br/>
+  前記第１位置は、前記ピン部材の先端部が当該位置まで到達することにより、前記被接合物の被接合部に前記第１刻印が印される位置である、摩擦攪拌接合装置。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>2</pat:ClaimNumber>
+         <pat:ClaimText>
+  円柱状に形成され、軸線周りの回転と該軸線に沿った方向への進退移動とが可能なように構成されているピン部材と、<com:Br/>
+  円筒状に形成され、前記ピン部材が内部に挿通されており、前記軸線に沿った方向への進退移動が可能なように構成されているショルダ部材と、<com:Br/>
+  前記ピン部材を前記軸線周りに回転させる回転駆動器と、<com:Br/>
+  前記ピン部材及び前記ショルダ部材を前記軸線に沿って進退移動させる直動駆動器と、<com:Br/>
+  制御装置と、を備え、<com:Br/>
+  前記ショルダ部材の先端面には、第１刻印が形成され、<com:Br/>
+  前記制御装置は、前記ピン部材を回転させた状態で、前記ピン部材の先端部が被接合物の被接合部を押圧するように、前記直動駆動器及び前記回転駆動器を制御する（Ａ）と、<com:Br/>
+  前記被接合物の被接合部に前記第１刻印が印されるように、予め設定されている所定の第１時間、前記直動駆動器及び前記回転駆動器を動作させる（Ｂ１）と、<com:Br/>
+  前記（Ｂ１）の後、前記ピン部材を回転させた状態で、前記ピン部材及び前記ショルダ部材を前記被接合部から引き抜くように、前記直動駆動器及び前記回転駆動器を制御する（Ｃ）と、を実行するように構成されている、摩擦攪拌接合装置。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>3</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記ピン部材の先端部は、前記ショルダ部材の先端面から突出するように形成されている、請求項１又は２に記載の摩擦攪拌接合装置。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>4</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記ピン部材の先端部における、前記ショルダ部材の先端面から突出する長さ寸法を変更するように構成されている、調整器をさらに備える、請求項３に記載の摩擦攪拌接合装置。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>5</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記調整器は、前記ショルダ部材に対して前記ピン部材を進退させるように構成されている、請求項４に記載の摩擦攪拌接合装置。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>6</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記調整器は、前記ピン部材に対して前記ショルダ部材を進退させるように構成されている、請求項４又は５に記載の摩擦攪拌接合装置。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>7</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記ショルダ部材の先端面には、凹部が形成されていて、<com:Br/>
+  前記凹部の底面には、第２刻印が形成されている、請求項１～６のいずれか１項に記載の摩擦攪拌接合装置。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>8</pat:ClaimNumber>
+         <pat:ClaimText>
+  被接合物を摩擦熱で軟化させることにより接合する摩擦攪拌接合装置の運転方法であって、<com:Br/>
+  前記摩擦攪拌接合装置は、<com:Br/>
+  円柱状に形成され、軸線周りの回転と該軸線に沿った方向への進退移動とが可能なように構成されているピン部材と、<com:Br/>
+  円筒状に形成され、前記ピン部材が内部に挿通されており、前記軸線に沿った方向への進退移動が可能なように構成されているショルダ部材と、<com:Br/>
+  前記ピン部材を前記軸線周りに回転させる回転駆動器と、<com:Br/>
+  前記ピン部材及び前記ショルダ部材を前記軸線に沿って進退移動させる直動駆動器と、を備え、<com:Br/>
+  前記ショルダ部材の先端面には、第１刻印が形成され、<com:Br/>
+  前記ピン部材を回転させた状態で、前記ピン部材の先端部が前記被接合物の被接合部を押圧するように、前記直動駆動器及び前記回転駆動器が動作する（Ａ）と、<com:Br/>
+  前記ピン部材の先端部が第１位置にまで到達するように、前記直動駆動器及び前記回転駆動器が動作する（Ｂ）と、<com:Br/>
+  前記（Ｂ）の後、前記ピン部材を回転させた状態で、前記ピン部材及び前記ショルダ部材を前記被接合部から引き抜くように、前記直動駆動器及び前記回転駆動器が動作する（Ｃ）と、を備え、<com:Br/>
+  前記第１位置は、前記ピン部材の先端部が当該位置まで到達することにより、前記被接合物の被接合部に前記第１刻印が印される位置である、摩擦攪拌接合装置の運転方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>9</pat:ClaimNumber>
+         <pat:ClaimText>
+  被接合物を摩擦熱で軟化させることにより接合する摩擦攪拌接合装置の運転方法であって、<com:Br/>
+  前記摩擦攪拌接合装置は、<com:Br/>
+  円柱状に形成され、軸線周りの回転と該軸線に沿った方向への進退移動とが可能なように構成されているピン部材と、<com:Br/>
+  円筒状に形成され、前記ピン部材が内部に挿通されており、前記軸線に沿った方向への進退移動が可能なように構成されているショルダ部材と、<com:Br/>
+  前記ピン部材を前記軸線周りに回転させる回転駆動器と、<com:Br/>
+  前記ピン部材及び前記ショルダ部材を前記軸線に沿って進退移動させる直動駆動器と、を備え、<com:Br/>
+  前記ショルダ部材の先端面には、第１刻印が形成され、<com:Br/>
+  前記ピン部材を回転させた状態で、前記ピン部材の先端部が前記被接合物の被接合部を押圧するように、前記直動駆動器及び前記回転駆動器が動作する（Ａ）と、<com:Br/>
+  前記被接合物の被接合部に前記第１刻印が印されるように、予め設定されている所定の第１時間、前記直動駆動器及び前記回転駆動器が動作する（Ｂ１）と、<com:Br/>
+  前記（Ｂ１）の後、前記ピン部材を回転させた状態で、前記ピン部材及び前記ショルダ部材を前記被接合部から引き抜くように、前記直動駆動器及び前記回転駆動器が動作する（Ｃ）と、を備える、摩擦攪拌接合装置の運転方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>10</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記ピン部材の先端部は、前記ショルダ部材の先端面から突出するように形成されている、請求項８又は９に記載の摩擦攪拌接合装置の運転方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>11</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記ピン部材の先端部における、前記ショルダ部材の先端面から突出する長さ寸法を変更するように構成されている、調整器をさらに備える、請求項１０に記載の摩擦攪拌接合装置の運転方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>12</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記調整器は、前記ショルダ部材に対して前記ピン部材を進退させるように構成されている、請求項１１に記載の摩擦攪拌接合装置の運転方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>13</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記調整器は、前記ピン部材に対して前記ショルダ部材を進退させるように構成されている、請求項１１又は１２に記載の摩擦攪拌接合装置の運転方法。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>14</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記ショルダ部材の先端面には、凹部が形成されていて、<com:Br/>
+  前記凹部の底面には、第２刻印が形成されている、請求項８～１３のいずれか１項に記載の摩擦攪拌接合装置の運転方法。<com:Br/>
+            <com:Br/>
+            <com:Br/>
+            <com:Br/>
+         </pat:ClaimText>
+      </pat:Claim>
+   </pat:Claims>
+   <pat:Abstract>
+      <com:P com:pNumber="">
+【課題】簡易な構成で、従来の摩擦攪拌接合装置に比して、正確に接合強度の良否を判定することができ得る、摩擦攪拌接合装置を提供することを目的とする。<com:Br/>
+【解決手段】ピン部材１と、先端面２ａに第１刻印１０１が形成されている、ショルダ部材２と、直動駆動器４と、回転駆動器５と、ピン部材１を回転させた状態で、ピン部材１の先端部が被接合物Ｗの被接合部Ｗａを押圧するように、直動駆動器４及び回転駆動器５を制御する（Ａ）と、被接合物Ｗの被接合部Ｗａに第１刻印１０１が印される位置である第１位置まで、ピン部材１の先端部が到達するように、直動駆動器４及び回転駆動器５を制御する（Ｂ）と、（Ｂ）の後、ピン部材１を回転させた状態で、ピン部材１及びショルダ部材２を被接合部Ｗａから引き抜くように、直動駆動器４及び回転駆動器５を制御する（Ｃ）と、を実行するように構成されている制御装置１１０と、を備える、摩擦攪拌接合装置。<com:Br/>
+【選択図】図１
+</com:P>
+   </pat:Abstract>
+   <pat:Drawings>
+      <pat:Figure>
+         <pat:FigureNumber>1</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>2022036324000002.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">208</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">168</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>2</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>2022036324000003.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">159</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">169</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>3</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>2022036324000004.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">120</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">169</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>4</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>2022036324000005.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">227</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">169</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>5</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>2022036324000006.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">201</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">169</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>6</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>2022036324000007.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">204</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">170</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>7</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>2022036324000008.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">149</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">169</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>8</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>2022036324000009.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">200</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">169</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>9</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>2022036324000010.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">120</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">167</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+   </pat:Drawings>
+</jppat:UnexaminedPatentPublication>

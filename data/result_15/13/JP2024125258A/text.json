@@ -1,0 +1,57 @@
+{
+    "path": "data\\result_15\\13\\JP2024125258A\\text.txt",
+    "publication": {
+        "doc_number": "2024125258",
+        "country": "JP",
+        "kind": null,
+        "date": "2024-09-18"
+    },
+    "application": {
+        "doc_number": "2023048923",
+        "date": "2023-03-05"
+    },
+    "invention_title": "車のエンジンの設置のあり方",
+    "parties": {
+        "applicants": [
+            {
+                "name": "村上  一成",
+                "registered_number": "520234165",
+                "address": "岩手県盛岡市肴町３－３０－５０１"
+            }
+        ],
+        "agents": [],
+        "inventors": [
+            {
+                "name": "村上  一成",
+                "registered_number": null,
+                "address": "岩手県盛岡市肴町３の３０の５０１"
+            }
+        ]
+    },
+    "classifications": {
+        "ipc_main": "F02B  61/00        20060101AFI20240910BHJP",
+        "ipc_further": [
+            "F02B  79/00        20060101ALI20240910BHJP"
+        ],
+        "jp_main": "F02B61/00 F",
+        "jp_further": [
+            "F02B79/00"
+        ]
+    },
+    "theme_codes": [],
+    "f_terms": [],
+    "claims": [
+        "【請求項1】横倒しエンジンを垂直に設置すること。 四輪車・二輪車・トラクター・戦車・トラック・バス・船舶等。"
+    ],
+    "description": {
+        "technical_field": [],
+        "background_art": [],
+        "disclosure": {
+            "tech_problem": [],
+            "tech_solution": [],
+            "advantageous_effects": []
+        },
+        "best_mode": []
+    },
+    "abstract": "【課題】馬力がアップするエンジンの設置方法を提供する。【解決手段】エンジンを横倒しに設置するのではなく、大地に対し垂直に設置する。引力に対しエンジンを垂直に設置するとハズミ車も手伝って、シリンダーの内壁とピストンとの摩擦が小さくなるためピストンの往復運動がスムーズになり、熱効率が高くなり、馬力アップする。四輪車、二輪車、トラクター、戦車、トラック、バス、船舶等のエンジンの設置に適用できる。【選択図】なし"
+}

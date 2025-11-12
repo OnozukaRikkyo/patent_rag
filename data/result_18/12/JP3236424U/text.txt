@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="../../../../../XSL/JPRegisteredUtilityModelPublication.xsl"?> -->
+<jputl:RegisteredUtilityModelPublication xmlns:jpcom="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPCommon"
+                                         xmlns:jputl="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPUtility"
+                                         xmlns:com="http://www.wipo.int/standards/XMLSchema/ST96/Common"
+                                         xmlns:pat="http://www.wipo.int/standards/XMLSchema/ST96/Patent"
+                                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                         xsi:schemaLocation="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPUtility ../../../../../XSD/JPRegisteredUtilityModelPublication_V1_0.xsd"
+                                         com:languageCode="ja"
+                                         com:st96Version="V3_1"
+                                         com:ipoVersion="JP_V1_0">
+   <com:IPOfficeCode>JP</com:IPOfficeCode>
+   <jputl:RegisteredUtilityModelPublicationBibliographicData com:languageCode="ja">
+      <com:IPOfficeCode>JP</com:IPOfficeCode>
+      <jputl:UtilityModelPublicationIdentification>
+         <com:IPOfficeCode>JP</com:IPOfficeCode>
+         <pat:PublicationNumber>3236424</pat:PublicationNumber>
+         <com:PublicationDate>2022-02-18</com:PublicationDate>
+      </jputl:UtilityModelPublicationIdentification>
+      <pat:PlainLanguageDesignationText>登録実用新案公報(U)</pat:PlainLanguageDesignationText>
+      <com:RegistrationDate>2022-02-09</com:RegistrationDate>
+      <jputl:ApplicationIdentification>
+         <com:ApplicationNumber>
+            <com:ApplicationNumberText>2021002392</com:ApplicationNumberText>
+         </com:ApplicationNumber>
+         <pat:FilingDate>2021-05-11</pat:FilingDate>
+      </jputl:ApplicationIdentification>
+      <pat:InventionTitle>簡易着脱式エプロン</pat:InventionTitle>
+      <jputl:RegisteredUtilityModelPublicationPartyBag>
+         <jputl:ApplicantsRegisteredPractitionersBag>
+            <jputl:ApplicantRegisteredPractitionerBag com:sequenceNumber="1">
+               <jputl:Applicant com:sequenceNumber="1">
+                  <com:PartyIdentifier>521269034</com:PartyIdentifier>
+                  <jpcom:Contact>
+                     <com:Name>
+                        <com:EntityName>中川  万友美</com:EntityName>
+                     </com:Name>
+                     <com:PostalAddressBag>
+                        <com:PostalAddress>
+                           <com:PostalAddressText>神奈川県川崎市多摩区栗谷１丁目９番地２３号１０１号室</com:PostalAddressText>
+                        </com:PostalAddress>
+                     </com:PostalAddressBag>
+                  </jpcom:Contact>
+               </jputl:Applicant>
+            </jputl:ApplicantRegisteredPractitionerBag>
+         </jputl:ApplicantsRegisteredPractitionersBag>
+         <jputl:InventorBag>
+            <jputl:Inventor com:sequenceNumber="1">
+               <jpcom:Contact>
+                  <com:Name>
+                     <com:EntityName>中川  万友美</com:EntityName>
+                  </com:Name>
+                  <com:PostalAddressBag>
+                     <com:PostalAddress>
+                        <com:PostalAddressText>神奈川県川崎市多摩区栗谷１丁目９番地２３号１０１号室</com:PostalAddressText>
+                     </com:PostalAddress>
+                  </com:PostalAddressBag>
+               </jpcom:Contact>
+            </jputl:Inventor>
+         </jputl:InventorBag>
+      </jputl:RegisteredUtilityModelPublicationPartyBag>
+      <jputl:IPCClassification>
+         <com:Edition/>
+         <pat:MainClassification>A41D  13/04        20060101AFI20220210BHJP        </pat:MainClassification>
+      </jputl:IPCClassification>
+      <jputl:NationalClassification>
+         <com:IPOfficeCode>JP</com:IPOfficeCode>
+         <jputl:MainNationalClassification>
+            <pat:PatentClassificationText>A41D13/04</pat:PatentClassificationText>
+         </jputl:MainNationalClassification>
+      </jputl:NationalClassification>
+      <jputl:ClaimTotalQuantitySet>
+         <pat:ClaimTotalQuantity>1</pat:ClaimTotalQuantity>
+         <jputl:AdoptedLawCategory>Claim</jputl:AdoptedLawCategory>
+      </jputl:ClaimTotalQuantitySet>
+      <jputl:PublishFigure>
+         <pat:FigureNumber>1</pat:FigureNumber>
+      </jputl:PublishFigure>
+      <jputl:RequestRegistrabilityReportIndicator>false</jputl:RequestRegistrabilityReportIndicator>
+      <jputl:FilingForm>書面</jputl:FilingForm>
+   </jputl:RegisteredUtilityModelPublicationBibliographicData>
+   <jputl:ChosenDrawingImage>
+      <com:Image com:imageContentCategory="Drawing">
+         <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+         <com:FileName>0003236424000001.tif</com:FileName>
+         <com:HeightMeasure com:measureUnitCode="Mm">91</com:HeightMeasure>
+         <com:WidthMeasure com:measureUnitCode="Mm">76</com:WidthMeasure>
+      </com:Image>
+   </jputl:ChosenDrawingImage>
+   <jputl:AbstractCorrectionIndicator>true</jputl:AbstractCorrectionIndicator>
+   <jputl:Description>
+      <pat:TechnicalField>
+         <com:P com:pNumber=""/>
+      </pat:TechnicalField>
+      <pat:InventionSummary>
+         <pat:TechnicalProblem>
+            <com:P com:pNumber="0001">通常エプロンは、後ろへ手を回し紐を結ぶかボタンで止める動作が必要になるが、この発案を取り入れることで簡略化できる</com:P>
+         </pat:TechnicalProblem>
+         <pat:TechnicalSolution>
+            <com:P com:pNumber="">紐もしくはボタンを磁石に変える</com:P>
+         </pat:TechnicalSolution>
+      </pat:InventionSummary>
+      <pat:DrawingDescription>
+         <com:P com:pNumber="">
+            <com:FigureReference com:referencedFigureNumber="1">通常エプロンの背面にある、紐またはボタン部分に磁石を取り付けた</com:FigureReference>
+         </com:P>
+      </pat:DrawingDescription>
+   </jputl:Description>
+   <pat:Claims>
+      <pat:Claim>
+         <pat:ClaimNumber>1</pat:ClaimNumber>
+         <pat:ClaimText/>
+      </pat:Claim>
+   </pat:Claims>
+   <pat:Abstract>
+      <com:P com:pNumber="">【課題】着脱時の結ぶ、ボタンを穴に通すなどの動作を簡単にする簡易着脱式エプロンを提供する。<com:Br/>【解決手段】簡易着脱式エプロンは、従来紐やボタンで止めていたエプロンの着脱部分を、磁石に変える。<com:Br/>【選択図】図１</com:P>
+   </pat:Abstract>
+   <pat:Drawings>
+      <pat:Figure>
+         <pat:FigureNumber>1</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>TIFF</com:ImageFormatCategory>
+            <com:FileName>0003236424000002.tif</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">91</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">76</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+   </pat:Drawings>
+   <jputl:WrittenAmendmentBag>
+      <jputl:WrittenAmendment>
+         <jputl:WrittenAmendmentCategory>Amendment</jputl:WrittenAmendmentCategory>
+         <pat:FilingDate>2021-08-25</pat:FilingDate>
+         <jputl:AmendmentsBag>
+            <jputl:AmendmentBag jputl:amendmentNumber="1">
+               <com:DocumentName>A26333</com:DocumentName>
+               <jputl:AmendmentItem>全文</jputl:AmendmentItem>
+               <jputl:AmendmentWay>3</jputl:AmendmentWay>
+               <jputl:AmendmentContentsBag>
+                  <jputl:AmendmentDocumentNameCategory>Claims</jputl:AmendmentDocumentNameCategory>
+                  <pat:Claims>
+                     <pat:Claim>
+                        <pat:ClaimNumber>1</pat:ClaimNumber>
+                        <pat:ClaimText>エプロンの着脱部分を磁石にし、着脱を簡易にした。</pat:ClaimText>
+                     </pat:Claim>
+                  </pat:Claims>
+               </jputl:AmendmentContentsBag>
+            </jputl:AmendmentBag>
+         </jputl:AmendmentsBag>
+      </jputl:WrittenAmendment>
+      <jputl:WrittenAmendment>
+         <jputl:WrittenAmendmentCategory>Amendment</jputl:WrittenAmendmentCategory>
+         <pat:FilingDate>2021-12-11</pat:FilingDate>
+         <jputl:AmendmentsBag>
+            <jputl:AmendmentBag jputl:amendmentNumber="1">
+               <com:DocumentName>A26333</com:DocumentName>
+               <jputl:AmendmentItem>全文</jputl:AmendmentItem>
+               <jputl:AmendmentWay>3</jputl:AmendmentWay>
+               <jputl:AmendmentContentsBag>
+                  <jputl:AmendmentDocumentNameCategory>Claims</jputl:AmendmentDocumentNameCategory>
+                  <pat:Claims>
+                     <pat:Claim>
+                        <pat:ClaimNumber>1</pat:ClaimNumber>
+                        <pat:ClaimText>エプロンの着脱部分を磁石にし、着脱を簡易にしたことを特徴とする簡易着脱式エプロン。</pat:ClaimText>
+                     </pat:Claim>
+                  </pat:Claims>
+               </jputl:AmendmentContentsBag>
+            </jputl:AmendmentBag>
+         </jputl:AmendmentsBag>
+      </jputl:WrittenAmendment>
+   </jputl:WrittenAmendmentBag>
+</jputl:RegisteredUtilityModelPublication>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding='utf-8'?>
+<!-- <?xml-stylesheet type="text/xsl" href="../../../../../XSL/gat-u9.xsl"?> -->
+<!DOCTYPE jp-official-gazette PUBLIC "-//JPO//DTD REGISTERED UTILITY MODEL 1.0//EN" "../../../../../DTD/gat-u9.dtd">
+<jp-official-gazette kind-of-jp="U9" kind-of-st16="U" lang="ja" dtd-version="1.0" country="JP" xmlns:jp="http://www.jpo.go.jp"><bibliographic-data lang="ja" country="JP">
+    <publication-reference>
+      <document-id>
+        <country>JP</country>
+        <doc-number>3213403</doc-number>
+        <kind>登録実用新案公報(U)</kind>
+        <date>20171018</date>
+      </document-id>
+    </publication-reference>
+    <application-reference>
+      <document-id>
+        <doc-number>2017004045</doc-number>
+        <date>20170815</date>
+      </document-id>
+    </application-reference>
+    <invention-title>寝具類</invention-title>
+    <parties>
+      <jp:applicants-agents-article>
+        <jp:applicants-agents sequence="1">
+          <applicant sequence="1">
+            <addressbook lang="ja">
+              <name>石田  敏夫</name>
+              <registered-number>504184732</registered-number>
+              <address>
+                <text>兵庫県豊岡市京町１０番９号</text>
+              </address>
+            </addressbook>
+          </applicant>
+        </jp:applicants-agents>
+      </jp:applicants-agents-article>
+      <inventors>
+        <inventor sequence="1">
+          <addressbook>
+            <name>石田  敏夫</name>
+            <address>
+              <text>兵庫県豊岡市京町１０番９号</text>
+            </address>
+          </addressbook>
+        </inventor>
+      </inventors>
+    </parties>
+    <dates-of-public-availability>
+      <printed-with-grant>
+        <document-id>
+          <date>20171109</date>
+        </document-id>
+      </printed-with-grant>
+    </dates-of-public-availability>
+    <classification-ipc><edition/><main-clsf>A47C  27/10        20060101AFI20171026BHJP        </main-clsf></classification-ipc>
+    <classification-national><country>JP</country><main-clsf>A47C27/10 Z</main-clsf></classification-national>
+    <number-of-claims jp:adopted-law="claim">2</number-of-claims>
+    <figure-to-publish>
+      <fig-number>2</fig-number>
+    </figure-to-publish>
+    <jp:request-for-registrability-report true-or-false="false"/>
+    <jp:filing-form>書面</jp:filing-form>
+    <jp:total-pages>6</jp:total-pages>
+  </bibliographic-data><jp:image-of-bibliographic-data><img id="000001" he="140" wi="160" file="0003213403.tif" img-format="tif" img-content="drawing"/></jp:image-of-bibliographic-data><jp:image-of-chosen-drawing>
+    <img id="000002" he="35" wi="69" file="0003213403.tif" img-format="tif" img-content="drawing"/>
+  </jp:image-of-chosen-drawing><jp:abstract-correction/><description>
+        
+        <technical-field>
+            <p num="0001">  本考案は寝具類に関し、特に布団、例えば敷布団の座面の硬さを自由にコントロールし、しかも重さを大幅に軽くした寝具類に関する。</p>
+        </technical-field>
+        <background-art>
+            <p num="0002">  従来より、敷布団の芯材には綿が主として用いられ、掛け布団の芯材には綿や羽毛等が使用されることが多い（特許文献１、特許文献２）。</p>
+        </background-art>
+        <citation-list>
+            <patent-literature>
+                <p num="0003"><patcit num="1"><text>特開２０１２−６７４２９号公報</text></patcit><patcit num="2"><text>特開２０１４−２１７５７６号公報</text></patcit></p>
+            </patent-literature>
+        </citation-list>
+        <disclosure>
+            <tech-problem>
+                <p num="0004">  しかし、従来の寝具類では夏期には涼しく、冬期には温かく保てるように、季節に応じて交換しなければならず、又冬期用の敷布団や掛け布団は嵩張って大きな収納場所を必要とするばかりでなく、重くて持ち運びや上げ下げがし難く、特に高齢者には持ち運びや上げ下げが過酷であった。</p>
+                <p num="0005">  本考案はかかる問題点に鑑み、例えば敷布団の座面の硬さを自由にコントロールでき、収納時にはコンパクトにでき、又軽量で手軽に持ち運び上げ下げすることのできるようにした寝具類を提供することを課題とする。</p>
+            </tech-problem>
+            <tech-solution>
+                <p num="0006">  そこで、本案に係る寝具類は、天然素材製の袋状外皮は一辺のファスナーによって開閉可能な構造をなし、袋状外皮内には弾性芯材が内蔵されており、該弾性芯材は２枚の弾性板の周縁が相互に接着されて内部に空気を封入可能な気密構造となっており、空気の封入状態において上記袋状の外皮の立体形状に対応する袋状の立体形状をなす一方、上記弾性芯材には給排気チューブが気密的に結合されており、該給排気チューブは栓によって密封可能な給排気口を有することを特徴とする。</p>
+                <p num="0007">  本考案の特徴の主たる特徴は天然素材製の袋状外皮内に弾性芯材を出し入れ可能に内蔵し、弾性芯材に空気を供給排気して袋状外皮の立体形状に対応しかつ所望の硬さの立体形状に膨らませるようにした点にある。</p>
+                <p num="0008">  これにより、袋状外皮は所望の立体形状となり、その硬さは弾性芯材によって決まる。したがって、袋状外皮の座面は弾性芯材への空気の供給排気によって使用者の所望の固さにコントロールできる。</p>
+                <p num="0009">  しかも、弾性芯材内に空気を封入しているので、寝具類は全体として従来の寝具類に比較して軽量であり、例えば１／２０程度の軽量化を図ることができ、持ち運びや上げ下げが容易になり、高齢者にとって快適に使用できることとなる。</p>
+                <p num="0010">  また、弾性芯材の空気をすべて排気すると、袋状外皮は平坦な状態にすることができ、コンパクトになる。例えば、１／４００程度のコンパクト化を実現できる。</p>
+                <p num="0011">  さらに、袋状外皮を開いて弾性芯材を取り出すことによって、寝具類がよりコンパクトになり、小さなスペースに収納することができる。</p>
+                <p num="0012">  また、外皮に対して弾性芯材を交換可能としているので、春夏秋冬の四季に応じて外皮の素材を変更することによって春夏秋冬の四季に応じた寝具類とすることができる。</p>
+                <p num="0013">  暖かさが必要な時期には袋状外皮と弾性芯材の間に電気敷布等を差し入れ、暖かさを維持することができる。<br/>
+  また、本考案に係る寝具類はベッド構造にも適用できる。</p>
+                <p num="0014">  ここで、袋状外皮及び弾性芯材は平坦な状態において平面視長方形状、正方形状、円形状、楕円形状、その他使用者の好みに応じて自由な形状を採用することができる。また、袋状外皮は天然素材であればよく、天然繊維の織布や不織布、動物性の毛の不織布などを採用することができる。さらに、弾性芯材は例えば軟質ビニールやゴムを用いることができる。</p>
+                <p num="0015">  本考案は敷布団、掛け布団、枕に適用することができ、また曲げた膝の下側に置いて膝を休めるのに使用する枕、すなわち膝枕に適用することもできる。</p>
+            </tech-solution>
+        </disclosure>
+        <description-of-drawings>
+            <p num="0016"><figref num="1">本考案を敷布団に適用した実施形態を示す全体構造図である。</figref><figref num="2">図１のＩ−Ｉ線断面図及びその給排気チューブを示す図である。</figref><figref num="3">上記実施形態における弾性芯材の平面図である。</figref><figref num="4">敷布団の他の実施形態における弾性芯材の平面図である。</figref><figref num="5">図４のＩＩ−ＩＩ線断面図である。</figref><figref num="6">本案を掛け布団に適用した実施形態における弾性芯材を示す平面図である。</figref><figref num="7">図６のＩＩＩ−ＩＩＩ線断面図である</figref><figref num="8">本考案を枕に適用した実施形態を示す全体構造図である。</figref><figref num="9">図８のＩＶ−ＩＶ線断面図である。</figref><figref num="10">枕の実施形態における弾性芯材を示す平面図である。</figref><figref num="11">本考案を膝枕に適用した実施形態の使用例を示す図である。</figref><figref num="12">膝枕の実施形態を示す全体構造図である。</figref><figref num="13">図１２のＶ−Ｖ線断面図である。</figref><figref num="14">膝枕の実施形態における弾性芯材を示す平面図である。</figref></p>
+        </description-of-drawings>
+        <description-of-embodiments>
+            <p num="0017">  以下、本考案を図面に基づいて具体的に説明する。図１ないし図３は本考案に係る寝具類の好ましい実施形態を示し、これは敷布団に適用した例である。図において、敷布団は袋状外皮１と袋状外皮１に内蔵された弾性芯材２から構成されている。</p>
+            <p num="0018">  袋状外皮１にはユーザーの肌に接して安全かつ快適な天然素材、例えば天然繊維の織布（バスタオル生地が好ましい）が用いられ、平面視で長方形状で、中央が少し膨らみ外周にマチを有する立体形状に製作され、袋状外皮１の一辺にはファスナー３が設けられ、開閉可能になっている。</p>
+            <p num="0019">  他方、弾性芯材２は厚さ１〜２ｍｍの長方形の弾性ビニール板４の周縁５を高周波溶着して気密構造の袋体に製作され、弾性芯材２は空気を供給して膨らませることによって袋状外皮１の立体形状に対応する立体形状になるように製作されている。</p>
+            <p num="0020">  弾性板４はユーザーの好みに応じた所定の弾性を有し、又弾性芯材２には空気の給排気チューブ６が気密的に接着され、給排気チューブ６には例えば口径４〜５ｍｍの給排気口が設けられ、給排気口は栓７によって密封可能となっている。</p>
+            <p num="0021">  本案の敷布団を使用する場合、袋状外皮１のファスナー３を開き、給排気チューブ６より空気を供給し、弾性芯材２を所望の硬さに膨らませる。弾性芯材２が所望の硬さになると、空気の供給を停止し、給排気口を栓７で閉栓すると、弾性芯材２を所望の膨らみに安定に保持できるので、給排気チューブ６を袋状外皮１内に収納し、ファスナー３を閉じればよい。</p>
+            <p num="0022">  図４及び図５は本考案を敷布団に適用した他の実施形態を示す。本例では弾性芯材２を等間隔で例えば８つに仕切り、仕切った箇所を高周波溶着によって固着し、仕切った空間ごとに空気の給排気チューブ６を設けており、弾性芯材２の部分ごとに硬さをコントロールできるようになっている。</p>
+            <p num="0023">  図６及び図７は本考案を敷布団に適用した実施形態を示し、図において図１ないし図３と同一符号は同一又は相当部分を示す。本例では弾性心材２が敷布団に比較して厚みが薄くなっている。</p>
+            <p num="0024">  図８ないし図１０は本考案を枕に適用した実施形態を示し、図において図１ないし図３と同一符号は同一又は相当部分を示す。本例では袋状外皮１及び弾性芯材２が断面菱形に製作されている。</p>
+            <p num="0025">    図１１ないし図１４は本考案を膝枕に適用した実施形態を示し、図において図１ないし図３と同一符号は同一又は相当部分を示す。本例では袋状外皮１及び弾性芯材２が断面円形に製作され、曲げた状態の膝の下側に置いて膝を載せ、膝を楽な状態に保てるようになっている。</p>
+        </description-of-embodiments>
+        <reference-signs-list>
+            <p num="0026">    １      袋状外皮<br/>
+    ２      弾性心材<br/>
+    ３      ファスナー<br/>
+    ４      弾性板<br/>
+    ６      給排気チューブ<br/>
+    ７      栓</p>
+        </reference-signs-list>
+    </description><claims>
+        <claim num="1">
+            <claim-text>  天然素材製の袋状外皮（１）が一辺のファスナー（３）によって開閉可能な構造をなし、袋状外皮（１）内には弾性芯材（２）が内蔵されており、<br/>
+  該弾性芯材（２）は２枚の弾性板（４）の周縁が相互に接着されて内部に空気を封入可能な気密構造となっており、空気の封入状態において上記袋状の外皮（１）の立体形状に対応する袋状の立体形状をなす一方、<br/>
+  上記弾性芯材（２）には給排気チューブ（６）が気密的に結合されており、該給排気チューブ（６）は栓（７）によって密封可能な給排気口を有することを特徴とする寝具類。</claim-text>
+        </claim>
+        <claim num="2">
+            <claim-text>  敷布団、掛け布団、枕又は膝置き用の膝枕に使用されるようになっている請求項１記載の寝具類。</claim-text>
+        </claim>
+    </claims><abstract>
+  <p num="">【課題】敷布団の座面の硬さを自由にコントロールでき、収納時にはコンパクトにでき、又軽量で手軽に持ち運び上げ下げすることのできるようにした寝具類を提供する。<br/>【解決手段】天然素材製の袋状外皮１が一辺のファスナーによって開閉可能な構造をなし、袋状外皮内には弾性芯材２が内蔵されており、弾性芯材は２枚の弾性板の周縁が相互に接着されて内部に空気を封入可能な気密構造となっており、空気の封入状態において袋状の外皮の立体形状に対応する袋状の立体形状をなす一方、弾性芯材には給排気チューブ６が気密的に結合されており、該給排気チューブは栓７によって密封可能な給排気口を有する。<br/>【選択図】図２</p>
+</abstract><drawings>
+        <figure num="1">
+            <img id="000003" file="0003213403.tif" he="52" img-format="tif" wi="66" img-content="drawing"/>
+        </figure>
+        <figure num="2">
+            <img id="000004" file="0003213403.tif" he="38" img-format="tif" wi="74" img-content="drawing"/>
+        </figure>
+        <figure num="3">
+            <img id="000005" file="0003213403.tif" he="30" img-format="tif" wi="65" img-content="drawing"/>
+        </figure>
+        <figure num="4">
+            <img id="000006" file="0003213403.tif" he="37" img-format="tif" wi="66" img-content="drawing"/>
+        </figure>
+        <figure num="5">
+            <img id="000007" file="0003213403.tif" he="19" img-format="tif" wi="59" img-content="drawing"/>
+        </figure>
+        <figure num="6">
+            <img id="000008" file="0003213403.tif" he="44" img-format="tif" wi="69" img-content="drawing"/>
+        </figure>
+        <figure num="7">
+            <img id="000009" file="0003213403.tif" he="17" img-format="tif" wi="50" img-content="drawing"/>
+        </figure>
+        <figure num="8">
+            <img id="000010" file="0003213403.tif" he="42" img-format="tif" wi="57" img-content="drawing"/>
+        </figure>
+        <figure num="9">
+            <img id="000011" file="0003213403.tif" he="59" img-format="tif" wi="73" img-content="drawing"/>
+        </figure>
+        <figure num="10">
+            <img id="000012" file="0003213403.tif" he="29" img-format="tif" wi="45" img-content="drawing"/>
+        </figure>
+        <figure num="11">
+            <img id="000013" file="0003213403.tif" he="56" img-format="tif" wi="84" img-content="drawing"/>
+        </figure>
+        <figure num="12">
+            <img id="000014" file="0003213403.tif" he="63" img-format="tif" wi="74" img-content="drawing"/>
+        </figure>
+        <figure num="13">
+            <img id="000015" file="0003213403.tif" he="60" img-format="tif" wi="44" img-content="drawing"/>
+        </figure>
+        <figure num="14">
+            <img id="000016" file="0003213403.tif" he="46" img-format="tif" wi="68" img-content="drawing"/>
+        </figure>
+    </drawings></jp-official-gazette>

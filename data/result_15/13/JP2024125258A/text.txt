@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="../../../../../XSL/JPUnexaminedPatentPublication.xsl"?> -->
+<jppat:UnexaminedPatentPublication xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                                   xmlns:jppat="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPPatent"
+                                   xmlns:pat="http://www.wipo.int/standards/XMLSchema/ST96/Patent"
+                                   xmlns:com="http://www.wipo.int/standards/XMLSchema/ST96/Common"
+                                   xmlns:jpcom="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPCommon"
+                                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                   xsi:schemaLocation="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPPatent ../../../../../XSD/JPUnexaminedPatentPublication_V1_0.xsd"
+                                   com:languageCode="ja"
+                                   com:st96Version="V3_1"
+                                   com:ipoVersion="JP_V1_0">
+   <com:IPOfficeCode>JP</com:IPOfficeCode>
+   <jppat:UnexaminedPatentPublicationBibliographicData com:languageCode="ja">
+      <com:IPOfficeCode>JP</com:IPOfficeCode>
+      <jppat:PatentPublicationIdentification>
+         <com:IPOfficeCode>JP</com:IPOfficeCode>
+         <pat:PublicationNumber>2024125258</pat:PublicationNumber>
+         <com:PublicationDate>2024-09-18</com:PublicationDate>
+      </jppat:PatentPublicationIdentification>
+      <pat:PlainLanguageDesignationText>公開特許公報(A)</pat:PlainLanguageDesignationText>
+      <jppat:ApplicationIdentification>
+         <com:ApplicationNumber>
+            <com:ApplicationNumberText>2023048923</com:ApplicationNumberText>
+         </com:ApplicationNumber>
+         <pat:FilingDate>2023-03-05</pat:FilingDate>
+      </jppat:ApplicationIdentification>
+      <pat:InventionTitle>車のエンジンの設置のあり方</pat:InventionTitle>
+      <jppat:UnexaminedPatentPublicationPartyBag>
+         <jppat:ApplicantsRegisteredPractitionersBag>
+            <jppat:ApplicantRegisteredPractitionerBag com:sequenceNumber="1">
+               <jppat:Applicant com:sequenceNumber="1">
+                  <com:PartyIdentifier>520234165</com:PartyIdentifier>
+                  <jpcom:Contact>
+                     <com:Name>
+                        <com:EntityName>村上  一成</com:EntityName>
+                     </com:Name>
+                     <com:PostalAddressBag>
+                        <com:PostalAddress>
+                           <com:PostalAddressText>岩手県盛岡市肴町３－３０－５０１</com:PostalAddressText>
+                        </com:PostalAddress>
+                     </com:PostalAddressBag>
+                  </jpcom:Contact>
+               </jppat:Applicant>
+            </jppat:ApplicantRegisteredPractitionerBag>
+         </jppat:ApplicantsRegisteredPractitionersBag>
+         <jppat:InventorBag>
+            <jppat:Inventor com:sequenceNumber="1">
+               <jpcom:Contact>
+                  <com:Name>
+                     <com:EntityName>村上  一成</com:EntityName>
+                  </com:Name>
+                  <com:PostalAddressBag>
+                     <com:PostalAddress>
+                        <com:PostalAddressText>岩手県盛岡市肴町３の３０の５０１</com:PostalAddressText>
+                     </com:PostalAddress>
+                  </com:PostalAddressBag>
+               </jpcom:Contact>
+            </jppat:Inventor>
+         </jppat:InventorBag>
+      </jppat:UnexaminedPatentPublicationPartyBag>
+      <jppat:IPCClassification>
+         <com:Edition/>
+         <pat:MainClassification>F02B  61/00        20060101AFI20240910BHJP        </pat:MainClassification>
+         <pat:FurtherClassification>F02B  79/00        20060101ALI20240910BHJP        </pat:FurtherClassification>
+      </jppat:IPCClassification>
+      <jppat:NationalClassification>
+         <com:IPOfficeCode>JP</com:IPOfficeCode>
+         <jppat:MainNationalClassification>
+            <pat:PatentClassificationText>F02B61/00 F</pat:PatentClassificationText>
+         </jppat:MainNationalClassification>
+         <jppat:FurtherNationalClassification>
+            <pat:PatentClassificationText>F02B79/00</pat:PatentClassificationText>
+         </jppat:FurtherNationalClassification>
+      </jppat:NationalClassification>
+      <jppat:ClaimTotalQuantitySet>
+         <pat:ClaimTotalQuantity>1</pat:ClaimTotalQuantity>
+         <jppat:AdoptedLawCategory>Claim</jppat:AdoptedLawCategory>
+      </jppat:ClaimTotalQuantitySet>
+      <jppat:RequestExaminationIndicator>true</jppat:RequestExaminationIndicator>
+      <jppat:FilingForm>書面</jppat:FilingForm>
+   </jppat:UnexaminedPatentPublicationBibliographicData>
+   <jppat:AbstractCorrectionIndicator>true</jppat:AbstractCorrectionIndicator>
+   <jppat:Description>
+      <com:Heading>論文</com:Heading>
+      <com:P com:pNumber="">既に平成４年２月９日頃に論文を発表済です。<com:Br/>
+車のエンジンは、水平やＶ字型に設置するのではなく、大地に垂直に設置するのが良い、シリンダーの内壁とピストンとの摩擦が小さくなるからである。<com:Br/>
+これにより馬力がアップする。</com:P>
+   </jppat:Description>
+   <pat:Claims>
+      <pat:Claim>
+         <pat:ClaimNumber>  </pat:ClaimNumber>
+         <pat:ClaimText>  </pat:ClaimText>
+      </pat:Claim>
+   </pat:Claims>
+   <pat:Abstract>
+      <com:P>【課題】馬力がアップするエンジンの設置方法を提供する。<com:Br/>【解決手段】エンジンを横倒しに設置するのではなく、大地に対し垂直に設置する。引力に対しエンジンを垂直に設置するとハズミ車も手伝って、シリンダーの内壁とピストンとの摩擦が小さくなるためピストンの往復運動がスムーズになり、熱効率が高くなり、馬力アップする。四輪車、二輪車、トラクター、戦車、トラック、バス、船舶等のエンジンの設置に適用できる。<com:Br/>【選択図】なし</com:P>
+   </pat:Abstract>
+   <jppat:WrittenAmendmentBag>
+      <jppat:WrittenAmendment>
+         <jppat:WrittenAmendmentCategory>Amendment</jppat:WrittenAmendmentCategory>
+         <pat:FilingDate>2023-05-03</pat:FilingDate>
+         <jppat:AmendmentsBag>
+            <jppat:AmendmentBag jppat:amendmentNumber="1">
+               <com:DocumentName>A16330</com:DocumentName>
+               <jppat:AmendmentItem>全文</jppat:AmendmentItem>
+               <jppat:AmendmentWay>3</jppat:AmendmentWay>
+               <jppat:AmendmentContentsBag>
+                  <jppat:AmendmentDocumentNameCategory>Description</jppat:AmendmentDocumentNameCategory>
+                  <jppat:Description>
+                     <pat:InventionSummary>
+                        <pat:TechnicalProblem>
+                           <com:P com:pNumber="">エンジンの馬力アップ<com:Br/>
+大地に対して平行に設置した。横倒しエンジンは馬力が出にくい</com:P>
+                        </pat:TechnicalProblem>
+                        <pat:TechnicalSolution>
+                           <com:P com:pNumber="">エンジンを横倒しに設置するのではなく、大地に対し垂直に設置するとよい。</com:P>
+                        </pat:TechnicalSolution>
+                     </pat:InventionSummary>
+                  </jppat:Description>
+               </jppat:AmendmentContentsBag>
+            </jppat:AmendmentBag>
+            <jppat:AmendmentBag jppat:amendmentNumber="2">
+               <com:DocumentName>A16333</com:DocumentName>
+               <jppat:AmendmentItem>全文</jppat:AmendmentItem>
+               <jppat:AmendmentWay>3</jppat:AmendmentWay>
+               <jppat:AmendmentContentsBag>
+                  <jppat:AmendmentDocumentNameCategory>Claims</jppat:AmendmentDocumentNameCategory>
+                  <pat:Claims>
+                     <pat:Claim>
+                        <pat:ClaimNumber>1</pat:ClaimNumber>
+                        <pat:ClaimText>横倒しエンジンを垂直に設置すること。<com:Br/>
+四輪車・二輪車・トラクター・戦車・トラック・バス・船舶等。</pat:ClaimText>
+                     </pat:Claim>
+                  </pat:Claims>
+               </jppat:AmendmentContentsBag>
+            </jppat:AmendmentBag>
+         </jppat:AmendmentsBag>
+      </jppat:WrittenAmendment>
+   </jppat:WrittenAmendmentBag>
+</jppat:UnexaminedPatentPublication>

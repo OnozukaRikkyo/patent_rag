@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding='utf-8'?>
+<!-- <?xml-stylesheet type="text/xsl" href="../../../../../XSL/gat-u9.xsl"?> -->
+<!DOCTYPE jp-official-gazette PUBLIC "-//JPO//DTD REGISTERED UTILITY MODEL 1.0//EN" "../../../../../DTD/gat-u9.dtd">
+<jp-official-gazette kind-of-jp="U9" kind-of-st16="U" lang="ja" dtd-version="1.0" country="JP" xmlns:jp="http://www.jpo.go.jp"><bibliographic-data lang="ja" country="JP">
+    <publication-reference>
+      <document-id>
+        <country>JP</country>
+        <doc-number>3211190</doc-number>
+        <kind>登録実用新案公報(U)</kind>
+        <date>20170607</date>
+      </document-id>
+    </publication-reference>
+    <application-reference>
+      <document-id>
+        <doc-number>2017001821</doc-number>
+        <date>20170405</date>
+      </document-id>
+    </application-reference>
+    <invention-title>販促用プラスチック製扇子</invention-title>
+    <parties>
+      <jp:applicants-agents-article>
+        <jp:applicants-agents sequence="1">
+          <applicant sequence="1">
+            <addressbook lang="ja">
+              <name>大同紙工印刷株式会社</name>
+              <registered-number>597008131</registered-number>
+              <address>
+                <text>愛知県名古屋市東区東大曽根町３番８号</text>
+              </address>
+            </addressbook>
+          </applicant>
+        </jp:applicants-agents>
+      </jp:applicants-agents-article>
+      <inventors>
+        <inventor sequence="1">
+          <addressbook>
+            <name>川瀬  康輝</name>
+            <address>
+              <text>愛知県名古屋市東区東大曽根町３番８号</text>
+            </address>
+          </addressbook>
+        </inventor>
+      </inventors>
+    </parties>
+    <dates-of-public-availability>
+      <printed-with-grant>
+        <document-id>
+          <date>20170629</date>
+        </document-id>
+      </printed-with-grant>
+    </dates-of-public-availability>
+    <classification-ipc><edition/><main-clsf>A45B  27/00        20060101AFI20170615BHJP        </main-clsf></classification-ipc>
+    <classification-national><country>JP</country><main-clsf>A45B27/00 A</main-clsf></classification-national>
+    <number-of-claims jp:adopted-law="claim">3</number-of-claims>
+    <figure-to-publish>
+      <fig-number>1</fig-number>
+    </figure-to-publish>
+    <jp:request-for-registrability-report true-or-false="false"/>
+    <jp:filing-form>書面</jp:filing-form>
+    <jp:total-pages>4</jp:total-pages>
+  </bibliographic-data><jp:image-of-bibliographic-data><img id="000001" he="140" wi="160" file="0003211190.tif" img-format="tif" img-content="drawing"/></jp:image-of-bibliographic-data><jp:image-of-chosen-drawing>
+    <img id="000002" he="41" wi="69" file="0003211190.tif" img-format="tif" img-content="drawing"/>
+  </jp:image-of-chosen-drawing><jp:abstract-correction/><description>
+        
+        <technical-field>
+            <p num="0001">  本考案は主として、フイルムシート材料に対して多目的に使用できる利便性の高いノベルティー商品に関するものである。</p>
+        </technical-field>
+        <background-art>
+            <p num="0002">  従来の扇子は、扇本体と中骨とを組み合わせる事で成立していた。また、素材の多くが紙を使用し、そのことが広告掲載範囲を扇部分に限定していた。</p>
+        </background-art>
+        <heading>考案が解決しようとする課題</heading>
+        <p num="0003">  従来の扇子の構造である「扇」と「中骨」を一体化し製造加工を簡略化、また素材に起因する耐水性の弱さをプラスチックシートの使用で解決する。</p>
+        <heading>課題を解決するための手段</heading>
+        <p num="0004">  本来、十数枚から数十枚に連なる扇面の山と谷、またそれに対し規則的に接合された中骨によって構成されていた扇子は加工の手間と部材の多さにより必然的に制作費用が高騰していた。本考案である販促用プラスチック製扇子はこれらの事を解消するために、扇面を中骨と一体になった構造で３から６枚作成し、それぞれを嵌合させ、あらかじめ各物品に施した孔に扇の要の代替として合成樹脂でできた嵌合部材を使うことにより作業の簡略化、コストダウンを図るものである。</p>
+        <heading>考案実施の形態</heading>
+        <p num="0005">  図１は本考案の販促用プラスチック製扇子の扇面（Ｏ１）、（Ｏ２）、（Ｏ３）それぞれの平面図である。このとき扇面（Ｏ１）、（Ｏ２）、（Ｏ３）にはそれぞれの物品同士を嵌合させるため、折り罫（ａ１）（ａ２）（ａ３）（ａ４）（ａ５）（ａ６）によって扇面（Ｏ１）、（Ｏ２）、（Ｏ３）と連続しているフック部（ｈ１）（ｈ２）（ｈ３）（ｈ４）（ｈ５）を備えている。また、扇面（Ｏ１）、（Ｏ２）、（Ｏ３）を嵌合したのち、それぞれの扇面の脱落の防止と、扇の開閉を可能にさせるための樹脂製の留め具を貫通させるための孔（ｋ１）（ｋ２）（ｋ３）（ｋ４）（ｋ５）（ｋ６）（ｋ７）（ｋ８）がトムソンで打ち抜かれた状態で備わっている。</p>
+        <p num="0006">  図２は本考案の販促用プラスチック製扇子の扇面（Ｏ１）、（Ｏ２）、（Ｏ３）を折り罫（ａ１）（ａ２）（ａ３）（ａ４）（ａ５）（ａ６）にそってフック部（ｈ１）（ｈ２）（ｈ３）（ｈ４）（ｈ５）を折り返し、それぞれを嵌合させ、あらかじめ設けた孔に留め具（Ｈ）を貫通させた状態である。このとき扇面（Ｏ３）は折り罫（ａ１）（ａ２）によってフック（ｈ１）が扇面（Ｏ３）の下部に重なっている状態である。</p>
+        <p num="0007">図３は本考案の販促用プラスチック製扇子の扇面（Ｏ２）、（Ｏ３）同士を嵌合させようとした時のフック部（ｈ３）（ｈ４）（ｈ５）の状態を示した斜面図である。このとき（ｈ３）（ｈ４）（ｈ５）はそれぞれ扇面（Ｏ２）（Ｏ３）と折り罫（ａ６）（ａ７）（ａ８）によって順に谷折り、山折、谷折りされた状態である。この状態の扇面同士を組み合わせる事によりフック部（ｈ３）（ｈ４）（ｈ５）はたがいに嵌合し、扇面（Ｏ２）、（Ｏ３）がそれぞれの端まで開閉した場合でも各扇面の離脱を防ぐことが出来る状態である。</p>
+        <description-of-drawings>
+            <p num="0008"><figref num="1">本考案の販促用プラスチック製扇子の平面図</figref><figref num="2">図１の販促用プラスチック製扇子の完成表裏図</figref><figref num="3">図１の販促用プラスチック製扇子の嵌合構造の斜面図</figref></p>
+        </description-of-drawings>
+        <reference-signs-list>
+            <p num="0009">Ｏ１  扇面１<br/>
+Ｏ２  扇面２<br/>
+Ｏ３  扇面３<br/>
+ａ１  折り罫<br/>
+ａ２  折り罫<br/>
+ａ３  折り罫<br/>
+ａ４  折り罫<br/>
+ａ５  折り罫<br/>
+ａ６  折り罫<br/>
+ａ７  折り罫<br/>
+ｈ１  フック１<br/>
+ｈ２  フック２<br/>
+ｈ３  フック３<br/>
+ｈ４  フック４<br/>
+ｈ５  フック５<br/>
+ｋ１  孔１<br/>
+ｋ２  孔２<br/>
+ｋ３  孔３<br/>
+ｋ４  孔４<br/>
+ｋ５  孔５<br/>
+ｋ６  孔６<br/>
+ｋ７  孔７<br/>
+ｋ８  折り罫８<br/>
+Ｈ    留め具</p>
+        </reference-signs-list>
+    </description><claims>
+        <claim num="1">
+            <claim-text>  薄手のフィルム材料を用いトムソン型で打ち抜かれた複数の物品の、一辺または両辺に施された折り罫を折り込むことで現れる扇形を複数組み合わせ、組み合わせた該物品の下部にあらかじめ施された孔を留め具により貫通させることで留め具を支点として開閉可能な扇子となることを特徴とする販促用プラスチック製扇子。</claim-text>
+        </claim>
+        <claim num="2">
+            <claim-text>  請求項１に記載の販促用プラスチック製扇子はトムソン型で打ち抜かれた複数の物品の一辺または両辺に施された折り罫に連続して現れる余地同士を折り罫から折り込んだ状態で嵌合させることで、物品同士の離脱を防ぎ、複数の扇型よりなる扇子として使用できることを特徴とする。</claim-text>
+        </claim>
+        <claim num="3">
+            <claim-text>  請求項１に記載のフィルム材料に対する印刷は、オフセット印刷を用いて絵や文字、写真、模様を印刷したことを特徴とする販促用プラスチック製扇子。</claim-text>
+        </claim>
+    </claims><abstract>
+  <p num="">【課題】複数の扇面と中骨とをプラスチックシートを使用した一体構造で作成することにより、製造工程の簡略化、コストダウンを図った扇子を提供する。<br/>【解決手段】薄手のプラスチックシートを用いトムソン型で打ち抜かれた複数の物品の、一辺または両辺に施された折り罫ａ１〜ａ６を折り込むことで現れる扇形を複数組み合わせ、組み合わせた物品の下部にあらかじめ施された孔ｋ１〜ｋ８を留め具により貫通させることで留め具を支点として開閉可能な扇子とする。<br/>【選択図】図１</p>
+</abstract><drawings>
+        <figure num="1">
+            <img id="000003" file="0003211190.tif" he="45" img-format="tif" wi="75" img-content="drawing"/>
+        </figure>
+        <figure num="2">
+            <img id="000004" file="0003211190.tif" he="45" img-format="tif" wi="63" img-content="drawing"/>
+        </figure>
+        <figure num="3">
+            <img id="000005" file="0003211190.tif" he="47" img-format="tif" wi="69" img-content="drawing"/>
+        </figure>
+    </drawings></jp-official-gazette>

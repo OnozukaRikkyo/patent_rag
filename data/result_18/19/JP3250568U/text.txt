@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="../../../../../XSL/JPRegisteredUtilityModelPublication.xsl"?> -->
+<jputl:RegisteredUtilityModelPublication xmlns:jpcom="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPCommon"
+                                         xmlns:jputl="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPUtility"
+                                         xmlns:com="http://www.wipo.int/standards/XMLSchema/ST96/Common"
+                                         xmlns:pat="http://www.wipo.int/standards/XMLSchema/ST96/Patent"
+                                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                         xsi:schemaLocation="http://www.jpo.go.jp/standards/XMLSchema/ST96/JPUtility ../../../../../XSD/JPRegisteredUtilityModelPublication_V1_0.xsd"
+                                         com:languageCode="ja"
+                                         com:st96Version="V3_1"
+                                         com:ipoVersion="JP_V1_0">
+   <com:IPOfficeCode>JP</com:IPOfficeCode>
+   <jputl:RegisteredUtilityModelPublicationBibliographicData com:languageCode="ja">
+      <com:IPOfficeCode>JP</com:IPOfficeCode>
+      <jputl:UtilityModelPublicationIdentification>
+         <com:IPOfficeCode>JP</com:IPOfficeCode>
+         <pat:PublicationNumber>3250568</pat:PublicationNumber>
+         <com:PublicationDate>2025-03-14</com:PublicationDate>
+      </jputl:UtilityModelPublicationIdentification>
+      <pat:PlainLanguageDesignationText>登録実用新案公報(U)</pat:PlainLanguageDesignationText>
+      <com:RegistrationDate>2025-03-06</com:RegistrationDate>
+      <jputl:ApplicationIdentification>
+         <com:ApplicationNumber>
+            <com:ApplicationNumberText>2025000168</com:ApplicationNumberText>
+         </com:ApplicationNumber>
+         <pat:FilingDate>2025-01-19</pat:FilingDate>
+      </jputl:ApplicationIdentification>
+      <pat:InventionTitle>刈払機用ナイロンコードカッター</pat:InventionTitle>
+      <jputl:RegisteredUtilityModelPublicationPartyBag>
+         <jputl:ApplicantsRegisteredPractitionersBag>
+            <jputl:ApplicantRegisteredPractitionerBag com:sequenceNumber="1">
+               <jputl:Applicant com:sequenceNumber="1">
+                  <com:PartyIdentifier>505302513</com:PartyIdentifier>
+                  <jpcom:Contact>
+                     <com:Name>
+                        <com:EntityName>株式会社ハートフル・ジャパン</com:EntityName>
+                     </com:Name>
+                     <com:PostalAddressBag>
+                        <com:PostalAddress>
+                           <com:PostalAddressText>兵庫県三木市鳥町６４１番地の１</com:PostalAddressText>
+                        </com:PostalAddress>
+                     </com:PostalAddressBag>
+                  </jpcom:Contact>
+               </jputl:Applicant>
+            </jputl:ApplicantRegisteredPractitionerBag>
+         </jputl:ApplicantsRegisteredPractitionersBag>
+         <jputl:InventorBag>
+            <jputl:Inventor com:sequenceNumber="1">
+               <jpcom:Contact>
+                  <com:Name>
+                     <com:EntityName>岡田  匡広</com:EntityName>
+                  </com:Name>
+                  <com:PostalAddressBag>
+                     <com:PostalAddress>
+                        <com:PostalAddressText>兵庫県三木市鳥町６４１番地の１  株式会社ハートフル・ジャパン内</com:PostalAddressText>
+                     </com:PostalAddress>
+                  </com:PostalAddressBag>
+               </jpcom:Contact>
+            </jputl:Inventor>
+         </jputl:InventorBag>
+      </jputl:RegisteredUtilityModelPublicationPartyBag>
+      <jputl:IPCClassification>
+         <com:Edition/>
+         <pat:MainClassification>A01D  34/416       20060101AFI20250307BHJP        </pat:MainClassification>
+         <pat:FurtherClassification>A01D  34/73        20060101ALI20250307BHJP        </pat:FurtherClassification>
+      </jputl:IPCClassification>
+      <jputl:NationalClassification>
+         <com:IPOfficeCode>JP</com:IPOfficeCode>
+         <jputl:MainNationalClassification>
+            <pat:PatentClassificationText>A01D34/416 110</pat:PatentClassificationText>
+         </jputl:MainNationalClassification>
+         <jputl:FurtherNationalClassification>
+            <pat:PatentClassificationText>A01D34/73 A</pat:PatentClassificationText>
+         </jputl:FurtherNationalClassification>
+      </jputl:NationalClassification>
+      <jputl:ClaimTotalQuantitySet>
+         <pat:ClaimTotalQuantity>3</pat:ClaimTotalQuantity>
+         <jputl:AdoptedLawCategory>Claim</jputl:AdoptedLawCategory>
+      </jputl:ClaimTotalQuantitySet>
+      <jputl:PublishFigure>
+         <pat:FigureNumber>1</pat:FigureNumber>
+      </jputl:PublishFigure>
+      <jputl:RequestRegistrabilityReportIndicator>false</jputl:RequestRegistrabilityReportIndicator>
+      <jputl:FilingForm>ＯＬ</jputl:FilingForm>
+   </jputl:RegisteredUtilityModelPublicationBibliographicData>
+   <jputl:ChosenDrawingImage>
+      <com:Image com:imageContentCategory="Drawing">
+         <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+         <com:FileName>0003250568000001.jpg</com:FileName>
+         <com:HeightMeasure com:measureUnitCode="Mm">197</com:HeightMeasure>
+         <com:WidthMeasure com:measureUnitCode="Mm">136</com:WidthMeasure>
+      </com:Image>
+   </jputl:ChosenDrawingImage>
+   <jputl:AbstractCorrectionIndicator>true</jputl:AbstractCorrectionIndicator>
+   <jputl:Description>
+      <pat:TechnicalField>
+         <com:P com:pNumber="0001">
+  本考案は、雑草等を刈り払う刈払機用ナイロンコードカッタ－に関するものである。
+</com:P>
+      </pat:TechnicalField>
+      <pat:BackgroundArt>
+         <com:P com:pNumber="0002">
+  従来、回転軸に着脱自在に固着される円盤等の回転板体、例えば、チップソーが使用されている。これに代わり、一定長のナイロンコードを円盤状の本体から突出させ、該円盤の回転により前記ナイロンコードを回転させて、雑草などを刈払う刈払機について種々の技術が提案されている。また、前記ナイロンコードは比較的硬質の合成樹脂材を用いて形成され、一定長が円盤の外周に添うようにして、該円盤に強い遠心力を受けても容易に抜けないように取り付けられている。
+</com:P>
+         <com:P com:pNumber="0003">
+  コード式刈払機のコード収納部材のコード保持機構としては、コードの端部に結び目を作り、コードの本体ケース外部への抜け出しを防止するものがある。これは、コードの中央部をコード収納部材の筒状胴部外面に設けたフックに引掛けて、コードを保持し、該コード収納部材に巻回収納するものが開示されている（特許文献１参照）。<com:Br/>
+また、コード収納部材の筒状胴部外面に設けたコード保持部の貫通孔にコードの端部をコード中央部が該コード保持部に至るまで通し、該コードの中央部でコードを折り曲げて、該コードをコード収納部材に巻回収納するものが開示されている（特許文献２参照）。
+</com:P>
+      </pat:BackgroundArt>
+      <com:CitationBag>
+         <com:PatentCitationBag>
+            <com:P com:pNumber="0004">
+               <com:PatentCitation com:sequenceNumber="1">
+                  <com:PatentCitationText>実公平２－５７１５号公報</com:PatentCitationText>
+               </com:PatentCitation>
+               <com:PatentCitation com:sequenceNumber="2">
+                  <com:PatentCitationText>実公平１－３５６２９号公報</com:PatentCitationText>
+               </com:PatentCitation>
+            </com:P>
+         </com:PatentCitationBag>
+      </com:CitationBag>
+      <pat:InventionSummary>
+         <pat:TechnicalProblem>
+            <com:P com:pNumber="0005">
+  前記特許文献１および２に開示されたコード保持機構は、ナイロンコードの端部に係止部材をカシメ等によって固定する必要がある。また、刈刃用として特別に作成された定尺のナイロンコードを用いている製品も見受けられる。<com:Br/>
+また近年では、長尺のナイロンコードを用いた刈払機用ナイロンコードカッタ－が多数開示されており、販売されているが、ナイロンコードの取り付や交換作業に手数の係る等の問題があった。
+</com:P>
+         </pat:TechnicalProblem>
+         <pat:TechnicalSolution>
+            <com:P com:pNumber="0006">
+  本考案は、前記課題を解決するためになされたものであり、刈払機の駆動軸に着脱自在に取付けられる本体部とカバー部より構成されている。<com:Br/>
+本体部は、刈払機の駆動軸を取付ける取付け穴が軸心に設けられ、該取付け穴の外周部に、カバー部の円筒胴を着脱自在に嵌着する円筒壁が形成されている。該円筒壁の内周壁にはカバー部を係止する係止片が形成され、該カバー部の何れかの係止片から本体部の外周縁に向けて、該カバー部を着脱自在に固定する固定機構が形成されている。<com:Br/>
+また、前記本体部の外周縁部には、複数（本考案では３個）のナイロンコードを係止するピンが設けられている。
+</com:P>
+            <com:P com:pNumber="0007">
+  カバー部は、内部に空間を有する有底の円筒胴が設けられている。該円筒胴の基端円周部には、前記本体部に着脱自在に嵌着する一対の係止胴が形成され、該円筒胴の外周部には、ナイロンコードを巻回する大径フランジ、小径フランジ及び筒状胴部が設けられている。
+</com:P>
+            <com:P com:pNumber="0008">
+大径フランジと小径フランジに挟まれた円筒胴部には、該円筒胴部の内周面からナイロンコードを挿通するコード挿通孔が彫設されている。大経フランジの外周縁部には、前記巻回したナイロンコードの両先端部を係止する、一対の引出し溝が形成されている。
+</com:P>
+            <com:P com:pNumber="0009">
+  本体部の円筒壁にカバー部の円筒胴を近づけると、本体部及びカバー部に設けられた磁石の作用で相互に引き付けられるので、本体部とカバー部を容易に挿入して締結することができる。
+</com:P>
+         </pat:TechnicalSolution>
+         <pat:AdvantageousEffects>
+            <com:P com:pNumber="0010">
+  本考案による刈払機用ナイロンコードカッターは、カバー部に形成された大径フランジの外周縁から外周部に貫通する２個のコード挿通孔が対抗して設けられている。これにより、筒状胴部の外周にナイロンコードを巻回する時は、ナイロンコードの端部を一方の挿通孔の内側から外側に挿入後、ナイロンコードの他端部を他方の挿通孔の内側から外側に取り出して、二本のナイロンコードの先端を引き出した後、該二本のナイロンコードを纏めて前記筒状胴部に巻回し、任意の引出長を残した状態で、ナイロンコード巻取部に巻回した後、大径フランジの円周縁に形成された一対の引出し溝に係止する。これにより、巻回作業を容易に行うことができる。
+</com:P>
+            <com:P com:pNumber="0011">
+また、本体部とカバー部とを着脱するロック機構を、本体部の表面に形成しており、本体部を反時計方向に回すとロックされ、時計方向に回わすと、ロックが解除される構造しており、着脱が極めて容易である。
+</com:P>
+            <com:P com:pNumber="0012">
+本体の外周縁は、円周上に凹凸状に形成しているので、把持が容易、且つ、滑り難いので、本体とカバー部の着脱が迅速に実施できる。また、本体部とカバー部を近づけると、本体部及びカバー部に埋設された磁石が引き合う作用により、容易に挿入が可能となり、迅速に締結作業ができる。
+</com:P>
+         </pat:AdvantageousEffects>
+      </pat:InventionSummary>
+      <pat:DrawingDescription>
+         <com:P com:pNumber="0013">
+            <com:FigureReference com:referencedFigureNumber="1">本考案の刈払機用ナイロンコードカッターの組立断面図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="2">本考案の本体部の平面図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="3">本考案の本体部の底面図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="4">本考案のカバー部の平面図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="5">本考案のカバー部の底面図である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="6">本考案の本体部の固定機構の説明図であり、固定機構が開状態である。</com:FigureReference>
+            <com:FigureReference com:referencedFigureNumber="7">本考案の本体部の固定機構の説明図であり、固定機構が閉状態である。</com:FigureReference>
+         </com:P>
+      </pat:DrawingDescription>
+      <pat:EmbodimentDescription>
+         <com:P com:pNumber="0014">
+  本考案の実施形態について、図面に基づいて説明する。図１は刈払機用ナイロンコードカッター１の組立断面図、図２は本体部２の平面図、図３は本体部２の背面図である。<com:Br/>
+図１から図３において、１は刈払機のナイロンコードカッター、２は本体部、２１は駆動軸の取付穴、２２は補強輪、２３はナイロンコード係止ピン、２４ａは外周円筒胴、２４ｂは内周円筒胴である。<com:Br/>
+また、３はカバー部、３１は有底円筒胴、３２は大経フランジ、３３は小径フランジ、３４はコード巻回部、３５は挿入孔、３６は引出溝、３７は係止爪、４はロック機構、５はナイロンコードである。なお、前記本体部２とカバー部３は、合成樹脂により成形されている。
+</com:P>
+         <com:P com:pNumber="0015">
+  図１から図３に示すように、本体部２は、手で把持し易いように外周部は凹凸状２９に形成されている。該本体部２は刈払機の駆動軸（図示しない）を取付ける取付穴２１が軸心に設けられており、該取付穴２１には刈払機の駆動軸（図示しない）が取付けられる。  なお、該取付穴２１を振動や負荷に耐える構造とするため、金属製（例えば、ステンレス鋼）の補強輪２２が埋設されている。
+</com:P>
+         <com:P com:pNumber="0016">
+本体部２の外周には、カバー部３の小径フランジ３３の外周を着脱自在に嵌着する外周円筒胴２４ａが形成されている。また、前記外周円筒胴２４ａと駆動軸の取付穴２１の中間部には、内周円筒胴２４ｂが立設されており、前記カバー部３に形成された小径フランジ３３の外周に着脱自在に装着されている。<com:Br/>
+前記本体部２のＬ形係止片４２と噛合う、カバー部３の有底円筒胴３１の外周には、図４に示す着脱可能な係止爪３７が円周上に３個設けられている。該係止爪３７は、本体部２とカバー部３を相互に逆回転させることで、本体部２とカバー部３を着脱することができる。
+</com:P>
+         <com:P com:pNumber="0017">
+本考案のロック機構４について、図２～図４係止を参照して説明する。本体部２の円周上に彫設された円弧状スリット４１の隙間には、本体部２から延設されており、先端部が押し下げ可能な弾力性を有する円弧状係止爪４２が形成されている。該円弧状係止爪４２の先端部は断面がＬ形に形成されている。なお、該円弧状係止爪４２は、本体部２とカバー部３を係脱（相互回転の固定又は解除）する鍵の役割をしている。<com:Br/>
+また、前記円弧状係止爪４２の回転に伴い、筒状胴部２６が回転するが、該筒状胴部２６の外周縁には、円周上に３個の係止爪２５が形成されている。
+</com:P>
+         <com:P com:pNumber="0018">
+一方、カバー部３の有底円筒胴３１の外周縁には、前記係止爪２５に係脱する円弧状の係止爪３７が３個形成されている。該係止爪３７の出入口は開口されており、奥部は閉鎖されている。更に、該出入口には前記係止爪２５の抜け防止のため、返し４５が形成されている。
+</com:P>
+         <com:P com:pNumber="0019">
+本体部の円弧状係止爪４２が形成された場所の内側円周面には、円弧状スリット４３が円周状に３個穿設されている。該円弧状スリット４３は、前記円弧状係止爪４２のロックに伴う、本体部の係止爪２５とカバー部の係止爪３７の結合状況を視認する覗き窓の機能を有している。
+</com:P>
+         <com:P com:pNumber="0020">
+本願によるナイロンコードカッター１の構成は、本体部２とカバー部３を当接させた後、本体部２をロック方向に回転させるだけで、本体部の円周上に等間隔で形成された係止爪２５が、カバー部３の円周上に等間隔で３個形成された係止爪３７と係合してロックされる。<com:Br/>
+また、本体部２に形成されているロック機構４の円弧状係止爪４２を、指等で押し下げたまま、アンロック方向に回転させると、本体部２とカバー部３の連結が解除されるように構成されている。このように、ロック作業が迅速、且つ、簡単に実施できるので、極めて作業効率が良好となる。
+</com:P>
+         <com:P com:pNumber="0021">
+  図３において、本体部２の内面外周近傍の円周上には、等間隔で３個のナイロンコード係止ピン２３が立設されている。該ナイロンコード係止ピン２３は、ナイロンコード５をカバー部３の大径フランジ３２と小径フランジ３３間のコード巻回部３４に巻回時に、該ナイロンコード５の弾性力により、前記巻回部３４から飛び出すのを防止している。
+</com:P>
+         <com:P com:pNumber="0022">
+前記ナイロンコード５は、本体部２の外周縁から延出して、遠心力により雑草等の刈払い時に大きな負荷が係っても、前記ピン２３で緩和されるので、前記巻付部に巻回されているナイロンコード５に絡むことはない。
+</com:P>
+         <com:P com:pNumber="0023">
+  図４において、カバー部３は、内部に空間を有する有底円筒胴３１が設けられ、該有底円筒胴３１の基端円周部には本体部２に着脱自在に嵌着する係止爪３７が３個形成されている。
+</com:P>
+         <com:P com:pNumber="0024">
+有底円筒胴３１の側面から円周方向に、ナイロンコード５を巻回して保持する大径フランジ３２及び小径フランジ３３が立設され、該大径フランジ３２及び小径フランジ３３に挟まれた空間部には、ナイロンコード５を挿通する一対のコード挿通孔３５が、円周上の３ケ所に設けられている。また、前記大経フランジ３２の外周縁には前記ナイロンコード５を、カバー部３から引出す一対の引出溝３６が形成されている。
+</com:P>
+         <com:P com:pNumber="0025">
+  ナイロンコード５を引出す引出溝３６は、カバー部３の円周縁から軸心方向に向けて略Ｔ形の切込み３９が、前記ナイロンコード５が挿通可能な幅で彫設されている。該切込３９の板厚面側は、ナイロンコードカッターの回転方向とは反対方向に向けて斜面が形成されている。これにより前記ナイロンコード５は、前記ナイロンコードカッターの引出溝３６から円滑に引出されて、遠心力により放射状に伸張して刈払作業を行うことができる。<com:Br/>
+なお、前記引出溝３６の形状はＬ形に限定されるものではなく、円形、楕円形、多角形等に形成することができる。
+</com:P>
+         <com:P com:pNumber="0026">
+  本実施形態では、１本のナイロンコード５を挿入しているが、ナイロンコード５の挿通孔３５は、円周上の３か所に形成されているので、使用者は所望の挿通孔３５を選択して挿入することができる。
+</com:P>
+         <com:P com:pNumber="0027">
+  図５は、カバー部３の底面図である。図５において、中心部には６個の円弧状の把持部５１が形成されており、該把持部５１を指先で把持した状態で、保持、回転又は本体部から分離することができる。大径フランジ３２の円周縁に対向して設けられた一対の切り欠き３６は、ナイロンコード巻回部３４からナイロンコード５を引き出して係止するための引出溝３６である。該引出溝３６は、ナイロンコード５の損傷防止のため、Ｌ形に切除されていると共に、回転方向の後方に向けて板厚部が斜面に形成されている。
+</com:P>
+         <com:P com:pNumber="0028">
+図６と図７は、本考案のロック機構４の動作説明図であり、本体部２を破線で表示し、カバー部３を実線で表示して重ねた状態を示している。図６はロック機構作動前、又は、解除後の噛合せ状態（係止爪４２が上部右側に位置している）であり、図７はロック機構作動時の噛合せ状態（係止爪４２が上部左側に位置している）を示している。
+</com:P>
+         <com:P com:pNumber="0029">
+  ロック機構４の円弧状係止爪４２の操作により、本体部２とカバー部３を相対的に回転させることにより行う。<com:Br/>
+図６（解除状態）において、本体部２とカバー部３を両手で把持し、互いに逆方向（例えば、カバー部３を把持したまま、本体部２を反時計方向に回す）に回転させると、本体部２の係止爪２５がカバー３の係止爪３７に挿入されて図７の状態となり、本体部２とカバー部３が固定される。この状態で、刈払作業を行うことができる。
+</com:P>
+         <com:P com:pNumber="0030">
+ロック状態を解除したい場合は、本体部２とカバー部３を両手で把持し、本体部２の表面に彫設された円弧状スリット４１の内側に形成された円弧状係止爪４２を、指先で押圧した状態で、互いに逆方向（例えば、カバー部３を把持したまま、本体部２を時計方向に回す）に回転させると、本体部２の係止爪２５がカバー３の係止爪３７から外れて（図６の状態となり、本体部２とカバー部３を分離できる。この状態で、本体部２を取り除けば、カバー部３にナイロンコード５を巻回することができる。
+</com:P>
+         <com:P com:pNumber="0031">
+なお、前記カバー部３の着脱作業は、本体部２を刈払機の駆動軸に装着したまま行うことができるので、ナイロンコード５を交換する際に、前記本体部２を刈払機の駆動軸から着脱する手間が不要となり、ナイロンコード５の取替作業効率が一段と向上する。
+</com:P>
+      </pat:EmbodimentDescription>
+      <pat:IndustrialApplicability>
+         <com:P com:pNumber="0032">
+  本考案のコード保持装置は、ナイロンコード５の交換が容易であるだけでなく、本体部２とカバー部３との着脱が極めて容易、且つ、短時間で行うことができるので、ナイロンコード５を用いた刈払機に広く利用することができる。
+</com:P>
+      </pat:IndustrialApplicability>
+      <pat:ReferenceSignBag>
+         <com:P com:pNumber="0033">
+  １  ナイロンコードカッター<com:Br/>
+  ２  本体部<com:Br/>
+  ２１  取付穴<com:Br/>
+  ２２  補強輪<com:Br/>
+  ２３  ピン<com:Br/>
+  ２４ａ  外周円筒胴<com:Br/>
+  ２４ｂ  内周円筒胴<com:Br/>
+  ２５  係止爪<com:Br/>
+  ２６  筒状胴部<com:Br/>
+  ２８  押圧部<com:Br/>
+  ２９  凹凸状<com:Br/>
+  ３  カバー部<com:Br/>
+  ３１  有底円筒胴<com:Br/>
+  ３２  大径フランジ<com:Br/>
+３３  小径フランジ<com:Br/>
+  ３４  コード巻回部<com:Br/>
+  ３５  挿入孔<com:Br/>
+  ３６  引出溝<com:Br/>
+  ３７  係止爪<com:Br/>
+  ４  ロック機構<com:Br/>
+  ４１  円弧状スリット<com:Br/>
+  ４２  円弧状係止爪<com:Br/>
+  ４３  円弧状穴<com:Br/>
+  ４５  返し<com:Br/>
+５  ナイロンコード
+</com:P>
+      </pat:ReferenceSignBag>
+   </jputl:Description>
+   <pat:Claims>
+      <pat:Claim>
+         <pat:ClaimNumber>1</pat:ClaimNumber>
+         <pat:ClaimText>
+  本体部は、駆動軸取付け穴が軸心に設けられ、該取付け穴の外周部にはカバー部の円筒胴を着脱自在に嵌着する円筒胴が形成され、該円筒胴の内周には複数のカバー部係止爪が形成され、前記本体部の内面外周縁部には、複数のナイロンコード係止ピンが設けられており、<com:Br/>
+  カバー部は、内部空間を有する有底の円筒胴と、該円筒胴の基端円周部には前記本体部と着脱自在に嵌着する複数の係止爪が形成され、前記円筒胴の外周部には、ナイロンコードを巻回する大径フランジ及び小径フランジが設けられ、該大径フランジの円周縁には一対のナイロンコード引出し溝が形成されていることを特徴とする、刈払機のナイロンコードカッター。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>2</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記本体部の表面円周部に設けられたロック機構により、本体部とカバー部を容易、且つ、迅速に着脱することを特徴とする、請求項１に記載の刈払機のナイロンコードカッター。
+</pat:ClaimText>
+      </pat:Claim>
+      <pat:Claim>
+         <pat:ClaimNumber>3</pat:ClaimNumber>
+         <pat:ClaimText>
+  前記本体部の内面外周部には複数個の磁石が装着されており、本体部の磁石と対向するカバー部の位置には、磁石が練り込まれていることを特徴とする、請求項１又は２に記載の刈払機のナイロンコードカッター。
+</pat:ClaimText>
+      </pat:Claim>
+   </pat:Claims>
+   <pat:Abstract>
+      <com:P com:pNumber="">【課題】巻回作業を容易に行うことができ、迅速に締結作業ができる、刈払機のナイロンコードカッターを提供する。<com:Br/>【解決手段】本体部２とカバー部３の着脱が簡単、且つ、迅速にできる刈払機のナイロンコードカッター１であり、本体部は、駆動軸取付け穴２１と、カバー部を着脱自在に嵌着する係止片が形成され、前記本体部の内面外周縁部には、複数のナイロンコード係止ピンが設けられており、カバー部は、有底の円筒胴３１の外周に、ナイロンコードを巻回する大径フランジ３２及び小径フランジ３３が設けられ、記大径フランジの円周縁には一対のナイロンコード引出し溝が形成され、本体部とカバー部を着脱するロック機構を設けた。<com:Br/>【選択図】図１</com:P>
+   </pat:Abstract>
+   <pat:Drawings>
+      <pat:Figure>
+         <pat:FigureNumber>1</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>0003250568000002.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">197</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">136</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>2</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>0003250568000003.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">155</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">142</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>3</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>0003250568000004.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">140</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">144</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>4</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>0003250568000005.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">161</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">146</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>5</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>0003250568000006.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">150</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">140</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>6</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>0003250568000007.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">164</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">148</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+      <pat:Figure>
+         <pat:FigureNumber>7</pat:FigureNumber>
+         <com:Image com:imageContentCategory="Drawing">
+            <com:ImageFormatCategory>JPEG</com:ImageFormatCategory>
+            <com:FileName>0003250568000008.jpg</com:FileName>
+            <com:HeightMeasure com:measureUnitCode="Mm">153</com:HeightMeasure>
+            <com:WidthMeasure com:measureUnitCode="Mm">140</com:WidthMeasure>
+         </com:Image>
+      </pat:Figure>
+   </pat:Drawings>
+</jputl:RegisteredUtilityModelPublication>

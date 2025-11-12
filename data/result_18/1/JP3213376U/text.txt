@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding='utf-8'?>
+<!-- <?xml-stylesheet type="text/xsl" href="../../../../../XSL/gat-u9.xsl"?> -->
+<!DOCTYPE jp-official-gazette PUBLIC "-//JPO//DTD REGISTERED UTILITY MODEL 1.0//EN" "../../../../../DTD/gat-u9.dtd">
+<jp-official-gazette kind-of-jp="U9" kind-of-st16="U" lang="ja" dtd-version="1.0" country="JP" xmlns:jp="http://www.jpo.go.jp"><bibliographic-data lang="ja" country="JP">
+    <publication-reference>
+      <document-id>
+        <country>JP</country>
+        <doc-number>3213376</doc-number>
+        <kind>登録実用新案公報(U)</kind>
+        <date>20171018</date>
+      </document-id>
+    </publication-reference>
+    <application-reference>
+      <document-id>
+        <doc-number>2016600037</doc-number>
+        <date>20150713</date>
+      </document-id>
+    </application-reference>
+    <invention-title>小エアバッグに自動で空気を入れる新型内部構造タイヤ</invention-title>
+    <parties>
+      <jp:applicants-agents-article>
+        <jp:applicants-agents sequence="1">
+          <applicant sequence="1">
+            <addressbook lang="ja">
+              <name>ヨンピン  ワン</name>
+              <registered-number>516096151</registered-number>
+              <address>
+                <text>中華人民共和国  ４１００００  フーナン  プロヴィンス  チャンシャー  シティー  ユファー  ディストリクト  フーヨン  ミドル  ロード  セクション  ３  ナンバー  ４８９  シンフーヨンジドゥ  レジテンシャル  ゾーン  ユニット  １  ビルディング  １  ルーム  ６０５</text>
+              </address>
+            </addressbook>
+          </applicant>
+          <applicant sequence="2">
+            <addressbook lang="ja">
+              <name>シー  ルオ</name>
+              <registered-number>516096162</registered-number>
+              <address>
+                <text>中華人民共和国  ４１００００  フーナン  プロヴィンス  チャンシャー  シティー  ユファー  ディストリクト  フーヨン  ミドル  ロード  セクション  ３  ナンバー  ４８９  シンフーヨンジドゥ  レジテンシャル  ゾーン  ユニット  １  ビルディング  １  ルーム  ６０５</text>
+              </address>
+            </addressbook>
+          </applicant>
+          <agent sequence="1" jp:kind="representative">
+            <addressbook>
+              <name>特許業務法人アイミー国際特許事務所</name>
+              <registered-number>110001586</registered-number>
+            </addressbook>
+          </agent>
+        </jp:applicants-agents>
+      </jp:applicants-agents-article>
+      <inventors>
+        <inventor sequence="1">
+          <addressbook>
+            <name>ヨンピン  ワン</name>
+            <address>
+              <text>中華人民共和国  ４１００００  フーナン  プロヴィンス  チャンシャー  シティー  ユファー  ディストリクト  フーヨン  ミドル  ロード  セクション  ３  ナンバー  ４８９  シンフーヨンジドゥ  レジテンシャル  ゾーン  ユニット  １  ビルディング  １  ルーム  ６０５</text>
+            </address>
+          </addressbook>
+        </inventor>
+        <inventor sequence="2">
+          <addressbook>
+            <name>シー  ルオ</name>
+            <address>
+              <text>中華人民共和国  ４１００００  フーナン  プロヴィンス  チャンシャー  シティー  ユファー  ディストリクト  フーヨン  ミドル  ロード  セクション  ３  ナンバー  ４８９  シンフーヨンジドゥ  レジテンシャル  ゾーン  ユニット  １  ビルディング  １  ルーム  ６０５</text>
+            </address>
+          </addressbook>
+        </inventor>
+      </inventors>
+    </parties>
+    <priority-claims>
+      <priority-claim sequence="1" jp:kind="international">
+        <country>CN</country>
+        <doc-number>201420770147.4</doc-number>
+        <date>20141127</date>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <printed-with-grant>
+        <document-id>
+          <date>20171109</date>
+        </document-id>
+      </printed-with-grant>
+    </dates-of-public-availability>
+    <classification-ipc><edition/><main-clsf>B60C   5/20        20060101AFI20171026BHJP        </main-clsf></classification-ipc>
+    <classification-national><country>JP</country><main-clsf>B60C5/20</main-clsf></classification-national>
+    <number-of-claims jp:adopted-law="claim">4</number-of-claims>
+    <pct-or-regional-filing-data>
+      <document-id>
+        <doc-number>CN2015000497</doc-number>
+        <date>20150713</date>
+      </document-id>
+    </pct-or-regional-filing-data>
+    <pct-or-regional-publishing-data>
+      <document-id>
+        <doc-number>WO2016082295</doc-number>
+        <date>20160602</date>
+      </document-id>
+    </pct-or-regional-publishing-data>
+    <jp:request-for-registrability-report true-or-false="false"/>
+    <jp:filing-form>ＯＬ</jp:filing-form>
+    <jp:total-pages>5</jp:total-pages>
+  </bibliographic-data><jp:image-of-bibliographic-data><img id="000001" he="140" wi="160" file="0003213376.tif" img-format="tif" img-content="drawing"/></jp:image-of-bibliographic-data><jp:image-of-chosen-drawing>
+    <img id="000002" he="81" wi="69" file="0003213376.tif" img-format="tif" img-content="drawing"/>
+  </jp:image-of-chosen-drawing><jp:abstract-correction/><description>
+
+<technical-field>
+<p num="0001">
+  本考案は、交通運輸技術分野に属し、具体的に小エアバッグに自動で空気を入れる新型内部構造タイヤに関する。
+</p>
+</technical-field>
+<background-art>
+<p num="0002">
+  従来、汎用の自動車タイヤは、走行途中において、釘、ガラス等の鋭利なものでタイヤを刺して、空気漏れ、パンクをもたらす場合があり、使用開始から廃棄処分まで、数十回以上刺された自動車タイヤもあり、タイヤの修復に膨大な作業量を必要とし、運転者に大きな困難や不便をもたらしていた。更に重要なのは、走行途中の自動車のパンク、空気漏れが自動車走行のバランスを崩させ、運転者が方向を把握することが困難であり、事故を起こしやすく、これは非常に危険である。中国特許２０１１２０４９３８２３．４号（特許文献１）は、新型内部構造タイヤを開示し、この新型内部構造タイヤは、外側から内側へ、ゴムタイヤ、小エアバッグ層、中空層及び金属ハブが順に接続して構成され、自動車タイヤの耐突き刺しパンク性能が低いという問題を適切に解決し、しかしながら、長期使用後、小エアバッグ層の一部の小エアバッグは空気が漏れ又は空気圧が不十分であるという問題を避けられず、このような新型内部構造タイヤの円周空気圧のアンバランスをもたらし、走行が不安定で、局所の耐突き刺しパンク性能が低く、新型内部構造タイヤ全体の耐用年数及び技術性能に影響する。
+</p>
+</background-art>
+<citation-list>
+<patent-literature>
+<p num="0003">
+<patcit num="1"><text>中国特許２０１１２０４９３８２３．４号</text></patcit>
+</p>
+</patent-literature>
+</citation-list>
+<summary-of-invention>
+<tech-problem>
+<p num="0004">
+  本考案の目的は、上記の従来技術に存在する問題を解決し、小エアバッグに自動で空気を入れる新型内部構造タイヤを提供することであり、常に小エアバッグ内の空気圧を補填し、タイヤ周囲の空気圧バランスを保持し、走行が安定的で、耐突き刺しパンク性能を有し、優れた安全性能を有し、耐用年数を長くする。
+</p>
+</tech-problem>
+<tech-solution>
+<p num="0005">
+  本考案が採用する技術的解決手段は以下のとおりであり、小エアバッグに自動で空気を入れる新型内部構造タイヤであって、外側から内側へ順に配置されているゴムタイヤ、小エアバッグ層、中空層及び金属ハブ、小エアバッグ層の各小エアバッグと中空層との接続箇所には、自動で小エアバッグ内に空気を入れ、小エアバッグ内の気体を逆流させない空気注入逆止弁が取り付けられる。
+</p>
+<p num="0006">
+  上記技術的解決手段では、前記空気注入逆止弁がゴム弁であり、ゴム弁はゴム弁本体及びゴム弁板を備え、ゴム弁本体の中心部に中心孔及び空気注入孔が設けられ、ゴム弁本体の面とゴム弁板の面が並行して装着され、ゴム弁板の中心弁棒がゴム弁本体の中心孔内に嵌着される。
+</p>
+<p num="0007">
+  上記技術的解決手段では、前記空気注入逆止弁と小エアバッグは、小エアバッグの取付孔壁がゴム弁本体の側溝に嵌め込まれ、又は小エアバッグがゴム弁本体と一体成型されるように接続して取り付けられる。
+</p>
+</tech-solution>
+<advantageous-effects>
+<p num="0008">
+  上記技術的解決手段では、前記中空層に空気注入ノズルが取り付けられる。
+</p>
+<p num="0009">
+  本考案は、ゴムタイヤの内側に小エアバッグ層及び中空層が成形して固定されるため、耐突き刺しパンク性能の性能上の利点を有し、また本考案で各小エアバッグと中空層との接続箇所には、自動で小エアバッグ内に空気を入れ、小エアバッグ内の気体を逆流させない空気注入逆止弁が取り付けられるため、新型内部構造タイヤが長期使用された後、ごく一部の小エアバッグは空気が漏れ又は空気圧が不十分である場合、中空層の空気圧によって空気注入逆止弁を介して小エアバッグ内に自動的に空気を入れ、常に新型内部構造タイヤの小エアバッグ層内の空気圧が十分かつ均等になるように保たれ、タイヤの一部の小エアバッグの空気圧の不十分によって生じる走行の不安定、局所の耐突き刺しパンク性能の低下、安全性能の低下という欠陥を回避する。従って、本考案は、耐突き刺しパンク性能の利点を有するとともに、小エアバッグ層内の小エアバッグに自動で空気を入れ、新型内部構造タイヤの走行安定性、安全性を保持し、故障率を低くし、耐用年数を長くする。
+</p>
+</advantageous-effects>
+</summary-of-invention>
+<description-of-drawings>
+<p num="0010">
+<figref num="1">本考案の構造模式図である。</figref>
+<figref num="2">本考案に係る空気注入逆止弁の構造模式図である。</figref>
+</p>
+</description-of-drawings>
+<description-of-embodiments>
+<p num="0011">
+  図１を参照しながら、本考案に係る小エアバッグに自動で空気を入れる新型内部構造タイヤは、外側から内側へ順に配置されているゴムタイヤ、小エアバッグ層、中空層及び金属ハブを備え、小エアバッグ層の各小エアバッグと中空層との接続箇所には、自動で小エアバッグ内に空気を入れ、小エアバッグ内の気体を逆流させない空気注入逆止弁が取り付けられる。
+</p>
+<p num="0012">
+  上記空気注入逆止弁がゴム弁であり、ゴム弁はゴム弁本体及びゴム弁板を備え、ゴム弁本体の中心部に中心孔及び空気注入孔が設けられ、ゴム弁本体の面とゴム弁板の面が並行して装着され、ゴム弁板の中心弁棒がゴム弁本体の中心孔内に嵌着される。
+</p>
+<p num="0013">
+  上記空気注入逆止弁と小エアバッグは、小エアバッグの取付孔壁がゴム弁本体の側溝に嵌め込まれ、又は小エアバッグがゴム弁本体と一体成型されるように接続して取り付けられる。
+</p>
+<p num="0014">
+  上記中空層に空気注入ノズルが取り付けられる。
+</p>
+<heading>符号の簡単な説明</heading>
+<p num="0015">
+  １  ゴムタイヤ、２  小エアバッグ層、３  中空層、４  金属ハブ、５  空気注入逆止弁、６  ゴム弁本体、７  ゴム弁板、８  中心弁棒、９  空気注入孔。
+</p>
+</description-of-embodiments>
+</description><claims>
+<claim num="1">
+<claim-text>
+  外側から内側へ順に配置されているゴムタイヤ、小エアバッグ層、中空層及び金属ハブを備える新型内部構造タイヤであって、前記小エアバッグ層の各小エアバッグと前記中空層との接続箇所には、自動で前記小エアバッグ内に空気を入れ、前記小エアバッグ内の気体を逆流させない空気注入逆止弁が取り付けられることを特徴とする、小エアバッグに自動で空気を入れる新型内部構造タイヤ。
+</claim-text>
+</claim>
+<claim num="2">
+<claim-text>
+  前記空気注入逆止弁がゴム弁であり、前記ゴム弁はゴム弁本体及びゴム弁板を備え、前記ゴム弁本体の中心部に中心孔及び空気注入孔が設けられ、前記ゴム弁本体の面と前記ゴム弁板の面が並行して装着され、前記ゴム弁板の中心弁棒が前記ゴム弁本体の前記中心孔内に嵌着されることを特徴とする、請求項１に記載の小エアバッグに自動で空気を入れる新型内部構造タイヤ。
+</claim-text>
+</claim>
+<claim num="3">
+<claim-text>
+  前記空気注入逆止弁と前記小エアバッグは、前記小エアバッグの取付孔壁がゴム弁本体の側溝に嵌め込まれ、又は前記小エアバッグが前記ゴム弁本体と一体成型されるように接続して取り付けられることを特徴とする、請求項１に記載の小エアバッグに自動で空気を入れる新型内部構造タイヤ。
+</claim-text>
+</claim>
+<claim num="4">
+<claim-text>
+  前記中空層に空気注入ノズルが取り付けられることを特徴とする、請求項１に記載の小エアバッグに自動で空気を入れる新型内部構造タイヤ。
+</claim-text>
+</claim>
+</claims><abstract>
+  <p num="">【課題】常に小エアバッグ内の空気圧を補填し、タイヤ周囲の空気圧バランスを保持し、走行が安定的で、耐突き刺しパンク性能を有し、優れた安全性能を有し、耐用年数を長くする、小エアバッグに自動で空気を入れる新型内部構造を提供する。<br/>【解決手段】小エアバッグに自動で空気を入れる新型内部構造は、外側から内側へ順に配置されているゴムタイヤ１、小エアバッグ層２、中空層３及び金属ハブ４を備え、小エアバッグ層２の各小エアバッグと中空層３との接続箇所には、自動で小エアバッグ内に空気を入れ、小エアバッグ内の気体を逆流させない空気注入逆止弁５が取り付けられる。<br/>【選択図】図１</p>
+</abstract><drawings>
+        <figure num="1">
+            <img id="000003" file="0003213376.tif" he="82" img-format="tif" wi="82" img-content="drawing"/>
+        </figure>
+        <figure num="2">
+            <img id="000004" file="0003213376.tif" he="63" img-format="tif" wi="68" img-content="drawing"/>
+        </figure>
+    </drawings><jp:overflow><p num="">(73)実用新案権者  516096162<br/>            シー  ルオ<br/>            中華人民共和国  ４１００００  フーナン  プロヴィンス  チャンシャー  シティー  ユファー  <br/>            ディストリクト  フーヨン  ミドル  ロード  セクション  ３  ナンバー  ４８９  シンフーヨン<br/>            ジドゥ  レジテンシャル  ゾーン  ユニット  １  ビルディング  １  ルーム  ６０５<br/>(74)代理人  110001586<br/>            特許業務法人アイミー国際特許事務所<br/>(72)考案者  ヨンピン  ワン<br/>            中華人民共和国  ４１００００  フーナン  プロヴィンス  チャンシャー  シティー  ユファー  <br/>            ディストリクト  フーヨン  ミドル  ロード  セクション  ３  ナンバー  ４８９  シンフーヨン<br/>            ジドゥ  レジテンシャル  ゾーン  ユニット  １  ビルディング  １  ルーム  ６０５<br/>(72)考案者  シー  ルオ<br/>            中華人民共和国  ４１００００  フーナン  プロヴィンス  チャンシャー  シティー  ユファー  <br/>            ディストリクト  フーヨン  ミドル  ロード  セクション  ３  ナンバー  ４８９  シンフーヨン<br/>            ジドゥ  レジテンシャル  ゾーン  ユニット  １  ビルディング  １  ルーム  ６０５<br/></p></jp:overflow></jp-official-gazette>
