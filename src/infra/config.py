@@ -8,21 +8,29 @@ class Config:
     """
 
     # Embeddings, Retriever
-    embedding_type = "openai"  # "openai" or "gemini"
+    embedding_type = "gemini"  # "openai" or "gemini"
     openai_embedding_model_name = "text-embedding-3-small"
-    gemini_embedding_model_name = "models/gemini-embedding-exp-03-07"
+    gemini_embedding_model_name = "models/text-embedding-004"
     chunk_size = 400
     chunk_overlap = 100
     top_n = 3
 
     # Chroma
-    # persist_dir = "data_store/chroma/gemini_v0.1"
-    persist_dir = "data_store/chroma/openai_v1.0"
+    persist_dir = "data_store/chroma/gemini_v0.2"
+    # persist_dir = "data_store/chroma/openai_v1.0"
 
     # LLM
-    llm_type = "openai" # "openai" or "gemini"
-    openai_llm_name = "gpt-5-nano" # gpt-5-nano（最安）, gpt-5（最高品質） 
-    gemini_llm_name = "gemini-2.5-flash" # Geminiはよくわからん。
+    llm_type = "gemini" # "openai" or "gemini"
+    openai_llm_name = "gpt-5-nano" # gpt-5-nano（最安）, gpt-5（最高品質）
+    gemini_llm_name = "gemini-2.5-flash-lite"
+
+    # Available Gemini models for selection
+    gemini_models = [
+        "gemini-2.5-flash-lite",
+        "gemini-2.0-flash-exp",
+        "gemini-1.5-flash",
+        "gemini-1.5-pro",
+    ]
 
 
 cfg = Config()
