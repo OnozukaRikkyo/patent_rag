@@ -8,7 +8,7 @@ from pathlib import Path
 
 def search_similar_patents(target_patent_number, output_csv='similar_patents.csv', top_k=1000):
 
-    load_dotenv('config.env')
+    load_dotenv()  # 引数なしでカレントディレクトリから.envを探す
 
     # APIキーの設定（環境変数から取得）
     project_id = os.getenv("GCP_PROJECT_ID")
@@ -48,7 +48,7 @@ def search_similar_patents(target_patent_number, output_csv='similar_patents.csv
         `patents-public-data.google_patents_research.publications`
       WHERE
         country = "Japan"
-        AND MOD(ABS(FARM_FINGERPRINT(publication_number)), 100) = 0
+        AND MOD(ABS(FARM_FINGERPRINT(publication_number)), 10000) = 0
     ),
     distances AS (
       SELECT

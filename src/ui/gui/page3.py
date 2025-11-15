@@ -5,16 +5,31 @@ from pathlib import Path
 # big_query_topk.pyをインポートできるようにパスを追加
 sys.path.append(str(Path(__file__).parent.parent.parent / "bigquery"))
 from big_query_topk import search_similar_patents
+from ui.gui.utils import format_patent_number_for_bigquery
+
+# page1と同じQUERY_PATHを使用
+QUERY_PATH = Path("data/gui/uploaded_query.txt")
 
 
 def page_3():
     st.write("page3です")
 
+    # page1でアップロードされた特許番号を取得
+    default_patent_number = ""
+
+    # アップロード済みファイルがあれば読み込む
+    if QUERY_PATH.exists() and hasattr(st.session_state, 'loader'):
+        try:
+            query = st.session_state.loader.run(QUERY_PATH)
+            default_patent_number = format_patent_number_for_bigquery(query)
+        except Exception as e:
+            st.warning(f"保存されたファイルからの特許番号取得に失敗しました: {e}")
+
     # 特許番号の入力フィールド
     st.subheader("類似特許検索")
     target_patent = st.text_input(
         "基準とする特許番号を入力してください",
-        value="JP-S4926374-B1",
+        value=default_patent_number,
         help="例: JP-2023123456-A, JP-S4926374-B1"
     )
 
