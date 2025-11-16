@@ -9,6 +9,12 @@ BigQuery特許検索モジュール（VECTOR_SEARCH版）
   ご自身のプロジェクトに作成されている必要があります。
 - 必要な環境変数（PROJECT_ID, DATASET_ID, TABLE_ID）が
   .envファイルまたは環境に設定されている必要があります。
+
+【重要な変更点】
+- VECTOR_SEARCH は base という STRUCT を返します
+- base には STORING 句の有無に関わらず、すべてのカラムが含まれます
+- base.publication_number のように直接アクセス可能です
+- ROWID での JOIN は不要です（そもそも ROWID は存在しません）
 """
 
 from google.cloud import bigquery
@@ -20,20 +26,14 @@ from pathlib import Path
 # to_dataframe() で BigQuery の型を適切に扱うために推奨
 # pip install db-dtypes 
 
-# .envファイルから環境変数を読み込む
+# .envファイルから環境変数を読み込む (1回だけ)
 load_dotenv()
 
-# 環境変数から設定を読み込み
-# これらは prepare.py で作成したテーブルを指定します
-from dotenv import load_dotenv
-import os
-
-load_dotenv()
 # ----------------------------------------------------
 # ▼▼▼ ユーザー設定 ▼▼▼
-PROJECT_ID = os.getenv("GCP_PROJECT_ID")  # ご自身のプロジェクトID
-DATASET_ID = os.getenv("DATASET_ID")  # コピー先のデータセットID
-TABLE_ID = os.getenv("TABLE_ID")       # 作成するテーブル名
+PROJECT_ID = os.getenv("GCP_PROJECT_ID")
+DATASET_ID = os.getenv("DATASET_ID")
+TABLE_ID = os.getenv("TABLE_ID")
 # ▲▲▲ ユーザー設定 ▲▲▲
 # ----------------------------------------------------
 
@@ -56,11 +56,17 @@ def search_similar_patents(target_patent_number, output_csv='similar_patents_vec
         類似特許の検索結果
     """
 
+    # --- ★★★ デバッグ用 ★★★ ---
+    # ご要望に基づき、UIからの入力を無視し、
+    # 検索する特許番号をハードコードします。
+    target_patent_number = "JP-WO2021014821-A1"
+    # --- ★★★ デバッグ用 ★★★ ---
+
+    
     # --- 1. 設定の検証 ---
     if not all([PROJECT_ID, DATASET_ID, TABLE_ID]):
         raise ValueError(
             "環境変数 PROJECT_ID, DATASET_ID, TABLE_ID のいずれかが設定されていません。"
-            "prepare.py で作成したテーブル情報を設定してください。"
         )
 
     client = bigquery.Client(project=PROJECT_ID)
@@ -73,8 +79,17 @@ def search_similar_patents(target_patent_number, output_csv='similar_patents_vec
     print(f"取得件数: {top_k}")
 
     # --- 2. VECTOR_SEARCH クエリの構築 ---
-    # f-string でパラメータを埋め込みます
-    # (SQLインジェクションのリスクがない内部利用を想定)
+    # 【正しいアプローチ】
+    # VECTOR_SEARCH は base という STRUCT を返します。
+    # base には、STORING 句の有無に関わらず、ベーステーブルの
+    # すべてのカラムが含まれます。
+    # 
+    # STORING 句がない場合：
+    #   BigQuery が内部的に JOIN を実行（コストがかかる）
+    # STORING 句がある場合：
+    #   インデックスに保存されたカラムから直接取得（高速）
+    #
+    # どちらの場合でも、クエリの書き方は同じです。
     query = f"""
     -- 検索パラメータを宣言
     DECLARE target_patent_number STRING DEFAULT '{target_patent_number}';
@@ -83,8 +98,8 @@ def search_similar_patents(target_patent_number, output_csv='similar_patents_vec
     -- VECTOR_SEARCH を使った検索クエリ
     SELECT
       base.publication_number,
-      search_result.distance AS cosine_distance,
-      1 - search_result.distance AS cosine_similarity
+      distance AS cosine_distance,
+      1 - distance AS cosine_similarity
     FROM
       VECTOR_SEARCH(
         TABLE {search_table_full_id},                           -- 検索対象テーブル (インデックス付き)
@@ -96,29 +111,22 @@ def search_similar_patents(target_patent_number, output_csv='similar_patents_vec
           FROM `patents-public-data.google_patents_research.publications`
           WHERE publication_number = target_patent_number
         ),
-        top_k => top_k,                                         -- 上位K件
+        top_k => {top_k},                                         -- 上位K件
         options => '{{ "use_brute_force": false }}'             -- インデックス使用
-      ) AS search_result
-    JOIN
-      -- publication_number を結果に含めるためにJOIN
-      {search_table_full_id} AS base
-      ON search_result.publication_number = base.publication_number;
+      )
+    ORDER BY distance ASC;
     """
     
-    # f-string の {} と JSON の {} が競合するため、
-    # JSON の {} は {{ }} とエスケープしています (options => '{{ ... }}')
-
-    # JobConfig はパラメータを渡さないため不要
     job_config = bigquery.QueryJobConfig()
 
     # --- 3. クエリの実行と結果の取得 ---
     try:
+        print(f"実行クエリ: {query}") # デバッグ用にクエリ内容を表示
         query_job = client.query(query, job_config=job_config)
         df = query_job.to_dataframe()
         
     except Exception as e:
         print(f"クエリ実行中にエラーが発生しました (Job ID: {query_job.job_id}): {e}")
-        # 元のエラーを再送出する
         raise e
 
     print(f"検索完了: {len(df)}件の類似特許を発見")
@@ -147,13 +155,13 @@ def search_similar_patents(target_patent_number, output_csv='similar_patents_vec
 # --- 使用例 ---
 if __name__ == "__main__":
     # 基準とする特許番号
-    target_patent = 'JP-S4926374-B1'  # ← ここに実際の特許番号を入力
+    target_patent = 'JP-S4926374-B1'  # ← この値は上記のデバッグ行によって上書きされます
 
     # VECTOR_SEARCHを使った検索
     print("=== VECTOR_SEARCHを使った高速検索 ===")
     
     try:
-        results_df = search_similar_patents_vector(
+        results_df = search_similar_patents(
             target_patent_number=target_patent,
             output_csv=f'similar_patents_vector_{target_patent}.csv',
             top_k=1000
