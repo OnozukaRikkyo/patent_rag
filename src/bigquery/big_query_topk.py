@@ -55,13 +55,6 @@ def search_similar_patents(target_patent_number, output_csv='similar_patents_vec
     pd.DataFrame
         類似特許の検索結果
     """
-
-    # --- ★★★ デバッグ用 ★★★ ---
-    # ご要望に基づき、UIからの入力を無視し、
-    # 検索する特許番号をハードコードします。
-    target_patent_number = "JP-WO2021014821-A1"
-    # --- ★★★ デバッグ用 ★★★ ---
-
     
     # --- 1. 設定の検証 ---
     if not all([PROJECT_ID, DATASET_ID, TABLE_ID]):
@@ -90,32 +83,56 @@ def search_similar_patents(target_patent_number, output_csv='similar_patents_vec
     #   インデックスに保存されたカラムから直接取得（高速）
     #
     # どちらの場合でも、クエリの書き方は同じです。
-    query = f"""
-    -- 検索パラメータを宣言
-    DECLARE target_patent_number STRING DEFAULT '{target_patent_number}';
-    DECLARE top_k INT64 DEFAULT {top_k};
+# --- 1. サブクエリ（改行なし） ---
+    sub_query = (
+        f"SELECT embedding_v1 FROM `{PROJECT_ID}.{DATASET_ID}.{TABLE_ID}` "
+        f"WHERE publication_number = '{target_patent_number}' LIMIT 1"
+    )
 
-    -- VECTOR_SEARCH を使った検索クエリ
+    # --- 2. VECTOR_SEARCH を実行するメインクエリ ---
+    query = f"""
     SELECT
-      base.publication_number,
-      distance AS cosine_distance,
-      1 - distance AS cosine_similarity
+        T.base.publication_number,
+        T.distance AS cosine_distance,
+        1 - T.distance AS cosine_similarity
     FROM
-      VECTOR_SEARCH(
-        TABLE {search_table_full_id},                           -- 検索対象テーブル (インデックス付き)
-        'embedding_v1',                                         -- 検索対象カラム
-        (
-          -- ターゲット特許のベクトルを取得
-          -- ※元データ（公開データセット）から取得
-          SELECT embedding_v1
-          FROM `patents-public-data.google_patents_research.publications`
-          WHERE publication_number = target_patent_number
-        ),
-        top_k => {top_k},                                         -- 上位K件
-        options => '{{ "use_brute_force": false }}'             -- インデックス使用
-      )
-    ORDER BY distance ASC;
+        VECTOR_SEARCH(
+            TABLE `{PROJECT_ID}.{DATASET_ID}.{TABLE_ID}`,
+            'embedding_v1',
+            ({sub_query}),
+            top_k => {top_k},
+            distance_type => 'COSINE'
+        ) AS T
+    WHERE T.base.publication_number != '{target_patent_number}'
+    ORDER BY distance ASC
     """
+
+    # query = f"""
+    # -- 検索パラメータを宣言
+    # DECLARE target_patent_number STRING DEFAULT '{target_patent_number}';
+    # DECLARE top_k INT64 DEFAULT {top_k};
+
+    # -- VECTOR_SEARCH を使った検索クエリ
+    # SELECT
+    #   base.publication_number,
+    #   distance AS cosine_distance,
+    #   1 - distance AS cosine_similarity
+    # FROM
+    #   VECTOR_SEARCH(
+    #     TABLE {search_table_full_id},                           -- 検索対象テーブル (インデックス付き)
+    #     'embedding_v1',                                         -- 検索対象カラム
+    #     (
+    #       -- ターゲット特許のベクトルを取得
+    #       -- ※元データ（公開データセット）から取得
+    #       SELECT embedding_v1
+    #       FROM `patents-public-data.google_patents_research.publications`
+    #       WHERE publication_number = target_patent_number
+    #     ),
+    #     top_k => {top_k},                                         -- 上位K件
+    #     options => '{{ "use_brute_force": false }}'             -- インデックス使用
+    #   )
+    # ORDER BY distance ASC;
+    # """
     
     job_config = bigquery.QueryJobConfig()
 

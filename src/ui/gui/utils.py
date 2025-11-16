@@ -75,8 +75,60 @@ def create_matched_md(index: int, xml_loader: CommonLoader, MAX_CHAR: int) -> st
         """
     return markdown_text
 
+from google.cloud import bigquery
+from dotenv import load_dotenv
+import os
+# .envファイルから環境変数を読み込む
+load_dotenv()
+
+# ----------------------------------------------------
+# ▼▼▼ ユーザー設定 ▼▼▼
+PROJECT_ID = os.getenv("GCP_PROJECT_ID")
+DATASET_ID = os.getenv("DATASET_ID")
+TABLE_ID = os.getenv("TABLE_ID")
+
 
 def format_patent_number_for_bigquery(patent: Patent) -> str:
+    """
+    PatentオブジェクトからBigQuery用の特許番号フォーマット（JP-XXXXX-X）を生成する。
+
+    Args:
+        patent: Patentオブジェクト
+
+    Returns:
+        BigQuery用にフォーマットされた特許番号（例: JP-2012173419-A, JP-7550342-B2）
+    """
+    doc_number = patent.publication.doc_number
+    country = patent.publication.country or "JP"
+    kind = patent.publication.kind
+
+
+    # BigQueryクライアントの初期化
+    client = bigquery.Client(project=PROJECT_ID)
+
+
+    # SQLクエリ(LIKE演算子で部分一致)
+    query = f"""
+    SELECT publication_number
+    FROM `{PROJECT_ID}.{DATASET_ID}.{TABLE_ID}`
+    WHERE publication_number LIKE '%{doc_number}%'
+    """
+
+    # クエリの実行
+    query_job = client.query(query)
+
+    # 結果の取得
+    results = query_job.result()
+
+    # 結果の表示
+    for row in results:
+        formatted_number =  str(row.publication_number)
+        
+        return formatted_number
+    print("該当する特許番号が見つかりませんでした。")
+    return ""
+ 
+def format_patent_number_for_bigquery_compose_id(patent: Patent) -> str:
     """
     PatentオブジェクトからBigQuery用の特許番号フォーマット（JP-XXXXX-X）を生成する。
 
