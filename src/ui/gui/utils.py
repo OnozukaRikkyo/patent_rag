@@ -5,39 +5,39 @@ import pandas as pd
 import streamlit as st
 from langchain_core.documents import Document
 
-from app.retriever import Retriever
+# from app.retriever import Retriever
 from infra.loader.common_loader import CommonLoader
 from model.patent import Patent
 
 
 # TODO: 検索実行はGUIではなくRetrieverやRAG側で制御すべきか考える。
-def retrieve(retriever: Retriever, query: Patent) -> pd.DataFrame:
-    """
-    検索を実行して、検索結果を返す
-    """
-    query_ids: list[str] = []
-    knowledge_ids: list[str] = []
-    retrieved_paths: list[str] = []
-    retrieved_chunks: list[str] = []
+# def retrieve(retriever: Retriever, query: Patent) -> pd.DataFrame:
+#     """
+#     検索を実行して、検索結果を返す
+#     """
+#     query_ids: list[str] = []
+#     knowledge_ids: list[str] = []
+#     retrieved_paths: list[str] = []
+#     retrieved_chunks: list[str] = []
 
-    retrieved_docs: list[Document] = retriever.retrieve(query)
-    st.session_state.retrieved_docs = retrieved_docs
+#     retrieved_docs: list[Document] = retriever.retrieve(query)
+#     st.session_state.retrieved_docs = retrieved_docs
 
-    for doc in retrieved_docs:
-        query_ids.append(query.publication.doc_number)
-        knowledge_ids.append(doc.metadata["publication_number"])
-        retrieved_paths.append(doc.metadata["path"])
-        retrieved_chunks.append(doc.page_content)
+#     for doc in retrieved_docs:
+#         query_ids.append(query.publication.doc_number)
+#         knowledge_ids.append(doc.metadata["publication_number"])
+#         retrieved_paths.append(doc.metadata["path"])
+#         retrieved_chunks.append(doc.page_content)
 
-    df = pd.DataFrame(
-        {
-            "query_id": query_ids,
-            "knowledge_id": knowledge_ids,
-            "retrieved_path": retrieved_paths,
-            "retrieved_chunk": retrieved_chunks,
-        }
-    )
-    return df
+#     df = pd.DataFrame(
+#         {
+#             "query_id": query_ids,
+#             "knowledge_id": knowledge_ids,
+#             "retrieved_path": retrieved_paths,
+#             "retrieved_chunk": retrieved_chunks,
+#         }
+#     )
+#     return df
 
 
 def _normalize_text(text: str) -> str:

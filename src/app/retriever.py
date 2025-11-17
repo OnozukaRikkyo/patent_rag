@@ -4,7 +4,7 @@ from pathlib import Path
 from langchain_chroma import Chroma
 from langchain_core.documents import Document
 from langchain_core.embeddings.embeddings import Embeddings
-from langchain_google_genai import GoogleGenerativeAIEmbeddings
+# from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_openai import OpenAIEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
@@ -28,12 +28,12 @@ class Retriever:
         埋め込みモデルを初期化する。
         """
         type = cfg.embedding_type.lower()
-        if type == "gemini":
-            embeddings: Embeddings = GoogleGenerativeAIEmbeddings(
-                model=cfg.gemini_embedding_model_name,
-                api_key=os.getenv("GOOGLE_API_KEY"),  # type: ignore
-            )
-        elif type == "openai":
+        # if type == "gemini":
+        #     embeddings: Embeddings = GoogleGenerativeAIEmbeddings(
+        #         model=cfg.gemini_embedding_model_name,
+        #         api_key=os.getenv("GOOGLE_API_KEY"),  # type: ignore
+        #     )
+        if type == "openai":
             embeddings: Embeddings = OpenAIEmbeddings(
                 model=cfg.openai_embedding_model_name,
                 api_key=os.getenv("OPENAI_API_KEY"),  # type: ignore

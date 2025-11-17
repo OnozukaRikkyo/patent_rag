@@ -10,7 +10,7 @@ env_path = Path(__file__).parent.parent / ".env"
 load_dotenv(dotenv_path=env_path)
 
 from app.generator import Generator
-from app.retriever import Retriever
+# from app.retriever import Retriever
 from infra.config import cfg
 from infra.loader.common_loader import CommonLoader
 from ui.gui.page1 import page_1
@@ -31,8 +31,8 @@ def init_session_state():
     # 不変
     if "loader" not in st.session_state:
         st.session_state.loader = CommonLoader()
-    if "retriever" not in st.session_state:
-        st.session_state.retriever = Retriever(knowledge_dir=KNOWLEDGE_DIR)
+    # if "retriever" not in st.session_state:
+    #     st.session_state.retriever = Retriever(knowledge_dir=KNOWLEDGE_DIR)
     if "generator" not in st.session_state:
         st.session_state.generator = Generator()
     # 可変

@@ -13,7 +13,7 @@ import streamlit as st
 from streamlit.runtime.uploaded_file_manager import UploadedFile
 
 from model.patent import Patent
-from ui.gui.utils import create_matched_md, retrieve
+from ui.gui.utils import create_matched_md  # , retrieve
 from ui.gui import query_detail
 
 # 定数
