@@ -3,6 +3,8 @@ LLM data loader module
 
 This module provides functions to prepare patent data for LLM processing.
 """
+
+import re
 import streamlit as st
 from dataclasses import asdict
 from pathlib import Path
@@ -10,9 +12,8 @@ from typing import Dict, Any
 import pandas as pd
 from model.patent import Patent
 from ui.gui.utils import format_patent_number_for_bigquery
-from ui.gui.utils import parse_patent_info
 from ui.gui.utils import normalize_patent_id
-from bigquery.patent_lookup import find_documents_batch, find_patent_document
+from bigquery.patent_lookup import find_documents_batch, get_abstract_claims_by_query
 
 # プロジェクトルート（このファイルは src/llm/ にあるので3階層上）
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
@@ -23,6 +24,11 @@ QUERY_PATH = PROJECT_ROOT / "eval" / "uploaded" / "uploaded_query.txt"
 # query_detailと同じOUTPUT_CSV_PATHを使用
 OUTPUT_CSV_PATH = PROJECT_ROOT / "eval" / "topk"
 
+# Abstracts and Claims保存先パス
+ABSTRACT_CLAIM_PATH = PROJECT_ROOT / "eval" / "absract_claims"
+
+
+# 本番では変更
 TOP_K = 5  # 上位K件の類似特許を取得
 
 def entry():
@@ -76,9 +82,43 @@ def load_patent_b(patent_number_a: Patent):
         counter += 1
 
     found_lookup = find_document(publication_numbers, year_part)
-    return found_lookup
+    abstract_claim_list_dict = get_abstract_claims(found_lookup)
+    save_abstract_claims_as_json(abstract_claim_list_dict)
+    return abstract_claim_list_dict
 
-import re
+import json
+
+def save_abstract_claims_as_json(abstract_claims_list_dict):
+    """abstract_claims_list_dictをJSONファイルとして保存する"""
+    for abstract_claim_dict in abstract_claims_list_dict:
+        doc_number = abstract_claim_dict[0][0]
+        abstract = abstract_claim_dict[0][1]
+        claims = abstract_claim_dict[0][2]
+        output_dict_json = {
+            "doc_number": doc_number,
+            "abstract": abstract,
+            "claims": claims
+        }
+        json_file_name = f"{doc_number}.json"
+        abs_path = ABSTRACT_CLAIM_PATH / json_file_name
+        # mkdirs if not exists
+        ABSTRACT_CLAIM_PATH.mkdir(parents=True, exist_ok=True)
+        with open(abs_path, 'w', encoding='utf-8') as f:
+            json.dump(output_dict_json, f, ensure_ascii=False, indent=4)
+        print(f"Saved abstract and claims to {abs_path}")
+
+
+def get_abstract_claims(found_lookup):
+    # doc_infoのresult_tableで同じresult_tableをまとめる
+    result_table_dict = {}  
+    for doc_info in found_lookup:
+        table_name = doc_info['result_table']
+        if table_name not in result_table_dict:
+            result_table_dict[table_name] = []
+        result_table_dict[table_name].append(doc_info)
+    
+    abstract_claim_list_dict = get_abstract_claims_by_query(result_table_dict)
+    return abstract_claim_list_dict
 
 def find_document(publication_numbers, year_parts):
     target_lookup_entries = find_documents_batch(publication_numbers)
@@ -129,72 +169,19 @@ def find_document(publication_numbers, year_parts):
                 
                 # 最も近い候補を取得
                 best_match = sorted_df.iloc[0]
-                min_diff = best_match['year_diff']
-
-                # 許容範囲の設定（例: ±3年以内なら採用する）
-                YEAR_TOLERANCE = 10
+                final_lookup_entrys.append(best_match.to_dict())
+ 
+                # # 許容範囲の設定（例: ±3年以内なら採用する）
+                # YEAR_TOLERANCE = 10
                 
-                if min_diff <= YEAR_TOLERANCE:
-                    print(f"Found closest match: {best_match['doc_number']} (Diff: {min_diff} years)")
-                    final_lookup_entrys.append(best_match.to_dict())
-                else:
-                    # 差が大きすぎる場合は、別の特許の可能性が高いため採用しない（あるいは警告ログを出して採用しない）
-                    print(f"Skipping {pub_num}: Closest match {best_match['doc_number']} is {min_diff} years away.")
+                # if min_diff <= YEAR_TOLERANCE:
+                #     print(f"Found closest match: {best_match['doc_number']} (Diff: {min_diff} years)")
+                #     final_lookup_entrys.append(best_match.to_dict())
+                # else:
+                #     # 差が大きすぎる場合は、別の特許の可能性が高いため採用しない（あるいは警告ログを出して採用しない）
+                #     print(f"Skipping {pub_num}: Closest match {best_match['doc_number']} is {min_diff} years away.")
     return final_lookup_entrys
 
-
-
-    # final_lookup_entrys = []
-    # for pub_num, year in zip(publication_numbers, year_parts):
-    #     # find pub_num from target_lookup_entries
-    #     lookup_entrys = []
-    #     for entry in target_lookup_entries:
-    #         doc_number = entry['doc_number']
-    #         if pub_num in doc_number:
-    #             if year is None:
-    #                 lookup_entrys.append(entry)
-    #                 break
-    #             else:
-    #                 if year in doc_number:
-    #                     lookup_entrys.append(entry)
-    #                     break
-    #     final_lookup_entrys.extend(lookup_entrys)
-    # return lookup_entrys
-    # target_lookup_entries = []
-    # for top_i, number in enumerate(publication_numbers):
-    #     if top_i >= TOP_K:
-    #         break
-    #     entries = find_patent_document(number)
-    #     target_lookup_entries.extend(entries)
-    # return target_lookup_entries
-
-
-#     # if csv_file_path is None:
-#     #     raise FileNotFoundError(f"patent_number_a '{patent_number_a}' を含むCSVファイルが見つかりません。検索ディレクトリ: {OUTPUT_CSV_PATH}")
-
-#     # # CSVファイルが存在するか確認
-#     # if not csv_file_path.exists():
-#     #     raise FileNotFoundError(f"CSVファイルが見つかりません: {csv_file_path}")
-
-#     # # CSVファイルを読み込む
-#     # df = pd.read_csv(csv_file_path)
-
-#     # # TODO: CSVから最初の類似特許を取得して、そのPatentオブジェクトを返す
-#     # # 現時点では実装未完了
-#     # raise NotImplementedError("load_patent_b() の完全な実装が必要です")
-
-
-# def patent_to_dict(patent: Patent) -> Dict[str, Any]:
-#     """
-#     Convert Patent object to dictionary format.
-
-#     Args:
-#         patent: Patent object
-
-#     Returns:
-#         Dictionary format patent data
-#     """
-#     return asdict(patent)
 
 if __name__ == "__main__":
     load_patent_b('JP-2010000001-A')

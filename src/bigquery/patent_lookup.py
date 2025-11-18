@@ -86,40 +86,56 @@ def find_documents_batch(publication_numbers):
     result_dicts = [dict(row) for row in results]
     return result_dicts
 
+DEBUG = True
 
-
-
-
-def find_patent_document(publication_number):
-    # SELECT doc_number FROM `llmatch-471107.dataset_lookup.patent_lookup` LIMIT 1000
-    """publication_numberに対応するpatent_lookupエントリを検索"""
+def get_abstract_claims_by_query(lookup_info):
+    """lookup_infoの内容に基づいて、各ドキュメントの要約と請求項を取得し、lookup_infoを更新する"""
     client = bigquery.Client(project=PROJECT_ID)
 
-# ---------------------------------------------------------
-# Lookupテーブルのみを検索 (データ量が少ないので安くて速い)
-# ---------------------------------------------------------
-    query = f"""
-        SELECT 
-            result_table, 
-            doc_number,
-            path 
-        FROM `{PROJECT_ID}.{DATASET_ID}.{TABLE_ID}`
-        WHERE doc_number LIKE CONCAT('%', @publication_number, '%')
-    """
+    abstraccts_claims_list = []
 
-    job_config = bigquery.QueryJobConfig(
-        query_parameters=[
-            bigquery.ScalarQueryParameter("publication_number", "STRING", publication_number)
-        ]
-    )
+    for table_name, doc_infos in lookup_info.items():
+        # doc_infosからpathを取得し、クエリ対象の文献番号リストを作成
+        # '/tmp/tmpn5es9j7o/result_16/3/JP2025021568A/text.txt'
+        # JP2025021568Aを取得
+        table_name_two_digits = table_name.zfill(2)
+        table_name = f"result_{table_name_two_digits}"
 
-    query_job = client.query(query, job_config=job_config)
-    results = list(query_job.result())
+        doc_numbers_of_path = []
+        doc_year_number_list = []
 
-    # resultを辞書形式で返す
-    result_dicts = [dict(row) for row in results]
-    return result_dicts
+        for doc_info in doc_infos:
+            path = doc_info['path']
+            path_doc_number = path.split('/')[-2]  # パスの最後から2番目の部分が文献番号
+            doc_numbers_of_path.append(path_doc_number)
 
-if __name__ == "__main__":
-    pass
-    # create_patent_lookup_table()
+            doc_year_number = doc_info['doc_number']
+            doc_year_number_list.append(doc_year_number)
+
+        query = f"""
+            SELECT 
+                publication.doc_number,
+                abstract,
+                claims
+            FROM `{PROJECT_ID}.{SOURCE_DATASET}.{table_name}`
+            WHERE publication.doc_number IN UNNEST(@doc_numbers_array)
+        """
+
+        job_config = bigquery.QueryJobConfig(
+            query_parameters=[
+                bigquery.ArrayQueryParameter("doc_numbers_array", "STRING", doc_year_number_list)
+            ]
+        )
+
+        query_job = client.query(query, job_config=job_config)
+        results = list(query_job.result())
+        abstraccts_claims_list.append(results)
+
+        if DEBUG:# デバッグモード注意
+            print("DEBUG: get_abstract_claims_by_query ")
+            return abstraccts_claims_list
+        
+    return abstraccts_claims_list
+
+
+
