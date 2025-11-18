@@ -30,11 +30,11 @@ def entry():
     
     query = st.session_state.loader.run(QUERY_PATH)
     query_patent_number_a = format_patent_number_for_bigquery(query)
-    patent_b: Patent = load_patent_b(query_patent_number_a)
-    # print(patent_b)
+    found_lookup = load_patent_b(query_patent_number_a)
+    print(found_lookup)
 
 
-def load_patent_b(patent_number_a: Patent) -> Patent:
+def load_patent_b(patent_number_a: Patent):
     """
     patent_number_aに対応するCSVファイルを見つけて、patent_bを読み込む
 
@@ -75,7 +75,8 @@ def load_patent_b(patent_number_a: Patent) -> Patent:
         year_part.append(year)
         counter += 1
 
-    find_document(publication_numbers, year_part)
+    found_lookup = find_document(publication_numbers, year_part)
+    return found_lookup
 
 import re
 
@@ -131,7 +132,7 @@ def find_document(publication_numbers, year_parts):
                 min_diff = best_match['year_diff']
 
                 # 許容範囲の設定（例: ±3年以内なら採用する）
-                YEAR_TOLERANCE = 3
+                YEAR_TOLERANCE = 10
                 
                 if min_diff <= YEAR_TOLERANCE:
                     print(f"Found closest match: {best_match['doc_number']} (Diff: {min_diff} years)")
