@@ -14,7 +14,7 @@ from model.patent import Patent
 from ui.gui.utils import format_patent_number_for_bigquery
 from ui.gui.utils import normalize_patent_id
 from bigquery.patent_lookup import find_documents_batch, get_abstract_claims_by_query
-
+from llm.llm_pipeline import llm_entry
 # プロジェクトルート（このファイルは src/llm/ にあるので3階層上）
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 
@@ -39,7 +39,31 @@ def entry():
     save_abstract_claims_query(query)
     query_patent_number_a = format_patent_number_for_bigquery(query)
     top_k, found_lookup_dict_list = load_patent_b(query_patent_number_a)
+    llm_execution(top_k)
     
+def llm_execution(top_k):
+    """LLM実行部分"""
+    # q_*.jsonを見つける.pathlibで見つける。glonbを使う
+    query_json_dict = read_json("q")
+
+    for k in range(1, top_k + 1):
+        target_json_dict = read_json(str(k))
+        llm_entry(query_json_dict, target_json_dict)
+
+
+def read_json(prefix):
+    # q_*.jsonを見つける.pathlibで見つける。glonbを使う
+    json_files = list(ABSTRACT_CLAIM_PATH.glob(f"{prefix}_*.json"))
+    json_file_name = json_files[0] if json_files else None
+    # query_json_file_nameを読む
+    if not json_file_name:
+        print("No JSON file found.")
+        return {}
+    json_dict = {}
+    with open(json_file_name, 'r', encoding='utf-8') as f:
+        json_dict = json.load(f)
+    return json_dict
+
 def save_abstract_claims_query(query):
     """queryの特許の要約と請求項を取得し、JSONファイルとして保存する"""
     doc_number = query.publication.doc_number
@@ -207,4 +231,5 @@ def find_document(publication_numbers, year_parts):
 
 
 if __name__ == "__main__":
-    load_patent_b('JP-2010000001-A')
+    llm_execution(1)
+    # load_patent_b('JP-2010000001-A')

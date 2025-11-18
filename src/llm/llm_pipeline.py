@@ -626,7 +626,7 @@ class PatentExaminationSystemIntegrated:
 
 # ==================== メイン実行関数 ====================
 
-def entry(doc_dict_a, doc_dict_b):
+def llm_entry(doc_dict_a, doc_dict_b):
     """
     エントリポイント: 2つの特許文書から進歩性審査を実行し、結果を返す
 
