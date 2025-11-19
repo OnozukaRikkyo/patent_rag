@@ -86,7 +86,7 @@ def find_documents_batch(publication_numbers):
     result_dicts = [dict(row) for row in results]
     return result_dicts
 
-DEBUG = True
+DEBUG = False
 
 def get_abstract_claims_by_query(lookup_info):
     """lookup_infoの内容に基づいて、各ドキュメントの要約と請求項を取得し、lookup_infoを更新する"""

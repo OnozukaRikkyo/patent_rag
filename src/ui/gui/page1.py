@@ -13,7 +13,7 @@ import streamlit as st
 from streamlit.runtime.uploaded_file_manager import UploadedFile
 
 from model.patent import Patent
-from ui.gui.utils import create_matched_md  # , retrieve
+# from ui.gui.utils import create_matched_md  # , retrieve
 from ui.gui import query_detail
 from ui.gui import ai_judge_detail
 
@@ -88,7 +88,7 @@ def step3():
     n_chunk = len(st.session_state.df_retrieved)
     st.session_state.n_chunk = n_chunk
     if st.button("AI審査", type="primary"):
-        ai_judge_detail.ai_judge_detail()
+        ai_judge_detail.ai_judge_detail(action="button_click")
 
     # if st.session_state.matched_chunk_markdowns:
     #     for i, md in enumerate(st.session_state.matched_chunk_markdowns):
