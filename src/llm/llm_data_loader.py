@@ -15,6 +15,7 @@ from ui.gui.utils import format_patent_number_for_bigquery
 from ui.gui.utils import normalize_patent_id
 from bigquery.patent_lookup import find_documents_batch, get_abstract_claims_by_query
 from llm.llm_pipeline import llm_entry
+from infra.loader.common_loader import CommonLoader
 # プロジェクトルート（このファイルは src/llm/ にあるので3階層上）
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 
@@ -32,23 +33,38 @@ ABSTRACT_CLAIM_PATH = PROJECT_ROOT / "eval" / "absract_claims"
 TOP_K = 5  # 上位K件の類似特許を取得
 print(f"注意：LLM Data Loader: TOP_K = {TOP_K}")
 
-def entry():
-    # ステップ１でアップロードしたxmlを読み込む
-    
-    query = st.session_state.loader.run(QUERY_PATH)
+def entry(action=None):
+    if action == "show_page":
+        st.write("LLM Data Loader is ready.")
+        return
+
+    # 既にpage1のstep2でqueryが読み込まれていればそれを使う
+    if "query" in st.session_state and st.session_state.query is not None:
+        query = st.session_state.query
+    else:
+        # まだ読み込まれていなければ、loaderを初期化してファイルから読み込む
+        if "loader" not in st.session_state:
+            st.session_state.loader = CommonLoader()
+        query = st.session_state.loader.run(QUERY_PATH)
+        st.session_state.query = query
     save_abstract_claims_query(query)
     query_patent_number_a = format_patent_number_for_bigquery(query)
     top_k, found_lookup_dict_list = load_patent_b(query_patent_number_a)
-    llm_execution(top_k)
+    results = llm_execution(top_k)
+    return results
     
 def llm_execution(top_k):
     """LLM実行部分"""
     # q_*.jsonを見つける.pathlibで見つける。glonbを使う
     query_json_dict = read_json("q")
 
+    all_results = []
     for k in range(1, top_k + 1):
         target_json_dict = read_json(str(k))
-        llm_entry(query_json_dict, target_json_dict)
+        result = llm_entry(query_json_dict, target_json_dict)
+        all_results.append(result)
+
+    return all_results
 
 
 def read_json(prefix):
@@ -231,5 +247,6 @@ def find_document(publication_numbers, year_parts):
 
 
 if __name__ == "__main__":
-    llm_execution(1)
+    entry()
+    # llm_execution(1)
     # load_patent_b('JP-2010000001-A')
