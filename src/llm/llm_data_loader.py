@@ -5,6 +5,7 @@ This module provides functions to prepare patent data for LLM processing.
 """
 
 import re
+import json
 import streamlit as st
 from dataclasses import asdict
 from pathlib import Path
@@ -16,6 +17,7 @@ from ui.gui.utils import normalize_patent_id
 from bigquery.patent_lookup import find_documents_batch, get_abstract_claims_by_query
 from llm.llm_pipeline import llm_entry
 from infra.loader.common_loader import CommonLoader
+from bigquery.search_path_from_file import search_path
 # プロジェクトルート（このファイルは src/llm/ にあるので3階層上）
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 
@@ -49,8 +51,8 @@ def entry(action=None):
         st.session_state.query = query
     save_abstract_claims_query(query)
     query_patent_number_a = format_patent_number_for_bigquery(query)
-    top_k, found_lookup_dict_list = load_patent_b(query_patent_number_a)
-    results = llm_execution(top_k)
+    top_k_df = load_patent_b(query_patent_number_a)
+    results = llm_execution(top_k_df)
     return results
     
 def llm_execution(top_k):
@@ -125,30 +127,33 @@ def load_patent_b(patent_number_a: Patent):
         return None
     
     df = pd.read_csv(csv_file_path)
+    top_k_df = search_path(df, top_k=TOP_K)
     # dfの全行をループし、pabulication_numberを取得
-    publication_numbers = []
-    year_part = []
-    counter = 0
-    for _, row in df.iterrows():
-        if counter >= TOP_K:
-            break
-        publication_number = row.get('publication_number', None)
+    # publication_numbers = []
+    # year_part = []
+    # counter = 0
+#     for _, row in df.iterrows():
+#         if counter >= TOP_K:
+#             break
+#         publication_number = row.get('publication_number', None)
+#         pulication_number_for_search = publication_number.replace('-', '')
 
-        year, doc_number = normalize_patent_id(publication_number)
-        if not doc_number:
-            continue
-        publication_numbers.append(doc_number)
-        year_part.append(year)
-        counter += 1
 
-    found_lookup = find_document(publication_numbers, year_part)
-    abstract_claim_list_dict = get_abstract_claims(found_lookup)
-    save_abstract_claims_as_json(abstract_claim_list_dict)
+#         year, doc_number = normalize_patent_id(publication_number)
+#         if not doc_number:
+#             continue
+#         publication_numbers.append(doc_number)
+#         year_part.append(year)
+#         counter += 1
 
-    top_k = len(abstract_claim_list_dict)
-    return top_k, abstract_claim_list_dict
+#     found_lookup = find_document(publication_numbers, year_part)
+#     abstract_claim_list_dict = get_abstract_claims(found_lookup)
+#     save_abstract_claims_as_json(abstract_claim_list_dict)
 
-import json
+#     top_k = len(abstract_claim_list_dict)
+#     return top_k, abstract_claim_list_dict
+
+# import json
 
 def save_abstract_claims_as_json(abstract_claims_list_dict):
     """abstract_claims_list_dictをJSONファイルとして保存する"""

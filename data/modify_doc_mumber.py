@@ -1,3 +1,22 @@
+# import numpy as np
+# import os
+
+# # numpyファイルを読み込む
+# data = np.load(os.path.join(os.path.dirname(__file__), 'path', 'patent_path_numpy.npy'))
+
+# print(f'データ形状: {data.shape}')
+# print(f'データ型: {data.dtype}')
+# print()
+# print('最初の10行のdoc_number（第1列）:')
+# print(data[:10, 0])
+# print()
+# print('doc_numberの統計情報:')
+# print(f'最小値: {data[:, 0].min()}')
+# print(f'最大値: {data[:, 0].max()}')
+# print()
+# print('サンプルデータ（最初の5行）:')
+# print(data[:5])
+
 import os
 import pandas as pd
 
