@@ -30,6 +30,9 @@ OUTPUT_CSV_PATH = PROJECT_ROOT / "eval" / "topk"
 # Abstracts and Claims保存先パス
 ABSTRACT_CLAIM_PATH = PROJECT_ROOT / "eval" / "absract_claims"
 
+# Abstracts and Claims保存先パス
+AI_JUDGE_PATH = PROJECT_ROOT / "eval" / "ai_judge"
+
 
 # 本番では変更
 TOP_K = 5  # 上位K件の類似特許を取得
@@ -61,9 +64,17 @@ def llm_execution(abstraccts_claims_list):
     query_json_dict = read_json("q")
 
     all_results = []
-    for row_dict in abstraccts_claims_list:
+    for i, row_dict in enumerate(abstraccts_claims_list):
         result = llm_entry(query_json_dict, row_dict)
+        
         all_results.append(result)
+
+        # 結果をJSONファイルとして保存
+        json_file_name = f"{i}_{row_dict['doc_number']}.json"
+        AI_JUDGE_PATH.mkdir(parents=True, exist_ok=True)
+        abs_path = AI_JUDGE_PATH / json_file_name
+        with open(abs_path, 'w', encoding='utf-8') as f:
+            json.dump(all_results, f, ensure_ascii=False, indent=4)
 
     return all_results
 
