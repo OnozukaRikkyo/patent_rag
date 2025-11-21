@@ -70,7 +70,7 @@ def llm_execution(abstraccts_claims_list):
         all_results.append(result)
 
         # 結果をJSONファイルとして保存
-        json_file_name = f"{i}_{row_dict['doc_number']}.json"
+        json_file_name = f"{i + 1}_{row_dict['doc_number']}.json"
         AI_JUDGE_PATH.mkdir(parents=True, exist_ok=True)
         abs_path = AI_JUDGE_PATH / json_file_name
         with open(abs_path, 'w', encoding='utf-8') as f:
