@@ -17,6 +17,7 @@ from ui.gui.page1 import page_1
 from ui.gui.page2 import page_2
 from ui.gui.query_detail import query_detail
 from ui.gui.ai_judge_detail import ai_judge_detail
+from ui.gui.prior_art_detail import prior_art_detail
 from ui.gui.page99 import page_99
 
 # 定数
@@ -92,6 +93,7 @@ def main():
         st.Page(page_2, title="page 2", icon="📋"),
         st.Page(query_detail, title="類似文献検索結果", icon="🔍"),
         st.Page(ai_judge_detail, title="AI審査詳細", icon="⚖️"),
+        st.Page(prior_art_detail, title="先行技術詳細", icon="📑"),
         st.Page(page_99, title="page 99", icon="🔧")
     ]
 

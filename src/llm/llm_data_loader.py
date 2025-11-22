@@ -61,6 +61,10 @@ def llm_execution(abstraccts_claims_list, doc_number):
     for i, row_dict in enumerate(abstraccts_claims_list):
         result = llm_entry(query_json_dict, row_dict)
 
+        # 先行技術のdoc_numberを結果に追加
+        if result and isinstance(result, dict):
+            result['prior_art_doc_number'] = row_dict.get('doc_number', f'先行技術 #{i + 1}')
+
         all_results.append(result)
 
         # 結果をJSONファイルとして保存

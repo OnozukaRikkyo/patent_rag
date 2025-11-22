@@ -4,6 +4,50 @@ import pandas as pd
 from llm.llm_data_loader import entry
 import json
 
+def display_single_result(result, idx):
+    """
+    単一の先行技術との比較結果を表示する（詳細ページ用）
+
+    Args:
+        result: 単一の審査結果
+        idx: 先行技術の番号（表示用）
+    """
+    if isinstance(result, dict) and 'error' in result:
+        st.error(f"エラーが発生しました: {result['error']}")
+        return
+
+    st.markdown("---")
+    st.markdown(f"## 🔍 先行技術 #{idx + 1} との比較")
+    st.markdown("---")
+
+    # ヘッダー部分
+    st.markdown("🚀" * 40)
+    st.markdown("### 特許審査プロセス開始 (統合版)")
+    st.markdown("🚀" * 40)
+
+    # conversation_historyがある場合は、それを使って表示
+    if 'conversation_history' in result and result['conversation_history']:
+        for msg in result['conversation_history']:
+            display_step_message(msg)
+    else:
+        # conversation_historyがない場合は、従来の形式で表示
+        display_legacy_format(result)
+
+    # 最終判断を強調表示
+    if 'final_decision' in result:
+        st.markdown("---")
+        st.markdown("✅" * 40)
+        st.markdown("### 特許審査プロセス完了")
+        with st.chat_message("assistant", avatar="⚖️"):
+            st.markdown(result['final_decision'])
+        st.markdown("✅" * 40)
+
+    # 進歩性の判断結果をサマリー表示
+    if 'inventiveness' in result:
+        st.markdown("---")
+        st.subheader("📊 進歩性判断サマリー")
+        display_inventiveness_summary(result['inventiveness'])
+
 def display_chat_messages(results):
     """
     LLMの出力を逐次チャット形式で表示する
@@ -17,41 +61,7 @@ def display_chat_messages(results):
 
     # 各先行技術との比較結果を表示
     for idx, result in enumerate(results):
-        if isinstance(result, dict) and 'error' in result:
-            st.error(f"エラーが発生しました: {result['error']}")
-            continue
-
-        st.markdown("---")
-        st.markdown(f"## 🔍 先行技術 #{idx + 1} との比較")
-        st.markdown("---")
-
-        # ヘッダー部分
-        st.markdown("🚀" * 40)
-        st.markdown("### 特許審査プロセス開始 (統合版)")
-        st.markdown("🚀" * 40)
-
-        # conversation_historyがある場合は、それを使って表示
-        if 'conversation_history' in result and result['conversation_history']:
-            for msg in result['conversation_history']:
-                display_step_message(msg)
-        else:
-            # conversation_historyがない場合は、従来の形式で表示
-            display_legacy_format(result)
-
-        # 最終判断を強調表示
-        if 'final_decision' in result:
-            st.markdown("---")
-            st.markdown("✅" * 40)
-            st.markdown("### 特許審査プロセス完了")
-            with st.chat_message("assistant", avatar="⚖️"):
-                st.markdown(result['final_decision'])
-            st.markdown("✅" * 40)
-
-        # 進歩性の判断結果をサマリー表示
-        if 'inventiveness' in result:
-            st.markdown("---")
-            st.subheader("📊 進歩性判断サマリー")
-            display_inventiveness_summary(result['inventiveness'])
+        display_single_result(result, idx)
 
 def display_step_message(msg):
     """

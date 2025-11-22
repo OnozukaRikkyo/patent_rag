@@ -7,6 +7,7 @@
 """
 
 from pathlib import Path
+import json
 
 import pandas as pd
 import streamlit as st
@@ -17,6 +18,7 @@ from model.patent import Patent
 # from ui.gui.utils import create_matched_md  # , retrieve
 from ui.gui import query_detail
 from ui.gui import ai_judge_detail
+from ui.gui import prior_art_detail
 
 # プロジェクトルート（このファイルは src/ui/gui/ にあるので3階層上）
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent.parent
@@ -135,19 +137,101 @@ def step2():
 def step3():
     st.write(f"一致箇所をハイライトし、その前後{MAX_CHAR}文字まで含めて表示します。")
 
-    # session stateの検証
-    if "query" not in st.session_state or st.session_state.query is None:
-        st.warning("⚠️ 先にステップ1でファイルをアップロードしてください。")
-        return
+    # 既存の結果ファイルをチェック（ステップ1実行の有無に関わらず）
+    existing_results = None
+    doc_number = None
 
-    # if "df_retrieved" not in st.session_state or st.session_state.df_retrieved.empty:
-    #     st.warning("⚠️ 先にステップ2で類似文献を検索してください。")
-    #     return
+    # まず、session_stateにqueryがあるかチェック
+    if "query" in st.session_state and st.session_state.query is not None:
+        doc_number = st.session_state.query.publication.doc_number
 
-    n_topk = len(st.session_state.df_retrieved)
-    st.session_state.n_topk = n_topk
-    if st.button("AI審査", type="primary"):
-        ai_judge_detail.ai_judge_detail(action="button_click")
+    # session_stateにない場合は、evalディレクトリ内を探す
+    if doc_number is None:
+        eval_dir = PROJECT_ROOT / "eval"
+        if eval_dir.exists():
+            # evalディレクトリ内のサブディレクトリ（特許番号のディレクトリ）を探す
+            subdirs = [d for d in eval_dir.iterdir() if d.is_dir() and not d.name.startswith('.')]
+            # 最新のディレクトリを使用（更新日時順）
+            if subdirs:
+                latest_subdir = max(subdirs, key=lambda d: d.stat().st_mtime)
+                doc_number = latest_subdir.name
+
+    # doc_numberが見つかった場合、ai_judgeディレクトリをチェック
+    if doc_number:
+        ai_judge_dir = PathManager.get_ai_judge_result_path(doc_number)
+
+        if ai_judge_dir.exists():
+            # ai_judgeディレクトリ内のJSONファイルを探す
+            json_files = sorted(ai_judge_dir.glob("*.json"))
+            if json_files:
+                # 最新のファイル（番号が最も大きいファイル）を取得
+                latest_file = json_files[-1]
+                existing_results = latest_file
+
+    # 既存の結果がある場合は、情報を表示
+    if existing_results:
+        st.info(f"💾 既存の審査結果が見つかりました: {existing_results.parent.parent.name}/ai_judge/")
+
+        col1, col2 = st.columns(2)
+        with col1:
+            if st.button("📂 既存の結果を読み込む", type="secondary"):
+                with st.spinner("結果を読み込み中..."):
+                    try:
+                        with open(existing_results, 'r', encoding='utf-8') as f:
+                            results = json.load(f)
+                        st.session_state.ai_judge_results = results
+                        st.success(f"✅ {len(results)}件の審査結果を読み込みました。")
+                    except Exception as e:
+                        st.error(f"❌ 結果の読み込みに失敗しました: {e}")
+
+        with col2:
+            # AI審査を再実行する場合は、ステップ1が必須
+            if st.button("🔄 AI審査を再実行", type="primary"):
+                if "query" not in st.session_state or st.session_state.query is None:
+                    st.warning("⚠️ AI審査を実行するには、先にステップ1でファイルをアップロードしてください。")
+                else:
+                    with st.spinner("審査プロセスを実行中..."):
+                        results = ai_judge_detail.entry(action="button_click")
+                        if results:
+                            st.session_state.ai_judge_results = results
+                            st.success("✅ AI審査が完了しました。")
+    else:
+        # 既存の結果がない場合は、通常のAI審査ボタンのみ表示
+        if st.button("AI審査", type="primary"):
+            # AI審査を新規実行する場合は、ステップ1が必須
+            if "query" not in st.session_state or st.session_state.query is None:
+                st.warning("⚠️ 先にステップ1でファイルをアップロードしてください。")
+            else:
+                n_topk = len(st.session_state.df_retrieved)
+                st.session_state.n_topk = n_topk
+
+                with st.spinner("審査プロセスを実行中..."):
+                    results = ai_judge_detail.entry(action="button_click")
+                    if results:
+                        st.session_state.ai_judge_results = results
+                        st.success("✅ AI審査が完了しました。")
+
+    # AI審査結果がある場合、各先行技術へのリンクを表示
+    if 'ai_judge_results' in st.session_state and st.session_state.ai_judge_results:
+        st.markdown("---")
+        st.subheader("📋 審査結果一覧")
+        results = st.session_state.ai_judge_results
+
+        for idx, result in enumerate(results):
+            if isinstance(result, dict) and 'error' in result:
+                st.error(f"先行技術 #{idx + 1}: エラーが発生しました")
+                continue
+
+            # 先行技術のdoc_numberを取得
+            doc_number = result.get('prior_art_doc_number', f"先行技術 #{idx + 1}")
+
+            col1, col2 = st.columns([3, 1])
+            with col1:
+                st.write(f"**{idx + 1}.** {doc_number}")
+            with col2:
+                if st.button(f"詳細を表示", key=f"detail_btn_{idx}"):
+                    st.session_state.selected_prior_art_idx = idx
+                    st.switch_page(st.Page(prior_art_detail.prior_art_detail))
 
     # if st.session_state.matched_chunk_markdowns:
     #     for i, md in enumerate(st.session_state.matched_chunk_markdowns):
