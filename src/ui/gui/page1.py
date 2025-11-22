@@ -13,7 +13,7 @@ import pandas as pd
 import streamlit as st
 from streamlit.runtime.uploaded_file_manager import UploadedFile
 
-from infra.config import PathManager
+from infra.config import PROJECT_ROOT, PathManager
 from model.patent import Patent
 # from ui.gui.utils import create_matched_md  # , retrieve
 from ui.gui import query_detail
@@ -21,12 +21,9 @@ from ui.gui import ai_judge_detail
 from ui.gui import prior_art_detail
 from ui.gui import search_results_list
 
-# プロジェクトルート（このファイルは ui/gui/ にあるので3階層上）
-PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent.parent
-
 # 定数
 # TODO: 切り替え可能にする？ 別の場所で管理する？
-QUERY_PATH = PROJECT_ROOT / "eval" / "uploaded" / "uploaded_query.txt"
+QUERY_PATH = PathManager.EVAL_DIR / "uploaded" / "uploaded_query.txt"
 MAX_CHAR = 300
 
 

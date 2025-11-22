@@ -82,6 +82,7 @@ class PathManager:
     EVAL_DIR = PROJECT_ROOT / "eval"          # 評価・本番データ
     TEMP_DIR = EVAL_DIR / "temp"              # 一時ファイル（evalの下）
     DATA_STORE_DIR = PROJECT_ROOT / "data_store"  # ベクトルストア（後方互換性）
+    KNOWLEDGE_DIR = EVAL_DIR / "knowledge"    # ナレッジディレクトリ（知識ベース）
 
     @classmethod
     def setup(cls) -> None:

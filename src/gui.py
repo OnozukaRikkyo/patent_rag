@@ -1,12 +1,12 @@
 import os
-from pathlib import Path
 
 import pandas as pd
 import streamlit as st
 from dotenv import load_dotenv
 
 # .envファイルを読み込み
-env_path = Path(__file__).parent.parent / ".env"
+from infra.config import PROJECT_ROOT
+env_path = PROJECT_ROOT / ".env"
 load_dotenv(dotenv_path=env_path)
 
 from app.generator import Generator
@@ -23,9 +23,7 @@ from ui.gui.page99 import page_99
 
 # 定数
 # TODO: GUI関連の定数の適切な定義場所を考える。移動する。
-# プロジェクトルート (/home/sonozuka/staging/patent_rag) から相対パスを構築
-_PROJECT_ROOT = Path(__file__).parent.parent
-KNOWLEDGE_DIR = str(_PROJECT_ROOT / "eval" / "knowledge")
+# KNOWLEDGE_DIR は infra.config.PathManager.KNOWLEDGE_DIR を使用
 
 
 # セッションステート

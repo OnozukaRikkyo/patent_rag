@@ -23,14 +23,13 @@ from datetime import datetime
 from dotenv import load_dotenv
 import os
 from pathlib import Path
+
+from infra.config import PROJECT_ROOT
 # to_dataframe() で BigQuery の型を適切に扱うために推奨
 # pip install db-dtypes
 
 # .envファイルから環境変数を読み込む (1回だけ)
 load_dotenv()
-
-# プロジェクトルート（このファイルは src/bigquery/ にあるので3階層上）
-PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 
 # ----------------------------------------------------
 # ▼▼▼ ユーザー設定 ▼▼▼

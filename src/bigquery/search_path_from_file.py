@@ -3,7 +3,9 @@ from pathlib import Path
 import re
 import numpy as np
 
-PATH_DATA_DIR = Path(__file__).resolve().parent.parent.parent / 'data' / 'path'
+from infra.config import PROJECT_ROOT
+
+PATH_DATA_DIR = PROJECT_ROOT / 'data' / 'path'
 NUM_PATH = PATH_DATA_DIR / "patent_path_numpy.npy"
 
 # NUM_PATH存在確認、なければメッセージを表示して終了

@@ -12,7 +12,8 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 # .envファイルを読み込み
-env_path = Path(__file__).parent / ".env"
+from src.infra.config import PROJECT_ROOT, PathManager
+env_path = PROJECT_ROOT / ".env"
 load_dotenv(dotenv_path=env_path)
 
 from src.app.retriever import Retriever
@@ -20,10 +21,8 @@ from src.infra.loader.common_loader import CommonLoader
 from src.model.patent import Patent
 
 # 定数
-# プロジェクトルート (/home/sonozuka/staging/patent_rag) から相対パスを構築
-_PROJECT_ROOT = Path(__file__).parent
-KNOWLEDGE_DIR = str(_PROJECT_ROOT / "eval" / "knowledge")
-TEST_QUERY_FILE = str(_PROJECT_ROOT / "eval" / "knowledge" / "result_1" / "0" / "JP2010000001A" / "text.txt")
+KNOWLEDGE_DIR = str(PathManager.KNOWLEDGE_DIR)
+TEST_QUERY_FILE = str(PathManager.KNOWLEDGE_DIR / "result_1" / "0" / "JP2010000001A" / "text.txt")
 
 
 def main():
