@@ -64,7 +64,15 @@ def step1():
     uploaded_file: UploadedFile | None = st.file_uploader("1. XML形式の出願を１件アップロードしてください。", type=["xml", "txt"])
     if uploaded_file is not None:
         # アップロードされたファイルの中身を読み込む
-        file_content: str = uploaded_file.read().decode("utf-8")
+        try:
+            file_content: str = uploaded_file.read().decode("utf-8")
+        except UnicodeDecodeError:
+            st.error("❌ ファイルのエンコーディングが正しくありません。UTF-8形式のファイルをアップロードしてください。")
+            return
+        except Exception as e:
+            st.error(f"❌ ファイルの読み込みに失敗しました: {e}")
+            return
+
         st.text_area("ファイルの中身:", file_content, height=200)
 
         if st.session_state.get("file_content") != file_content:
@@ -126,6 +134,16 @@ def step2():
 
 def step3():
     st.write(f"一致箇所をハイライトし、その前後{MAX_CHAR}文字まで含めて表示します。")
+
+    # session stateの検証
+    if "query" not in st.session_state or st.session_state.query is None:
+        st.warning("⚠️ 先にステップ1でファイルをアップロードしてください。")
+        return
+
+    if "df_retrieved" not in st.session_state or st.session_state.df_retrieved.empty:
+        st.warning("⚠️ 先にステップ2で類似文献を検索してください。")
+        return
+
     n_chunk = len(st.session_state.df_retrieved)
     st.session_state.n_chunk = n_chunk
     if st.button("AI審査", type="primary"):
@@ -138,6 +156,15 @@ def step3():
 
 
 def step4():
+    # session stateの検証
+    if "query" not in st.session_state or st.session_state.query is None:
+        st.warning("⚠️ 先にステップ1でファイルをアップロードしてください。")
+        return
+
+    if "n_chunk" not in st.session_state:
+        st.warning("⚠️ 先にステップ3でAI審査を実行してください。")
+        return
+
     n_chunk = st.session_state.n_chunk
 
     if st.button("生成", type="primary"):
