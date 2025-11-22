@@ -32,8 +32,8 @@ def prior_art_detail():
     result = results[idx]
 
     # タイトル
-    doc_number = result.get('prior_art_doc_number', f"先行技術 #{idx + 1}")
-    st.title(f"🔍 先行技術詳細: {doc_number}")
+    doc_number = result.get('prior_art_doc_number', f"紐付き候補文献の審査結果 #{idx + 1}")
+    st.title(f"🔍 公開番号: {doc_number}")
 
     # メインページに戻るボタン
     if st.button("⬅️ メインページに戻る"):

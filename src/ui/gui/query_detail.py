@@ -94,6 +94,11 @@ def query_detail():
                 raise e
 
 def show_result(search_results_df, output_csv_path):
+    # session_stateに検索結果を保存
+    st.session_state.search_results_df = search_results_df
+    st.session_state.search_results_csv_path = str(output_csv_path)
+    st.session_state.df_retrieved = search_results_df
+
     # 統計情報の表示
     if len(search_results_df) > 0:
         col1, col2, col3 = st.columns(3)

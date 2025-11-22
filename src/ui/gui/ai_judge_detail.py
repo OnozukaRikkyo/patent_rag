@@ -6,7 +6,7 @@ import json
 
 def display_single_result(result, idx):
     """
-    単一の先行技術との比較結果を表示する（詳細ページ用）
+    出願文献との比較結果を表示する（詳細ページ用）
 
     Args:
         result: 単一の審査結果
@@ -17,7 +17,7 @@ def display_single_result(result, idx):
         return
 
     st.markdown("---")
-    st.markdown(f"## 🔍 先行技術 #{idx + 1} との比較")
+    st.markdown(f"## 🔍 出願文献と紐付き候補文献 #{idx + 1} との比較")
     st.markdown("---")
 
     # ヘッダー部分
@@ -45,7 +45,7 @@ def display_single_result(result, idx):
     # 進歩性の判断結果をサマリー表示
     if 'inventiveness' in result:
         st.markdown("---")
-        st.subheader("📊 進歩性判断サマリー")
+        st.subheader("📊 判断サマリー")
         display_inventiveness_summary(result['inventiveness'])
 
 def display_chat_messages(results):
@@ -76,10 +76,10 @@ def display_step_message(msg):
 
     # ステップごとにアバターを設定
     avatar_map = {
-        '構造化': '📋',
+        '課題と解決方法': '📋',
         '代理人': '⚖️',
         '審査官': '🔍',
-        '主任審査官': '⚖️'
+        '判定': '⚖️'
     }
     avatar = avatar_map.get(role, '💬')
 
@@ -92,13 +92,13 @@ def display_step_message(msg):
     with st.chat_message("assistant", avatar=avatar):
         if isinstance(content, dict):
             # 構造化データの場合
-            st.markdown("✅ 構造化完了:")
+            st.markdown("✅ 課題と解決方法の分析完了:")
             if 'problem' in content:
                 st.markdown(f"**課題:** {content['problem']}")
             if 'solution_principle' in content:
-                st.markdown(f"**解決原理:** {content['solution_principle']}")
+                st.markdown(f"**解決方法:** {content['solution_principle']}")
             if 'claim1_requirements' in content:
-                st.markdown(f"**Claim 1要件:** {len(content['claim1_requirements'])}個")
+                st.markdown(f"**請求項1要件:** {len(content['claim1_requirements'])}個")
                 with st.expander("要件の詳細を表示"):
                     for req in content['claim1_requirements']:
                         st.markdown(f"- {req}")
@@ -119,7 +119,7 @@ def display_legacy_format(result):
     # 本願発明の構造化
     if 'application_structure' in result:
         st.markdown("=" * 80)
-        st.markdown("### 📋 ステップ0.1: 本願発明の構造化")
+        st.markdown("### 📋 本願発明の課題と解決方法")
         st.markdown("=" * 80)
         with st.chat_message("assistant", avatar="📋"):
             st.json(result['application_structure'])
@@ -127,7 +127,7 @@ def display_legacy_format(result):
     # 先行技術の構造化
     if 'prior_art_structure' in result:
         st.markdown("=" * 80)
-        st.markdown("### 📋 ステップ0.2: 先行技術の構造化")
+        st.markdown("### 📋 紐付き候補文献の課題と解決方法")
         st.markdown("=" * 80)
         with st.chat_message("assistant", avatar="📋"):
             st.json(result['prior_art_structure'])
@@ -164,7 +164,7 @@ def display_inventiveness_summary(inventiveness):
         inventiveness: 進歩性判断の辞書
     """
     if 'error' in inventiveness:
-        st.error("進歩性の判断結果を解析できませんでした")
+        st.error("判断結果を解析できませんでした")
         return
 
     # データフレーム形式に変換

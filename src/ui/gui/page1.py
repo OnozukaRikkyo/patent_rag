@@ -19,8 +19,9 @@ from model.patent import Patent
 from ui.gui import query_detail
 from ui.gui import ai_judge_detail
 from ui.gui import prior_art_detail
+from ui.gui import search_results_list
 
-# プロジェクトルート（このファイルは src/ui/gui/ にあるので3階層上）
+# プロジェクトルート（このファイルは ui/gui/ にあるので3階層上）
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent.parent
 
 # 定数
@@ -125,17 +126,87 @@ def step2():
     st.write("Google Patents Public Dataは、高精度かつ効率のよい埋め込みベクトルを提供しており、特許文献の意味的な類似性を捉えることができます。")
     st.write("このため、独自に膨大な文献のベクトル化が不要となり、コスト的に効率的な検索が可能です。")
 
-    # session stateの検証
-    if "query" not in st.session_state or st.session_state.query is None:
-        st.warning("⚠️ 先にステップ1でファイルをアップロードしてください。")
-        return
+    # 既存の検索結果ファイルをチェック
+    existing_results = None
+    doc_number = None
 
-    if st.button("検索", type="primary"):
-        query_detail.query_detail()
+    # まず、session_stateにqueryがあるかチェック
+    if "query" in st.session_state and st.session_state.query is not None:
+        doc_number = st.session_state.query.publication.doc_number
 
+    # session_stateにない場合は、evalディレクトリ内を探す
+    if doc_number is None:
+        eval_dir = PROJECT_ROOT / "eval"
+        if eval_dir.exists():
+            # evalディレクトリ内のサブディレクトリ（特許番号のディレクトリ）を探す
+            subdirs = [d for d in eval_dir.iterdir() if d.is_dir() and not d.name.startswith('.')]
+            # 最新のディレクトリを使用（更新日時順）
+            if subdirs:
+                latest_subdir = max(subdirs, key=lambda d: d.stat().st_mtime)
+                doc_number = latest_subdir.name
+
+    # doc_numberが見つかった場合、topkディレクトリをチェック
+    if doc_number:
+        topk_dir = PathManager.get_topk_results_path(doc_number)
+
+        if topk_dir.exists():
+            # topkディレクトリ内のCSVファイルを探す
+            csv_files = sorted(topk_dir.glob("*.csv"))
+            if csv_files:
+                # 最新のファイル（更新日時が最も新しいファイル）を取得
+                latest_file = max(csv_files, key=lambda f: f.stat().st_mtime)
+                existing_results = latest_file
+
+    # 既存の結果がある場合は、情報を表示
+    if existing_results:
+        st.info(f"💾 既存の検索結果が見つかりました: {existing_results.parent.parent.name}/topk/{existing_results.name}")
+
+        col1, col2 = st.columns(2)
+        with col1:
+            if st.button("📂 既存の結果を読み込む", type="secondary", key="load_existing_search_results"):
+                with st.spinner("結果を読み込み中..."):
+                    try:
+                        search_results_df = pd.read_csv(existing_results)
+                        st.session_state.search_results_df = search_results_df
+                        st.session_state.search_results_csv_path = str(existing_results)
+                        st.session_state.df_retrieved = search_results_df
+                        st.success(f"✅ {len(search_results_df):,}件の検索結果を読み込みました。")
+                    except Exception as e:
+                        st.error(f"❌ 結果の読み込みに失敗しました: {e}")
+
+        with col2:
+            # 検索を再実行する場合は、ステップ1が必須
+            if st.button("🔄 検索を再実行", type="primary", key="rerun_search"):
+                if "query" not in st.session_state or st.session_state.query is None:
+                    st.warning("⚠️ 検索を実行するには、先にステップ1でファイルをアップロードしてください。")
+                else:
+                    query_detail.query_detail()
+    else:
+        # 既存の結果がない場合は、通常の検索ボタンのみ表示
+        if st.button("検索", type="primary", key="new_search"):
+            # 検索を新規実行する場合は、ステップ1が必須
+            if "query" not in st.session_state or st.session_state.query is None:
+                st.warning("⚠️ 先にステップ1でファイルをアップロードしてください。")
+            else:
+                query_detail.query_detail()
+
+    # 検索結果がある場合、詳細ページへのリンクを表示
+    if 'search_results_df' in st.session_state and st.session_state.search_results_df is not None:
+        st.markdown("---")
+        search_results_df = st.session_state.search_results_df
+
+        col1, col2 = st.columns([3, 1])
+        with col1:
+            st.write(f"**検索結果:** {len(search_results_df):,}件の類似特許が見つかりました")
+        with col2:
+            if st.button("📋 詳細を表示", key="search_results_detail_btn"):
+                # 【修正箇所】文字列のパスに変更
+                st.switch_page("ui/gui/search_results_list.py")
 
 def step3():
-    st.write(f"一致箇所をハイライトし、その前後{MAX_CHAR}文字まで含めて表示します。")
+    st.write(f"大規模言語モデルを活用し、類似度の高い先行技術文献に基づいてAI審査を実行します。")
+    st.write(f"審査では、各先行技術文献が出願に対して新規性・進歩性を欠くかどうかを判断し、判定結果を示しします。")
+    st.write(f"課題と解決方法、申請、審査、判定の各専門的な知識を組み合わせ、高精度な審査を目指します。")
 
     # 既存の結果ファイルをチェック（ステップ1実行の有無に関わらず）
     existing_results = None
@@ -174,7 +245,8 @@ def step3():
 
         col1, col2 = st.columns(2)
         with col1:
-            if st.button("📂 既存の結果を読み込む", type="secondary"):
+            # 【修正 1】keyを追加
+            if st.button("📂 既存の結果を読み込む", type="secondary", key="btn_load_existing"):
                 with st.spinner("結果を読み込み中..."):
                     try:
                         with open(existing_results, 'r', encoding='utf-8') as f:
@@ -186,7 +258,8 @@ def step3():
 
         with col2:
             # AI審査を再実行する場合は、ステップ1が必須
-            if st.button("🔄 AI審査を再実行", type="primary"):
+            # 【修正 2】keyを追加
+            if st.button("🔄 AI審査を再実行", type="primary", key="btn_rerun_ai"):
                 if "query" not in st.session_state or st.session_state.query is None:
                     st.warning("⚠️ AI審査を実行するには、先にステップ1でファイルをアップロードしてください。")
                 else:
@@ -197,7 +270,8 @@ def step3():
                             st.success("✅ AI審査が完了しました。")
     else:
         # 既存の結果がない場合は、通常のAI審査ボタンのみ表示
-        if st.button("AI審査", type="primary"):
+        # 【修正 3】keyを追加
+        if st.button("AI審査", type="primary", key="btn_new_run_ai"):
             # AI審査を新規実行する場合は、ステップ1が必須
             if "query" not in st.session_state or st.session_state.query is None:
                 st.warning("⚠️ 先にステップ1でファイルをアップロードしてください。")
@@ -229,14 +303,12 @@ def step3():
             with col1:
                 st.write(f"**{idx + 1}.** {doc_number}")
             with col2:
+                # ここはすでに key=f"detail_btn_{idx}" があるのでOKですが、
+                # 前回の修正（switch_pageの引数）が適切か確認してください。
                 if st.button(f"詳細を表示", key=f"detail_btn_{idx}"):
                     st.session_state.selected_prior_art_idx = idx
-                    st.switch_page(st.Page(prior_art_detail.prior_art_detail))
-
-    # if st.session_state.matched_chunk_markdowns:
-    #     for i, md in enumerate(st.session_state.matched_chunk_markdowns):
-    #         st.markdown(f"##### 一致箇所 {i + 1}/{n_topk}")
-    #         st.markdown(md, unsafe_allow_html=True)
+                    # 前回の修正: パスを文字列で指定（st.Page()を使わない場合）
+                    st.switch_page("ui/gui/prior_art_detail.py")
 
 
 def step4():
@@ -275,3 +347,5 @@ def step99():
     if st.button("リセット"):
         reset_session_state()
         st.success("クエリや検索結果の履歴をリセットしました。")
+
+page_1()
