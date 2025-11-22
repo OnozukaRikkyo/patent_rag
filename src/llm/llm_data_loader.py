@@ -18,20 +18,7 @@ from bigquery.patent_lookup import find_documents_batch, get_abstract_claims_by_
 from llm.llm_pipeline import llm_entry
 from infra.loader.common_loader import CommonLoader
 from bigquery.search_path_from_file import search_path
-# プロジェクトルート（このファイルは src/llm/ にあるので3階層上）
-PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
-
-# page1と同じQUERY_PATHを使用
-QUERY_PATH = PROJECT_ROOT / "eval" / "uploaded" / "uploaded_query.txt"
-
-# query_detailと同じOUTPUT_CSV_PATHを使用
-OUTPUT_CSV_PATH = PROJECT_ROOT / "eval" / "topk"
-
-# Abstracts and Claims保存先パス
-ABSTRACT_CLAIM_PATH = PROJECT_ROOT / "eval" / "absract_claims"
-
-# Abstracts and Claims保存先パス
-AI_JUDGE_PATH = PROJECT_ROOT / "eval" / "ai_judge"
+from infra.config import PathManager, DirNames
 
 
 # 本番では変更
@@ -47,41 +34,48 @@ def entry(action=None):
     if "query" in st.session_state and st.session_state.query is not None:
         query = st.session_state.query
     else:
-        # まだ読み込まれていなければ、loaderを初期化してファイルから読み込む
-        if "loader" not in st.session_state:
-            st.session_state.loader = CommonLoader()
-        query = st.session_state.loader.run(QUERY_PATH)
-        st.session_state.query = query
-    save_abstract_claims_query(query)
+        st.error("⚠️ 先にステップ1でファイルをアップロードしてください。")
+        return None
+
+    # doc_numberを取得
+    doc_number = query.publication.doc_number
+    if not doc_number:
+        st.error("❌ 特許番号（doc_number）が取得できませんでした。")
+        return None
+
+    save_abstract_claims_query(query, doc_number)
     query_patent_number_a = format_patent_number_for_bigquery(query)
-    abstraccts_claims_list = load_patent_b(query_patent_number_a)
-    results = llm_execution(abstraccts_claims_list)
+    abstraccts_claims_list = load_patent_b(query_patent_number_a, doc_number)
+    results = llm_execution(abstraccts_claims_list, doc_number)
     return results
     
-def llm_execution(abstraccts_claims_list):
+def llm_execution(abstraccts_claims_list, doc_number):
     """LLM実行部分"""
     # q_*.jsonを見つける.pathlibで見つける。glonbを使う
-    query_json_dict = read_json("q")
+    query_json_dict = read_json("q", doc_number)
+
+    # AI審査結果ディレクトリを取得
+    ai_judge_dir = PathManager.get_ai_judge_result_path(doc_number)
 
     all_results = []
     for i, row_dict in enumerate(abstraccts_claims_list):
         result = llm_entry(query_json_dict, row_dict)
-        
+
         all_results.append(result)
 
         # 結果をJSONファイルとして保存
         json_file_name = f"{i + 1}_{row_dict['doc_number']}.json"
-        AI_JUDGE_PATH.mkdir(parents=True, exist_ok=True)
-        abs_path = AI_JUDGE_PATH / json_file_name
+        abs_path = ai_judge_dir / json_file_name
         with open(abs_path, 'w', encoding='utf-8') as f:
             json.dump(all_results, f, ensure_ascii=False, indent=4)
 
     return all_results
 
 
-def read_json(prefix):
+def read_json(prefix, doc_number):
     # q_*.jsonを見つける.pathlibで見つける。glonbを使う
-    json_files = list(ABSTRACT_CLAIM_PATH.glob(f"{prefix}_*.json"))
+    abstract_claims_dir = PathManager.get_dir(doc_number, DirNames.ABSTRACT_CLAIMS)
+    json_files = list(abstract_claims_dir.glob(f"{prefix}_*.json"))
     json_file_name = json_files[0] if json_files else None
     # query_json_file_nameを読む
     if not json_file_name:
@@ -92,9 +86,8 @@ def read_json(prefix):
         json_dict = json.load(f)
     return json_dict
 
-def save_abstract_claims_query(query):
+def save_abstract_claims_query(query, doc_number):
     """queryの特許の要約と請求項を取得し、JSONファイルとして保存する"""
-    doc_number = query.publication.doc_number
     abstract = query.abstract
     claims = query.claims
 
@@ -105,25 +98,29 @@ def save_abstract_claims_query(query):
         "claims": claims
     }
     json_file_name = f"q_{doc_number}.json"
-    abs_path = ABSTRACT_CLAIM_PATH / json_file_name
-    # mkdirs if not exists
-    ABSTRACT_CLAIM_PATH.mkdir(parents=True, exist_ok=True)
+
+    # PathManagerを使用してディレクトリを取得
+    abstract_claims_dir = PathManager.get_dir(doc_number, DirNames.ABSTRACT_CLAIMS)
+    abs_path = abstract_claims_dir / json_file_name
+
     with open(abs_path, 'w', encoding='utf-8') as f:
         json.dump(output_dict_json, f, ensure_ascii=False, indent=4)
 
 
-def load_patent_b(patent_number_a: Patent):
+def load_patent_b(patent_number_a: Patent, doc_number: str):
     """
     patent_number_aに対応するCSVファイルを見つけて、patent_bを読み込む
 
     Args:
         patent_number_a: Patent Aのオブジェクト
+        doc_number: 特許公開番号
 
     Returns:
         Patent: 読み込んだPatent Bのオブジェクト
     """
-    # OUTPUT_CSV_PATHこの中の*.csvを全部取得
-    csv_files = list(OUTPUT_CSV_PATH.glob("*.csv"))
+    # PathManagerを使用してtopkディレクトリを取得
+    topk_dir = PathManager.get_topk_results_path(doc_number)
+    csv_files = list(topk_dir.glob("*.csv"))
 
     # # 取得したパス名にpatent_number_aが含まれているものを見つける
     csv_file_path = None
@@ -132,26 +129,31 @@ def load_patent_b(patent_number_a: Patent):
         if patent_number_a == str(csv_file.stem):
             csv_file_path = csv_file
             break
-    
+
     if not csv_file_path:
         return None
-    
+
     df = pd.read_csv(csv_file_path)
     top_k_df = search_path(df, top_k=TOP_K)
 
     abstraccts_claims_list =get_abstract_claims_by_query(top_k_df)
 
     json_file_name = f"top_k_{patent_number_a}.json"
-    abs_path = ABSTRACT_CLAIM_PATH / json_file_name
-    # mkdirs if not exists
-    ABSTRACT_CLAIM_PATH.mkdir(parents=True, exist_ok=True)
+
+    # PathManagerを使用してabstract_claimsディレクトリを取得
+    abstract_claims_dir = PathManager.get_dir(doc_number, DirNames.ABSTRACT_CLAIMS)
+    abs_path = abstract_claims_dir / json_file_name
+
     with open(abs_path, 'w', encoding='utf-8') as f:
         json.dump(abstraccts_claims_list, f, ensure_ascii=False, indent=4)
 
     return abstraccts_claims_list
 
-def save_abstract_claims_as_json(abstract_claims_list_dict):
+def save_abstract_claims_as_json(abstract_claims_list_dict, query_doc_number: str):
     """abstract_claims_list_dictをJSONファイルとして保存する"""
+    # PathManagerを使用してabstract_claimsディレクトリを取得
+    abstract_claims_dir = PathManager.get_dir(query_doc_number, DirNames.ABSTRACT_CLAIMS)
+
     for top_k, abstract_claim_dict in enumerate(abstract_claims_list_dict):
         doc_number = abstract_claim_dict[0][0]
         abstract = abstract_claim_dict[0][1]
@@ -163,9 +165,8 @@ def save_abstract_claims_as_json(abstract_claims_list_dict):
             "claims": claims
         }
         json_file_name = f"{top_k + 1}_{doc_number}.json"
-        abs_path = ABSTRACT_CLAIM_PATH / json_file_name
-        # mkdirs if not exists
-        ABSTRACT_CLAIM_PATH.mkdir(parents=True, exist_ok=True)
+        abs_path = abstract_claims_dir / json_file_name
+
         with open(abs_path, 'w', encoding='utf-8') as f:
             json.dump(output_dict_json, f, ensure_ascii=False, indent=4)
         print(f"Saved abstract and claims to {abs_path}")
@@ -237,6 +238,6 @@ def find_document(publication_numbers, year_parts):
 
 
 if __name__ == "__main__":
-    entry()
+    #entry()
     # llm_execution(1)
-    # load_patent_b('JP-2010000001-A')
+    load_patent_b('JP-2010000001-A')

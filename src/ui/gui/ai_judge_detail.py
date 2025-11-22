@@ -4,14 +4,6 @@ import pandas as pd
 from llm.llm_data_loader import entry
 import json
 
-# プロジェクトルート（このファイルは src/ui/gui/ にあるので4階層上）
-PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent.parent
-
-# page1と同じQUERY_PATHを使用
-QUERY_PATH = PROJECT_ROOT / "data" / "gui" / "uploaded_query.txt"
-    # CSVファイル名の設定
-OUTPUT_CSV_PATH = PROJECT_ROOT / "eval" / "ai_judge"
-
 def display_chat_messages(results):
     """
     LLMの出力を逐次チャット形式で表示する
