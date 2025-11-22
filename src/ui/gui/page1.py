@@ -140,18 +140,18 @@ def step3():
         st.warning("⚠️ 先にステップ1でファイルをアップロードしてください。")
         return
 
-    if "df_retrieved" not in st.session_state or st.session_state.df_retrieved.empty:
-        st.warning("⚠️ 先にステップ2で類似文献を検索してください。")
-        return
+    # if "df_retrieved" not in st.session_state or st.session_state.df_retrieved.empty:
+    #     st.warning("⚠️ 先にステップ2で類似文献を検索してください。")
+    #     return
 
-    n_chunk = len(st.session_state.df_retrieved)
-    st.session_state.n_chunk = n_chunk
+    n_topk = len(st.session_state.df_retrieved)
+    st.session_state.n_topk = n_topk
     if st.button("AI審査", type="primary"):
         ai_judge_detail.ai_judge_detail(action="button_click")
 
     # if st.session_state.matched_chunk_markdowns:
     #     for i, md in enumerate(st.session_state.matched_chunk_markdowns):
-    #         st.markdown(f"##### 一致箇所 {i + 1}/{n_chunk}")
+    #         st.markdown(f"##### 一致箇所 {i + 1}/{n_topk}")
     #         st.markdown(md, unsafe_allow_html=True)
 
 
