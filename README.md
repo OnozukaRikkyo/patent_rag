@@ -28,7 +28,7 @@ uv run sample.py
 
 ### XMLローダ単体の実行
 VSCodeで解凍したプロジェクトフォルダを開く。
-`src\infra\common_loader.py` を開いて、F5キーでデバッグ実行する。
+`src\infra\loader\common_loader.py` を開いて、F5キーでデバッグ実行する。
 
 ### RAG実行
 `src\main.py` を開いて、F5キーでデバッグ実行する。
