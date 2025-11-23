@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding='utf-8'?>
+<!-- <?xml-stylesheet type="text/xsl" href="../../../../../XSL/gat-a.xsl"?> -->
+<!DOCTYPE jp-official-gazette PUBLIC "-//JPO//DTD PUBLISHED PATENT/UTILITY MODEL APPLICATION 1.0//EN" "../../../../../DTD/gat-a.dtd">
+<jp-official-gazette kind-of-jp="A" kind-of-st16="A" lang="ja" dtd-version="1.0" country="JP" xmlns:jp="http://www.jpo.go.jp"><bibliographic-data lang="ja" country="JP">
+    <publication-reference>
+      <document-id>
+        <country>JP</country>
+        <doc-number>2013044086</doc-number>
+        <kind>公開特許公報(A)</kind>
+        <date>20130304</date>
+      </document-id>
+    </publication-reference>
+    <application-reference>
+      <document-id>
+        <doc-number>2011180061</doc-number>
+        <date>20110822</date>
+      </document-id>
+    </application-reference>
+    <invention-title>軒天換気材</invention-title>
+    <parties>
+      <jp:applicants-agents-article>
+        <jp:applicants-agents sequence="1">
+          <applicant sequence="1">
+            <addressbook lang="ja">
+              <name>日本住環境株式会社</name>
+              <registered-number>397025107</registered-number>
+              <address>
+                <text>東京都台東区秋葉原１−１</text>
+              </address>
+            </addressbook>
+          </applicant>
+          <agent sequence="1" jp:kind="representative">
+            <addressbook>
+              <name>齋藤  晴男</name>
+              <registered-number>100081558</registered-number>
+            </addressbook>
+            <jp:attorney/>
+          </agent>
+          <agent sequence="2" jp:kind="representative">
+            <addressbook>
+              <name>齋藤  貴広</name>
+              <registered-number>100154287</registered-number>
+            </addressbook>
+            <jp:attorney/>
+          </agent>
+        </jp:applicants-agents>
+      </jp:applicants-agents-article>
+      <inventors>
+        <inventor sequence="1">
+          <addressbook>
+            <name>近藤  肇</name>
+            <address>
+              <text>東京都台東区秋葉原１−１  日本住環境株式会社内</text>
+            </address>
+          </addressbook>
+        </inventor>
+        <inventor sequence="2">
+          <addressbook>
+            <name>神  慶人</name>
+            <address>
+              <text>東京都台東区秋葉原１−１  日本住環境株式会社内</text>
+            </address>
+          </addressbook>
+        </inventor>
+        <inventor sequence="3">
+          <addressbook>
+            <name>石井  創</name>
+            <address>
+              <text>東京都台東区秋葉原１−１  日本住環境株式会社内</text>
+            </address>
+          </addressbook>
+        </inventor>
+      </inventors>
+    </parties>
+    <classification-ipc><edition/><main-clsf>E04B   1/70        20060101AFI20130205BHJP        </main-clsf><further-clsf>E04B   1/94        20060101ALI20130205BHJP        </further-clsf></classification-ipc>
+    <classification-national><country>JP</country><main-clsf>E04B1/70 E</main-clsf><further-clsf>E04B1/94 G</further-clsf></classification-national>
+    <number-of-claims jp:adopted-law="claim">5</number-of-claims>
+    <figure-to-publish>
+      <fig-number>1</fig-number>
+    </figure-to-publish>
+    <jp:request-for-examination true-or-false="false"/>
+    <jp:filing-form>ＯＬ</jp:filing-form>
+    <jp:total-pages>7</jp:total-pages>
+    <jp:theme-code-info>
+      <jp:theme-code>2E001</jp:theme-code>
+    </jp:theme-code-info>
+    <jp:f-term-info>
+      <jp:f-term>2E001DB02</jp:f-term>
+      <jp:f-term>2E001DE01</jp:f-term>
+      <jp:f-term>2E001EA05</jp:f-term>
+      <jp:f-term>2E001EA08</jp:f-term>
+      <jp:f-term>2E001FA20</jp:f-term>
+      <jp:f-term>2E001GA12</jp:f-term>
+      <jp:f-term>2E001GA53</jp:f-term>
+      <jp:f-term>2E001GA55</jp:f-term>
+      <jp:f-term>2E001GA74</jp:f-term>
+      <jp:f-term>2E001HB01</jp:f-term>
+      <jp:f-term>2E001HF12</jp:f-term>
+      <jp:f-term>2E001KA01</jp:f-term>
+      <jp:f-term>2E001LA01</jp:f-term>
+      <jp:f-term>2E001NA07</jp:f-term>
+      <jp:f-term>2E001NB01</jp:f-term>
+      <jp:f-term>2E001NC01</jp:f-term>
+      <jp:f-term>2E001ND25</jp:f-term>
+    </jp:f-term-info>
+  </bibliographic-data><jp:image-of-bibliographic-data><img id="000001" he="140" wi="160" file="2013044086.tif" img-format="tif" img-content="drawing"/></jp:image-of-bibliographic-data><jp:image-of-chosen-drawing>
+    <img id="000002" he="86" wi="69" file="2013044086.tif" img-format="tif" img-content="drawing"/>
+  </jp:image-of-chosen-drawing><description>
+
+<technical-field>
+<p num="0001">
+  本発明は、軒天換気材に関するものであり、より詳細には、軒先の外壁材と鼻隠し材との間の間隙に収装されて、その部分の換気を司る軒天換気材であって、その設置を簡単確実に行い得る軒天換気材に関するものである。
+</p>
+</technical-field>
+<background-art>
+<p num="0002">
+  近年、建築される建物は、壁を通して浸透してくる室内からの湿った空気を室外に流出させるために、外壁と内壁の間に通気層を設け、また、軒下に有孔板を配した構造となっている。この通気層並びに軒下有孔板から建物内に流入する空気は、屋根裏を通って外部に流出する。そのため、屋根裏には、種々の形状を有する換気口あるいは換気装置が設置される。
+</p>
+<p num="0003">
+  例えば、特許第２６８３１０９号は、この用途に用いられる通気材を開示するもので、それは、幅方向（設置時における上下方向）に貫通する通気孔を全長に亘って連設したプラスチックプレートを複数枚積層し、その積層したプラスチックプレートをヒートカッターにて切断し、該切断面の隣接するプラスチックプレート同士を熱融着することにより、全体を一体化して成るものである。軒裏においては、この通気材が、外壁と鼻隠し板との間に設けられる間隙内に、その通気孔を上下方向に向けて設置される。そして、その通気孔が適度の長さを有するために、雨雪の侵入を阻止しつつ屋内外の通気を行うことが可能となるのである。
+</p>
+<p num="0004">
+  しかるに、この通気材は樹脂製であるため、火災発生時には、火炎や熱気がこの通気材を溶融させ、あるいは、通り抜けて屋内に侵入し、また逆に、屋内側の火炎や熱気が外部に出ることによって延焼を引き起こすおそれがある。そこで、本出願人は先に、そのような問題のない換気装置として、上記通気材と不燃性熱膨張材を備えた防火部材を設け、通気材の方を室内側（奥側）に配置し、これに隣接させて防火部材を室外側に配置する防火換気装置を提案している（特開２００３−８２７８３号公報）。
+</p>
+<p num="0005">
+  しかし、その提案にかかる防火換気装置の場合は、外壁と鼻隠し板との間の間隙内取り付け作業に際し、該装置を定位置に配置固定する作業を簡易且つ迅速に実施させるための手段が特に講じられていないため、その作業を簡易且つ迅速に実施することができなかった。
+</p>
+<p num="0006">
+  また、外壁と鼻隠し板との間の間隙の室内側に配置される通気材と室外側に配置される防火換気部材とが別部材であるため、それぞれ個別に用意し、また、個別に設置する必要があり、当然のことながら施工に手間がかかるという問題もあった。
+</p>
+</background-art>
+<citation-list>
+<patent-literature>
+<p num="0007">
+<patcit num="1"><text>特許第２６８３１０９号公報</text></patcit>
+<patcit num="2"><text>特開２００３−８２７８３号公報</text></patcit>
+</p>
+</patent-literature>
+</citation-list>
+<summary-of-invention>
+<tech-problem>
+<p num="0008">
+  上述したように、従来提案されている防火換気部材の場合は、それを外壁と鼻隠し板との間の間隙内に設置する作業を容易化するために格別の手段が講じられていないために、その取り付け作業に手間がかかるという問題があり、また、上記間隙の室内側に配置される通気材と室外側に配置される防火換気部材とが別部材であって、それぞれ個別に用意し、また、個別に設置しなければならない煩わしさがあり、施工に手間がかかるという問題があった。
+</p>
+<p num="0009">
+  本発明は、このような上記従来の換気装置における問題を解決するためになされたもので、軒天換気材を、外壁と鼻隠し板間の間隙内へ設置するに際し、その設置作業を容易且つ迅速に行うことを可能にし、また、通気材を合わせ用いる場合において、通気材と防火換気部材とを別途用意し、それぞれ個別に設置しなければならない煩わしさのない軒天換気材を提供することを課題とする。
+</p>
+</tech-problem>
+<tech-solution>
+<p num="0010">
+  上記課題を解決するための請求項１に記載の発明は、横長の背板と、前記背板の内側面に定着される帯状熱膨張材と、適宜通気孔が設けられていて、前記背板の内側面下部から斜め上方に延びる通気面と、前記通気面の端部を垂直方向に折曲延長して形成される対向壁と、前記背板の外側面下部に水平方向に延びるように形成される固定板とから成る軒天換気材である。
+</p>
+<p num="0011">
+  一実施形態においては、前記背板の内側面上部と前記対向壁との間に、上下方向に抜ける通気路を多数有する通気材が配設される。また、一実施形態においては、前記背板と別体の１枚の金属板を、前記背板の下部を挟持し得るようにして折り返し、一方の側の中途を直角に折曲して前記固定板を形成すると共に、他方の側の中途を斜め上方に折曲して前記通気面を形成し、更に、前記通気面の端部を垂直方向に折曲延長して前記対向壁が形成される。その場合は、前記一枚の金属板に、予め所定位置に前記通気孔が設けられる。
+</p>
+<p num="0012">
+  また、一実施形態においては、前記対向壁の外側面に、施工時に前記対向壁の外側面と外壁との間に挟まれて圧潰状態となってその部分の気密・水密を保持するクッション材が定着される。
+</p>
+</tech-solution>
+<advantageous-effects>
+<p num="0013">
+  本発明は上述したとおりであって、横長の背板の外側面下部に水平方向に延びる固定板が備え付けられているので、この固定板を鼻隠し下地材の下面にあてがってそこに固定することにより、本装置を外壁と鼻隠し板との間の間隙内の定位置に配置できるので、施工を極めて容易、迅速且つ正確に行い得る効果がある。
+</p>
+<p num="0014">
+  また、背板の内側面上部と対向壁との間に上下方向に抜ける通気路を多数有する通気材を配設することができ、その場合は、通気材部分と防火材部分とが一体化されることになるため、取り扱いやすく、施工も容易となる効果がある。
+</p>
+</advantageous-effects>
+</summary-of-invention>
+<description-of-drawings>
+<p num="0015">
+<figref num="1">本発明に係る軒天換気材の構成を示す斜視図である。</figref>
+<figref num="2">本発明に係る軒天換気材の使用状態を示す図である。</figref>
+</p>
+</description-of-drawings>
+<description-of-embodiments>
+<p num="0016">
+  本発明を実施するための形態につき、添付図面を参照しつつ説明する。本発明に係る軒天換気材Ａは、その使用状態を示す図２に示されるように、柱２及び軒桁３から成る構造材１の外側に通気胴縁７を介して張設される外壁材８と、鼻隠しを構成する鼻隠し下地材１０との間の間隙９内に収装されて、その部分の換気を司るものである。
+</p>
+<p num="0017">
+  軒天換気材Ａは、図１に示されるように、横長の金属製背板１２と、背板１２の内側面に定着される帯状の熱膨張材１４と、適宜通気孔１８が設けられていて、背板１２の内側面下部から斜め上方に延びる通気面１５と、通気面１５の端部を垂直方向に折曲延長して形成される対向壁１６と、背板１２の外側面下部に水平方向に延びるように形成される固定板２０とを含んで構成される。
+</p>
+<p num="0018">
+  通例、対向壁１６の外側面に、施工時に対向壁１６と外壁８との間に挟まれて圧潰状態となってその部分の気密・水密を保持する、クッション材１７が貼着される。  
+</p>
+<p num="0019">
+  通気面１５には適宜サイズの通気孔１８が、通例、定間隔置きに多数形成される。この通気孔１８は、単なる開口であってもよいが、図示した例のように、縦に平行切線を入れ、その平行切線間を押し込んで形成したものであってもよい（上辺部分及び下辺部分がつながっている）。その場合の通気孔１８は、横方向に抜けるものとなり、単なる開口の場合に比較して通気性は若干劣るが、雨雪侵入防止性能の面では、優位なものとなる。
+</p>
+<p num="0020">
+  また、背板１２の外側面の下部に、水平に延びる固定板２０が配設される。固定板２０は、背板１２の全長に亘るように形成してもよいし、部分的に設けることとしてもよい。通例、固定板２０には、釘を打ち込むための釘穴２１が形成される。このように固定板２０を設けた場合は、軒天換気材Ａを外壁材８と鼻隠し下地材１０との間隙９に設置する際、固定板２０を鼻隠し下地材１０の下面にあてがい、釘穴２１を通して釘打ちしたり、接着したりすることにより、軒天換気材Ａを簡単確実に定位置に固定することができるようになる。
+</p>
+<p num="0021">
+  図示した実施形態は通気材を含むものであって、従来分離されていた通気材部分と防火材部分とを一体化したものである。この場合は、背板１２の内側面上部と対向壁１６とに挟まれるように、上下方向に抜ける通気路を多数有する横長の通気材１３が配設される。
+</p>
+<p num="0022">
+  好ましい実施形態においては、固定板２０と通気面１５とが、１枚の金属板から形成される。即ち、背板１２とは別体の、予め所定位置に通気孔１８（釘穴２１を設ける場合は釘穴２１も）を形成した１枚の金属板を用意し、これを背板１２の下部を挟持し得るようにして折り返し、その一方の側の中途部分を直角に折曲して固定板２０となし、他方の側の中途部分を斜め上方又は水平に折曲して通気面１５となし、更に、通気面１５の端部を垂直方向に折曲延長して対向壁１６となすのである。そして、その折り返し部２２に、予め通気材１３と熱膨張材１４とを定着した背板１１の下部を差し込んで締め付けることにより、その折曲した金属板と背板１１とを一体化する。
+</p>
+<p num="0023">
+  このように、本発明に係る軒天換気材Ａにおいては、通気材１３と防火材部分である熱膨張材１４とを一体化することができるために取り扱いやすいものとなり、また、外壁８と鼻隠し下地材１０との間の間隙Ａに挿入し、固定板２０を鼻隠し下地材１０の下面にあてがってそこに固定することにより、確実に定位置に設置することができるので、施工も極めて容易となる。
+</p>
+<p num="0024">
+  また、小屋裏と大気間の空気の流れは、通気孔１８から通気材１３通してスムーズであり、強風雨時においても通気孔１８及び通気材１３の作用で雨雪の侵入が確実に阻止される。更に火災発生時には、加熱された熱膨張材１４が膨張して間隙９部分を完全に閉塞するので、火炎や熱気による通気材１３の溶融が防止されると共に、火炎や熱気が屋内に入り込み、また逆に、屋内側の火炎や熱気が外部に出ることによって延焼を引き起こすことが防止される。
+</p>
+<p num="0025">
+  この発明をある程度詳細にその最も好ましい実施形態について説明してきたが、この発明の精神と範囲に反することなしに更に異なる実施形態を構成することができることは明白である。従って、この発明は添付請求の範囲において限定した以外は、その特定の実施形態に制約されるものではないことは言うまでもない。
+</p>
+</description-of-embodiments>
+<reference-signs-list>
+<p num="0026">
+  Ａ    軒天換気材<br/>
+  １    構造材<br/>
+  ２    柱<br/>
+  ３    軒桁<br/>
+  ４    屋根材<br/>
+  ５    垂木<br/>
+  ６    野地板<br/>
+  ７    通気胴縁<br/>
+  ８    外壁材<br/>
+  ９    間隙<br/>
+１０    鼻隠し下地材<br/>
+１１    化粧材<br/>
+１２    背板<br/>
+１３    通気材<br/>
+１４    熱膨張材<br/>
+１５    通気面<br/>
+１６    対向壁<br/>
+１７    クッション材<br/>
+１８    通気孔<br/>
+２０    固定板<br/>
+２１    釘穴<br/>
+２２    折り返し部
+</p>
+</reference-signs-list>
+</description><claims>
+<claim num="1">
+<claim-text>
+  横長の背板と、前記背板の内側面に定着される帯状熱膨張材と、適宜通気孔が設けられていて、前記背板の内側面下部から斜め上方に延びる通気面と、前記通気面の端部を垂直方向に折曲延長して形成される対向壁と、前記背板の外側面下部に水平方向に延びるように形成される固定板とから成る軒天換気材。
+</claim-text>
+</claim>
+<claim num="2">
+<claim-text>
+  前記背板の内側面上部と前記対向壁との間に、上下方向に抜ける通気路を多数有する通気材を配設した、請求項１に記載の軒天換気材。
+</claim-text>
+</claim>
+<claim num="3">
+<claim-text>
+  前記背板と別体の１枚の金属板を、前記背板の下部を挟持し得るようにして折り返し、一方の側の中途を直角に折曲して前記固定板を形成すると共に、他方の側の中途を斜め上方に折曲して前記通気面を形成し、更に、前記通気面の端部を垂直方向に折曲延長して前記対向壁を形成した、請求項１又は２に記載の軒天換気材。
+</claim-text>
+</claim>
+<claim num="4">
+<claim-text>
+  前記一枚の金属板には、予め所定位置に前記通気孔が設けられる、請求項３に記載の軒天換気材。
+</claim-text>
+</claim>
+<claim num="5">
+<claim-text>
+  前記対向壁の外側面に、施工時に前記対向壁の外側面と外壁との間に挟まれて圧潰状態となってその部分の気密・水密を保持するクッション材が定着される、請求項１乃至４のいずれかに記載の軒天換気材。
+</claim-text>
+</claim>
+</claims><abstract>
+  <p num="">【課題】通気材部分と防火材部分とを一体化し、以て、取り扱いの便と施工の便とを図った軒天換気材を提供することを課題とする。<br/>【解決手段】横長の背板１２と、背板１２の内側面に定着される帯状熱膨張材１４と、適宜通気孔１８が穿設されていて、背板１２の内側面下部から斜め上方に延びる通気面１５と、通気面１５の端部を垂直方向に折曲延設された対向壁１６と、背板１２の外側面下部において水平方向に延びる固定板２０とを備える。通例、上下方向に抜ける通気路を多数有する通気材１３が、背板１２の内側面上部と対向壁１６との間に配置される。<br/>【選択図】図１</p>
+</abstract><drawings>
+<figure num="1">
+<img id="000003" he="103" wi="82" file="2013044086.tif" img-format="tif" img-content="drawing"/>
+</figure>
+<figure num="2">
+<img id="000004" he="98" wi="82" file="2013044086.tif" img-format="tif" img-content="drawing"/>
+</figure>
+</drawings><jp:overflow><p num="">(72)発明者  石井  創<br/>            東京都台東区秋葉原１−１  日本住環境株式会社内<br/>Ｆターム(参考) 2E001 DB02  DE01  EA05  EA08  FA20  GA12  GA53  GA55  GA74  HB01 <br/>                     HF12  KA01  LA01  NA07  NB01  NC01  ND25 <br/></p></jp:overflow></jp-official-gazette>

@@ -250,7 +250,7 @@ def render_common_steps():
 
                     display_idx += 1
 
-        if st.button("🔄 AI審査をやり直す", key="rerun_ai_judge"):
+        if st.button("🔄 AI審査をやり直す", type="primary", key="rerun_ai_judge"):
              run_ai_judge()
     else:
         st.write("LLMを活用し、新規性・進歩性を審査します。")
