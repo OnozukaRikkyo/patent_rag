@@ -119,7 +119,7 @@ def handle_new_upload(uploaded_file: UploadedFile):
         st.error(f"❌ アップロード処理に失敗しました: {e}")
 
 def page_1():
-    st.title("GENIAC-PRIZE prototype v1.2")
+    st.title("GENIAC-PRIZE prototype:東京大学松尾岩沢研究室コミュニティ")
 
     mode = st.sidebar.radio("モード選択", ("1. 新規アップロード", "2. 既存文献の表示"))
 
