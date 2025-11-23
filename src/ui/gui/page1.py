@@ -5,7 +5,7 @@ import streamlit as st
 from streamlit.runtime.uploaded_file_manager import UploadedFile
 
 # --- 既存のインポート ---
-from infra.config import PROJECT_ROOT, PathManager
+from infra.config import PROJECT_ROOT, PathManager, DirNames
 from model.patent import Patent
 from ui.gui import query_detail
 from ui.gui import ai_judge_detail
@@ -13,7 +13,7 @@ from ui.gui import ai_judge_detail
 # 定数
 MAX_CHAR = 300
 EXCLUDE_DIRS = {
-    "uploaded", "topk", "temp", "query", "knowledge",
+    DirNames.UPLOADED, DirNames.TOPK, "temp", DirNames.QUERY, DirNames.KNOWLEDGE,
     "__pycache__", ".git", ".ipynb_checkpoints"
 }
 
@@ -146,7 +146,7 @@ def page_1():
     else: # 既存文献の表示
         st.header("📂 既存プロジェクトの参照")
 
-        eval_dir = PROJECT_ROOT / "eval"
+        eval_dir = PathManager.EVAL_DIR
         if eval_dir.exists():
             projects = [
                 d.name for d in eval_dir.iterdir()

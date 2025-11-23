@@ -82,7 +82,7 @@ class PathManager:
     EVAL_DIR = PROJECT_ROOT / "eval"          # 評価・本番データ
     TEMP_DIR = EVAL_DIR / "temp"              # 一時ファイル（evalの下）
     DATA_STORE_DIR = PROJECT_ROOT / "data_store"  # ベクトルストア（後方互換性）
-    KNOWLEDGE_DIR = EVAL_DIR / "knowledge"    # ナレッジディレクトリ（知識ベース）
+    KNOWLEDGE_DIR = EVAL_DIR / DirNames.KNOWLEDGE  # ナレッジディレクトリ（知識ベース）
 
     @classmethod
     def setup(cls) -> None:
@@ -290,8 +290,8 @@ class Config:
     top_n = 3
 
     # Chroma - プロジェクトルートからの絶対パスを使用
-    persist_dir = str(PROJECT_ROOT / "data_store" / "chroma" / "gemini_v0.2")
-    # persist_dir = str(PROJECT_ROOT / "data_store" / "chroma" / "openai_v1.0")
+    persist_dir = str(PathManager.DATA_STORE_DIR / "chroma" / "gemini_v0.2")
+    # persist_dir = str(PathManager.DATA_STORE_DIR / "chroma" / "openai_v1.0")
 
     # LLM
     llm_type = "gemini"  # "openai" or "gemini"
