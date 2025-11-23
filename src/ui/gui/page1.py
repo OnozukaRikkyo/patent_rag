@@ -1,125 +1,295 @@
-"""
-必要機能：
-- 任意の出願を読み込む機能：XML形式ファイルをアップロードする（中身はXMLだけど、拡張子はtxtとxmlの両方に対応しておいた方がいい）
-- 情報探索機能：細かい指定はない　→出願IDと紐づきIDの対応関係を表形式で表示する
-- 一致箇所表示機能：細かい指定はない　→テキストを表示し、一致箇所はハイライトさせる
-- 判断根拠出力機能：情報探索と一致箇所表示の根拠を自然言語で表示　→判断根拠テキストボックスを作って、その中に「情報探索の根拠」と「一致箇所の根拠」を表示する。
-"""
-
 from pathlib import Path
-
+import json
 import pandas as pd
 import streamlit as st
 from streamlit.runtime.uploaded_file_manager import UploadedFile
 
+# --- 既存のインポート ---
+from infra.config import PROJECT_ROOT, PathManager, DirNames
 from model.patent import Patent
-# from ui.gui.utils import create_matched_md  # , retrieve
 from ui.gui import query_detail
 from ui.gui import ai_judge_detail
 
-# プロジェクトルート（このファイルは src/ui/gui/ にあるので3階層上）
-PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent.parent
-
 # 定数
-# TODO: 切り替え可能にする？ 別の場所で管理する？
-QUERY_PATH = PROJECT_ROOT / "eval" / "uploaded" / "uploaded_query.txt"
 MAX_CHAR = 300
-
+EXCLUDE_DIRS = {
+    DirNames.UPLOADED, DirNames.TOPK, "temp", DirNames.QUERY, DirNames.KNOWLEDGE,
+    "__pycache__", ".git", ".ipynb_checkpoints"
+}
 
 def reset_session_state():
-    st.session_state.df_retrieved = pd.DataFrame()
-    st.session_state.matched_chunk_markdowns = []
-    st.session_state.reasons = []
-    st.session_state.query = None
-    st.session_state.retrieved_docs = []
+    """セッションステートの初期化"""
+    keys_to_reset = [
+        "df_retrieved", "matched_chunk_markdowns", "reasons",
+        "query", "retrieved_docs", "search_results_df",
+        "ai_judge_results", "file_content", "project_dir",
+        "current_doc_number", "uploaded_dir"
+    ]
+    for key in keys_to_reset:
+        if key in st.session_state:
+            del st.session_state[key]
 
+def load_project_by_id(doc_number: str) -> bool:
+    """
+    【共通処理】指定された doc_number のプロジェクトデータを読み込み、SessionStateを構築する。
+    新規アップロード後も、既存選択時も、最終的にこれを呼ぶことで状態を復元する。
+    """
+    # 1. ステート初期化
+    reset_session_state()
+
+    try:
+        # --- A. 基本データ（XML/Query）のロード ---
+        uploaded_dir = PathManager.get_uploaded_query_path(doc_number)
+        query_file = uploaded_dir / "uploaded_query.txt"
+
+        if not query_file.exists():
+            st.error(f"❌ 出願テキストが見つかりません: {query_file}")
+            return False
+
+        with open(query_file, "r", encoding="utf-8") as f:
+            file_content = f.read()
+
+        # XML解析
+        query: Patent = st.session_state.loader.run(query_file)
+
+        # 基本ステート設定
+        st.session_state.file_content = file_content
+        st.session_state.query = query
+        st.session_state.project_dir = uploaded_dir.parent
+        st.session_state.uploaded_dir = uploaded_dir
+        st.session_state.current_doc_number = doc_number
+
+        # --- B. 検索結果（CSV）のロード (存在すれば) ---
+        topk_dir = PathManager.get_topk_results_path(doc_number)
+        if topk_dir.exists():
+            csv_files = sorted(topk_dir.glob("*.csv"))
+            if csv_files:
+                latest_csv = max(csv_files, key=lambda f: f.stat().st_mtime)
+                search_results_df = pd.read_csv(latest_csv)
+                st.session_state.search_results_df = search_results_df
+                st.session_state.df_retrieved = search_results_df
+                st.session_state.search_results_csv_path = str(latest_csv)
+
+        # --- C. AI審査結果（JSON）のロード (存在すれば) ---
+        ai_judge_dir = PathManager.get_ai_judge_result_path(doc_number)
+        if ai_judge_dir.exists():
+            json_files = sorted(ai_judge_dir.glob("*.json"))
+            if json_files:
+                latest_json = json_files[-1]
+                with open(latest_json, 'r', encoding='utf-8') as f:
+                    results = json.load(f)
+                st.session_state.ai_judge_results = results
+
+        return True
+
+    except Exception as e:
+        st.error(f"プロジェクト {doc_number} のロード中にエラーが発生しました: {e}")
+        import traceback
+        st.code(traceback.format_exc())
+        return False
+
+def handle_new_upload(uploaded_file: UploadedFile):
+    """新規アップロード時の処理：保存してIDを特定し、共通ローダーを呼ぶ"""
+    try:
+        file_content = uploaded_file.read().decode("utf-8")
+
+        # 1. 一時保存してID解析 (doc_numberを取得するため)
+        temp_path = PathManager.get_temp_path("uploaded_query.txt")
+        with open(temp_path, "w", encoding="utf-8") as f:
+            f.write(file_content)
+
+        with st.spinner("XMLを解析中..."):
+            query: Patent = st.session_state.loader.run(temp_path)
+            doc_number = query.publication.doc_number
+
+            if not doc_number:
+                st.error("❌ XMLから特許番号(doc_number)が取得できませんでした。")
+                return
+
+        # 2. 正規ディレクトリへ移動・保存
+        PathManager.move_to_permanent(temp_path, doc_number)
+
+        # 3. 共通ローダーを使ってロード (これで既存フローと合流)
+        if load_project_by_id(doc_number):
+            st.success(f"✅ 新規プロジェクトを作成・ロードしました: {doc_number}")
+
+    except UnicodeDecodeError:
+        st.error("❌ ファイルのエンコーディングが正しくありません。UTF-8形式のファイルをアップロードしてください。")
+    except Exception as e:
+        st.error(f"❌ アップロード処理に失敗しました: {e}")
 
 def page_1():
-    st.title("GENIAC-PRIZE prototype v1.0")
-    st.write("1. から 4. までを順番に実行してください。")
+    st.title("GENIAC-PRIZE prototype:東京大学松尾岩沢研究室コミュニティ")
 
-    # 1. 任意の出願を読み込む
-    st.header("1. 任意の出願を読み込む")
-    step1()
+    mode = st.sidebar.radio("モード選択", ("1. 新規アップロード", "2. 既存文献の表示"))
 
-    # 2. 情報探索
-    st.header("2. 情報探索 + 一致箇所表示")
-    step2()
+    # --- 入力エリアの描画 ---
+    if mode == "1. 新規アップロード":
+        st.header("📝 新規出願の審査")
+        uploaded_file = st.file_uploader("1. XML形式の出願をアップロードしてください", type=["xml", "txt"])
 
-    # 3. AI審査
+        if uploaded_file is not None:
+            # アップロードされたファイルの内容が、現在ロード中のものと違う場合のみ処理
+            # (Streamlitのリロード対策)
+            current_content = st.session_state.get("file_content")
+
+            # まだ読み込んでいない、あるいは内容が変わった場合に実行
+            # 注: uploaded_file.getvalue()などで比較する方法もあるが、
+            # ここでは簡易的に既存stateの有無で判定し、ボタンなしで即時ロードさせる挙動を維持
+            if not current_content:
+                 handle_new_upload(uploaded_file)
+            else:
+                 # すでにロード済みだが、ユーザーが別のファイルをドラッグした場合の検知は
+                 # file_uploaderのkeyを変えるか、ID比較が必要だが、今回は簡易実装とする
+                 st.info(f"ロード済み: {st.session_state.get('current_doc_number')}")
+
+    else: # 既存文献の表示
+        st.header("📂 既存プロジェクトの参照")
+
+        eval_dir = PathManager.EVAL_DIR
+        if eval_dir.exists():
+            projects = [
+                d.name for d in eval_dir.iterdir()
+                if d.is_dir() and not d.name.startswith('.') and d.name not in EXCLUDE_DIRS
+            ]
+            projects.sort(reverse=True)
+
+            col1, col2 = st.columns([3, 1])
+            with col1:
+                selected_doc = st.selectbox("出願IDを選択してください", projects)
+            with col2:
+                if st.button("読込", type="primary", use_container_width=True):
+                    if selected_doc:
+                        with st.spinner("ロード中..."):
+                            if load_project_by_id(selected_doc):
+                                st.success(f"✅ {selected_doc} を読み込みました")
+
+    # --- 共通メインエリア描画 ---
+    # データが正常にロードされている場合のみ表示
+    if "query" in st.session_state and st.session_state.get("current_doc_number"):
+        st.markdown("---")
+
+        # ドキュメント基本情報
+        with st.expander(f"📄 出願データ確認: {st.session_state.current_doc_number}"):
+            st.text_area("ファイルの中身", st.session_state.get("file_content", ""), height=150)
+
+        # Step 2以降の共通レンダリング
+        render_common_steps()
+
+    elif mode == "2. 既存文献の表示" and "query" in st.session_state and not st.session_state.get("current_doc_number"):
+        st.warning("⚠️ セッションが無効です。再読み込みしてください。")
+
+
+def render_common_steps():
+    """
+    Step 2以降の共通処理
+    データは既に st.session_state にロードされている前提で動作する
+    """
+
+    # --- Step 2: 類似文献検索 ---
+    st.header("2. 類似文献の検索")
+
+    has_search_results = 'search_results_df' in st.session_state and st.session_state.search_results_df is not None
+
+    if has_search_results:
+        st.info(f"�� 検索結果: {len(st.session_state.search_results_df):,}件 取得済み")
+        col1, col2 = st.columns(2)
+        with col1:
+            if st.button("📋 詳細リストを表示", key="goto_search_list"):
+                st.switch_page("ui/gui/search_results_list.py")
+        with col2:
+            if st.button("🔄 検索をやり直す", key="rerun_search"):
+                query_detail.query_detail()
+    else:
+        st.write("Google Patents Public Dataを用いて類似文献を検索します。")
+        if st.button("検索実行", type="primary", key="run_new_search"):
+            query_detail.query_detail()
+
+    # --- Step 3: AI審査 ---
     st.header("3. AI審査")
-    step3()
 
-    # 4. 判断根拠出力
+    has_ai_results = 'ai_judge_results' in st.session_state and st.session_state.ai_judge_results
+
+    if has_ai_results:
+        st.info(f"💾 審査結果: {len(st.session_state.ai_judge_results)}件 取得済み")
+
+        with st.expander("審査結果一覧を開く", expanded=True):
+            for idx, result in enumerate(st.session_state.ai_judge_results):
+                if isinstance(result, dict) and 'error' in result:
+                    st.error(f"No.{idx+1}: エラー")
+                    continue
+
+                doc_num = result.get('prior_art_doc_number', f"Doc #{idx+1}")
+                c1, c2 = st.columns([4, 1])
+                with c1:
+                    st.write(f"**{idx+1}. {doc_num}**")
+                with c2:
+                    if st.button("詳細", key=f"ai_detail_{idx}"):
+                        st.session_state.selected_prior_art_idx = idx
+                        st.switch_page("ui/gui/prior_art_detail.py")
+
+        if st.button("🔄 AI審査をやり直す", key="rerun_ai_judge"):
+             run_ai_judge()
+    else:
+        st.write("LLMを活用し、新規性・進歩性を審査します。")
+        if st.button("AI審査実行", type="primary", key="run_ai_judge_new"):
+            if not has_search_results:
+                st.warning("⚠️ 先に「2. 類似文献の検索」を実行してください。")
+            else:
+                run_ai_judge()
+
+    # --- Step 4: 判断根拠出力 ---
     st.header("4. 判断根拠出力")
-    step4()
 
-    # その他
-    st.subheader("その他")
-    step99()
+    if not has_ai_results:
+        st.write("⚠️ AI審査を実行すると表示されます。")
+    else:
+        n_chunk_default = len(st.session_state.ai_judge_results)
 
+        if st.button("根拠テキスト生成", type="primary"):
+            if "retrieved_docs" not in st.session_state or not st.session_state.retrieved_docs:
+                 st.error("文献データ(retrieved_docs)がメモリにありません。再検索が必要な可能性があります。")
+            else:
+                generate_reasons(n_chunk_default)
 
-def step1():
-    file_content = ""
-    uploaded_file: UploadedFile | None = st.file_uploader("1. XML形式の出願を１件アップロードしてください。", type=["xml", "txt"])
-    if uploaded_file is not None:
-        file_content: str = uploaded_file.read().decode("utf-8")
-        st.text_area("ファイルの中身:", file_content, height=200)
-        if st.session_state.file_id != uploaded_file.file_id:
-            reset_session_state()
-            st.session_state.file_id = uploaded_file.file_id
-            # ディレクトリが存在しない場合は作成
-            QUERY_PATH.parent.mkdir(parents=True, exist_ok=True)
-            with open(QUERY_PATH, "w", encoding="utf-8") as f:
-                f.write(file_content)
-            st.success("ファイルがアップロードされました。検索結果や画面表示を初期化しました。")
+        if "reasons" in st.session_state and st.session_state.reasons:
+            for i, reason in enumerate(st.session_state.reasons):
+                st.markdown(f"##### 判断根拠 {i + 1}")
+                st.code(reason, language="markdown")
 
 
-def step2():
-    st.write("出願の公開番号（query_id）、出願に紐づく公知例の公開番号（knowledge_id）、公知例の一致箇所（retrieved_chunk）を表示します。")
-    if st.button("検索", type="primary"):
-        query: Patent = st.session_state.loader.run(QUERY_PATH)
-        st.session_state.query = query
-        query_detail.query_detail()
+def run_ai_judge():
+    """AI審査実行ラッパー"""
+    st.session_state.n_topk = len(st.session_state.df_retrieved)
+    with st.spinner("審査プロセスを実行中..."):
+        results = ai_judge_detail.entry(action="button_click")
+        if results:
+            st.session_state.ai_judge_results = results
+            st.success("✅ AI審査が完了しました。")
+            st.rerun()
 
+def generate_reasons(n_chunk):
+    """根拠生成ロジック"""
+    st.session_state.reasons = []
+    status_text = st.empty()
+    progress = st.progress(0)
 
-def step3():
-    st.write(f"一致箇所をハイライトし、その前後{MAX_CHAR}文字まで含めて表示します。")
-    n_chunk = len(st.session_state.df_retrieved)
-    st.session_state.n_chunk = n_chunk
-    if st.button("AI審査", type="primary"):
-        ai_judge_detail.ai_judge_detail(action="button_click")
+    actual_limit = min(n_chunk, len(st.session_state.retrieved_docs))
 
-    # if st.session_state.matched_chunk_markdowns:
-    #     for i, md in enumerate(st.session_state.matched_chunk_markdowns):
-    #         st.markdown(f"##### 一致箇所 {i + 1}/{n_chunk}")
-    #         st.markdown(md, unsafe_allow_html=True)
-
-
-def step4():
-    n_chunk = st.session_state.n_chunk
-
-    if st.button("生成", type="primary"):
-        st.session_state.reasons = []  # クリア
-
-        status_text = st.empty()
-        progress = st.progress(0)
-
-        for i in range(n_chunk):
-            status_text.text(f"{i + 1} / {n_chunk} 件目を生成中です...")
-            reason = st.session_state.generator.generate(st.session_state.query, st.session_state.retrieved_docs[i])
+    for i in range(actual_limit):
+        status_text.text(f"{i + 1} / {actual_limit} 件目を生成中です...")
+        if "generator" in st.session_state:
+            reason = st.session_state.generator.generate(
+                st.session_state.query,
+                st.session_state.retrieved_docs[i]
+            )
             st.session_state.reasons.append(reason)
-            progress.progress((i + 1) / n_chunk)
-        status_text.text("生成が完了しました。")
+        else:
+            st.error("Generatorが初期化されていません。")
+            break
+        progress.progress((i + 1) / actual_limit)
 
-    if st.session_state.reasons:
-        for i, reason in enumerate(st.session_state.reasons):
-            st.markdown(f"##### 判断根拠 {i + 1} / {n_chunk}")
-            st.code(reason, language="markdown")
+    status_text.text("生成が完了しました。")
 
-
-def step99():
-    st.write("次の出願に対しても同様に、1. から順番に実行してください。")
-    if st.button("リセット"):
-        reset_session_state()
-        st.success("クエリや検索結果の履歴をリセットしました。")
+if __name__ == "__main__":
+    page_1()

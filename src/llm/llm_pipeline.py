@@ -535,7 +535,12 @@ class PatentExaminationSystemIntegrated:
 
             inventiveness = self.judge_inventiveness(decision)
 
+            dodoc_number = dict_b["doc_number"]
+            top_k = dict_b["top_k"]
+
             return {
+                "doc_number": dodoc_number,
+                "top_k": top_k,
                 "application_structure": app_data,
                 "prior_art_structure": prior_data,
                 "applicant_arguments": arguments,

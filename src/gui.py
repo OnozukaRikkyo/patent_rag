@@ -1,12 +1,12 @@
 import os
-from pathlib import Path
 
 import pandas as pd
 import streamlit as st
 from dotenv import load_dotenv
 
 # .envファイルを読み込み
-env_path = Path(__file__).parent.parent / ".env"
+from infra.config import PROJECT_ROOT
+env_path = PROJECT_ROOT / ".env"
 load_dotenv(dotenv_path=env_path)
 
 from app.generator import Generator
@@ -17,13 +17,13 @@ from ui.gui.page1 import page_1
 from ui.gui.page2 import page_2
 from ui.gui.query_detail import query_detail
 from ui.gui.ai_judge_detail import ai_judge_detail
+from ui.gui.prior_art_detail import prior_art_detail
+from ui.gui.search_results_list import search_results_list
 from ui.gui.page99 import page_99
 
 # 定数
 # TODO: GUI関連の定数の適切な定義場所を考える。移動する。
-# プロジェクトルート (/home/sonozuka/staging/patent_rag) から相対パスを構築
-_PROJECT_ROOT = Path(__file__).parent.parent
-KNOWLEDGE_DIR = str(_PROJECT_ROOT / "eval" / "knowledge")
+# KNOWLEDGE_DIR は infra.config.PathManager.KNOWLEDGE_DIR を使用
 
 
 # セッションステート
@@ -91,11 +91,27 @@ def main():
         st.Page(page_1, title="page 1", icon="📄"),
         st.Page(page_2, title="page 2", icon="📋"),
         st.Page(query_detail, title="類似文献検索結果", icon="🔍"),
+        st.Page(search_results_list, title="検索結果一覧", icon="📊"),
         st.Page(ai_judge_detail, title="AI審査詳細", icon="⚖️"),
+        st.Page(prior_art_detail, title="先行技術詳細", icon="📑"),
         st.Page(page_99, title="page 99", icon="🔧")
     ]
-
     pg = st.navigation(pages)
+
+# --- 既存のページ定義 ---
+    # (例: page1 がメインページだと仮定します)
+    home_page = st.Page("ui/gui/page1.py", title="メインステップ", icon="🏠")
+
+    # --- 【追加】遷移先のページを定義 ---
+    # メインファイル(gui.py)からの相対パスを指定します
+    search_results_page = st.Page("ui/gui/search_results_list.py", title="検索結果詳細", url_path="search_results")
+    
+    # もし前回の step3 の詳細ページも未登録なら追加してください
+    prior_art_page = st.Page("ui/gui/prior_art_detail.py", title="先行技術詳細", url_path="prior_art")
+
+    # --- ナビゲーションに登録 ---
+    # リストの中に、上で定義したページ変数をすべて含めます
+    pg = st.navigation([home_page, search_results_page, prior_art_page])
     pg.run()
 
 

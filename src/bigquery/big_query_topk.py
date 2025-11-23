@@ -23,14 +23,13 @@ from datetime import datetime
 from dotenv import load_dotenv
 import os
 from pathlib import Path
+
+from infra.config import PathManager, DirNames
 # to_dataframe() で BigQuery の型を適切に扱うために推奨
 # pip install db-dtypes
 
 # .envファイルから環境変数を読み込む (1回だけ)
 load_dotenv()
-
-# プロジェクトルート（このファイルは src/bigquery/ にあるので3階層上）
-PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 
 # ----------------------------------------------------
 # ▼▼▼ ユーザー設定 ▼▼▼
@@ -61,7 +60,8 @@ def search_similar_patents(target_patent_number, output_csv=None, top_k=1000):
 
     # output_csvが指定されていない場合はデフォルト値を設定
     if output_csv is None:
-        output_csv = PROJECT_ROOT / 'eval' / 'topk' / f'similar_patents_{target_patent_number}.csv'
+        topk_dir = PathManager.EVAL_DIR / DirNames.TOPK
+        output_csv = topk_dir / f'similar_patents_{target_patent_number}.csv'
         print(f"出力CSVパスが指定されていないため、デフォルト値を使用します: {output_csv}")
 
     # --- 1. 設定の検証 ---
@@ -162,7 +162,7 @@ if __name__ == "__main__":
     # try:
     #     results_df = search_similar_patents(
     #         target_patent_number=target_patent,
-    #         output_csv=f'eval/topk/similar_patents_vector_{target_patent}.csv',
+    #         # output_csvを指定しない場合は自動的にPathManager.EVAL_DIR / DirNames.TOPKが使用されます
     #         top_k=1000
     #     )
     # except Exception as e:
